@@ -1,0 +1,1889 @@
+{
+  "AdminPage": {
+    "PageTitle": "Talentspotify Admin",
+    "PageSubtitle": "Toegang tot al uw admin tools en functies vanaf één plek",
+    "SearchPlaceholder": "Zoek admin functies...",
+    "RolesAndPrivileges": {
+      "Title": "Rollen en Privileges",
+      "Description": "Beheer gebruikersrollen, rechten en toegang binnen de werkruimte"
+    },
+    "RecruitmentManagement": {
+      "Title": "Wervingsbeheer",
+      "Description": "Volg vacatures, wervingsfasen en kandidaatvoortgang"
+    },
+    "UploadLeaves": {
+      "Title": "Verlof Uploaden",
+      "Description": "Upload en beheer werknemersverlofregistraties en aanvragen"
+    },
+    "AttendanceUpload": {
+      "Title": "Aanwezigheid Uploaden",
+      "Description": "Upload en bekijk werknemersaanwezigheidsregistraties en urenstaten"
+    },
+    "ApprovalWorkflow": {
+      "Title": "Goedkeuringsworkflow",
+      "Description": "Configureer en monitor multi-stap goedkeuringen en gerelateerde notificaties"
+    },
+    "AssetManagement": {
+      "Title": "Assetbeheer",
+      "Description": "Beheer bedrijfsassets, toewijzingen en apparatuur levenscyclus"
+    },
+    "LeaveType": {
+      "Title": "Verloftype",
+      "Description": "Definieer verlofcategorieën en stel goedkeurings- en notificatieregels in"
+    },
+    "HolidaysCalendar": {
+      "Title": "Feestdagenkalender",
+      "Description": "Beheer bedrijfsfeestdagen, evenementen en kalenderschema's"
+    },
+    "EligibilityCriteria": {
+      "Title": "Geschiktheidscriteria",
+      "Description": "Definieer en beheer geschiktheidsvereisten voor verschillende processen"
+    },
+    "PrivilegeGroups": {
+      "Title": "Privilege Groepen",
+      "Description": "Creëer en beheer privilegroepen voor op rollen gebaseerd toegangsbeheer"
+    },
+    "OKRManagement": {
+      "Title": "OKR Beheer",
+      "Description": "Stel Objectives en Key Results in en beheer ze voor prestatievolging"
+    },
+    "Lookups": {
+      "Title": "Lookups",
+      "Description": "Beheer referentiegegevens en opzoekwaarden in het hele systeem"
+    },
+    "RewardManagement": {
+      "Title": "Beloningsbeheer",
+      "Description": "Configureer en beheer werknemersbeloningen, erkenning en stimuleringsprogramma's"
+    },
+    "CatalogManagement": {
+      "Title": "Catalogusbeheer",
+      "Description": "Beheer productcatalogi, categorieën en voorraadartikelen"
+    },
+    "NotificationManagement": {
+      "Title": "Notificatiebeheer",
+      "Description": "Configureer notificatie-instellingen, sjablonen en bezorgvoorkeuren"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "Geavanceerd Prestatiebeheer",
+      "Description": "Configureer geavanceerde prestatiebeoordelingscycli, beoordelingen en evaluatiecriteria"
+    },
+    "IntegrationManagement": {
+      "Title": "Integratiebeheer",
+      "Description": "Beheer integraties van derden, API's en externe systeemverbindingen"
+    },
+    "QuestionnaireManagement": {
+      "Title": "Vragenlijstbeheer",
+      "Description": "Creëer en beheer enquêtes, vragenlijsten en feedbackformulieren"
+    },
+    "CompetencyManagement": {
+      "Title": "Competentiebeheer",
+      "Description": "Definieer en beheer werknemerscompetenties, vaardigheden en ontwikkelingskaders"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "Prestatiebeheer Sjablonen",
+      "Description": "Creëer en pas prestatiebeoordelingssjablonen en evaluatieformulieren aan"
+    },
+    "LaunchFormsManagement": {
+      "Title": "Lanceerformulieren Beheer",
+      "Description": "Configureer en beheer prestatiebeoordelingslanceerformulieren en workflows"
+    },
+    "CalibrationManagement": {
+      "Title": "Kalibratiebeheer",
+      "Description": "Beheer prestatiekalibratiesessies en beoordelingsconsistentie"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "Geavanceerd Lanceerformulieren Beheer",
+      "Description": "Geavanceerde configuratie voor prestatiebeoordelingslanceerformulieren en automatisering"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "Beheerportaal - Privileges",
+    "MainHeading": "Rollen en Privileges",
+    "RoleName": "Rolnaam",
+    "Description": "Beschrijving",
+    "GrantRoleTo": "Ken Deze Rol Toe Aan...",
+    "GrantRoleDescription": "Selecteer een groep waaraan u deze rol wilt toekennen. U kunt een groep gebruikers toewijzen om werknemersdossiers voor een bepaalde groep te beheren. Een manager moet dossiers binnen zijn eigen functie bewerken.",
+    "PermissionGroupsOrUsers": "Toestemmingsgroepen of gebruikers",
+    "SelectPlaceholder": "--Selecteren--",
+    "SearchPlaceholder": "Zoek hier..",
+    "AddButton": "TOEVOEGEN",
+    "CancelButton": "ANNULEREN",
+    "MakeActiveButton": "Activeren",
+    "MakeInactiveButton": "Deactiveren",
+    "UpdateButton": "Bijwerken",
+    "SaveButton": "Opslaan",
+    "TableHeaders": {
+      "SerialNumber": "Nr.",
+      "RoleName": "Rolnaam",
+      "PermissionGroup": "Toestemmingsgroep of Gebruikers",
+      "Active": "Actief",
+      "Actions": "Acties"
+    },
+    "Tabs": {
+      "Employees": "MEDEWERKERS",
+      "Goals": "DOELEN",
+      "Privileges": "Privileges",
+      "Performance": "PRESTATIE",
+      "Rewards": "BELONINGEN",
+      "View": "Bekijken",
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "Verlofdossiers Uploaden",
+    "PageDescription": "Upload uw verlofdossiers in het opgegeven formaat. U kunt hieronder een sjabloon downloaden.",
+    "DownloadTemplate": "Sjabloon Downloaden",
+    "ExportLeaveRecords": "Verlofdossiers Exporteren",
+    "ExportLeaveBalances": "Verlofsaldi Exporteren",
+    "UploadFileLabel": "Verlofdossiers Bestand Uploaden",
+    "NoFileUploaded": "Geen bestand geüpload",
+    "UploadedFile": "Geüpload bestand:",
+    "Submit": "Indienen",
+    "DateRangeDialog": {
+      "Title": "Selecteer Datumbereik voor Verlofdossiers Export",
+      "StartDate": "Startdatum",
+      "EndDate": "Einddatum",
+      "Cancel": "Annuleren",
+      "ExportRecords": "Dossiers Exporteren"
+    },
+    "Instructions": {
+      "Title": "Instructies:",
+      "Step1": "Download het sjabloon om het vereiste formaat te zien",
+      "Step2": "Vul de EmpId (Werknemersnummer) en verlofdagen in voor elk verloftype",
+      "Step3": "Upload het voltooide bestand",
+      "Step4": "Het systeem valideert werknemers-ID's en vermindert verlofsaldi"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "Aanwezigheid Uploaden",
+    "PageDescription": "Upload uw aanwezigheidsoverzicht in het opgegeven formaat. U kunt hieronder een sjabloon downloaden.",
+    "DownloadTemplate": "Sjabloon Downloaden",
+    "UploadFileLabel": "Upload Aanwezigheidsbestand",
+    "NoFileUploaded": "Geen bestand geüpload",
+    "UploadedFile": "Geüpload bestand:",
+    "Submit": "Indienen"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "Verloftype Geschiedenis",
+    "TableHeaders": {
+      "Name": "Naam",
+      "Code": "Code",
+      "Actions": "Acties"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "Exporteren als CSV",
+      "ExportAsExcel": "Exporteren als Excel",
+      "ExportAsPDF": "Exporteren als PDF"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "Verloftype",
+    "AdvancedConfiguration": "Geavanceerde Configuratie",
+    "MaxAdvanceDaysConfiguration": "Max Vooruit Dagen Configuratie",
+    "MaxAdvanceDaysDescription": "Configureer hoeveel dagen van tevoren medewerkers verlof moeten aanvragen op basis van het aantal dagen dat ze aanvragen.",
+    "AttachmentsRequiredConfiguration": "Bijlagen Vereist Configuratie",
+    "FormFields": {
+      "Name": "Naam",
+      "ImageIcon": "Afbeelding / Pictogram",
+      "Code": "Code",
+      "BalanceBasedOn": "Saldo gebaseerd op (vast recht / Verloftoekenning)",
+      "Units": "Eenheden (Dagen / uren)",
+      "Status": "Status",
+      "Eligibility": "Geschiktheid",
+      "CustomName": "Aangepaste Naam"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "Max aantal verloven dat tegelijk kan worden opgenomen",
+      "MaxHalfDays": "Max halve dag verloven per jaar",
+      "MaxHalfDaysHelper": "Laat leeg voor geen limiet op halve dag verloven",
+      "AutoAddLeaves": "Automatisch Verlof Toevoegen",
+      "AddType": "Type Toevoegen",
+      "NumberOfDaysToAdd": "Aantal toe te voegen dagen"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "Min Dagen",
+      "MaxDays": "Max Dagen (laat leeg voor geen limiet)",
+      "MaxAdvanceDays": "Max Vooruit Dagen",
+      "RemoveRule": "Regel Verwijderen",
+      "AddRule": "Regel Toevoegen"
+    },
+    "AttachmentFields": {
+      "Operator": "Operator",
+      "ValueDays": "Waarde (dagen)"
+    },
+    "Checkboxes": {
+      "Carryover": "Overdracht",
+      "AttachmentsRequired": "Bijlagen Vereist"
+    },
+    "Buttons": {
+      "Cancel": "Annuleren",
+      "Update": "Bijwerken",
+      "Submit": "Indienen",
+      "Submitting": "Indienen..."
+    },
+    "Options": {
+      "Hours": "uren",
+      "Days": "dagen",
+      "Active": "Actief",
+      "InActive": "Inactief",
+      "Hourly": "Per Uur",
+      "Monthly": "Maandelijks",
+      "Yearly": "Jaarlijks",
+      "Is": "is",
+      "LesserOrEqual": "kleiner dan of gelijk aan (≤)",
+      "GreaterOrEqual": "groter dan of gelijk aan (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "Verdiend Verlof (EL)",
+      "SickLeave": "Ziekteverlof (SL)",
+      "CasualLeave": "Casual Verlof (CL)",
+      "MaternityLeave": "Zwangerschapsverlof (ML)",
+      "PaternityLeave": "Vaderschapsverlof (PL)",
+      "CompensatoryOff": "Compensatieverlof",
+      "BereavementLeave": "Rouwverlof",
+      "MarriageLeave": "Huwelijksverlof",
+      "UnpaidLeave": "Onbetaald Verlof (LWP)",
+      "WorkFromHome": "Thuiswerken (WFH)",
+      "Others": "Overige"
+    },
+    "FileStatus": {
+      "Selected": "✓ Geselecteerd:",
+      "Current": "Huidig:",
+      "NoFileSelected": "Geen bestand geselecteerd",
+      "LoadingEligibility": "Geschiktheidsopties laden..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "Overdrachtsregels",
+    "CarryoverDateQuestion": "Wat moet de overdrachtsdatum zijn?",
+    "CarryoverDateLabel": "Overdrachtsdatum",
+    "MaxDaysQuestion": "Hoeveel dagen moeten worden overgedragen (max)?",
+    "MaxDaysLabel": "Voer maximum dagen in"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "Assetbeheer Systeem",
+    "AssetAssignment": "Asset Toewijzing",
+    "AddAsset": "Asset Toevoegen",
+    "AssetType": "Asset Type *",
+    "AssetNumber": "Asset Nummer *",
+    "IssueDate": "Uitgiftedatum",
+    "CollectionDate": "Verzameldatum",
+    "HandOverDate": "Overdrachtdatum",
+    "SelectType": "Selecteer Type",
+    "RemoveAsset": "Asset Verwijderen",
+    "Cancel": "Annuleren",
+    "UpdateAsset": "Asset Bijwerken",
+    "CreateAsset": "Asset Creëren",
+    "Updating": "Bijwerken...",
+    "Submitting": "Indienen..."
+  },
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "Werknemerinformatie",
+    "FullName": "Volledige Naam *",
+    "EmployeeID": "Werknemer ID *",
+    "Department": "Functie",
+    "Position": "Positie",
+    "WorkLocation": "Werklocatie",
+    "SelectEmployee": "Selecteer Werknemer"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "Assetbeheer Geschiedenis",
+    "TableHeaders": {
+      "Name": "Naam",
+      "EmployeeID": "Werknemer ID",
+      "Department": "Functie",
+      "AssetType": "Asset Type",
+      "AssetNo": "Asset Nr",
+      "IssueDate": "Uitgiftedatum",
+      "HandOverDate": "Overdrachtdatum",
+      "Action": "Actie"
+    },
+    "Actions": {
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    },
+    "NoDataFound": "Geen gegevens gevonden",
+    "Error": "Fout"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "Feestdagenkalender",
+    "FormFields": {
+      "HolidayName": "Feestdagnaam",
+      "Date": "Datum",
+      "Type": "Type",
+      "Description": "Beschrijving"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "Officiële Feestdag",
+      "CompanyHoliday": "Bedrijfsfeestdag",
+      "ReligiousHoliday": "Religieuze Feestdag"
+    },
+    "Buttons": {
+      "Cancel": "Annuleren",
+      "Update": "Bijwerken",
+      "Submit": "Indienen",
+      "Submitting": "Indienen..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "Feestdagen Geschiedenis",
+    "TableHeaders": {
+      "HolidayName": "Feestdagnaam",
+      "Type": "Type",
+      "Date": "Datum",
+      "Actions": "Acties"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "Laden...",
+    "FailedToLoad": "Dashboardgegevens Laden Mislukt",
+    "NoDataAvailable": "Geen Dashboardgegevens Beschikbaar",
+    "NoDataMessage": "Dashboardinformatie is momenteel niet beschikbaar.",
+    "KpiCards": {
+      "MyActiveTasks": "Mijn Actieve Taken",
+      "TeamAttendance": "Teamaanwezigheid",
+      "PunctualityScore": "Stiptheidsscore",
+      "MyAchievements": "Mijn Prestaties",
+      "RewardPoints": "Beloningspunten"
+    },
+    "SubHeadings": {
+      "Urgent": "Urgent",
+      "PresentToday": "Vandaag aanwezig",
+      "Last30Days": "Laatste 30 dagen",
+      "ThisMonth": "Deze Maand",
+      "Available": "Beschikbaar"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "Actie Vereist",
+      "ReviewNow": "Nu Beoordelen",
+      "ViewDetails": "Details Bekijken"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "KPI Taken",
+    "AdHocTasks": "Ad Hoc Taken",
+    "Urgent": "Urgent"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "Recente Taken Laden...",
+    "FailedToLoadRecentTasks": "Recente Taken Laden Mislukt",
+    "NoRecentTasksAvailable": "Geen Recente Taken Beschikbaar",
+    "NoRecentTasksMessage": "Recente taken informatie is momenteel niet beschikbaar.",
+    "RecentTasks": "Recente Taken",
+    "ViewAll": "Alles bekijken",
+    "NoRecentTasksFound": "Geen recente taken gevonden",
+    "AllRecentTasks": "Alle Recente Taken",
+    "KpiTask": "KPI Taak",
+    "NoDueDate": "Geen vervaldatum",
+    "UntitledTask": "Naamloze Taak"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "Leaderboard Laden...",
+    "FailedToLoadLeaderboard": "Leaderboard Laden Mislukt",
+    "NoLeaderboardDataAvailable": "Geen Leaderboard Gegevens Beschikbaar",
+    "NoLeaderboardDataMessage": "Beloningspunten leaderboard informatie is momenteel niet beschikbaar.",
+    "RewardPointsLeaderboard": "Beloningspunten - Leaderboard",
+    "Company": "BEDRIJF",
+    "Top5Employees": "Top 5 Medewerkers",
+    "ViewAll": "Alles Bekijken",
+    "NoEmployeesFound": "Geen medewerkers gevonden",
+    "Unknown": "Onbekend",
+    "EmployeeId": "ID: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "Taken Dashboard",
+    "FilterOptions": {
+      "ThisWeek": "Deze Week",
+      "ThisMonth": "Deze Maand",
+      "ThisYear": "Dit Jaar",
+      "All": "Alle"
+    },
+    "Buttons": {
+      "View": "Bekijken",
+      "AddTask": "Taak Toevoegen"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "OKR Voortgang",
+    "AddOKR": "OKR Toevoegen",
+    "NoOKRData": "Geen OKR Gegevens",
+    "StatusLabels": {
+      "OnTrack": "Op Schema",
+      "OffTrack": "Uit Schema",
+      "AtRisk": "Risico"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "Hallo {{name}}! Uw doelstellingen lopen achter om op tijd voltooid te worden!",
+    "GreetingOnTrack": "Hallo {{name}}! Uw doelstellingen liggen op schema!",
+    "GreetingAtRisk": "Hallo {{name}}! Sommige van uw doelstellingen lopen risico!",
+    "Loading": "Laden...",
+    "NoDataAvailable": "Geen Gegevens Beschikbaar"
+  },
+  "ObjectivesTable": {
+    "Actions": {
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen",
+      "Approve": "Goedkeuren",
+      "Reject": "Afwijzen"
+    },
+    "Columns": {
+      "Objectives": "Doelstellingen",
+      "Progress": "Voortgang",
+      "Weight": "Gewicht",
+      "Owner": "Eigenaar",
+      "DueDate": "Vervaldatum",
+      "ApproveReject": "Goedkeuren/Afwijzen",
+      "Actions": "Acties",
+      "AddKRTask": "KR Toevoegen / Taak Toevoegen"
+    },
+    "Status": {
+      "OnTrack": "Op Schema",
+      "AtRisk": "Risico",
+      "OffTrack": "Uit Schema",
+      "NotStarted": "Niet Gestart",
+      "InProgress": "Bezig",
+      "Submit": "Indienen",
+      "Draft": "Concept",
+      "PendingApproval": "In Afwachting",
+      "ApprovalRequired": "Goedkeuring Vereist",
+      "Approved": "Goedgekeurd",
+      "Rejected": "Afgewezen"
+    },
+    "Tooltips": {
+      "AddKeyResult": "Kernresultaat Toevoegen",
+      "AddTask": "Taak Toevoegen",
+      "Add": "Toevoegen"
+    },
+    "TableHeader": {
+      "DisplayOptions": "Weergaveopties",
+      "CompanyOKRs": "Bedrijfs OKRs",
+      "Cascade": "Cascade",
+      "Delete": "Verwijderen",
+      "Status": "Status",
+      "SearchPlaceholder": "Zoek hier..",
+      "Export": "Exporteren",
+      "CreateOKR": "OKR Creëren",
+      "Library": "Bibliotheek",
+      "NonLibrary": "Niet-Bibliotheek",
+      "StatusOptions": {
+        "OnTrack": "Op Schema",
+        "AtRisk": "Risico",
+        "OffTrack": "Uit Schema"
+      },
+      "ExportOptions": {
+        "ExportCSV": "Exporteren als CSV",
+        "ExportExcel": "Exporteren als Excel",
+        "ExportPDF": "Exporteren als PDF"
+      },
+      "ExportLabels": {
+        "Type": "Type",
+        "Title": "Titel",
+        "Description": "Beschrijving",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "Voortgang",
+        "Status": "Status",
+        "Owner": "Eigenaar",
+        "Weight": "Gewicht",
+        "StartDate": "Startdatum",
+        "DueDate": "Vervaldatum",
+        "Alignment": "Afstemming",
+        "CreatedAt": "Aangemaakt Op",
+        "Objective": "Doelstelling",
+        "KeyResult": "Kernresultaat",
+        "Task": "Taak",
+        "CompanyOKR": "Bedrijfs OKR",
+        "IndividualOKR": "Individuele OKR",
+        "ExportedOn": "Geëxporteerd op:",
+        "OKRsExportReport": "OKRs Export Rapport",
+        "NoDataToExport": "Geen gegevens om te exporteren"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "OKR Jaar",
+    "SelectYear": "Selecteer Jaar",
+    "Employee": "Werknemer",
+    "SelectEmployee": "Selecteer Werknemer"
+  },
+  "Tasks": {
+    "Task": "Taak",
+    "Tasks": "Taken",
+    "Objective": "Doelstelling",
+    "KR": "KR",
+    "Due Date": "Vervaldatum",
+    "Status": "Status",
+    "Owner": "Eigenaar",
+    "Priority": "Prioriteit",
+    "Progress": "Voortgang",
+    "Comments": "Opmerkingen",
+    "SubTask": "Subtaak",
+    "Approval": "Goedkeuring",
+    "Action": "Actie",
+    "Approve": "Goedkeuren",
+    "PendingApproval": "In Afwachting",
+    "Reject": "Afwijzen",
+    "Approved": "Goedgekeurd",
+    "Rejected": "Afgewezen",
+    "ApprovalRequired": "Goedkeuring Vereist",
+    "Edit": "Bewerken",
+    "Delete": "Verwijderen",
+    "Audit History": "Auditgeschiedenis",
+    "HighLevel": "Hoog Niveau",
+    "MediumLevel": "Gemiddeld Niveau",
+    "LowLevel": "Laag Niveau",
+    "Not Started": "Niet Gestart",
+    "In Progress": "Bezig",
+    "OnHold": "In de Wacht",
+    "Completed": "Voltooid",
+    "Recurrence": "Herhaling",
+    "Main Task": "Hoofdtaak",
+    "Comment": "Opmerking",
+    "commentHere": "Opmerking hier...",
+    "AddComment": "Opmerking Toevoegen",
+    "Submit": "Indienen",
+    "Upload Files": "Bestanden Uploaden",
+    "Uploading": "Uploaden...",
+    "File uploaded": "Bestand geüpload",
+    "Processing": "Verwerken...",
+    "UpdateTask": "Taak Bijwerken",
+    "SaveAddAnother": "Opslaan en Nog Een Toevoegen",
+    "Finish": "Voltooien",
+    "AddTask": "Taak Toevoegen",
+    "EditTask": "Taak Bewerken",
+    "Assign To": "Toewijzen Aan",
+    "Loading task data...": "Taakgegevens laden..."
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "Doelstelling Creëren",
+    "EditObjective": "Doelstelling Bewerken",
+    "ObjectiveSavedSuccess": "✓ Doelstelling succesvol opgeslagen! U kunt nu Kernresultaten toevoegen.",
+    "EarnedRewardPoints": "U heeft {{points}} beloningspunten verdiend",
+    "FormLabels": {
+      "Objective": "Doelstelling*",
+      "Weight": "Gewicht*",
+      "Owner": "Eigenaar",
+      "DueDate": "Vervaldatum",
+      "Dimension": "Dimensie*",
+      "Comment": "Opmerking",
+      "UploadFile": "Bestand Uploaden",
+      "Progress": "Voortgang"
+    },
+    "Placeholders": {
+      "EnterComment": "Voer uw opmerking hier in...",
+      "DateFormat": "dd/mm/jjjj"
+    },
+    "Buttons": {
+      "Saving": "Opslaan...",
+      "UpdateObjective": "Doelstelling Bijwerken",
+      "SaveDetails": "Details Opslaan",
+      "AddKeyResults": "Kernresultaten Toevoegen",
+      "SaveAndAddKR": "Opslaan en KR Toevoegen"
+    },
+    "FileUpload": {
+      "Uploading": "(Uploaden...)",
+      "FileUploaded": "✓ Bestand geüpload"
+    },
+    "Stepper": {
+      "Objective": "Doelstelling",
+      "KR": "KR",
+      "Task": "Taak"
+    },
+    "Progress": {
+      "SelectProgressStatus": "Selecteer Uw Voortgangsstatus (In Percentage)"
+    },
+    "Dimensions": {
+      "People": "Mensen",
+      "Financial": "Financieel",
+      "Operations": "Operaties",
+      "Strategy": "Strategie",
+      "ProcessGovernanceSystem": "Proces/Governance/Systeem"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "Kernresultaat Toevoegen",
+    "EditKeyResult": "Kernresultaat Bewerken",
+    "OKRName": "OKR Naam",
+    "AlignedToCompanyObjective": "Afgestemd op bedrijfsdoelstelling",
+    "FormLabels": {
+      "KeyResultName": "Kernresultaat Naam*",
+      "Source": "Bron",
+      "KPIs": "KPI's*",
+      "Status": "Status*",
+      "UnitOfMeasurement": "Meeteenheid",
+      "Polarity": "Polariteit",
+      "TargetResult": "Doel Resultaat*",
+      "ActualResult": "Werkelijk Resultaat",
+      "TargetDate": "Doel Datum*",
+      "CompletionDate": "Voltooiingsdatum",
+      "Comment": "opmerking",
+      "UploadFile": "Bestand Uploaden"
+    },
+    "Buttons": {
+      "Saving": "Opslaan...",
+      "UpdateDetails": "Details Bijwerken",
+      "SaveAndAddAnother": "Opslaan en Nog Een Toevoegen",
+      "NextAddTask": "Volgende: Taak Toevoegen"
+    },
+    "FileUpload": {
+      "Uploading": "(Uploaden...)",
+      "FileUploaded": "✓ Bestand geüpload"
+    },
+    "Polarity": {
+      "Positive": "Positief",
+      "Negative": "Negatief"
+    },
+    "StatusOptions": {
+      "NotStarted": "Niet Gestart",
+      "InProgress": "Bezig",
+      "OnHold": "In de Wacht",
+      "Completed": "Voltooid"
+    },
+    "KPIOptions": {
+      "Revenue": "Omzet",
+      "UserGrowth": "Gebruikersgroei",
+      "ConversionRate": "Conversieratio"
+    },
+    "UnitOptions": {
+      "Number": "Nummer",
+      "Percentage": "Percentage (%)",
+      "INR": "INR",
+      "USD": "USD",
+      "AED": "AED"
+    },
+    "SourceOptions": {
+      "SelectSource": "--Selecteer Bron--",
+      "Salesforce": "Salesforce"
+    },
+    "BellCurveChart": {
+      "Loading": "Laden...",
+      "Error": "Fout:",
+      "UnknownError": "Onbekende fout",
+      "Value": "Waarde:",
+      "NoCurveData": "Geen kromme gegevens beschikbaar",
+      "AtLower": "Bij Lager",
+      "AtAverage": "Bij Gemiddeld",
+      "AtUpper": "Bij Hoger",
+      "Point": "Punt"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "Totaal Gewicht Prestatie",
+    "TotalWeight": "Totaal Gewicht",
+    "Q1": "K1",
+    "Q2": "K2",
+    "Q3": "K3",
+    "Q4": "K4"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "Vandaag's Aanwezigheid",
+    "Present": "Aanwezig",
+    "OnLeave": "Met Verlof",
+    "LateArrivals": "Late Aankomsten",
+    "TotalEmployees": "Totaal Medewerkers",
+    "NextHoliday": "Volgende Feestdag",
+    "NoUpcomingHolidays": "Geen aankomende feestdagen"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "Prestatietrend",
+    "CurrentPerformance": "Huidige Prestatie",
+    "UnknownPeriod": "Onbekende Periode"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "Beschikbare Beloningen",
+    "Pts": "Ptn",
+    "NoRewardsAvailable": "Momenteel geen beloningen beschikbaar",
+    "KeepEarningPoints": "Blijf punten verdienen voor meer beloningen",
+    "ComingSoonTitle": "Beloningen Komen Binnenkort",
+    "ComingSoonDescription": "We bereiden spannende beloningen voor u voor! Binnenkort kunt u beloningen claimen op basis van uw prestaties en bijdragen.",
+    "Rewards": {
+      "ExpertBadge": "Expert Badge",
+      "Achievement": "Prestatie",
+      "TeamPlayerAward": "Teamspeler Award",
+      "Recognition": "Erkenning",
+      "Claim": "Claimen"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "Recente Updates",
+    "NoRecentUpdates": "Geen recente updates",
+    "ComingSoonTitle": "Updates Feed Komt Binnenkort",
+    "ComingSoonDescription": "We ontwikkelen een uitgebreide updatefeed om u op de hoogte te houden van belangrijke meldingen, prestaties en systeemupdates.",
+    "Updates": {
+      "UrgentTasksAlert": "Urgente Taken Alert",
+      "TaskOverview": "Taak Overzicht",
+      "OKRAlert": "OKR Alert",
+      "OKRProgress": "OKR Voortgang",
+      "GreatAttendance": "Uitstekende Aanwezigheid",
+      "AchievementUnlocked": "Prestatie Ontgrendeld",
+      "PerformanceReviewReminder": "Prestatiebeoordeling Herinnering",
+      "GreatJob": "Geweldig Werk"
+    },
+    "TimeLabels": {
+      "Today": "Vandaag",
+      "ThisMonth": "Deze maand",
+      "OneDayAgo": "1 dag geleden",
+      "ThreeDaysAgo": "3 dagen geleden"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "Verjaardagslijst",
+    "ViewAll": "Alles bekijken",
+    "NoBirthdaysThisMonth": "Geen verjaardagen deze maand",
+    "AllUpcomingBirthdays": "Alle Aankomende Verjaardagen",
+    "LoadingTitle": "Verjaardagslijst Laden...",
+    "FailedToLoadTitle": "Verjaardagslijst Laden Mislukt",
+    "NoDataTitle": "Geen Verjaardagen Deze Maand",
+    "NoDataMessage": "Geen medewerkers hebben verjaardagen in de huidige maand.",
+    "DateFormats": {
+      "Today": "Vandaag",
+      "Tomorrow": "Morgen",
+      "Days": "dagen"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "Jubileumlijst",
+    "ViewAll": "Alles bekijken",
+    "NoAnniversariesThisMonth": "Geen jubilea deze maand",
+    "AllUpcomingAnniversaries": "Alle Aankomende Jubilea",
+    "DateFormats": {
+      "Today": "Vandaag",
+      "Tomorrow": "Morgen",
+      "Days": "dagen",
+      "Year": "Jaar",
+      "Years": "Jaren"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "Verjaardagswens Verzenden",
+    "SendPersonalizedMessage": "Stuur een persoonlijk verjaardagsbericht naar",
+    "HappyBirthdayPlaceholder": "Gelukkige Verjaardag",
+    "Cancel": "Annuleren",
+    "SendWish": "Wens Verzenden",
+    "YearsOfService": "jaar dienst",
+    "YearsOfServicePlural": "jaren dienst"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "Jubileumwens Verzenden",
+    "SendPersonalizedMessage": "Stuur een persoonlijk jubileumbericht naar",
+    "CongratulationsPlaceholder": "Gefeliciteerd met",
+    "Cancel": "Annuleren",
+    "SendWish": "Wens Verzenden",
+    "YearsOfService": "jaar dienst",
+    "YearsOfServicePlural": "jaren dienst"
+  },
+  "EligibilityCriteria": {
+    "Title": "Geschiktheidscriteria",
+    "FormFields": {
+      "EligibilityName": "Geschiktheidsnaam",
+      "Age": "Leeftijd (bijv., >30, =27)",
+      "LengthOfService": "Diensttijd (bijv., >1, >2)",
+      "JobCategory": "Functiecategorie",
+      "Gender": "Geslacht",
+      "Grade": "Rang",
+      "MaritalStatus": "Burgerlijke Staat",
+      "Location": "Locatie",
+      "ProbationPeriod": "Proeftijd",
+      "NoticePeriod": "Opzegtermijn",
+      "PersonType": "Persoontype",
+      "Religion": "Religie",
+      "Position": "Positie",
+      "HireDate": "Aannamedatum",
+      "Department": "Functie",
+      "WorkType": "Werktype",
+      "ExcludeByDefaultIncludesAll": "Uitsluiten (Standaard alles inbegrepen)",
+      "PublicHolidays": "Officiële Feestdagen",
+      "Leaves": "Verlof",
+      "Weekends": "Weekenden"
+    },
+    "Options": {
+      "All": "Alle",
+      "Operations": "Operaties",
+      "Supervisor": "Supervisor",
+      "Managerial": "Leidinggevend",
+      "ExecutiveLeadership": "Uitvoerend Leiderschap",
+      "Director": "Directeur",
+      "Location": {
+        "USA": "VS",
+        "India": "India",
+        "UK": "VK"
+      },
+      "PersonType": {
+        "EMP": "MDWKR",
+        "Contractor": "Aannemer",
+        "Intern": "Stagiair"
+      },
+      "Religion": {
+        "Hindu": "Hindoe",
+        "Muslim": "Moslim",
+        "Christian": "Christen",
+        "Sikh": "Sikh",
+        "Buddhist": "Boeddhist",
+        "Jain": "Jain",
+        "Other": "Overige"
+      },
+      "Gender": {
+        "Male": "Man",
+        "Female": "Vrouw"
+      },
+      "MaritalStatus": {
+        "Married": "Getrouwd",
+        "Unmarried": "Ongetrouwd"
+      },
+      "Yes": "Ja",
+      "No": "Nee",
+      "WorkType": {
+        "FullTime": "Voltijds",
+        "PartTime": "Deeltijds"
+      }
+    },
+    "Buttons": {
+      "Cancel": "Annuleren",
+      "Submit": "Indienen",
+      "Update": "Bijwerken"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "Kandidaatopties ophalen mislukt",
+      "NoDataFound": "Geen Gegevens Gevonden!",
+      "SuccessCreate": "Geschiktheid succesvol aangemaakt",
+      "SuccessUpdate": "Geschiktheid succesvol bijgewerkt",
+      "ErrorSubmit": "Er is een fout opgetreden bij het indienen van het formulier. Probeer het opnieuw."
+    },
+    "Validation": {
+      "Required": "{{field}} is verplicht en kan niet leeg zijn",
+      "CannotBeEmpty": "{{field}} kan niet leeg zijn",
+      "InvalidSymbols": "{{field}} moet een van de symbolen bevatten: >, <, =",
+      "FillDetails": "Vul details in voordat u indient..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "Geschiedenis",
+    "TableHeaders": {
+      "EligibilityName": "Geschiktheidsnaam",
+      "Department": "Functie",
+      "Actions": "Acties"
+    },
+    "Buttons": {
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen",
+      "ExportCSV": "Exporteren als CSV",
+      "ExportExcel": "Exporteren als Excel",
+      "ExportPDF": "Exporteren als PDF"
+    },
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "Nieuw Aangevraagd",
+        "PsychometricTest": "Psychometrische Test"
+      },
+      "ExportOptions": {
+        "CSV": "Exporteren als CSV",
+        "Excel": "Exporteren als Excel",
+        "PDF": "Exporteren als PDF"
+      }
+    },
+    "Messages": {
+      "FetchError": "Gegevens ophalen mislukt",
+      "DeleteSuccess": "Record succesvol verwijderd",
+      "DeleteError": "Record verwijderen mislukt",
+      "ExportSuccess": "Succesvol geëxporteerd",
+      "ExportError": "Gegevens exporteren mislukt",
+      "NoData": "Geen gegevens beschikbaar"
+    },
+    "Placeholders": {
+      "Search": "Zoeken...",
+      "Select": "--Selecteren--"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "Goedkeuringsworkflow",
+    "Description": "Configureer en beheer goedkeuringsketen voor verschillende transactietypes",
+    "NewWorkflowButton": "Nieuwe Workflow"
+  },
+  "WorkflowType": {
+    "TitleCreate": "Nieuwe Workflow Creëren",
+    "TitleEdit": "Workflow Bewerken",
+    "SubtitleCreate": "Stel een nieuwe goedkeuringswerkstroom in voor uw organisatie",
+    "SubtitleEdit": "Wijzig de goedkeuringswerkstroom voor uw organisatie",
+    "SelectTransactionTitle": "Selecteer Transactietype",
+    "SelectTransactionDescription": "Kies het type transactie dat deze goedkeuringswerkstroom zal volgen",
+    "Steps": {
+      "TransactionType": "Transactietype",
+      "WorkflowDetails": "Workflow Details",
+      "ApprovalChain": "Goedkeuringsketen"
+    },
+    "Buttons": {
+      "Previous": "Vorige",
+      "Cancel": "Annuleren",
+      "Next": "Volgende",
+      "Submitting": "Indienen...",
+      "CreateWorkflow": "Workflow Creëren",
+      "UpdateWorkflow": "Update Workflow"
+    },
+    "Messages": {
+      "CreateSuccess": "Workflow succesvol aangemaakt.",
+      "UpdateSuccess": "Workflow succesvol bijgewerkt.",
+      "CreateError": "Workflow aanmaken mislukt. Probeer het opnieuw.",
+      "UpdateError": "Workflow bijwerken mislukt. Probeer het opnieuw."
+    },
+    "UnknownStep": "Onbekende Stap"
+  },
+  "TransactionCard": {
+    "Recruitment": "Werving",
+    "RecruitmentDescription": "Workflow voor aanname en goedkeuringsproces",
+    "ExpenseApproval": "Onkostengoedkeuring",
+    "ExpenseApprovalDescription": "Goedkeuringsstroom voor werknemersonkosten",
+    "LeaveRequest": "Verlofaanvraag",
+    "LeaveRequestDescription": "Goedkeuringsketen voor werknemersverlofaanvragen",
+    "PurchaseOrder": "Inkooporder",
+    "PurchaseOrderDescription": "Workflow voor het beheren van inkooporders",
+    "BudgetApproval": "Budgetgoedkeuring",
+    "BudgetApprovalDescription": "Goedkeuringsproces voor financiële budgetten"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "Workflow Details",
+    "ProvideNameDescription": "Geef een naam en beschrijving voor deze goedkeuringswerkstroom",
+    "WorkflowName": "Workflow Naam",
+    "WorkflowNamePlaceholder": "bijv., Standaard Verlofgoedkeuring",
+    "Description": "Beschrijving",
+    "DescriptionPlaceholder": "Beschrijf het doel en gebruikssituaties voor deze workflow",
+    "Condition": "Voorwaarde",
+    "ConditionPlaceholder": "Optionele voorwaarde voor de workflow",
+    "ConditionLeaveRequest": "Voorwaarde (voor Verlofaanvragen)",
+    "SetRules": "Stel regels in op basis van aantal dagen in de verlofaanvraag",
+    "Attribute": "Attribuut",
+    "SelectAttribute": "Selecteer attribuut",
+    "Operator": "Operator",
+    "SelectOperator": "Selecteer operator",
+    "Value": "Waarde",
+    "EnterNumber": "Voer nummer in",
+    "Days": "Dagen",
+    "is": "is",
+    "lesserOrEqual": "kleiner dan of gelijk aan (≤)",
+    "greaterOrEqual": "groter dan of gelijk aan (≥)"
+  },
+  "workflowFilter": {
+    "searchPlaceholder": "Zoek Werkstroom",
+    "filterButton": "Filter",
+    "allTypes": "Alle Types",
+    "workflow": "Werkstroom",
+    "task": "Taak"
+  },
+  "workflowChain": {
+    "configureApprovalChain": "Configureer Goedkeuringsketen",
+    "defineSequence": "Definieer de volgorde van goedkeurders voor deze workflow",
+    "currentApprovalChain": "Huidige Goedkeuringsketen",
+    "noStepsDefined": "Nog Geen Goedkeuringsstappen Gedefinieerd",
+    "addStep": "Stap Toevoegen",
+    "completeDetailsError": "Voltooi eerst transactietype en workflowdetails"
+  },
+  "addApprovalHeader": {
+    "title": "Goedkeuringsstap Toevoegen",
+    "rolesTab": "Rollen",
+    "individualUserTab": "Individuele Gebruiker",
+    "searchPlaceholder": "Zoek Werkstroom"
+  },
+  "formNavigation": {
+    "previous": "Vorige",
+    "cancel": "Annuleren",
+    "createWorkflow": "Workflow Creëren"
+  },
+  "selectedApprovers": {
+    "title": "Geselecteerde Goedkeurders:",
+    "noApprovers": "Nog Geen Goedkeurders Geselecteerd",
+    "saveStep": "Stap Opslaan",
+    "cancel": "Annuleren"
+  },
+  "approval": {
+    "saveApprovers": "Goedkeurders Opslaan"
+  },
+  "approval2": {
+    "card1Title": "Lijnmanager",
+    "card1Description": "Directe Leidinggevende van de Werknemer",
+    "select": "Selecteren",
+    "remove": "Verwijderen",
+    "selected": "Geselecteerd",
+    "removed": "Verwijderd"
+  },
+  "approval3": {
+    "card2Title": "HR Manager",
+    "card2Description": "Hoofd Afdeling Human Resources",
+    "select": "Selecteren",
+    "remove": "Verwijderen",
+    "selected": "Geselecteerd",
+    "removed": "Verwijderd"
+  },
+  "approval4": {
+    "card3Title": "Functioneel Hoofd",
+    "card3Description": "Hoofd van de Afdeling",
+    "select": "Selecteren",
+    "remove": "Verwijderen",
+    "selected": "Geselecteerd",
+    "removed": "Verwijderd"
+  },
+  "approval5": {
+    "card4Title": "CEO",
+    "card4Description": "Directeur",
+    "select": "Selecteren",
+    "remove": "Verwijderen",
+    "selected": "Geselecteerd",
+    "removed": "Verwijderd"
+  },
+  "approval6": {
+    "card5Title": "Financieel Directeur",
+    "card5Description": "Manager die Specifiek Project Begeleidt",
+    "select": "Selecteren",
+    "remove": "Verwijderen",
+    "selected": "Geselecteerd",
+    "removed": "Verwijderd"
+  },
+  "approval7": {
+    "card6Title": "Projectmanager",
+    "card6Description": "Directe Leidinggevende van de Werknemer",
+    "select": "Selecteren",
+    "remove": "Verwijderen",
+    "selected": "Geselecteerd",
+    "removed": "Verwijderd"
+  },
+  "transactions": {
+    "leaveRequestTitle": "Verlofaanvraag",
+    "leaveRequestDescription": "Goedkeuringsstroom voor werknemersverlofaanvragen",
+    "timesheetTitle": "Urenregistratie",
+    "timesheetDescription": "Goedkeuringsstroom voor werknemersurenregistraties",
+    "resignationRequestTitle": "Ontslagaanvraag",
+    "resignationRequestDescription": "Goedkeuringsstroom voor werknemersontslagaanvragen"
+  },
+  "workflow": {
+    "selectTransactionType": "Selecteer Transactietype",
+    "chooseTransactionType": "Kies het type transactie dat deze goedkeuringswerkstroom zal volgen",
+    "editWorkflow": "Workflow Bewerken",
+    "createNewWorkflow": "Nieuwe Workflow Creëren",
+    "modifyWorkflow": "Wijzig de goedkeuringswerkstroom voor uw organisatie",
+    "setupNewWorkflow": "Stel een nieuwe goedkeuringswerkstroom in voor uw organisatie",
+    "previous": "Vorige",
+    "cancel": "Annuleren",
+    "next": "Volgende",
+    "submitting": "Indienen...",
+    "updateWorkflow": "Update Workflow",
+    "createWorkflow": "Workflow Creëren",
+    "updatedSuccess": "Workflow succesvol bijgewerkt",
+    "createdSuccess": "Workflow succesvol aangemaakt",
+    "failed": "{{action}} workflow mislukt. Probeer het opnieuw.",
+    "create": "creëren",
+    "update": "bijwerken",
+    "unknownStep": "Onbekende Stap",
+    "Transaction Type": "Transactietype",
+    "Workflow Details": "Workflow Details",
+    "Approval Chain": "Goedkeuringsketen"
+  },
+  "LookUpScreen": {
+    "CreateLookUp": "LookUp Creëren",
+    "LookupType": "Lookup Type",
+    "Meaning": "Betekenis",
+    "Add": "Toevoegen",
+    "Code": "Code",
+    "Delete": "Verwijderen",
+    "Submit": "Indienen",
+    "DateStart": "Start Datum",
+    "DateEnd": "Eind Datum",
+    "Enabled": "Ingeschakeld",
+    "Actions": "Acties",
+    "Type": "Type",
+    "EditLookUp": "Lookup Bewerken",
+    "Update": "Bijwerken",
+    "Cancel": "Annuleren",
+    "PerformanceRatingScale": "Prestatiebeoordeling Schaal"
+  },
+  "CompetencyManagement": {
+    "CompetencyManagement": "Competentiebeheer",
+    "Name": "Naam",
+    "PositionLevel": "Positieniveau",
+    "Action": "Actie",
+    "Create": "Creëren",
+    "CreateNewCompetency": "Nieuwe Competentie Creëren",
+    "EditCompetency": "Competentie Bewerken",
+    "CompetencyName": "Competentie Naam",
+    "Description": "Beschrijving",
+    "StartDate": "Startdatum",
+    "EndDate": "Einddatum",
+    "CompetencyType": "Competentie Type",
+    "DevelopmentActivities": "Ontwikkelingsactiviteiten",
+    "CoachingActivities": "Coachingactiviteiten",
+    "CategoryActivities": "Categorie Activiteiten",
+    "PositionLevelField": "Positieniveau",
+    "Cancel": "Annuleren",
+    "Save": "Opslaan",
+    "Update": "Bijwerken"
+  },
+  "OKRManagement": {
+    "OKRManagement": "OKR Beheer",
+    "OkrLibrary": "OKR BIBLIOTHEEK",
+    "Okr": "OKR",
+    "Transfer": "OVERDRACHT",
+    "Create": "Creëren",
+    "BulkUpload": "Bulk Upload",
+    "Industry": "Industrie",
+    "IsActive": "Is Actief",
+    "LastModified": "Laatst Gewijzigd",
+    "Action": "Actie",
+    "OkrTemplateName": "OKR Sjabloon Naam",
+    "StartDate": "Startdatum",
+    "EndDate": "Einddatum",
+    "EligibilityGroup": "Geschiktheidsgroep",
+    "TransferFromEmployee": "Overdragen Van Werknemer :",
+    "TransferToEmployee": "Overdragen Naar Werknemer :",
+    "FindOkr": "Vind OKR",
+    "InstructionsToUsers": "Instructies voor Gebruikers",
+    "LowValueRange": "Laag Waardebereik",
+    "MidValueRange": "Mid Waardebereik",
+    "HighValueRange": "Hoog Waardebereik",
+    "Min": "Min",
+    "Max": "Max",
+    "IncludingKeyResults": "Inclusief Kernresultaten",
+    "ImportOkrLibrary": "Importeer OKR Bibliotheek",
+    "Export": "Exporteren",
+    "DownloadTemplate": "Sjabloon Downloaden",
+    "Cancel": "Annuleren",
+    "Save": "Opslaan",
+    "IncludeOkr": "Inclusief OKR",
+    "Edit": "Bewerken",
+    "Delete": "Verwijderen"
+  },
+  "TimeLogin": {
+    "title": "Geo Locatie Tijd Invoer",
+    "discription-title": "In- en uitklokken op basis van uw fysieke locatie",
+    "buttonLables": {
+      "bio": "Handmatig / Bio",
+      "geo": "Geo"
+    },
+    "refreshing": " Vernieuwen...",
+    "refreshLocation": "Locatie Vernieuwen",
+    "LocationService": "Locatiediensten",
+    "message": "Sta locatietoegang toe wanneer daarom wordt gevraagd. Uw locatie wordt alleen gebruikt om aanwezigheid op het werk te verifiëren.",
+    "getting": "Uw locatie ophalen....",
+    "RetryLocation": "Locatie Opnieuw Proberen",
+    "ManualLocation": "Handmatige Locatie",
+    "time": "Huidige systeemtijd",
+    "clockOut": "Uitklokken",
+    "clockin": "Inklokken",
+    "manuallyLocation": "Locatie Handmatig Invoeren",
+    "textLabel": {
+      "Latitude": "Breedtegraad",
+      "Logitude": "Lengtegraad"
+    },
+    "Cancel": "Annuleren",
+    "setLocation": "Locatie Instellen",
+    "waitingError": "Wachten op locatietoegang...",
+    "TimeSheetHistory": {
+      "history": "Urenregistratie Geschiedenis",
+      "totalTime": "Totale Tijd",
+      "week": "Week"
+    },
+    "TableColumn": {
+      "Employee": "Werknemer",
+      "day": "dag",
+      "Date": "Datum",
+      "timein": "Tijd In",
+      "timeOut": "Tijd Uit",
+      "hours": "Uren",
+      "method": "Methode",
+      "position": "Positie",
+      "remarks": "Opmerkingen",
+      "status": "Status",
+      "actions": "Acties"
+    },
+    "actionButton": {
+      "approve": "Goedkeuren",
+      "reject": "Afwijzen"
+    },
+    "DialogBox": {
+      "title": "Tijd Invoer Details",
+      "ApprovalHistory": "Goedkeuringsgeschiedenis",
+      "Nodetailsavailable": "Geen details beschikbaar",
+      "CurrentLocationMap": "Huidige Locatie Kaart"
+    },
+    "exportOptions": {
+      "export": "Exporteren",
+      "exportExcel": "Exporteren als Excel",
+      "exportCSV": "Exporteren als CSV",
+      "exportPDF": "Exporteren als PDF"
+    }
+  },
+  "AbsenceTime": {
+    "LeavePolicy": "Verlofbeleid",
+    "applyForLeave": "Aanvragen voor verlof",
+    "teamLeave": "Team Verlof",
+    "LoadingLeaves": "Verloftypes laden...",
+    "formLabel": {
+      "absenceType": "Afwezigheidstype / Categorie",
+      "halfDay": "Halve dag",
+      "form": "Formulier",
+      "to": "Tot",
+      "durationAbsence": "Duur van afwezigheid",
+      "note": "notitie"
+    },
+    "Uplode": "Bijlagen uploaden",
+    "sumbitting": "Indienen...",
+    "buttonConfg": {
+      "cancel": "Annuleren",
+      "update": "Bijwerken",
+      "submit": "Indienen"
+    },
+    "leavesAvailable": "Geen andere verloven beschikbaar.",
+    "close": "Sluiten",
+    "tableColumn": {
+      "date": "Datum",
+      "employee": "Werknemer",
+      "type": "Type",
+      "duration": "Duur",
+      "status": "Status",
+      "action": "Actie"
+    },
+    "editRequest": "Verzoek Bewerken",
+    "deleteRequest": "Verzoek Verwijderen",
+    "approve": "Goedkeuren",
+    "reject": "Afwijzen",
+    "leaveDetailsView": {
+      "leaveType": "Verloftype",
+      "duration": "Duur",
+      "startDate": "Startdatum",
+      "endDate": "Einddatum",
+      "applicationOn": "aanvraagOp"
+    },
+    "reasons": {
+      "reason": "Reden",
+      "rejectionReason": "Afwijzingsreden:"
+    },
+    "approvalStatus": "Huidige Goedkeuringsstatus",
+    "noDetails": "Geen details beschikbaar",
+    "requests": {
+      "approveLeave": "Verlofaanvraag Goedkeuren",
+      "rejectLeave": "Verlofaanvraag Afwijzen",
+      "details": "Verzoek Details"
+    },
+    "period": "Periode",
+    "Comments(Optional)": "Opmerkingen (Optioneel)",
+    "RejectionReason": "Afwijzingsreden *",
+    "approveRequest": "Verzoek Goedkeuren",
+    "rejectRequest": "Verzoek Afwijzen",
+    "DialogBox": {
+      "title": "Verlofaanvraag Details",
+      "alert": "Verlofaanvraag details laden mislukt"
+    },
+    "searchHear": "Zoek hier..",
+    "TeamLeave": {
+      "teamLeave": "Team Verlof",
+      "managerBoard": "Manager Bord:",
+      "all": "Alle",
+      "teamA": "Team A",
+      "teamB": "Team B"
+    },
+    "tableHeader": {
+      "displayOptions": "Weergaveopties",
+      "priority": "Prioriteit",
+      "status": "Status"
+    },
+    "filters": {
+      "high": "Hoog",
+      "medium": "Gemiddeld",
+      "low": "Laag"
+    },
+    "EventCalender": {
+      "filter": "Filter:"
+    }
+  },
+  "FileUploadFile": {
+    "chooseAFile": "Kies een bestand of sleep het hierheen",
+    "uploading": "Uploaden...",
+    "fileTypes": "JPEG, PNG, PDF, CSV, Excel, tot 50MB",
+    "browseFile": "Bestand Bladeren",
+    "selectedFile": "Geselecteerd Bestand",
+    "clickhere": "Klik Hier"
+  },
+  "RecruitmentManagement": {
+    "WelcomeBack": "Welkom Terug",
+    "NewCandidate": "Nieuwe Kandidaat",
+    "ID": "ID",
+    "Name": "Naam",
+    "Email": "E-mail",
+    "AppliedOn": "Aangevraagd Op",
+    "Stages": "Fasen",
+    "Actions": "Acties",
+    "InProgress": "Bezig",
+    "WaitingForFeedback": "Wachten Op Feedback",
+    "OfferReleased": "Aanbod Vrijgegeven",
+    "CandidatesList": "Kandidatenlijst",
+    "AddNewCandidate": "Nieuwe Kandidaat Toevoegen",
+    "CandidateDetails": "Kandidaat Details",
+    "PsychometricAssessment": "Psychometrische Beoordeling",
+    "Interview1": "Interview 1",
+    "Interview2": "Interview 2",
+    "DocumentVerification": "Document Verificatie",
+    "Offer": "Aanbod",
+    "OfferLetter": "Aanbiedingsbrief",
+    "Onboarding": "Onboarding",
+    "CandidateName": "Kandidaat Naam",
+    "EmailAddress": "E-mailadres",
+    "AddPhoto": "Foto Toevoegen",
+    "PhoneNo": "Telefoonnummer",
+    "ExperienceInYears": "Ervaring (in Jaren)",
+    "EducationQualification": "Opleidingskwalificatie",
+    "DateOfBirth": "Geboortedatum",
+    "Gender": "Geslacht",
+    "Location": "Locatie",
+    "Source": "Bron",
+    "Department": "Functie",
+    "Designation": "Benaming",
+    "LegalEntity": "Juridische Entiteit",
+    "ProjectName": "Projectnaam",
+    "ReportingManager": "Rapporterende Manager",
+    "Status": "Status",
+    "Resume": "CV",
+    "Cancel": "Annuleren",
+    "Submit": "Indienen",
+    "Edit": "Bewerken",
+    "Delete": "Verwijderen",
+    "EditCandidate": "Kandidaat Bewerken",
+    "ClickHere": "Klik Hier",
+    "Update": "Bijwerken",
+    "MoveToTalentPool": "Verplaatsen naar Talentenpool?",
+    "Male": "Man",
+    "Female": "Vrouw",
+    "Other": "Overige",
+    "Yes": "Ja",
+    "No": "Nee",
+    "SuitableDesignation": "Geschikte Benaming",
+    "NoticePeriodDays": "Opzegtermijn (dagen)",
+    "DateOfJoining": "Datum van Toetreding",
+    "ProbationPeriodDays": "Proeftijd (dagen)",
+    "PsychometricReviewReport": "Psychometrisch Beoordelingsrapport",
+    "DocumentsUploadOverview": "Documenten Upload Overzicht",
+    "SaveAsDraft": "Opslaan als concept",
+    "DraftLoaded": "Conceptgegevens geladen",
+    "GrossSalary": "Brutosalaris",
+    "Interviewer1": "Interviewer 1",
+    "Interviewer2": "Interviewer 2"
+  },
+  "PrivilegeGroups": {
+    "PrivilegeGroups": "Privilege Groepen",
+    "CreateNewGroup": "Nieuwe Groep Creëren",
+    "GroupName": "Groepsnaam",
+    "UserType": "Gebruikerstype",
+    "SonicOfDynamic": "Sonic Of Dynamic",
+    "ActiveMembership": "Actief Lidmaatschap",
+    "LastModified": "Laatst Gewijzigd",
+    "Action": "Actie",
+    "ActiveGroupMembership": "Actief Groepslidmaatschap",
+    "ChooseGroupMembers": "Kies Groepsleden",
+    "PeoplePool": "Personenpool",
+    "PickACategory": "Kies een Categorie",
+    "ExcludeThesePeopleGroupName": "Sluit Deze Personen Groepsnaam Uit",
+    "Select": "Selecteren",
+    "Cancel": "Annuleren",
+    "Finished": "Voltooid",
+    "Edit": "Bewerken",
+    "Delete": "Verwijderen",
+    "AddPrivilegeGroup": "Privilege Groep Toevoegen",
+    "UpdatePrivilegeGroup": "Privilege Groep Bijwerken",
+    "GroupCreatedSuccessfully": "Groep succesvol aangemaakt!",
+    "GroupUpdatedSuccessfully": "Groep succesvol bijgewerkt!",
+    "GroupDeletedSuccessfully": "Groep succesvol verwijderd!",
+    "AreYouSureDelete": "Weet u zeker dat u deze groep wilt verwijderen?",
+    "NoDataFound": "Geen Gegevens Gevonden",
+    "Loading": "Laden...",
+    "SearchGroups": "Zoek Groepen",
+    "ViewDetails": "Details Bekijken",
+    "SaveChanges": "Wijzigingen Opslaan",
+    "Confirm": "Bevestigen",
+    "Yes": "Ja",
+    "No": "Nee",
+    "Active": "Actief",
+    "Inactive": "Inactief",
+    "Members": "Leden",
+    "Status": "Status",
+    "CreatedBy": "Aangemaakt Door",
+    "ModifiedBy": "Gewijzigd Door",
+    "GroupNameIsRequired": "Groepsnaam is verplicht",
+    "ErrorFetchingData": "Fout bij ophalen gegevens!",
+    "SomethingWentWrong": "Er is iets misgegaan!",
+    "PleaseEnterGroupName": "Voer groepsnaam in",
+    "PleaseSelectUserType": "Selecteer gebruikerstype",
+    "PleaseSelectMembers": "Selecteer groepsleden"
+  },
+  "SessionTab": {
+    "Title": "Sessies",
+    "FormTitle": "Definieer De Sessie Details",
+    "Buttons": {
+      "Create": "Creëren",
+      "Cancel": "Annuleren",
+      "Update": "Bijwerken",
+      "Save": "Opslaan"
+    },
+    "FormFields": {
+      "SessionName": "Sessie Naam",
+      "Template": "Sjabloon",
+      "SessionStartDate": "Sessie Startdatum",
+      "SessionEndDate": "Sessie Einddatum",
+      "SessionOwners": "Sessie Eigenaren",
+      "EmployeeGroup": "Werknemersgroep"
+    },
+    "Table": {
+      "Name": "NAAM",
+      "Action": "ACTIE",
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    },
+    "Placeholders": {
+      "SearchHere": "Zoek hier...",
+      "SelectTemplate": "Selecteer sjabloon",
+      "EnterSessionName": "Voer sessienaam in",
+      "SelectSessionOwners": "Selecteer sessie-eigenaren",
+      "SelectEmployeeGroup": "Selecteer werknemersgroep"
+    },
+    "Validation": {
+      "FillRequiredFields": "Vul alle verplichte velden in"
+    },
+    "Messages": {
+      "FailedDelete": "Sessie verwijderen mislukt",
+      "ErrorDelete": "Er is een fout opgetreden bij het verwijderen van de sessie",
+      "FailedCreate": "Sessie aanmaken mislukt",
+      "ErrorCreate": "Er is een fout opgetreden bij het aanmaken van de sessie",
+      "FailedUpdate": "Sessie bijwerken mislukt",
+      "ErrorUpdate": "Er is een fout opgetreden bij het bijwerken van de sessie"
+    }
+  },
+  "GuideLinesTab": {
+    "Instructions": {
+      "SelectDataSource": "Selecteer de gegevensbron voor de elementen die u wilt kalibreren:"
+    },
+    "Performance": {
+      "Title": "Prestatie",
+      "Description": "Prestatiekalibratie omvat de evaluatie van prestaties, doelen, potentieel of andere klant-gedefinieerde elementen. 1. Selecteer het/de formuliersjablo(o)n(en) dat/die elementen die u wilt kalibreren. Alle velden zijn verplicht."
+    },
+    "Options": {
+      "Calibration": "Kalibratie",
+      "SelfSubmission": "Zelf Inzending",
+      "ManagerReview": "Manager Beoordeling",
+      "ManagerSignOff": "Manager Aftekening",
+      "EmployeeSignOff": "Werknemer Aftekening"
+    },
+    "RatingScale": {
+      "Ineffective": "1. Ineffectief",
+      "SomewhatAchieved": "2. Enigszins Bereikt",
+      "Achieved": "3. Bereikt",
+      "Overperformed": "4. Overprestatie",
+      "Outstanding": "5. Uitstekend"
+    },
+    "Table": {
+      "Template": "Sjabloon",
+      "RouteMap": "Route Kaart",
+      "RoutingStep": "Bij Routing Stap kunnen gegevens worden gebruikt?"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Selecteer sjabloon",
+      "SelectStep": "Selecteer stap"
+    },
+    "DefaultStep": "PM2 Prestatie Evaluatie"
+  },
+  "CalibrationManagement": {
+    "Options": {
+      "Calibration": "Kalibratie",
+      "SelfSubmission": "Zelf Inzending",
+      "ManagerReview": "Manager Beoordeling",
+      "ManagerSignOff": "Manager Aftekening",
+      "EmployeeSignOff": "Werknemer Aftekening"
+    },
+    "Table": {
+      "SNo": "nr.",
+      "Rating": "beoordeling",
+      "RouteMap": "Route Kaart",
+      "Delete": "Verwijderen"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Selecteer een sjabloon..."
+    },
+    "Notes": {
+      "Part1": "Opmerking: soms kunnen uw kalibratiegegevens uit meerdere sjablonen komen, in dat geval ondersteunt het systeem alleen de elementen die zijn gedefinieerd in het primaire sjabloon (aangegeven met de ",
+      "Part2": "). Als u meerdere Prestatie sjablonen selecteert, zorg er dan voor dat deze sjablonen dezelfde structuur, indexen en routekaart hebben."
+    },
+    "Instructions": {
+      "SelectElement": "2. Selecteer ten minste één element voor kalibratie. Definieer vervolgens de distributierichtlijn."
+    },
+    "OverallFormRating": "Algemene Formulier Beoordeling",
+    "Buttons": {
+      "Add": "Toevoegen"
+    }
+  },
+  "IntegrationManagement": {
+    "AdminPortal": "Beheerportaal - Integratiebeheer",
+    "BusinessLevelConnectors": "Bedrijfsniveau Connectoren",
+    "ActivationDescription": "Het activeren van een service biedt gebruikers de mogelijkheid om verbinding te maken met de service, waardoor het ophalen van gegevens voor automatische update van kernresultaat of de naadloze synchronisatie van gebruikers van een service wordt vergemakkelijkt",
+    "Manage": "Beheren",
+    "ReadMore": "Lees meer"
+  },
+  "TopHeader": {
+    "ManageSalesforceConnection": "Salesforce Verbinding Beheren",
+    "Delete": "Verwijderen"
+  },
+  "PerformanceManagement": {
+    "Title": "Prestatiebeheer",
+    "Create": "Creëren",
+    "TypeOfEvaluation": "Type evaluatie",
+    "Select": "Selecteren...",
+    "FrequencyOfEvaluation": "Frequentie van evaluatie",
+    "StartDate": "Startdatum",
+    "EnterStartDate": "Voer Startdatum In",
+    "LaunchDate": "Lanceerdatum",
+    "EnterLaunchDate": "Voer Lanceerdatum In",
+    "ListGroupName": "Lijst Groepsnaam",
+    "Employee": "Werknemer",
+    "Manager": "Manager",
+    "Leadership": "Leiderschap",
+    "Cancel": "Annuleren",
+    "Save": "Opslaan",
+    "OverallRating": "Algemene Beoordeling",
+    "AbsoluteRating": "Absolute Beoordeling",
+    "RatingScale": "Beoordelingsschaal",
+    "OKRWastage": "OKR Verspilling",
+    "CompetencyWeightage": "Competentie Weging",
+    "Weightage360": "360 Weging",
+    "IncludeSelfEvaluation": "Inclusief Zelfevaluatie",
+    "EmployeeAcknowledgement": "Werknemer Bevestiging",
+    "HRBPReview": "HRBP Beoordeling",
+    "ApprovalRequired": "Goedkeuring Vereist",
+    "Monthly": "Maandelijks",
+    "Quarterly": "Kwartaal",
+    "SemiAnnually": "Halfjaarlijks",
+    "Annually": "Jaarlijks"
+  },
+  "Templates": {
+    "Title": "Sjablonen",
+    "Buttons": {
+      "Create": "Creëren",
+      "Cancel": "Annuleren",
+      "Update": "Bijwerken",
+      "Save": "Opslaan",
+      "SelectAll": "Alles selecteren",
+      "UnselectAll": "Alles deselecteren"
+    },
+    "Table": {
+      "Name": "Naam",
+      "Action": "Actie",
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    },
+    "FormFields": {
+      "TemplatesName": "Sjablonen Naam",
+      "TemplateName": "Sjabloon Naam",
+      "Description": "Beschrijving",
+      "PercentageType": "Percentage Type",
+      "RatingScale": "Beoordelingsschaal",
+      "GoalPercentage": "Doel Percentage",
+      "ObjectivePercentage": "Doelstelling Percentage",
+      "CompetenciesPercentage": "Competenties Percentage",
+      "Competencies": "Competenties",
+      "ReviewSteps": "Beoordelingsstappen",
+      "EmployeeDisplayOptions": "Werknemer Weergaveopties"
+    },
+    "Placeholders": {
+      "EnterTemplateName": "Voer Sjabloonnaam In",
+      "EnterDescription": "Voer Beschrijving In",
+      "EnterRatingScale": "Voer Beoordelingsschaal In",
+      "EnterGoalPercentage": "Voer Doel Percentage In",
+      "EnterObjectivePercentage": "Voer Doelstelling Percentage In",
+      "EnterCompetenciesPercentage": "Voer Competenties Percentage In",
+      "SelectCompetencies": "Selecteer Competenties"
+    },
+    "Options": {
+      "Goals": "Doelen",
+      "Objectives": "Doelstellingen",
+      "PerformanceRatingScale": "Prestatiebeoordeling Schaal",
+      "AllCompetencies": "Alle competenties"
+    },
+    "DisplayOptions": {
+      "FirstName": "Voornaam",
+      "LastName": "Achternaam",
+      "Department": "Functie",
+      "Grade": "Rang",
+      "Manager": "Manager",
+      "Designation": "Benaming"
+    },
+    "DisplaySteps": {
+      "SelfSubmission": "Zelf Inzending",
+      "ManagerReview": "Manager Beoordeling",
+      "HRReview": "HR Beoordeling",
+      "ManagerSignOff": "Manager Aftekening",
+      "EmployeeSignOff": "Werknemer Aftekening",
+      "Completed": "Voltooid"
+    },
+    "DisplayStepsText": {
+      "SubmitToManager": "Indienen bij Manager",
+      "SubmitToHR": "Indienen bij HR",
+      "SubmitToManagerSignOff": "Indienen bij Manager voor Aftekening",
+      "SubmitToEmployeeSignOff": "Indienen bij Werknemer voor Aftekening",
+      "SignOffToComplete": "Aftekenen om te Voltooien"
+    },
+    "Messages": {
+      "UnknownError": "Er is een onbekende fout opgetreden"
+    }
+  },
+  "OKRLibraryTab": {
+    "Fields": {
+      "RewardSchemeName": "Beloningsschema Naam *",
+      "ObjectivesAchievementPercent": "Doelstellingen Prestatie %",
+      "ObjectivesAchievementPoints": "Doelstellingen Prestatie Punten",
+      "KrAchievementPercent": "KR Prestatie %",
+      "KrAchievementPoints": "KR Prestatie Punten",
+      "TaskAchievementPercent": "Taak Prestatie %",
+      "TaskAchievementPoints": "Taak Prestatie Punten",
+      "SubTaskAchievementPercent": "Subtaak Prestatie %",
+      "SubTaskPoints": "Subtaak Punten",
+      "RewardCategory": "Beloningscategorie*",
+      "RewardType": "Beloningstype*",
+      "OKRTemplate": "OKR Sjabloon*",
+      "EligibilityGroup": "Geschiktheidsgroep*",
+      "KudosEnabled": "Kudos Ingeschakeld",
+      "BirthdayWishesEnabled": "Verjaardagswensen Ingeschakeld",
+      "ApprovalRequired": "Goedkeuring Vereist",
+      "AnniversaryWishesEnabled": "Jubileumwensen Ingeschakeld"
+    },
+    "Sections": {
+      "RewardPoints": "Beloningspunten",
+      "Achievement": "Prestatie",
+      "Eligibility": "Geschiktheid",
+      "Toggles": "Schakelaars"
+    },
+    "RewardPoints": {
+      "Bronze": "Selecteer Beloningspunten (Brons)",
+      "Silver": "Selecteer Beloningspunten (Zilver)",
+      "Gold": "Selecteer Beloningspunten (Goud)"
+    },
+    "Buttons": {
+      "Cancel": "Annuleren",
+      "Save": "Opslaan"
+    },
+    "Validation": {
+      "FieldRequired": "{{field}} is verplicht",
+      "FillRequiredFields": "Vul alle verplichte velden in"
+    },
+    "EmployeesSelected": "medewerkers geselecteerd",
+    "NotAvailable": "N.v.t."
+  },
+  "RewardsManagement": {
+    "TitleHeader": "Beheerportaal - Privileges",
+    "Title": "Beloningsbeheer",
+    "Bronze": "Brons",
+    "Silver": "Zilver",
+    "Gold": "Goud",
+    "Yes": "Ja",
+    "No": "Nee",
+    "Buttons": {
+      "Create": "Creëren",
+      "CreateRewards": "Beloningen Creëren"
+    },
+    "Table": {
+      "SNo": "Nr.",
+      "Scheme": "Schema",
+      "Category": "Categorie",
+      "Type": "Type",
+      "Points": "Punten",
+      "Kudos": "Kudos",
+      "Birthday": "Verjaardag",
+      "ApprovalRequired": "Goedkeuring Vereist",
+      "Anniversary": "Jubileum",
+      "LastModified": "Laatst Gewijzigd",
+      "Action": "Actie",
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    },
+    "Export": {
+      "CandidateID": "KandidaatID",
+      "RewardSchemeName": "Beloningsschema Naam",
+      "RewardCategory": "Beloningscategorie",
+      "RewardType": "Beloningstype",
+      "RewardPoints": "Beloningspunten",
+      "KudosEnabled": "Kudos Ingeschakeld",
+      "BirthdayWishesEnabled": "Verjaardagswensen Ingeschakeld",
+      "ApprovalRequired": "Goedkeuring Vereist",
+      "AnniversaryWishesEnabled": "Jubileumwensen Ingeschakeld",
+      "UpdatedAt": "Bijgewerkt Op"
+    },
+    "Messages": {
+      "NoDataFound": "Geen Gegevens Gevonden!",
+      "SelectRole": "Selecteer rol...",
+      "NoDataToExport": "Geen gegevens om te exporteren"
+    },
+    "Validation": {
+      "OKRRequired": "OKR Functie/OKR Categorie is verplicht!"
+    }
+  },
+  "common": {
+    "searchHere": "Zoek hier..",
+    "export": "Exporteren",
+    "csv": "CSV",
+    "excel": "Excel",
+    "pdf": "PDF"
+  },
+  "notification": {
+    "settingsTitle": "Notificatie-instellingen",
+    "to": "Tot",
+    "cc": "CC",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "attachment": "Bijlage",
+    "view": "Bekijken",
+    "reupload": "Opnieuw Uploaden",
+    "saveSettings": "Instellingen Opslaan",
+    "updateSettings": "Instellingen Bijwerken",
+    "select": "--Selecteren--",
+    "noDataFound": "Geen Gegevens Gevonden!"
+  },
+  "LaunchForms": {
+    "Title": "Lanceerformulieren",
+    "ConfirmDelete": "Weet u zeker dat u dit formulier wilt verwijderen?",
+    "Submit": "Indienen",
+    "EmployeesSelected": "medewerkers geselecteerd",
+    "Buttons": {
+      "Create": "Creëren",
+      "Cancel": "Annuleren",
+      "Update": "Bijwerken",
+      "Save": "Opslaan"
+    },
+    "FormFields": {
+      "LaunchFormName": "Lanceerformulier Naam",
+      "FormType": "Formulier Type",
+      "FormTemplate": "Formulier Sjabloon",
+      "LaunchDate": "Lanceerdatum",
+      "ReviewPeriodStartDate": "Beoordelingsperiode Startdatum",
+      "ReviewPeriodEndDate": "Beoordelingsperiode Einddatum",
+      "Employees": "Medewerkers"
+    },
+    "Table": {
+      "Name": "Naam",
+      "LaunchDate": "Lanceerdatum",
+      "Action": "Actie",
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    },
+    "Placeholders": {
+      "SelectFormType": "Selecteer een formuliertype...",
+      "SelectFormTemplate": "Selecteer een formuliersjabloon...",
+      "EnterLaunchDate": "Voer een Lanceerdatum In",
+      "EnterStartDate": "Voer Startdatum In",
+      "EnterEndDate": "Voer Einddatum In"
+    }
+  },
+  "addRewardPopup": {
+    "titleAdd": "Nieuwe Beloning Toevoegen",
+    "titleUpdate": "Beloning Bijwerken",
+    "rewardName": "Beloningsnaam*",
+    "rewardDescription": "Beloningsbeschrijving*",
+    "rewardType": "Beloningstype*",
+    "rewardApprover": "Beloningsgoedkeurder*",
+    "rewardCode": "Beloningscode*",
+    "rewardPoints": "Beloningspunten*",
+    "rewardAmount": "Beloningsbedrag*",
+    "rewardStatus": "Beloningsstatus*",
+    "rewardIcon": "Beloningspictogram*",
+    "viewRewardIcon": "Beloningspictogram Bekijken",
+    "reuploadRewardIcon": "Beloningspictogram Opnieuw Uploaden",
+    "add": "Toevoegen",
+    "update": "Bijwerken",
+    "clear": "Wissen",
+    "active": "Actief",
+    "inactive": "Inactief"
+  },
+  "catalogManagement": {
+    "headerTitle": "Beheerportaal - Privileges",
+    "title": "Catalogusbeheer",
+    "addNewReward": "Nieuwe Beloning Toevoegen",
+    "searchPlaceholder": "Zoek beloningen...",
+    "validationError": "OKR Functie/OKR Categorie is verplicht!",
+    "noData": "Geen Gegevens Gevonden!"
+  },
+  "tabsContainer": {
+    "selectAll": "Alles Selecteren",
+    "objectives": "Doelstellingen",
+    "keyResults": "Key Results",
+    "tasks": "Taken"
+  },
+  "AdvancedLaunchForms": {
+    "Title": "Geavanceerde Lanceerformulieren",
+    "AdvancedReviewManagement": "Geavanceerd Beoordeling Beheer",
+    "Buttons": {
+      "Create": "Creëren",
+      "Cancel": "Annuleren",
+      "Update": "Bijwerken",
+      "Save": "Opslaan"
+    },
+    "FormFields": {
+      "LaunchFormName": "Lanceerformulier Naam",
+      "FormName": "Formulier Naam",
+      "FormType": "Formulier Type",
+      "FormTemplate": "Formulier Sjabloon",
+      "LaunchDate": "Lanceerdatum",
+      "ReviewPeriodStartDate": "Beoordelingsperiode Startdatum",
+      "ReviewPeriodEndDate": "Beoordelingsperiode Einddatum",
+      "ToEmployee": "Naar Werknemer",
+      "SelfAndManager": "Zelf en Manager",
+      "Peers": "Collega's"
+    },
+    "Table": {
+      "FormName": "Formulier Naam",
+      "TemplateName": "Sjabloon Naam",
+      "EmployeeName": "Werknemer Naam",
+      "LaunchDate": "Lanceerdatum",
+      "Action": "Actie",
+      "Edit": "Bewerken",
+      "Delete": "Verwijderen"
+    },
+    "Placeholders": {
+      "EnterFormName": "Voer Formulier Naam In",
+      "AdvanceReviewManagement": "Geavanceerd Beoordeling Beheer",
+      "SelectFormTemplate": "Selecteer een formuliersjabloon...",
+      "EnterLaunchDate": "Voer Lanceerdatum In",
+      "EnterStartDate": "Voer Startdatum In",
+      "EnterEndDate": "Voer Einddatum In",
+      "SelectEmployee": "Selecteer een werknemer...",
+      "SelectSelfAndManager": "Selecteer zelf en manager...",
+      "SelectPeers": "Selecteer collega's..."
+    }
+  },
+  "FilterComponent": {
+    "Title": "Filters",
+    "Buttons": {
+      "Reset": "Resetten",
+      "Apply": "Toepassen",
+      "Loading": "Laden..."
+    },
+    "Fields": {
+      "CandidateId": "Kandidaat ID",
+      "CandidateName": "Kandidaat Naam",
+      "Department": "Functie",
+      "Designation": "Benaming",
+      "ApplicationDate": "Aanvraagdatum",
+      "Stage": "Fase",
+      "To": "naar"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "Voer kandidaat ID in",
+      "EnterCandidateName": "Voer kandidaatnaam in"
+    },
+    "Options": {
+      "NewApplied": "Nieuw Aangevraagd",
+      "PsychometricTest": "Psychometrische Test",
+      "Interview1": "Interview 1",
+      "Interview2": "Interview 2",
+      "DocumentUpload": "Document Upload",
+      "OfferLetter": "Aanbiedingsbrief",
+      "Onboarding": "Onboarding",
+      "Rejected": "Afgewezen",
+      "ConvertToEmployee": "Converteren naar Werknemer"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "Geen Functies Gevonden!",
+      "NoDesignationsFound": "Geen Benamingen Gevonden!"
+    }
+  }
+}

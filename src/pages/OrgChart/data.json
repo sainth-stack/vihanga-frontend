@@ -1,0 +1,144 @@
+[
+  {
+    "_id": "5f2a70b94414a028f7e834ce",
+    "name": "",
+    "type": "Panel",
+    "color": "#99ff99",
+    "children": [
+      {
+        "_id": "5f2a70b94414a028f7e8abcd",
+        "name": "Mark Devid",
+        "type": "Breaker",
+        "color": "#0099ff",
+        "children": [
+          {
+            "_id": "5f2a70b94414a028f7e81234",
+            "name": "Rebeccca",
+            "type": "Switch",
+            "color": "#ff44ff",
+            "isIsolation": true,
+            "children": [                
+              {
+                "_id": "5f2a70b94414a028f7e81234",
+                "name": "Mercy",
+                "type": "Switch",
+                "color": "#ff44ff",
+                "isIsolation": true,
+                "children": [
+                  {
+                    "_id": "5f2a70b94414a028f7e81234",
+                    "name": "Karunas Iyar",
+                    "type": "Switch",
+                    "color": "#ff44ff",
+                    "isIsolation": true,
+                    "children": [                       
+                      {
+                        "_id": "5f2a70b94414a028f7e81234",
+                        "name": "Ariya Khan",
+                        "type": "Switch",
+                        "color": "#ff44ff",
+                        "isIsolation": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "5f2a70b94414a028f7e81234",
+            "name": "Neil Young",
+            "type": "Switch",
+            "color": "#ff44ff",
+            "isIsolation": true,
+            "children": [
+              {
+                "_id": "5f2a70b94414a028f7e81234",
+                "name": "Abirami",
+                "type": "Switch",
+                "color": "#ff44ff",
+                "isIsolation": true,
+                "children": [                  
+                  {
+                    "_id": "5f2a70b94414a028f7e81234",
+                    "name": "Abishek",
+                    "type": "Switch",
+                    "color": "#ff44ff",
+                    "isIsolation": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "5f2a70b94414a028f7e8abcd",
+        "name": "Mark Devid",
+        "type": "Breaker",
+        "color": "#0099ff",
+        "children": [
+          {
+            "_id": "5f2a70b94414a028f7e81234",
+            "name": "Rebeccca",
+            "type": "Switch",
+            "color": "#ff44ff",
+            "isIsolation": true,
+            "children": [                
+              {
+                "_id": "5f2a70b94414a028f7e81234",
+                "name": "Mercy",
+                "type": "Switch",
+                "color": "#ff44ff",
+                "isIsolation": true,
+                "children": [
+                  {
+                    "_id": "5f2a70b94414a028f7e81234",
+                    "name": "Karunas Iyar",
+                    "type": "Switch",
+                    "color": "#ff44ff",
+                    "isIsolation": true,
+                    "children": [                       
+                      {
+                        "_id": "5f2a70b94414a028f7e81234",
+                        "name": "Ariya Khan",
+                        "type": "Switch",
+                        "color": "#ff44ff",
+                        "isIsolation": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "5f2a70b94414a028f7e81234",
+            "name": "Neil Young",
+            "type": "Switch",
+            "color": "#ff44ff",
+            "isIsolation": true,
+            "children": [
+              {
+                "_id": "5f2a70b94414a028f7e81234",
+                "name": "Abirami",
+                "type": "Switch",
+                "color": "#ff44ff",
+                "isIsolation": true,
+                "children": [                  
+                  {
+                    "_id": "5f2a70b94414a028f7e81234",
+                    "name": "Abishek",
+                    "type": "Switch",
+                    "color": "#ff44ff",
+                    "isIsolation": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

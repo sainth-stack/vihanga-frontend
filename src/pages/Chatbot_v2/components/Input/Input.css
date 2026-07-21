@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+  border-radius: 10px!important ;
+}
+
+.input {
+  border: none;
+  border-radius: 8px;
+  padding: 3%;
+  width: 80%;
+  font-size: 1em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.addicon {
+  color:#F67280;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2A7A7B;
+  padding: 0px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  border-radius:0px 0px 8px;
+}

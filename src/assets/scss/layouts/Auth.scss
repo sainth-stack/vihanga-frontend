@@ -1,0 +1,25 @@
+@import "../abstracts/abstracts";
+
+.auth-layout {
+  background-color: $primary-bg;
+  // background: url("../../images/authBack.png");
+  min-height: 100vh;
+  height: $full-height;
+  // height: calc(100vh);
+  background-size: cover;
+  // background-position: bottom;
+  background-repeat: no-repeat;
+  img {
+    margin: 0 auto;
+  }
+}
+.auth-panel {
+  padding: 0 2rem;
+  width: 100%;
+}
+.login-footer-bottom {
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,896 @@
+@import '../../../assets/scss/abstracts/abstracts';
+
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+  word-break: break-all;
+  font-size: 12px;
+}
+
+.react-bootstrap-table thead {
+  background-color: rgba(42, 137, 129, 0.17);
+}
+
+.company-form {
+  background-color: #FCFCFC;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  padding: 56px 52px;
+}
+
+.green-heading {
+  color: #2A8981;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 22px !important;
+}
+
+.upArrow {
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+.downArrow {
+  position: relative;
+  top: 4px;
+}
+
+.arrowActive {
+  color: #000000;
+}
+
+.arrowInActive {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-green {
+  background-color: #837F39;
+}
+
+.mh-100 {
+  min-height: 100vh;
+}
+
+.location {
+  margin-right: 235px;
+}
+
+.save-add {
+  margin-right: 60px;
+}
+
+.react-bootstrap-table {
+  margin-top: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addEmployee {
+  background-color: #2A8981;
+  border-radius: 84px;
+  height: 43px;
+  width: 205px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.search-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box {
+  // width: 240px;
+  height: 40px;
+  background-color: #F5F5F6;
+  border-color: #F5F5F6;
+  border-radius: 120px;
+  margin-left: 0px;
+  width: 200px;
+  margin-right: 200px;
+}
+
+.action {
+  position: relative;
+  left: 15px;
+  top: 38px;
+}
+
+.search-icon-container {
+  position: relative;
+}
+
+.search-icon {
+  position: relative;
+  top: 8px;
+  left: 40px;
+  height: 0px;
+  z-index: 9999;
+}
+
+.actionDropdown .dropdown-toggle:after {
+  content: none
+}
+
+.searchInput {
+  outline: none !important;
+  font: 12px !important;
+  width: 90%;
+}
+
+.circle {
+  border-radius: 100px !important;
+}
+
+.profilelogo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.editpencil {
+  position: absolute;
+  top: -35px;
+  left: 60px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+
+/* Mobile First Approach - Fix for all mobile devices */
+@media (max-width: 767px) {
+  .responsive-container {
+    margin: 10px !important;
+    padding: 5px !important;
+    width: 100% !important;
+  }
+
+  .responsive-form {
+    padding: 1rem !important;
+    margin: 10px !important;
+    border-radius: 8px !important;
+  }
+
+  /* Single column layout for mobile */
+  .row.responsive-row {
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  .responsive-col {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 15px !important;
+    padding: 0 5px !important;
+    float: none !important;
+  }
+
+  /* Form elements mobile optimization */
+  .company-form .form-group {
+    margin-bottom: 15px !important;
+  }
+
+  .form-control {
+    padding: 12px 10px !important;
+    font-size: 16px !important;
+    /* Prevents zoom on iOS */
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Profile section mobile fixes */
+  .profile-section .profile-image-container {
+    text-align: center !important;
+  }
+
+  .profile-section .responsive-profile {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  /* Button fixes for mobile */
+  .responsive-buttons {
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-top: 20px !important;
+  }
+
+  .responsive-button {
+    width: 100% !important;
+    padding: 12px 16px !important;
+    font-size: 16px !important;
+  }
+
+  /* Title adjustments for mobile */
+  .title {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+  }
+
+  .section-title {
+    font-size: 16px !important;
+    margin: 20px 0 10px 0 !important;
+  }
+
+  /* Fix for horizontal scrolling */
+  body,
+  .responsive-container,
+  .responsive-form {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  /* Select dropdowns mobile fix */
+  .select-input .form-control {
+    background-size: 14px !important;
+    padding-right: 35px !important;
+  }
+
+  /* Checkbox alignment for mobile */
+  .responsive-checkbox {
+    margin-top: 10px !important;
+    width: 100% !important;
+  }
+
+  /* Bulk upload section mobile fixes */
+  .bulk-upload-section .responsive-bulk-header {
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .bulk-upload-section .responsive-bulk-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Grid layout mobile fixes */
+  .responsive-box {
+    padding: 10px !important;
+  }
+
+  .responsive-grid .MuiGrid-item {
+    padding: 8px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+  }
+
+  /* Date input mobile optimization */
+  input[type="date"] {
+    min-width: 100% !important;
+    font-size: 16px !important;
+  }
+
+  /* Text overflow handling */
+  .form-control,
+  .select-input,
+  .text-input {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+
+  /* Label optimization for mobile */
+  .form-group label {
+    font-size: 14px !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    margin-bottom: 5px !important;
+    display: block !important;
+  }
+}
+
+/* iPad Mini Specific Styles (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .responsive-container {
+    margin: 15px !important;
+    padding: 10px !important;
+  }
+
+  .responsive-form {
+    padding: 1.25rem !important;
+    margin: 15px !important;
+    border-radius: 12px !important;
+  }
+
+  /* Fix form layout for iPad */
+  .form-section .responsive-row {
+    margin: 8px 0 !important;
+  }
+
+  .form-section .responsive-col {
+    margin-bottom: 12px !important;
+    padding: 0 8px !important;
+  }
+
+  /* Ensure proper spacing between columns */
+  .form-section .responsive-col:not(:last-child) {
+    margin-right: 0 !important;
+  }
+
+  /* Adjust input widths for iPad */
+  .company-form .form-group {
+    margin-bottom: 12px !important;
+  }
+
+  .company-form .form-control {
+    padding: 8px 10px !important;
+    font-size: 13px !important;
+    width: 100% !important;
+  }
+
+  /* Fix profile section for iPad */
+  .profile-section .profile-image-container .responsive-profile {
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  .profile-section .edit-label {
+    padding: 6px !important;
+    bottom: 3px !important;
+    right: 3px !important;
+  }
+
+  .profile-section .editpencil {
+    font-size: 12px !important;
+  }
+
+  /* Adjust horizontal bars */
+  .responsive-hr {
+    margin: 15px 0 !important;
+  }
+
+  /* Fix grid layout for iPad */
+  .responsive-box {
+    padding: 8px !important;
+  }
+
+  .responsive-grid .MuiGrid-item {
+    padding: 6px !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* Bulk upload section fixes */
+  .bulk-upload-section .responsive-bulk-header {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .bulk-upload-section .responsive-bulk-content {
+    width: 100% !important;
+    max-width: 500px !important;
+  }
+
+  /* Button fixes for iPad */
+  .responsive-buttons {
+    flex-direction: row !important;
+    gap: 12px !important;
+    margin-top: 15px !important;
+  }
+
+  .responsive-button {
+    width: auto !important;
+    min-width: 110px !important;
+    padding: 8px 16px !important;
+    font-size: 13px !important;
+  }
+
+  /* Title adjustments */
+  .title {
+    font-size: 22px !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* Section title fixes */
+  .section-title {
+    font-size: 13px !important;
+    margin: 15px 0 8px 0 !important;
+  }
+
+  .subsection-title {
+    font-size: 12px !important;
+    margin: 12px 0 6px 0 !important;
+  }
+
+  /* Specific fixes for form elements that were breaking */
+  .text-input-container,
+  .select-input-container {
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Fix checkbox alignment */
+  .responsive-checkbox {
+    margin-top: 8px !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .responsive-checkbox .form-check {
+    align-items: flex-start !important;
+  }
+
+  /* Ensure proper column layout */
+  .row.responsive-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin: 0 -8px !important;
+  }
+
+  .row.responsive-row .responsive-col {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding: 0 8px !important;
+  }
+
+  /* Full width for single column items */
+  .row.responsive-row .responsive-col.full-width {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Fix specific sections that were problematic */
+  .employment-information-section .responsive-col,
+  .candidate-information-section .responsive-col {
+    margin-bottom: 10px !important;
+  }
+
+  /* Upload progress fixes */
+  .upload-progress {
+    padding: 12px !important;
+    margin: 8px 0 !important;
+  }
+
+  .upload-progress .progress {
+    height: 6px !important;
+    margin: 8px 0 !important;
+  }
+
+  /* Ensure no horizontal scrolling */
+  body,
+  .responsive-container,
+  .responsive-form {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+
+  /* Fix text overflow */
+  .form-control,
+  .select-input,
+  .text-input {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Specific fix for date inputs */
+  input[type="date"] {
+    min-width: 140px !important;
+  }
+
+  /* Fix for select dropdowns */
+  .select-input .form-control {
+    background-size: 12px !important;
+    padding-right: 30px !important;
+  }
+}
+
+/* Additional iPad Portrait Mode Fixes */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .responsive-form {
+    padding: 1rem !important;
+  }
+
+  .row.responsive-row .responsive-col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .profile-section .responsive-profile {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+/* Additional iPad Landscape Mode Optimizations */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .row.responsive-row .responsive-col {
+    flex: 0 0 33.333% !important;
+    max-width: 33.333% !important;
+  }
+}
+
+/* Critical fixes for form layout */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Ensure proper form field spacing */
+  .col-md-6.responsive-col,
+  .col-md-4.responsive-col,
+  .col-md-3.responsive-col {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding: 0 10px !important;
+  }
+
+  /* Fix for specific problematic sections */
+  .employment-information-section .col-md-4.responsive-col {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  /* Candidate information grid fixes */
+  .candidate-information-section .MuiGrid-container .MuiGrid-item {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  /* Ensure labels don't overflow */
+  .form-group label {
+    font-size: 13px !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+  }
+
+  /* Fix button container */
+  .responsive-buttons {
+    justify-content: center !important;
+  }
+
+  .responsive-buttons .responsive-button {
+    flex: 0 0 auto !important;
+  }
+}
+
+
+//table genereater
+
+// Employees.scss
+
+// Mobile First Styles (up to 767px)
+@media (max-width: 767px) {
+  .employee-container {
+    margin: 10px !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+    background: #ffff;
+  }
+
+  .company-form {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  // Header section mobile fixes
+  .company-form>div:first-child {
+    flex-direction: column !important;
+    gap: 15px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .page-title {
+    font-size: 20px !important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+    color: #000;
+    font-weight: bold;
+  }
+
+  // Button container mobile fixes
+  .button-container {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 10px !important;
+    display: flex;
+  }
+
+  .action-button {
+    width: 100% !important;
+    margin: 0 !important;
+
+    // Bulk delete button
+    &.bulk-delete {
+      order: 2;
+    }
+
+    // Add employee button
+    &.add-employee {
+      order: 1;
+    }
+  }
+
+  // Table container mobile fixes
+  .custom-table-container {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  // Table mobile optimizations
+  .custom-table {
+    min-width: 800px !important; // Allow horizontal scroll for table
+  }
+
+  .table-cell {
+    padding: 8px 4px !important;
+    font-size: 12px !important;
+
+    &:first-child {
+      padding-left: 8px !important;
+    }
+
+    &:last-child {
+      padding-right: 8px !important;
+    }
+  }
+
+  // Checkbox mobile fixes
+  .table-checkbox {
+    padding: 4px !important;
+
+    svg {
+      font-size: 18px !important;
+    }
+  }
+
+  // Typography mobile fixes
+  .table-text {
+    font-size: 12px !important;
+  }
+
+  // Action menu mobile fixes
+  .action-icon-button {
+    padding: 4px !important;
+
+    svg {
+      font-size: 18px !important;
+    }
+  }
+
+  // Link styles mobile
+  .employee-link {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    text-decoration: none;
+  }
+
+  // Pagination mobile fixes
+  .table-pagination {
+    overflow-x: auto !important;
+
+    .pagination-toolbar {
+      flex-direction: column !important;
+      gap: 10px !important;
+      padding: 8px !important;
+    }
+
+    .pagination-label,
+    .pagination-displayed-rows {
+      margin-bottom: 0 !important;
+      font-size: 12px !important;
+    }
+  }
+
+  // Search and filter section mobile
+  .search-filter-container {
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .search-input {
+    width: 100% !important;
+    font-size: 16px !important; // Prevent zoom on iOS
+    padding: 12px !important;
+  }
+
+  // Status filter chips mobile
+  .status-chip {
+    font-size: 11px !important;
+    height: 28px !important;
+  }
+
+  // Column selector mobile
+  .column-selector {
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+}
+
+// iPad Styles (768px to 1024px)
+@media (min-width: 768px) and (max-width: 1024px) {
+  .employee-container {
+    margin: 15px !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+    background: #ffff;
+  }
+
+  .company-form {
+    width: 100% !important;
+  }
+
+  // Header section iPad fixes
+  .company-form>div:first-child {
+    margin-bottom: 25px !important;
+  }
+
+  .page-title {
+    font-size: 22px !important;
+    color: #000;
+    font-weight: bold;
+  }
+
+  // Button container iPad fixes
+  .button-container {
+    gap: 15px !important;
+    display: flex;
+  }
+
+  .action-button {
+    min-width: 160px !important;
+    font-size: 14px !important;
+    padding: 10px 20px !important;
+  }
+
+  // Table iPad optimizations
+  .custom-table {
+    font-size: 13px !important;
+  }
+
+  .table-cell {
+    padding: 10px 8px !important;
+    font-size: 13px !important;
+  }
+
+  // Typography iPad fixes
+  .table-text {
+    font-size: 13px !important;
+  }
+
+  // Checkbox iPad fixes
+  .table-checkbox {
+    padding: 6px !important;
+  }
+
+  // Pagination iPad fixes
+  .pagination-toolbar {
+    font-size: 13px !important;
+  }
+
+  // Action menu iPad
+  .action-icon-button {
+    padding: 6px !important;
+  }
+
+  // Search and filter section iPad
+  .search-filter-container {
+    gap: 15px !important;
+    margin-bottom: 20px !important;
+  }
+
+  // Status filter chips iPad
+  .status-chip {
+    font-size: 12px !important;
+    height: 32px !important;
+  }
+}
+
+// Additional iPad Landscape Optimizations
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .custom-table {
+    font-size: 12px !important;
+  }
+
+  .table-cell {
+    padding: 8px 6px !important;
+  }
+
+  .action-button {
+    min-width: 140px !important;
+    padding: 8px 16px !important;
+  }
+}
+
+// Additional iPad Portrait Optimizations
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .company-form>div:first-child {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .button-container {
+    justify-content: center !important;
+  }
+}
+
+// Common responsive fixes for all devices
+.responsive-fixes {
+
+  // Ensure no horizontal scrolling on body
+  body {
+    overflow-x: hidden !important;
+  }
+
+  // Table responsive container
+  .table-responsive-container {
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  // Fix for long text in table cells
+  .table-cell {
+    max-width: 200px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  // Action column fixed width
+  .table-cell:last-child {
+    width: 80px !important;
+    min-width: 80px !important;
+  }
+
+  // Checkbox column fixed width
+  .table-cell:first-child {
+    width: 60px !important;
+    min-width: 60px !important;
+  }
+
+  // Link hover effects
+  .employee-link {
+    transition: color 0.2s ease-in-out !important;
+
+    &:hover {
+      color: #837F39 !important;
+    }
+  }
+
+  // Button hover effects
+  .action-button {
+    transition: all 0.2s ease-in-out !important;
+
+    &:hover {
+      transform: translateY(-1px) !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+}
+
+// High DPI screen optimizations
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  .action-button,
+  .action-icon-button,
+  .table-checkbox {
+    -webkit-tap-highlight-color: transparent !important;
+  }
+}
+
+// Print styles
+@media print {
+  .action-button {
+    display: none !important;
+  }
+
+  .employee-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,1889 @@
+{
+  "AdminPage": {
+    "PageTitle": "تالنت سبوتيفي للمشرفين",
+    "PageSubtitle": "الوصول إلى جميع أدوات وميزات المشرفين من مكان واحد",
+    "SearchPlaceholder": "البحث في ميزات المشرفين...",
+    "RolesAndPrivileges": {
+      "Title": "الأدوار والصلاحيات",
+      "Description": "إدارة أدوار المستخدمين، الأذونات، والوصول عبر مساحة العمل"
+    },
+    "RecruitmentManagement": {
+      "Title": "إدارة التوظيف",
+      "Description": "تتبع الوظائف الشاغرة، مراحل التوظيف، وتقدم المرشحين"
+    },
+    "UploadLeaves": {
+      "Title": "رفع الإجازات",
+      "Description": "رفع وإدارة سجلات إجازات الموظفين والطلبات"
+    },
+    "AttendanceUpload": {
+      "Title": "رفع الحضور",
+      "Description": "رفع ومراجعة سجلات حضور الموظفين وجداول الوقت"
+    },
+    "ApprovalWorkflow": {
+      "Title": "سير عمل الموافقة",
+      "Description": "تكوين ومراقبة الموافقات متعددة الخطط والإشعارات ذات الصلة"
+    },
+    "AssetManagement": {
+      "Title": "إدارة الأصول",
+      "Description": "إدارة أصول الشركة، التعيينات، ودورة حياة المعدات"
+    },
+    "LeaveType": {
+      "Title": "نوع الإجازة",
+      "Description": "تحديد فئات الإجازات وتعيين قواعد الموافقة والإشعارات"
+    },
+    "HolidaysCalendar": {
+      "Title": "تقويم العطلات",
+      "Description": "إدارة عطلات الشركة، الأحداث، وجداول التقويم"
+    },
+    "EligibilityCriteria": {
+      "Title": "معايير الأهلية",
+      "Description": "تحديد وإدارة متطلبات الأهلية للعمليات المختلفة"
+    },
+    "PrivilegeGroups": {
+      "Title": "مجموعات الصلاحيات",
+      "Description": "إنشاء وإدارة مجموعات الصلاحيات للتحكم في الوصول بناءً على الأدوار"
+    },
+    "OKRManagement": {
+      "Title": "إدارة OKR",
+      "Description": "إعداد وإدارة الأهداف والنتائج الرئيسية لتتبع الأداء"
+    },
+    "Lookups": {
+      "Title": "بيانات البحث",
+      "Description": "إدارة بيانات المرجع وقيم البحث عبر النظام"
+    },
+    "RewardManagement": {
+      "Title": "إدارة المكافآت",
+      "Description": "تكوين وإدارة مكافآت الموظفين، التقدير، وبرامج الحوافز"
+    },
+    "CatalogManagement": {
+      "Title": "إدارة الكتالوج",
+      "Description": "إدارة كتالوجات المنتجات، الفئات، وعناصر المخزون"
+    },
+    "NotificationManagement": {
+      "Title": "إدارة الإشعارات",
+      "Description": "تكوين إعدادات الإشعارات، القوالب، وتفضيلات التسليم"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "إدارة الأداء المتقدمة",
+      "Description": "تكوين دورات مراجعة الأداء المتقدمة، التقييمات، ومعايير التقييم"
+    },
+    "IntegrationManagement": {
+      "Title": "إدارة التكامل",
+      "Description": "إدارة التكاملات الخارجية، واجهات برمجة التطبيقات، واتصالات الأنظمة الخارجية"
+    },
+    "QuestionnaireManagement": {
+      "Title": "إدارة الاستبيانات",
+      "Description": "إنشاء وإدارة الاستبيانات، الاستبيانات، ونماذج الملاحظات"
+    },
+    "CompetencyManagement": {
+      "Title": "إدارة الكفاءات",
+      "Description": "تحديد وإدارة كفاءات الموظفين، المهارات، وأطر التطوير"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "قوالب إدارة الأداء",
+      "Description": "إنشاء وتخصيص قوالب مراجعة الأداء ونماذج التقييم"
+    },
+    "LaunchFormsManagement": {
+      "Title": "إدارة نماذج الإطلاق",
+      "Description": "تكوين وإدارة نماذج إطلاق مراجعة الأداء وسير العمل"
+    },
+    "CalibrationManagement": {
+      "Title": "إدارة المعايرة",
+      "Description": "إدارة جلسات معايرة الأداء واتساق التقييم"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "إدارة نماذج الإطلاق المتقدمة",
+      "Description": "التكوين المتقدم لنماذج إطلاق مراجعة الأداء والأتمتة"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "بوابة المشرفين - الصلاحيات",
+    "MainHeading": "الأدوار والصلاحيات",
+    "RoleName": "اسم الدور",
+    "Description": "الوصف",
+    "GrantRoleTo": "منح هذا الدور إلى...",
+    "GrantRoleDescription": "حدد مجموعة ترغب في منحها هذا الدور. يمكنك تعيين مجموعة من المستخدمين لإدارة سجلات الموظفين لمجموعة معينة. يجب على المدير تعديل السجلات داخل وظيفته الخاصة.",
+    "PermissionGroupsOrUsers": "مجموعات أو مستخدمي الصلاحيات",
+    "SelectPlaceholder": "--اختر--",
+    "SearchPlaceholder": "ابحث هنا..",
+    "AddButton": "إضافة",
+    "CancelButton": "إلغاء",
+    "MakeActiveButton": "تفعيل",
+    "MakeInactiveButton": "تعطيل",
+    "UpdateButton": "تحديث",
+    "SaveButton": "حفظ",
+    "TableHeaders": {
+      "SerialNumber": "م.ت",
+      "RoleName": "اسم الدور",
+      "PermissionGroup": "مجموعة الصلاحية أو المستخدمين",
+      "Active": "نشط",
+      "Actions": "الإجراءات"
+    },
+    "Tabs": {
+      "Employees": "الموظفون",
+      "Goals": "الأهداف",
+      "Privileges": "الصلاحيات",
+      "Performance": "الأداء",
+      "Rewards": "المكافآت",
+      "View": "عرض",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "رفع سجلات الإجازات",
+    "PageDescription": "يرجى رفع سجلات الإجازات الخاصة بك بالتنسيق المطلوب. يمكنك تحميل نموذج أدناه.",
+    "DownloadTemplate": "تحميل النموذج",
+    "ExportLeaveRecords": "تصدير سجلات الإجازات",
+    "ExportLeaveBalances": "تصدير أرصدة الإجازات",
+    "UploadFileLabel": "رفع ملف سجلات الإجازات",
+    "NoFileUploaded": "لم يتم رفع أي ملف",
+    "UploadedFile": "الملف المرفوع:",
+    "Submit": "إرسال",
+    "DateRangeDialog": {
+      "Title": "حدد نطاق التاريخ لتصدير سجلات الإجازات",
+      "StartDate": "تاريخ البدء",
+      "EndDate": "تاريخ الانتهاء",
+      "Cancel": "إلغاء",
+      "ExportRecords": "تصدير السجلات"
+    },
+    "Instructions": {
+      "Title": "التعليمات:",
+      "Step1": "قم بتحميل النموذج لرؤية التنسيق المطلوب",
+      "Step2": "املأ الرقم الوظيفي (رقم الموظف) وأيام الإجازة لكل نوع إجازة",
+      "Step3": "ارفع الملف المكتمل",
+      "Step4": "سيقوم النظام بالتحقق من هويات الموظفين وتقليل أرصدة الإجازات"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "رفع الحضور",
+    "PageDescription": "يرجى رفع جدول الحضور الخاص بك بالتنسيق المطلوب. يمكنك تحميل نموذج أدناه.",
+    "DownloadTemplate": "تحميل النموذج",
+    "UploadFileLabel": "رفع ملف الحضور",
+    "NoFileUploaded": "لم يتم رفع أي ملف",
+    "UploadedFile": "الملف المرفوع:",
+    "Submit": "إرسال"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "سجل أنواع الإجازات",
+    "TableHeaders": {
+      "Name": "الاسم",
+      "Code": "الكود",
+      "Actions": "الإجراءات"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "تصدير كـ CSV",
+      "ExportAsExcel": "تصدير كـ Excel",
+      "ExportAsPDF": "تصدير كـ PDF"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "نوع الإجازة",
+    "AdvancedConfiguration": "التكوين المتقدم",
+    "MaxAdvanceDaysConfiguration": "تكوين الحد الأقصى لأيام التقديم المسبق",
+    "MaxAdvanceDaysDescription": "تكوين عدد الأيام التي يحتاجها الموظفون للتقدم بطلب إجازة مسبقًا بناءً على عدد الأيام التي يطلبونها.",
+    "AttachmentsRequiredConfiguration": "تكوين المرفقات المطلوبة",
+    "FormFields": {
+      "Name": "الاسم",
+      "ImageIcon": "الصورة / الأيقونة",
+      "Code": "الكود",
+      "BalanceBasedOn": "الرصيد بناءً على (الاستحقاق الثابت / منحة الإجازة)",
+      "Units": "الوحدات (أيام / ساعات)",
+      "Status": "الحالة",
+      "Eligibility": "الأهلية",
+      "CustomName": "اسم مخصص"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "الحد الأقصى لعدد الإجازات التي يمكن أخذها في مرة واحدة",
+      "MaxHalfDays": "الحد الأقصى لإجازات نصف اليوم في السنة",
+      "MaxHalfDaysHelper": "اتركه فارغًا لعدم وجود حد لإجازات نصف اليوم",
+      "AutoAddLeaves": "إضافة الإجازات تلقائيًا",
+      "AddType": "نوع الإضافة",
+      "NumberOfDaysToAdd": "عدد الأيام المضافة"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "الحد الأدنى للأيام",
+      "MaxDays": "الحد الأقصى للأيام (اترك فارغًا لعدم وجود حد)",
+      "MaxAdvanceDays": "الحد الأقصى لأيام التقديم المسبق",
+      "RemoveRule": "إزالة القاعدة",
+      "AddRule": "إضافة قاعدة"
+    },
+    "AttachmentFields": {
+      "Operator": "المعامل",
+      "ValueDays": "القيمة (أيام)"
+    },
+    "Checkboxes": {
+      "Carryover": "الترحيل",
+      "AttachmentsRequired": "المرفقات مطلوبة"
+    },
+    "Buttons": {
+      "Cancel": "إلغاء",
+      "Update": "تحديث",
+      "Submit": "إرسال",
+      "Submitting": "جاري الإرسال..."
+    },
+    "Options": {
+      "Hours": "ساعات",
+      "Days": "أيام",
+      "Active": "نشط",
+      "InActive": "غير نشط",
+      "Hourly": "كل ساعة",
+      "Monthly": "شهري",
+      "Yearly": "سنوي",
+      "Is": "يساوي",
+      "LesserOrEqual": "أصغر أو يساوي (≤)",
+      "GreaterOrEqual": "أكبر أو يساوي (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "الإجازة المكتسبة (EL)",
+      "SickLeave": "إجازة مرضية (SL)",
+      "CasualLeave": "إجازة عارضة (CL)",
+      "MaternityLeave": "إجازة أمومة (ML)",
+      "PaternityLeave": "إجازة أبوة (PL)",
+      "CompensatoryOff": "تعويض إجازة",
+      "BereavementLeave": "إجازة وفاة",
+      "MarriageLeave": "إجازة زواج",
+      "UnpaidLeave": "إجازة بدون أجر (LWP)",
+      "WorkFromHome": "العمل من المنزل (WFH)",
+      "Others": "أخرى"
+    },
+    "FileStatus": {
+      "Selected": "✓ المحدد:",
+      "Current": "الحالي:",
+      "NoFileSelected": "لم يتم اختيار ملف",
+      "LoadingEligibility": "جاري تحميل خيارات الأهلية..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "قواعد الترحيل",
+    "CarryoverDateQuestion": "ماذا يجب أن يكون تاريخ الترحيل؟",
+    "CarryoverDateLabel": "تاريخ الترحيل",
+    "MaxDaysQuestion": "كم عدد الأيام التي يجب ترحيلها (الحد الأقصى)؟",
+    "MaxDaysLabel": "أدخل الحد الأقصى للأيام"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "نظام إدارة الأصول",
+    "AssetAssignment": "تعيين الأصول",
+    "AddAsset": "إضافة أصل",
+    "AssetType": "نوع الأصل *",
+    "AssetNumber": "رقم الأصل *",
+    "IssueDate": "تاريخ الإصدار",
+    "CollectionDate": "تاريخ الجمع",
+    "HandOverDate": "تاريخ التسليم",
+    "SelectType": "اختر النوع",
+    "RemoveAsset": "إزالة الأصل",
+    "Cancel": "إلغاء",
+    "UpdateAsset": "تحديث الأصل",
+    "CreateAsset": "إنشاء أصل",
+    "Updating": "جاري التحديث...",
+    "Submitting": "جاري الإرسال..."
+  },
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "معلومات الموظف",
+    "FullName": "الاسم الكامل *",
+    "EmployeeID": "الرقم الوظيفي *",
+    "Department": "الوظيفة",
+    "Position": "المنصب",
+    "WorkLocation": "موقع العمل",
+    "SelectEmployee": "اختر الموظف"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "سجل إدارة الأصول",
+    "TableHeaders": {
+      "Name": "الاسم",
+      "EmployeeID": "الرقم الوظيفي",
+      "Department": "الوظيفة",
+      "AssetType": "نوع الأصل",
+      "AssetNo": "رقم الأصل",
+      "IssueDate": "تاريخ الإصدار",
+      "HandOverDate": "تاريخ التسليم",
+      "Action": "الإجراء"
+    },
+    "Actions": {
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "NoDataFound": "لا توجد بيانات",
+    "Error": "خطأ"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "تقويم العطلات",
+    "FormFields": {
+      "HolidayName": "اسم العطلة",
+      "Date": "التاريخ",
+      "Type": "النوع",
+      "Description": "الوصف"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "عطلة رسمية",
+      "CompanyHoliday": "عطلة الشركة",
+      "ReligiousHoliday": "عطلة دينية"
+    },
+    "Buttons": {
+      "Cancel": "إلغاء",
+      "Update": "تحديث",
+      "Submit": "إرسال",
+      "Submitting": "جاري الإرسال..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "سجل العطلات",
+    "TableHeaders": {
+      "HolidayName": "اسم العطلة",
+      "Type": "النوع",
+      "Date": "التاريخ",
+      "Actions": "الإجراءات"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "جاري التحميل...",
+    "FailedToLoad": "فشل تحميل بيانات لوحة التحكم",
+    "NoDataAvailable": "لا توجد بيانات للوحة التحكم",
+    "NoDataMessage": "معلومات لوحة التحكم غير متاحة حاليًا.",
+    "KpiCards": {
+      "MyActiveTasks": "مهامي النشطة",
+      "TeamAttendance": "حضور الفريق",
+      "PunctualityScore": "درجة الالتزام بالمواعيد",
+      "MyAchievements": "إنجازاتي",
+      "RewardPoints": "نقاط المكافأة"
+    },
+    "SubHeadings": {
+      "Urgent": "عاجل",
+      "PresentToday": "حاضر اليوم",
+      "Last30Days": "آخر 30 يوم",
+      "ThisMonth": "هذا الشهر",
+      "Available": "متاح"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "إجراء مطلوب",
+      "ReviewNow": "مراجعة الآن",
+      "ViewDetails": "عرض التفاصيل"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "مهام KPI",
+    "AdHocTasks": "مهام عرضية",
+    "Urgent": "عاجل"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "جاري تحميل المهام الحديثة...",
+    "FailedToLoadRecentTasks": "فشل تحميل المهام الحديثة",
+    "NoRecentTasksAvailable": "لا توجد مهام حديثة",
+    "NoRecentTasksMessage": "معلومات المهام الحديثة غير متاحة حاليًا.",
+    "RecentTasks": "المهام الحديثة",
+    "ViewAll": "عرض الكل",
+    "NoRecentTasksFound": "لم يتم العثور على مهام حديثة",
+    "AllRecentTasks": "جميع المهام الحديثة",
+    "KpiTask": "مهمة KPI",
+    "NoDueDate": "لا يوجد تاريخ استحقاق",
+    "UntitledTask": "مهمة بدون عنوان"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "جاري تحميل لوحة المتصدرين...",
+    "FailedToLoadLeaderboard": "فشل تحميل لوحة المتصدرين",
+    "NoLeaderboardDataAvailable": "لا توجد بيانات للوحة المتصدرين",
+    "NoLeaderboardDataMessage": "معلومات لوحة متصدرين نقاط المكافأة غير متاحة حاليًا.",
+    "RewardPointsLeaderboard": "نقاط المكافأة - لوحة المتصدرين",
+    "Company": "الشركة",
+    "Top5Employees": "أفضل 5 موظفين",
+    "ViewAll": "عرض الكل",
+    "NoEmployeesFound": "لم يتم العثور على موظفين",
+    "Unknown": "غير معروف",
+    "EmployeeId": "الرقم: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "لوحة تحكم المهام",
+    "FilterOptions": {
+      "ThisWeek": "هذا الأسبوع",
+      "ThisMonth": "هذا الشهر",
+      "ThisYear": "هذا العام",
+      "All": "الكل"
+    },
+    "Buttons": {
+      "View": "عرض",
+      "AddTask": "إضافة مهمة"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "تقدم OKR",
+    "AddOKR": "إضافة OKR",
+    "NoOKRData": "لا توجد بيانات OKR",
+    "StatusLabels": {
+      "OnTrack": "على المسار",
+      "OffTrack": "خارج المسار",
+      "AtRisk": "في خطر"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "مرحبًا {{name}}! أهدافك خارج المسار لإكمالها بحلول تاريخ الاستحقاق!",
+    "GreetingOnTrack": "مرحبًا {{name}}! أهدافك على المسار الصحيح!",
+    "GreetingAtRisk": "مرحبًا {{name}}! بعض أهدافك في خطر!",
+    "Loading": "جاري التحميل...",
+    "NoDataAvailable": "لا توجد بيانات متاحة"
+  },
+  "ObjectivesTable": {
+    "Actions": {
+      "Edit": "تعديل",
+      "Delete": "حذف",
+      "Approve": "موافقة",
+      "Reject": "رفض"
+    },
+    "Columns": {
+      "Objectives": "الأهداف",
+      "Progress": "التقدم",
+      "Weight": "الوزن",
+      "Owner": "المالك",
+      "DueDate": "تاريخ الاستحقاق",
+      "ApproveReject": "موافقة/رفض",
+      "Actions": "الإجراءات",
+      "AddKRTask": "إضافة نتيجة رئيسية / إضافة مهمة"
+    },
+    "Status": {
+      "OnTrack": "على المسار",
+      "AtRisk": "في خطر",
+      "OffTrack": "خارج المسار",
+      "NotStarted": "لم يبدأ",
+      "InProgress": "قيد التقدم",
+      "Submit": "إرسال",
+      "Draft": "مسودة",
+      "PendingApproval": "قيد الانتظار",
+      "ApprovalRequired": "الموافقة مطلوبة",
+      "Approved": "تمت الموافقة",
+      "Rejected": "مرفوض"
+    },
+    "Tooltips": {
+      "AddKeyResult": "إضافة نتيجة رئيسية",
+      "AddTask": "إضافة مهمة",
+      "Add": "إضافة"
+    },
+    "TableHeader": {
+      "DisplayOptions": "خيارات العرض",
+      "CompanyOKRs": "OKRs الشركة",
+      "Cascade": "تسلسل",
+      "Delete": "حذف",
+      "Status": "الحالة",
+      "SearchPlaceholder": "ابحث هنا..",
+      "Export": "تصدير",
+      "CreateOKR": "إنشاء OKR",
+      "Library": "المكتبة",
+      "NonLibrary": "غير المكتبة",
+      "StatusOptions": {
+        "OnTrack": "على المسار",
+        "AtRisk": "في خطر",
+        "OffTrack": "خارج المسار"
+      },
+      "ExportOptions": {
+        "ExportCSV": "تصدير كـ CSV",
+        "ExportExcel": "تصدير كـ Excel",
+        "ExportPDF": "تصدير كـ PDF"
+      },
+      "ExportLabels": {
+        "Type": "النوع",
+        "Title": "العنوان",
+        "Description": "الوصف",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "التقدم",
+        "Status": "الحالة",
+        "Owner": "المالك",
+        "Weight": "الوزن",
+        "StartDate": "تاريخ البدء",
+        "DueDate": "تاريخ الاستحقاق",
+        "Alignment": "المحاذاة",
+        "CreatedAt": "تاريخ الإنشاء",
+        "Objective": "الهدف",
+        "KeyResult": "النتيجة الرئيسية",
+        "Task": "المهمة",
+        "CompanyOKR": "OKR الشركة",
+        "IndividualOKR": "OKR فردي",
+        "ExportedOn": "تم التصدير في:",
+        "OKRsExportReport": "تقرير تصدير OKRs",
+        "NoDataToExport": "لا توجد بيانات للتصدير"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "سنة OKR",
+    "SelectYear": "اختر السنة",
+    "Employee": "الموظف",
+    "SelectEmployee": "اختر الموظف"
+  },
+  "Tasks": {
+    "Task": "المهمة",
+    "Tasks": "المهام",
+    "Objective": "الهدف",
+    "KR": "النتيجة الرئيسية",
+    "Due Date": "تاريخ الاستحقاق",
+    "Status": "الحالة",
+    "Owner": "المالك",
+    "Priority": "الأولوية",
+    "Progress": "التقدم",
+    "Comments": "التعليقات",
+    "SubTask": "المهمة الفرعية",
+    "Approval": "الموافقة",
+    "Action": "الإجراء",
+    "Approve": "موافقة",
+    "PendingApproval": "قيد الانتظار",
+    "Reject": "رفض",
+    "Approved": "تمت الموافقة",
+    "Rejected": "مرفوض",
+    "ApprovalRequired": "الموافقة مطلوبة",
+    "Edit": "تعديل",
+    "Delete": "حذف",
+    "Audit History": "سجل التدقيق",
+    "HighLevel": "عالي",
+    "MediumLevel": "متوسط",
+    "LowLevel": "منخفض",
+    "Not Started": "لم يبدأ",
+    "In Progress": "قيد التقدم",
+    "OnHold": "معلقة",
+    "Completed": "مكتملة",
+    "Recurrence": "التكرار",
+    "Main Task": "المهمة الرئيسية",
+    "Comment": "تعليق",
+    "commentHere": "اكتب تعليقًا هنا...",
+    "AddComment": "إضافة تعليق",
+    "Submit": "إرسال",
+    "Upload Files": "رفع الملفات",
+    "Uploading": "جاري الرفع...",
+    "File uploaded": "تم رفع الملف",
+    "Processing": "جاري المعالجة...",
+    "UpdateTask": "تحديث المهمة",
+    "SaveAddAnother": "حفظ وإضافة أخرى",
+    "Finish": "إنهاء",
+    "AddTask": "إضافة مهمة",
+    "EditTask": "تعديل المهمة",
+    "Assign To": "تعيين إلى",
+    "Loading task data...": "جاري تحميل بيانات المهمة..."
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "إنشاء هدف",
+    "EditObjective": "تعديل الهدف",
+    "ObjectiveSavedSuccess": "✓ تم حفظ الهدف بنجاح! يمكنك الآن إضافة النتائج الرئيسية.",
+    "EarnedRewardPoints": "لقد ربحت {{points}} نقطة مكافأة",
+    "FormLabels": {
+      "Objective": "الهدف*",
+      "Weight": "الوزن*",
+      "Owner": "المالك",
+      "DueDate": "تاريخ الاستحقاق",
+      "Dimension": "البعد*",
+      "Comment": "تعليق",
+      "UploadFile": "رفع ملف",
+      "Progress": "التقدم"
+    },
+    "Placeholders": {
+      "EnterComment": "أدخل تعليقك هنا...",
+      "DateFormat": "يوم/شهر/سنة"
+    },
+    "Buttons": {
+      "Saving": "جاري الحفظ...",
+      "UpdateObjective": "تحديث الهدف",
+      "SaveDetails": "حفظ التفاصيل",
+      "AddKeyResults": "إضافة نتائج رئيسية",
+      "SaveAndAddKR": "حفظ وإضافة نتيجة رئيسية"
+    },
+    "FileUpload": {
+      "Uploading": "(جاري الرفع...)",
+      "FileUploaded": "✓ تم رفع الملف"
+    },
+    "Stepper": {
+      "Objective": "الهدف",
+      "KR": "النتيجة الرئيسية",
+      "Task": "المهمة"
+    },
+    "Progress": {
+      "SelectProgressStatus": "اختر حالة التقدم (بالنسبة المئوية)"
+    },
+    "Dimensions": {
+      "People": "الأفراد",
+      "Financial": "المالي",
+      "Operations": "العمليات",
+      "Strategy": "الإستراتيجية",
+      "ProcessGovernanceSystem": "العملية/الحوكمة/النظام"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "إضافة نتيجة رئيسية",
+    "EditKeyResult": "تعديل نتيجة رئيسية",
+    "OKRName": "اسم OKR",
+    "AlignedToCompanyObjective": "محاذاة لهدف الشركة",
+    "FormLabels": {
+      "KeyResultName": "اسم النتيجة الرئيسية*",
+      "Source": "المصدر",
+      "KPIs": "مؤشرات الأداء الرئيسية*",
+      "Status": "الحالة*",
+      "UnitOfMeasurement": "وحدة القياس",
+      "Polarity": "القطبية",
+      "TargetResult": "النتيجة المستهدفة*",
+      "ActualResult": "النتيجة الفعلية",
+      "TargetDate": "التاريخ المستهدف*",
+      "CompletionDate": "تاريخ الإكمال",
+      "Comment": "تعليق",
+      "UploadFile": "رفع ملف"
+    },
+    "Buttons": {
+      "Saving": "جاري الحفظ...",
+      "UpdateDetails": "تحديث التفاصيل",
+      "SaveAndAddAnother": "حفظ وإضافة أخرى",
+      "NextAddTask": "التالي: إضافة مهمة"
+    },
+    "FileUpload": {
+      "Uploading": "(جاري الرفع...)",
+      "FileUploaded": "✓ تم رفع الملف"
+    },
+    "Polarity": {
+      "Positive": "إيجابي",
+      "Negative": "سلبي"
+    },
+    "StatusOptions": {
+      "NotStarted": "لم يبدأ",
+      "InProgress": "قيد التقدم",
+      "OnHold": "معلقة",
+      "Completed": "مكتملة"
+    },
+    "KPIOptions": {
+      "Revenue": "الإيرادات",
+      "UserGrowth": "نمو المستخدمين",
+      "ConversionRate": "معدل التحويل"
+    },
+    "UnitOptions": {
+      "Number": "رقم",
+      "Percentage": "نسبة مئوية (%)",
+      "INR": "روبية هندية",
+      "USD": "دولار أمريكي",
+      "AED": "درهم إماراتي"
+    },
+    "SourceOptions": {
+      "SelectSource": "--اختر المصدر--",
+      "Salesforce": "Salesforce"
+    },
+    "BellCurveChart": {
+      "Loading": "جاري التحميل...",
+      "Error": "خطأ:",
+      "UnknownError": "خطأ غير معروف",
+      "Value": "القيمة:",
+      "NoCurveData": "لا توجد بيانات للمنحنى",
+      "AtLower": "في الأدنى",
+      "AtAverage": "في المتوسط",
+      "AtUpper": "في الأعلى",
+      "Point": "نقطة"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "إجمالي إنجاز الوزن",
+    "TotalWeight": "إجمالي الوزن",
+    "Q1": "الربع الأول",
+    "Q2": "الربع الثاني",
+    "Q3": "الربع الثالث",
+    "Q4": "الربع الرابع"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "حضور اليوم",
+    "Present": "حاضر",
+    "OnLeave": "في إجازة",
+    "LateArrivals": "الوصول المتأخر",
+    "TotalEmployees": "إجمالي الموظفين",
+    "NextHoliday": "العطلة القادمة",
+    "NoUpcomingHolidays": "لا توجد عطلات قادمة"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "اتجاه الأداء",
+    "CurrentPerformance": "الأداء الحالي",
+    "UnknownPeriod": "فترة غير معروفة"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "المكافآت المتاحة",
+    "Pts": "نقاط",
+    "NoRewardsAvailable": "لا توجد مكافآت متاحة حاليًا",
+    "KeepEarningPoints": "استمر في كسب النقاط لمزيد من المكافآت",
+    "ComingSoonTitle": "المكافآت قريبًا",
+    "ComingSoonDescription": "نحن نعد مكافآت مثيرة لك! قريبًا ستتمكن من المطالبة بمكافآت بناءً على إنجازاتك ومساهماتك.",
+    "Rewards": {
+      "ExpertBadge": "شارة الخبير",
+      "Achievement": "إنجاز",
+      "TeamPlayerAward": "جائزة لاعب الفريق",
+      "Recognition": "تقدير",
+      "Claim": "المطالبة"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "التحديثات الحديثة",
+    "NoRecentUpdates": "لا توجد تحديثات حديثة",
+    "ComingSoonTitle": "خلاصة التحديثات قريبًا",
+    "ComingSoonDescription": "نحن نطور خلاصة تحديثات شاملة لإبقائك على اطلاع بالإشعارات المهمة، الإنجازات، وتحديثات النظام.",
+    "Updates": {
+      "UrgentTasksAlert": "تنبيه المهام العاجلة",
+      "TaskOverview": "نظرة عامة على المهام",
+      "OKRAlert": "تنبيه OKR",
+      "OKRProgress": "تقدم OKR",
+      "GreatAttendance": "حضور ممتاز",
+      "AchievementUnlocked": "تم فتح الإنجاز",
+      "PerformanceReviewReminder": "تذكير مراجعة الأداء",
+      "GreatJob": "عمل رائع"
+    },
+    "TimeLabels": {
+      "Today": "اليوم",
+      "ThisMonth": "هذا الشهر",
+      "OneDayAgo": "منذ يوم",
+      "ThreeDaysAgo": "منذ 3 أيام"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "قائمة أعياد الميلاد",
+    "ViewAll": "عرض الكل",
+    "NoBirthdaysThisMonth": "لا توجد أعياد ميلاد هذا الشهر",
+    "AllUpcomingBirthdays": "جميع أعياد الميلاد القادمة",
+    "LoadingTitle": "جاري تحميل قائمة أعياد الميلاد...",
+    "FailedToLoadTitle": "فشل تحميل قائمة أعياد الميلاد",
+    "NoDataTitle": "لا توجد أعياد ميلاد هذا الشهر",
+    "NoDataMessage": "لا يوجد موظفون لديهم أعياد ميلاد في الشهر الحالي.",
+    "DateFormats": {
+      "Today": "اليوم",
+      "Tomorrow": "غدًا",
+      "Days": "أيام"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "قائمة الذكرى السنوية",
+    "ViewAll": "عرض الكل",
+    "NoAnniversariesThisMonth": "لا توجد ذكريات سنوية هذا الشهر",
+    "AllUpcomingAnniversaries": "جميع الذكريات السنوية القادمة",
+    "DateFormats": {
+      "Today": "اليوم",
+      "Tomorrow": "غدًا",
+      "Days": "أيام",
+      "Year": "سنة",
+      "Years": "سنوات"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "إرسال تمني بعيد الميلاد",
+    "SendPersonalizedMessage": "إرسال رسالة عيد ميلاد مخصصة إلى",
+    "HappyBirthdayPlaceholder": "عيد ميلاد سعيد",
+    "Cancel": "إلغاء",
+    "SendWish": "إرسال التمني",
+    "YearsOfService": "سنة خدمة",
+    "YearsOfServicePlural": "سنوات خدمة"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "إرسال تمني بالذكرى السنوية",
+    "SendPersonalizedMessage": "إرسال رسالة ذكرى سنوية مخصصة إلى",
+    "CongratulationsPlaceholder": "مبروك على",
+    "Cancel": "إلغاء",
+    "SendWish": "إرسال التمني",
+    "YearsOfService": "سنة خدمة",
+    "YearsOfServicePlural": "سنوات خدمة"
+  },
+  "EligibilityCriteria": {
+    "Title": "معايير الأهلية",
+    "FormFields": {
+      "EligibilityName": "اسم الأهلية",
+      "Age": "العمر (مثال: >30، =27)",
+      "LengthOfService": "مدة الخدمة (مثال: >1، >2)",
+      "JobCategory": "فئة الوظيفة",
+      "Gender": "الجنس",
+      "Grade": "الدرجة",
+      "MaritalStatus": "الحالة الاجتماعية",
+      "Location": "الموقع",
+      "ProbationPeriod": "فترة الاختبار",
+      "NoticePeriod": "فترة الإخطار",
+      "PersonType": "نوع الشخص",
+      "Religion": "الدين",
+      "Position": "المنصب",
+      "HireDate": "تاريخ التعيين",
+      "Department": "الوظيفة",
+      "WorkType": "نوع العمل",
+      "ExcludeByDefaultIncludesAll": "استثناء (يشمل الكل افتراضيًا)",
+      "PublicHolidays": "العطلات الرسمية",
+      "Leaves": "الإجازات",
+      "Weekends": "عطلات نهاية الأسبوع"
+    },
+    "Options": {
+      "All": "الكل",
+      "Operations": "العمليات",
+      "Supervisor": "المشرف",
+      "Managerial": "إداري",
+      "ExecutiveLeadership": "القيادة التنفيذية",
+      "Director": "مدير",
+      "Location": {
+        "USA": "الولايات المتحدة",
+        "India": "الهند",
+        "UK": "المملكة المتحدة"
+      },
+      "PersonType": {
+        "EMP": "موظف",
+        "Contractor": "مقاول",
+        "Intern": "متدرب"
+      },
+      "Religion": {
+        "Hindu": "هندوسي",
+        "Muslim": "مسلم",
+        "Christian": "مسيحي",
+        "Sikh": "سيخي",
+        "Buddhist": "بوذي",
+        "Jain": "جايني",
+        "Other": "أخرى"
+      },
+      "Gender": {
+        "Male": "ذكر",
+        "Female": "أنثى"
+      },
+      "MaritalStatus": {
+        "Married": "متزوج",
+        "Unmarried": "غير متزوج"
+      },
+      "Yes": "نعم",
+      "No": "لا",
+      "WorkType": {
+        "FullTime": "دوام كامل",
+        "PartTime": "دوام جزئي"
+      }
+    },
+    "Buttons": {
+      "Cancel": "إلغاء",
+      "Submit": "إرسال",
+      "Update": "تحديث"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "فشل جلب خيارات المرشحين",
+      "NoDataFound": "لا توجد بيانات!",
+      "SuccessCreate": "تم إنشاء الأهلية بنجاح",
+      "SuccessUpdate": "تم تحديث الأهلية بنجاح",
+      "ErrorSubmit": "حدث خطأ أثناء إرسال النموذج. يرجى المحاولة مرة أخرى."
+    },
+    "Validation": {
+      "Required": "{{field}} مطلوب ولا يمكن أن يكون فارغًا",
+      "CannotBeEmpty": "{{field}} لا يمكن أن يكون فارغًا",
+      "InvalidSymbols": "{{field}} يجب أن يحتوي على أحد الرموز: >، <، =",
+      "FillDetails": "يرجى ملء التفاصيل قبل الإرسال..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "السجل",
+    "TableHeaders": {
+      "EligibilityName": "اسم الأهلية",
+      "Department": "الوظيفة",
+      "Actions": "الإجراءات"
+    },
+    "Buttons": {
+      "Edit": "تعديل",
+      "Delete": "حذف",
+      "ExportCSV": "تصدير كـ CSV",
+      "ExportExcel": "تصدير كـ Excel",
+      "ExportPDF": "تصدير كـ PDF"
+    },
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "تم التقديم حديثًا",
+        "PsychometricTest": "اختبار نفسي"
+      },
+      "ExportOptions": {
+        "CSV": "تصدير كـ CSV",
+        "Excel": "تصدير كـ Excel",
+        "PDF": "تصدير كـ PDF"
+      }
+    },
+    "Messages": {
+      "FetchError": "فشل جلب البيانات",
+      "DeleteSuccess": "تم حذف السجل بنجاح",
+      "DeleteError": "فشل حذف السجل",
+      "ExportSuccess": "تم التصدير بنجاح",
+      "ExportError": "فشل تصدير البيانات",
+      "NoData": "لا توجد بيانات متاحة"
+    },
+    "Placeholders": {
+      "Search": "بحث...",
+      "Select": "--اختر--"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "سير عمل الموافقة",
+    "Description": "تكوين وإدارة سلسلة الموافقة لأنواع المعاملات المختلفة",
+    "NewWorkflowButton": "سير عمل جديد"
+  },
+  "WorkflowType": {
+    "TitleCreate": "إنشاء سير عمل جديد",
+    "TitleEdit": "تعديل سير العمل",
+    "SubtitleCreate": "إعداد سير عمل موافقة جديد لمنظمتك",
+    "SubtitleEdit": "تعديل سير عمل الموافقة لمنظمتك",
+    "SelectTransactionTitle": "اختر نوع المعاملة",
+    "SelectTransactionDescription": "اختر نوع المعاملة التي ستتبع سير عمل الموافقة هذا",
+    "Steps": {
+      "TransactionType": "نوع المعاملة",
+      "WorkflowDetails": "تفاصيل سير العمل",
+      "ApprovalChain": "سلسلة الموافقة"
+    },
+    "Buttons": {
+      "Previous": "السابق",
+      "Cancel": "إلغاء",
+      "Next": "التالي",
+      "Submitting": "جاري الإرسال...",
+      "CreateWorkflow": "إنشاء سير العمل",
+      "UpdateWorkflow": "تحديث سير العمل"
+    },
+    "Messages": {
+      "CreateSuccess": "تم إنشاء سير العمل بنجاح.",
+      "UpdateSuccess": "تم تحديث سير العمل بنجاح.",
+      "CreateError": "فشل إنشاء سير العمل. يرجى المحاولة مرة أخرى.",
+      "UpdateError": "فشل تحديث سير العمل. يرجى المحاولة مرة أخرى."
+    },
+    "UnknownStep": "خطوة غير معروفة"
+  },
+  "TransactionCard": {
+    "Recruitment": "التوظيف",
+    "RecruitmentDescription": "سير عمل لعملية التوظيف والموافقة",
+    "ExpenseApproval": "موافقة المصروفات",
+    "ExpenseApprovalDescription": "سير الموافقة لمصروفات الموظفين",
+    "LeaveRequest": "طلب إجازة",
+    "LeaveRequestDescription": "سلسلة الموافقة لطلبات إجازة الموظفين",
+    "PurchaseOrder": "أمر شراء",
+    "PurchaseOrderDescription": "سير العمل لإدارة أوامر الشراء",
+    "BudgetApproval": "موافقة الميزانية",
+    "BudgetApprovalDescription": "عملية الموافقة للميزانيات المالية"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "تفاصيل سير العمل",
+    "ProvideNameDescription": "قدم اسمًا ووصفًا لسير عمل الموافقة هذا",
+    "WorkflowName": "اسم سير العمل",
+    "WorkflowNamePlaceholder": "مثال: موافقة الإجازة القياسية",
+    "Description": "الوصف",
+    "DescriptionPlaceholder": "صف الغرض وحالات الاستخدام لسير العمل هذا",
+    "Condition": "الشرط",
+    "ConditionPlaceholder": "شرط اختياري لسير العمل",
+    "ConditionLeaveRequest": "الشرط (لطلبات الإجازة)",
+    "SetRules": "تعيين القواعد بناءً على عدد الأيام في طلب الإجازة",
+    "Attribute": "السمة",
+    "SelectAttribute": "اختر السمة",
+    "Operator": "المعامل",
+    "SelectOperator": "اختر المعامل",
+    "Value": "القيمة",
+    "EnterNumber": "أدخل رقمًا",
+    "Days": "أيام",
+    "is": "يساوي",
+    "lesserOrEqual": "أصغر أو يساوي (≤)",
+    "greaterOrEqual": "أكبر أو يساوي (≥)"
+  },
+  "workflowFilter": {
+    "searchPlaceholder": "بحث في سير العمل",
+    "filterButton": "تصفية",
+    "allTypes": "جميع الأنواع",
+    "workflow": "سير العمل",
+    "task": "المهمة"
+  },
+  "workflowChain": {
+    "configureApprovalChain": "تكوين سلسلة الموافقة",
+    "defineSequence": "حدد تسلسل المعتمدين لسير العمل هذا",
+    "currentApprovalChain": "سلسلة الموافقة الحالية",
+    "noStepsDefined": "لم يتم تحديد خطوات موافقة بعد",
+    "addStep": "إضافة خطوة",
+    "completeDetailsError": "يرجى إكمال نوع المعاملة وتفاصيل سير العمل أولاً"
+  },
+  "addApprovalHeader": {
+    "title": "إضافة خطوة موافقة",
+    "rolesTab": "الأدوار",
+    "individualUserTab": "مستخدم فردي",
+    "searchPlaceholder": "بحث في سير العمل"
+  },
+  "formNavigation": {
+    "previous": "السابق",
+    "cancel": "إلغاء",
+    "createWorkflow": "إنشاء سير العمل"
+  },
+  "selectedApprovers": {
+    "title": "المعتمدون المحددون:",
+    "noApprovers": "لم يتم اختيار أي معتمدين بعد",
+    "saveStep": "حفظ الخطوة",
+    "cancel": "إلغاء"
+  },
+  "approval": {
+    "saveApprovers": "حفظ المعتمدين"
+  },
+  "approval2": {
+    "card1Title": "المدير المباشر",
+    "card1Description": "المشرف المباشر للموظف",
+    "select": "اختر",
+    "remove": "إزالة",
+    "selected": "محدد",
+    "removed": "تمت الإزالة"
+  },
+  "approval3": {
+    "card2Title": "مدير الموارد البشرية",
+    "card2Description": "رئيس قسم الموارد البشرية",
+    "select": "اختر",
+    "remove": "إزالة",
+    "selected": "محدد",
+    "removed": "تمت الإزالة"
+  },
+  "approval4": {
+    "card3Title": "رئيس الوظيفة",
+    "card3Description": "رئيس القسم",
+    "select": "اختر",
+    "remove": "إزالة",
+    "selected": "محدد",
+    "removed": "تمت الإزالة"
+  },
+  "approval5": {
+    "card4Title": "الرئيس التنفيذي",
+    "card4Description": "الرئيس التنفيذي",
+    "select": "اختر",
+    "remove": "إزالة",
+    "selected": "محدد",
+    "removed": "تمت الإزالة"
+  },
+  "approval6": {
+    "card5Title": "مدير المالية",
+    "card5Description": "مدير يشرف على مشروع محدد",
+    "select": "اختر",
+    "remove": "إزالة",
+    "selected": "محدد",
+    "removed": "تمت الإزالة"
+  },
+  "approval7": {
+    "card6Title": "مدير المشروع",
+    "card6Description": "المشرف المباشر للموظف",
+    "select": "اختر",
+    "remove": "إزالة",
+    "selected": "محدد",
+    "removed": "تمت الإزالة"
+  },
+  "transactions": {
+    "leaveRequestTitle": "طلب إجازة",
+    "leaveRequestDescription": "سير الموافقة لطلبات إجازة الموظفين",
+    "timesheetTitle": "جدول الوقت",
+    "timesheetDescription": "سير الموافقة لجداول وقت الموظفين",
+    "resignationRequestTitle": "طلب استقالة",
+    "resignationRequestDescription": "سير الموافقة لطلبات استقالة الموظفين"
+  },
+  "workflow": {
+    "selectTransactionType": "اختر نوع المعاملة",
+    "chooseTransactionType": "اختر نوع المعاملة التي ستتبع سير عمل الموافقة هذا",
+    "editWorkflow": "تعديل سير العمل",
+    "createNewWorkflow": "إنشاء سير عمل جديد",
+    "modifyWorkflow": "تعديل سير عمل الموافقة لمنظمتك",
+    "setupNewWorkflow": "إعداد سير عمل موافقة جديد لمنظمتك",
+    "previous": "السابق",
+    "cancel": "إلغاء",
+    "next": "التالي",
+    "submitting": "جاري الإرسال...",
+    "updateWorkflow": "تحديث سير العمل",
+    "createWorkflow": "إنشاء سير العمل",
+    "updatedSuccess": "تم تحديث سير العمل بنجاح",
+    "createdSuccess": "تم إنشاء سير العمل بنجاح",
+    "failed": "فشل {{action}} سير العمل. يرجى المحاولة مرة أخرى.",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "unknownStep": "خطوة غير معروفة",
+    "Transaction Type": "نوع المعاملة",
+    "Workflow Details": "تفاصيل سير العمل",
+    "Approval Chain": "سلسلة الموافقة"
+  },
+  "LookUpScreen": {
+    "CreateLookUp": "إنشاء بحث",
+    "LookupType": "نوع البحث",
+    "Meaning": "المعنى",
+    "Add": "إضافة",
+    "Code": "الكود",
+    "Delete": "حذف",
+    "Submit": "إرسال",
+    "DateStart": "تاريخ البدء",
+    "DateEnd": "تاريخ الانتهاء",
+    "Enabled": "مفعل",
+    "Actions": "الإجراءات",
+    "Type": "النوع",
+    "EditLookUp": "تعديل البحث",
+    "Update": "تحديث",
+    "Cancel": "إلغاء",
+    "PerformanceRatingScale": "مقياس تقييم الأداء"
+  },
+  "CompetencyManagement": {
+    "CompetencyManagement": "إدارة الكفاءات",
+    "Name": "الاسم",
+    "PositionLevel": "مستوى المنصب",
+    "Action": "الإجراء",
+    "Create": "إنشاء",
+    "CreateNewCompetency": "إنشاء كفاءة جديدة",
+    "EditCompetency": "تعديل الكفاءة",
+    "CompetencyName": "اسم الكفاءة",
+    "Description": "الوصف",
+    "StartDate": "تاريخ البدء",
+    "EndDate": "تاريخ الانتهاء",
+    "CompetencyType": "نوع الكفاءة",
+    "DevelopmentActivities": "أنشطة التطوير",
+    "CoachingActivities": "أنشطة التدريب",
+    "CategoryActivities": "أنشطة الفئة",
+    "PositionLevelField": "مستوى المنصب",
+    "Cancel": "إلغاء",
+    "Save": "حفظ",
+    "Update": "تحديث"
+  },
+  "OKRManagement": {
+    "OKRManagement": "إدارة OKR",
+    "OkrLibrary": "مكتبة OKR",
+    "Okr": "OKR",
+    "Transfer": "نقل",
+    "Create": "إنشاء",
+    "BulkUpload": "تحميل جماعي",
+    "Industry": "الصناعة",
+    "IsActive": "نشط",
+    "LastModified": "آخر تعديل",
+    "Action": "الإجراء",
+    "OkrTemplateName": "اسم نموذج OKR",
+    "StartDate": "تاريخ البدء",
+    "EndDate": "تاريخ الانتهاء",
+    "EligibilityGroup": "مجموعة الأهلية",
+    "TransferFromEmployee": "النقل من الموظف:",
+    "TransferToEmployee": "النقل إلى الموظف:",
+    "FindOkr": "ابحث عن OKR",
+    "InstructionsToUsers": "تعليمات للمستخدمين",
+    "LowValueRange": "نطاق القيمة المنخفضة",
+    "MidValueRange": "نطاق القيمة المتوسطة",
+    "HighValueRange": "نطاق القيمة العالية",
+    "Min": "الحد الأدنى",
+    "Max": "الحد الأقصى",
+    "IncludingKeyResults": "بما في ذلك النتائج الرئيسية",
+    "ImportOkrLibrary": "استيراد مكتبة OKR",
+    "Export": "تصدير",
+    "DownloadTemplate": "تحميل النموذج",
+    "Cancel": "إلغاء",
+    "Save": "حفظ",
+    "IncludeOkr": "تضمين OKR",
+    "Edit": "تعديل",
+    "Delete": "حذف"
+  },
+  "TimeLogin": {
+    "title": "إدخال الوقت بالموقع الجغرافي",
+    "discription-title": "التسجيل والخروج بناءً على موقعك الفعلي",
+    "buttonLables": {
+      "bio": "يدوي / بيومتري",
+      "geo": "جغرافي"
+    },
+    "refreshing": "جاري التحديث...",
+    "refreshLocation": "تحديث الموقع",
+    "LocationService": "خدمات الموقع",
+    "message": "يرجى السماح بالوصول إلى الموقع عند المطالبة. يتم استخدام موقعك فقط للتحقق من التواجد في العمل.",
+    "getting": "جاري الحصول على موقعك....",
+    "RetryLocation": "إعادة محاولة الموقع",
+    "ManualLocation": "موقع يدوي",
+    "time": "الوقت الحالي للنظام",
+    "clockOut": "تسجيل الخروج",
+    "clockin": "التسجيل الدخول",
+    "manuallyLocation": "أدخل الموقع يدويًا",
+    "textLabel": {
+      "Latitude": "خط العرض",
+      "Logitude": "خط الطول"
+    },
+    "Cancel": "إلغاء",
+    "setLocation": "تعيين الموقع",
+    "waitingError": "في انتظار الوصول إلى الموقع...",
+    "TimeSheetHistory": {
+      "history": "سجل جدول الوقت",
+      "totalTime": "إجمالي الوقت",
+      "week": "أسبوع"
+    },
+    "TableColumn": {
+      "Employee": "الموظف",
+      "day": "اليوم",
+      "Date": "التاريخ",
+      "timein": "وقت الدخول",
+      "timeOut": "وقت الخروج",
+      "hours": "الساعات",
+      "method": "الطريقة",
+      "position": "الموقع",
+      "remarks": "ملاحظات",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "actionButton": {
+      "approve": "موافقة",
+      "reject": "رفض"
+    },
+    "DialogBox": {
+      "title": "تفاصيل إدخال الوقت",
+      "ApprovalHistory": "سجل الموافقة",
+      "Nodetailsavailable": "لا توجد تفاصيل متاحة",
+      "CurrentLocationMap": "خريطة الموقع الحالي"
+    },
+    "exportOptions": {
+      "export": "تصدير",
+      "exportExcel": "تصدير كـ Excel",
+      "exportCSV": "تصدير كـ CSV",
+      "exportPDF": "تصدير كـ PDF"
+    }
+  },
+  "AbsenceTime": {
+    "LeavePolicy": "سياسة الإجازة",
+    "applyForLeave": "التقدم بطلب إجازة",
+    "teamLeave": "إجازة الفريق",
+    "LoadingLeaves": "جاري تحميل أنواع الإجازات...",
+    "formLabel": {
+      "absenceType": "نوع الغياب / الفئة",
+      "halfDay": "نصف يوم",
+      "form": "من",
+      "to": "إلى",
+      "durationAbsence": "مدة الغياب",
+      "note": "ملاحظة"
+    },
+    "Uplode": "رفع المرفقات",
+    "sumbitting": "جاري الإرسال...",
+    "buttonConfg": {
+      "cancel": "إلغاء",
+      "update": "تحديث",
+      "submit": "إرسال"
+    },
+    "leavesAvailable": "لا توجد إجازات أخرى متاحة.",
+    "close": "إغلاق",
+    "tableColumn": {
+      "date": "التاريخ",
+      "employee": "الموظف",
+      "type": "النوع",
+      "duration": "المدة",
+      "status": "الحالة",
+      "action": "الإجراء"
+    },
+    "editRequest": "تعديل الطلب",
+    "deleteRequest": "حذف الطلب",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "leaveDetailsView": {
+      "leaveType": "نوع الإجازة",
+      "duration": "المدة",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "applicationOn": "تاريخ التقديم"
+    },
+    "reasons": {
+      "reason": "السبب",
+      "rejectionReason": "سبب الرفض:"
+    },
+    "approvalStatus": "حالة الموافقة الحالية",
+    "noDetails": "لا توجد تفاصيل متاحة",
+    "requests": {
+      "approveLeave": "الموافقة على طلب الإجازة",
+      "rejectLeave": "رفض طلب الإجازة",
+      "details": "تفاصيل الطلب"
+    },
+    "period": "الفترة",
+    "Comments(Optional)": "تعليقات (اختياري)",
+    "RejectionReason": "سبب الرفض *",
+    "approveRequest": "الموافقة على الطلب",
+    "rejectRequest": "رفض الطلب",
+    "DialogBox": {
+      "title": "تفاصيل طلب الإجازة",
+      "alert": "فشل تحميل تفاصيل طلب الإجازة"
+    },
+    "searchHear": "ابحث هنا..",
+    "TeamLeave": {
+      "teamLeave": "إجازة الفريق",
+      "managerBoard": "لوحة المدير:",
+      "all": "الكل",
+      "teamA": "الفريق أ",
+      "teamB": "الفريق ب"
+    },
+    "tableHeader": {
+      "displayOptions": "خيارات العرض",
+      "priority": "الأولوية",
+      "status": "الحالة"
+    },
+    "filters": {
+      "high": "عالي",
+      "medium": "متوسط",
+      "low": "منخفض"
+    },
+    "EventCalender": {
+      "filter": "تصفية:"
+    }
+  },
+  "FileUploadFile": {
+    "chooseAFile": "اختر ملفًا أو اسحبه وأفلته هنا",
+    "uploading": "جاري الرفع...",
+    "fileTypes": "JPEG, PNG, PDF, CSV, Excel, حتى 50 ميجابايت",
+    "browseFile": "تصفح الملف",
+    "selectedFile": "الملف المحدد",
+    "clickhere": "انقر هنا"
+  },
+  "RecruitmentManagement": {
+    "WelcomeBack": "مرحبًا بعودتك",
+    "NewCandidate": "مرشح جديد",
+    "ID": "الرقم",
+    "Name": "الاسم",
+    "Email": "البريد الإلكتروني",
+    "AppliedOn": "تاريخ التقديم",
+    "Stages": "المراحل",
+    "Actions": "الإجراءات",
+    "InProgress": "قيد التقدم",
+    "WaitingForFeedback": "في انتظار التغذية الراجعة",
+    "OfferReleased": "تم إصدار العرض",
+    "CandidatesList": "قائمة المرشحين",
+    "AddNewCandidate": "إضافة مرشح جديد",
+    "CandidateDetails": "تفاصيل المرشح",
+    "PsychometricAssessment": "التقييم النفسي",
+    "Interview1": "مقابلة 1",
+    "Interview2": "مقابلة 2",
+    "DocumentVerification": "التحقق من المستندات",
+    "Offer": "العرض",
+    "OfferLetter": "خطاب العرض",
+    "Onboarding": "الانضمام",
+    "CandidateName": "اسم المرشح",
+    "EmailAddress": "عنوان البريد الإلكتروني",
+    "AddPhoto": "إضافة صورة",
+    "PhoneNo": "رقم الهاتف",
+    "ExperienceInYears": "الخبرة (بالسنوات)",
+    "EducationQualification": "المؤهل التعليمي",
+    "DateOfBirth": "تاريخ الميلاد",
+    "Gender": "الجنس",
+    "Location": "الموقع",
+    "Source": "المصدر",
+    "Department": "الوظيفة",
+    "Designation": "المسمى الوظيفي",
+    "LegalEntity": "الكيان القانوني",
+    "ProjectName": "اسم المشروع",
+    "ReportingManager": "المدير المباشر",
+    "Status": "الحالة",
+    "Resume": "السيرة الذاتية",
+    "Cancel": "إلغاء",
+    "Submit": "إرسال",
+    "Edit": "تعديل",
+    "Delete": "حذف",
+    "EditCandidate": "تعديل المرشح",
+    "ClickHere": "انقر هنا",
+    "Update": "تحديث",
+    "MoveToTalentPool": "نقل إلى مجموعة المواهب؟",
+    "Male": "ذكر",
+    "Female": "أنثى",
+    "Other": "أخرى",
+    "Yes": "نعم",
+    "No": "لا",
+    "SuitableDesignation": "المسمى الوظيفي المناسب",
+    "NoticePeriodDays": "فترة الإخطار (أيام)",
+    "DateOfJoining": "تاريخ الانضمام",
+    "ProbationPeriodDays": "فترة الاختبار (أيام)",
+    "PsychometricReviewReport": "تقرير المراجعة النفسية",
+    "DocumentsUploadOverview": "نظرة عامة على رفع المستندات",
+    "SaveAsDraft": "حفظ كمسودة",
+    "DraftLoaded": "تم تحميل بيانات المسودة",
+    "GrossSalary": "الراتب الإجمالي",
+    "Interviewer1": "المقابل 1",
+    "Interviewer2": "المقابل 2"
+  },
+  "PrivilegeGroups": {
+    "PrivilegeGroups": "مجموعات الصلاحيات",
+    "CreateNewGroup": "إنشاء مجموعة جديدة",
+    "GroupName": "اسم المجموعة",
+    "UserType": "نوع المستخدم",
+    "SonicOfDynamic": "سونيك الديناميكي",
+    "ActiveMembership": "العضوية النشطة",
+    "LastModified": "آخر تعديل",
+    "Action": "الإجراء",
+    "ActiveGroupMembership": "عضوية المجموعة النشطة",
+    "ChooseGroupMembers": "اختر أعضاء المجموعة",
+    "PeoplePool": "مجموعة الأشخاص",
+    "PickACategory": "اختر فئة",
+    "ExcludeThesePeopleGroupName": "استبعاد اسم مجموعة هؤلاء الأشخاص",
+    "Select": "اختر",
+    "Cancel": "إلغاء",
+    "Finished": "إنهاء",
+    "Edit": "تعديل",
+    "Delete": "حذف",
+    "AddPrivilegeGroup": "إضافة مجموعة صلاحيات",
+    "UpdatePrivilegeGroup": "تحديث مجموعة الصلاحيات",
+    "GroupCreatedSuccessfully": "تم إنشاء المجموعة بنجاح!",
+    "GroupUpdatedSuccessfully": "تم تحديث المجموعة بنجاح!",
+    "GroupDeletedSuccessfully": "تم حذف المجموعة بنجاح!",
+    "AreYouSureDelete": "هل أنت متأكد أنك تريد حذف هذه المجموعة؟",
+    "NoDataFound": "لا توجد بيانات",
+    "Loading": "جاري التحميل...",
+    "SearchGroups": "البحث في المجموعات",
+    "ViewDetails": "عرض التفاصيل",
+    "SaveChanges": "حفظ التغييرات",
+    "Confirm": "تأكيد",
+    "Yes": "نعم",
+    "No": "لا",
+    "Active": "نشط",
+    "Inactive": "غير نشط",
+    "Members": "الأعضاء",
+    "Status": "الحالة",
+    "CreatedBy": "تم الإنشاء بواسطة",
+    "ModifiedBy": "تم التعديل بواسطة",
+    "GroupNameIsRequired": "اسم المجموعة مطلوب",
+    "ErrorFetchingData": "خطأ في جلب البيانات!",
+    "SomethingWentWrong": "حدث خطأ ما!",
+    "PleaseEnterGroupName": "يرجى إدخال اسم المجموعة",
+    "PleaseSelectUserType": "يرجى اختيار نوع المستخدم",
+    "PleaseSelectMembers": "يرجى اختيار أعضاء المجموعة"
+  },
+  "SessionTab": {
+    "Title": "الجلسات",
+    "FormTitle": "تحديد تفاصيل الجلسات",
+    "Buttons": {
+      "Create": "إنشاء",
+      "Cancel": "إلغاء",
+      "Update": "تحديث",
+      "Save": "حفظ"
+    },
+    "FormFields": {
+      "SessionName": "اسم الجلسة",
+      "Template": "النموذج",
+      "SessionStartDate": "تاريخ بدء الجلسة",
+      "SessionEndDate": "تاريخ انتهاء الجلسة",
+      "SessionOwners": "مالكو الجلسة",
+      "EmployeeGroup": "مجموعة الموظفين"
+    },
+    "Table": {
+      "Name": "الاسم",
+      "Action": "الإجراء",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "Placeholders": {
+      "SearchHere": "ابحث هنا...",
+      "SelectTemplate": "اختر النموذج",
+      "EnterSessionName": "أدخل اسم الجلسة",
+      "SelectSessionOwners": "اختر مالكي الجلسة",
+      "SelectEmployeeGroup": "اختر مجموعة الموظفين"
+    },
+    "Validation": {
+      "FillRequiredFields": "يرجى ملء جميع الحقول المطلوبة"
+    },
+    "Messages": {
+      "FailedDelete": "فشل حذف الجلسة",
+      "ErrorDelete": "حدث خطأ أثناء حذف الجلسة",
+      "FailedCreate": "فشل إنشاء الجلسة",
+      "ErrorCreate": "حدث خطأ أثناء إنشاء الجلسة",
+      "FailedUpdate": "فشل تحديث الجلسة",
+      "ErrorUpdate": "حدث خطأ أثناء تحديث الجلسة"
+    }
+  },
+  "GuideLinesTab": {
+    "Instructions": {
+      "SelectDataSource": "حدد مصدر البيانات للعناصر التي تريد معايرتها:"
+    },
+    "Performance": {
+      "Title": "الأداء",
+      "Description": "تشمل معايرة الأداء تقييم الأداء، الأهداف، الإمكانات، أو العناصر الأخرى المحددة من قبل العميل. 1. حدد قالب النموذج (النماذج) للعناصر التي تريد معايرتها. جميع الحقول مطلوبة."
+    },
+    "Options": {
+      "Calibration": "المعايرة",
+      "SelfSubmission": "التقديم الذاتي",
+      "ManagerReview": "مراجعة المدير",
+      "ManagerSignOff": "توقيع المدير",
+      "EmployeeSignOff": "توقيع الموظف"
+    },
+    "RatingScale": {
+      "Ineffective": "1. غير فعال",
+      "SomewhatAchieved": "2. محقق إلى حد ما",
+      "Achieved": "3. محقق",
+      "Overperformed": "4. تجاوز الأداء",
+      "Outstanding": "5. متميز"
+    },
+    "Table": {
+      "Template": "النموذج",
+      "RouteMap": "خريطة المسار",
+      "RoutingStep": "هل يمكن استخدام البيانات في خطوة التوجيه؟"
+    },
+    "Placeholders": {
+      "SelectTemplate": "اختر النموذج",
+      "SelectStep": "اختر الخطوة"
+    },
+    "DefaultStep": "تقييم الأداء PM2"
+  },
+  "CalibrationManagement": {
+    "Options": {
+      "Calibration": "المعايرة",
+      "SelfSubmission": "التقديم الذاتي",
+      "ManagerReview": "مراجعة المدير",
+      "ManagerSignOff": "توقيع المدير",
+      "EmployeeSignOff": "توقيع الموظف"
+    },
+    "Table": {
+      "SNo": "م.ت",
+      "Rating": "التقييم",
+      "RouteMap": "خريطة المسار",
+      "Delete": "حذف"
+    },
+    "Placeholders": {
+      "SelectTemplate": "يرجى اختيار نموذج..."
+    },
+    "Notes": {
+      "Part1": "ملاحظة: في بعض الأحيان قد تأتي بيانات المعايرة الخاصة بك من نماذج متعددة في هذه الحالة، يدعم النظام فقط العناصر المحددة في النموذج الأساسي (المشار إليه بـ ",
+      "Part2": "). إذا قمت بتحديد عدة نماذج أداء، فتأكد من أن هذه النماذج لها نفس الهيكل، الفهارس، وخريطة المسار."
+    },
+    "Instructions": {
+      "SelectElement": "2. حدد عنصرًا واحدًا على الأقل للمعايرة. ثم حدد مبدأ التوزيع الخاص به."
+    },
+    "OverallFormRating": "التقييم الإجمالي للنموذج",
+    "Buttons": {
+      "Add": "إضافة"
+    }
+  },
+  "IntegrationManagement": {
+    "AdminPortal": "بوابة المشرفين - إدارة التكامل",
+    "BusinessLevelConnectors": "موصلات مستوى الأعمال",
+    "ActivationDescription": "تفعيل خدمة يوفر للمستخدمين القدرة على الاتصال بالخدمة، مما يسهل استرجاع البيانات للتحديث التلقائي للنتيجة الرئيسية أو المزامنة السلسة للمستخدمين من خدمة",
+    "Manage": "إدارة",
+    "ReadMore": "اقرأ المزيد"
+  },
+  "TopHeader": {
+    "ManageSalesforceConnection": "إدارة اتصال Salesforce",
+    "Delete": "حذف"
+  },
+  "PerformanceManagement": {
+    "Title": "إدارة الأداء",
+    "Create": "إنشاء",
+    "TypeOfEvaluation": "نوع التقييم",
+    "Select": "اختر...",
+    "FrequencyOfEvaluation": "تكرار التقييم",
+    "StartDate": "تاريخ البدء",
+    "EnterStartDate": "أدخل تاريخ البدء",
+    "LaunchDate": "تاريخ الإطلاق",
+    "EnterLaunchDate": "أدخل تاريخ الإطلاق",
+    "ListGroupName": "اسم مجموعة القائمة",
+    "Employee": "الموظف",
+    "Manager": "المدير",
+    "Leadership": "القيادة",
+    "Cancel": "إلغاء",
+    "Save": "حفظ",
+    "OverallRating": "التقييم الإجمالي",
+    "AbsoluteRating": "التقييم المطلق",
+    "RatingScale": "مقياس التقييم",
+    "OKRWastage": "هدر OKR",
+    "CompetencyWeightage": "وزن الكفاءة",
+    "Weightage360": "وزن 360",
+    "IncludeSelfEvaluation": "تضمين التقييم الذاتي",
+    "EmployeeAcknowledgement": "إقرار الموظف",
+    "HRBPReview": "مراجعة شريك أعمال الموارد البشرية",
+    "ApprovalRequired": "الموافقة مطلوبة",
+    "Monthly": "شهري",
+    "Quarterly": "ربع سنوي",
+    "SemiAnnually": "نصف سنوي",
+    "Annually": "سنوي"
+  },
+  "Templates": {
+    "Title": "القوالب",
+    "Buttons": {
+      "Create": "إنشاء",
+      "Cancel": "إلغاء",
+      "Update": "تحديث",
+      "Save": "حفظ",
+      "SelectAll": "تحديد الكل",
+      "UnselectAll": "إلغاء تحديد الكل"
+    },
+    "Table": {
+      "Name": "الاسم",
+      "Action": "الإجراء",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "FormFields": {
+      "TemplatesName": "اسم القالب",
+      "TemplateName": "اسم النموذج",
+      "Description": "الوصف",
+      "PercentageType": "نوع النسبة المئوية",
+      "RatingScale": "مقياس التقييم",
+      "GoalPercentage": "نسبة الهدف",
+      "ObjectivePercentage": "نسبة الهدف",
+      "CompetenciesPercentage": "نسبة الكفاءات",
+      "Competencies": "الكفاءات",
+      "ReviewSteps": "خطوات المراجعة",
+      "EmployeeDisplayOptions": "خيارات عرض الموظف"
+    },
+    "Placeholders": {
+      "EnterTemplateName": "أدخل اسم النموذج",
+      "EnterDescription": "أدخل الوصف",
+      "EnterRatingScale": "أدخل مقياس التقييم",
+      "EnterGoalPercentage": "أدخل نسبة الهدف",
+      "EnterObjectivePercentage": "أدخل نسبة الهدف",
+      "EnterCompetenciesPercentage": "أدخل نسبة الكفاءات",
+      "SelectCompetencies": "اختر الكفاءات"
+    },
+    "Options": {
+      "Goals": "الأهداف",
+      "Objectives": "الأهداف",
+      "PerformanceRatingScale": "مقياس تقييم الأداء",
+      "AllCompetencies": "جميع الكفاءات"
+    },
+    "DisplayOptions": {
+      "FirstName": "الاسم الأول",
+      "LastName": "الاسم الأخير",
+      "Department": "الوظيفة",
+      "Grade": "الدرجة",
+      "Manager": "المدير",
+      "Designation": "المسمى الوظيفي"
+    },
+    "DisplaySteps": {
+      "SelfSubmission": "التقديم الذاتي",
+      "ManagerReview": "مراجعة المدير",
+      "HRReview": "مراجعة الموارد البشرية",
+      "ManagerSignOff": "توقيع المدير",
+      "EmployeeSignOff": "توقيع الموظف",
+      "Completed": "مكتمل"
+    },
+    "DisplayStepsText": {
+      "SubmitToManager": "إرسال إلى المدير",
+      "SubmitToHR": "إرسال إلى الموارد البشرية",
+      "SubmitToManagerSignOff": "إرسال إلى المدير للتوقيع",
+      "SubmitToEmployeeSignOff": "إرسال إلى الموظف للتوقيع",
+      "SignOffToComplete": "التوقيع للإكمال"
+    },
+    "Messages": {
+      "UnknownError": "حدث خطأ غير معروف"
+    }
+  },
+  "OKRLibraryTab": {
+    "Fields": {
+      "RewardSchemeName": "اسم مخطط المكافأة *",
+      "ObjectivesAchievementPercent": "نسبة تحقيق الأهداف %",
+      "ObjectivesAchievementPoints": "نقاط تحقيق الأهداف",
+      "KrAchievementPercent": "نسبة تحقيق النتائج الرئيسية %",
+      "KrAchievementPoints": "نقاط تحقيق النتائج الرئيسية",
+      "TaskAchievementPercent": "نسبة تحقيق المهام %",
+      "TaskAchievementPoints": "نقاط تحقيق المهام",
+      "SubTaskAchievementPercent": "نسبة تحقيق المهام الفرعية %",
+      "SubTaskPoints": "نقاط المهام الفرعية",
+      "RewardCategory": "فئة المكافأة*",
+      "RewardType": "نوع المكافأة*",
+      "OKRTemplate": "نموذج OKR*",
+      "EligibilityGroup": "مجموعة الأهلية*",
+      "KudosEnabled": "تمكين الإشادة",
+      "BirthdayWishesEnabled": "تمكين تمنيات عيد الميلاد",
+      "ApprovalRequired": "الموافقة مطلوبة",
+      "AnniversaryWishesEnabled": "تمكين تمنيات الذكرى السنوية"
+    },
+    "Sections": {
+      "RewardPoints": "نقاط المكافأة",
+      "Achievement": "الإنجاز",
+      "Eligibility": "الأهلية",
+      "Toggles": "المفاتيح"
+    },
+    "RewardPoints": {
+      "Bronze": "اختر نقاط المكافأة (برونزية)",
+      "Silver": "اختر نقاط المكافأة (فضية)",
+      "Gold": "اختر نقاط المكافأة (ذهبية)"
+    },
+    "Buttons": {
+      "Cancel": "إلغاء",
+      "Save": "حفظ"
+    },
+    "Validation": {
+      "FieldRequired": "{{field}} مطلوب",
+      "FillRequiredFields": "يرجى ملء جميع الحقول المطلوبة"
+    },
+    "EmployeesSelected": "موظفين محددين",
+    "NotAvailable": "غير متاح"
+  },
+  "RewardsManagement": {
+    "TitleHeader": "بوابة المشرفين - الصلاحيات",
+    "Title": "إدارة المكافآت",
+    "Bronze": "برونزية",
+    "Silver": "فضية",
+    "Gold": "ذهبية",
+    "Yes": "نعم",
+    "No": "لا",
+    "Buttons": {
+      "Create": "إنشاء",
+      "CreateRewards": "إنشاء مكافآت"
+    },
+    "Table": {
+      "SNo": "م.ت",
+      "Scheme": "المخطط",
+      "Category": "الفئة",
+      "Type": "النوع",
+      "Points": "النقاط",
+      "Kudos": "الإشادة",
+      "Birthday": "عيد الميلاد",
+      "ApprovalRequired": "الموافقة مطلوبة",
+      "Anniversary": "الذكرى السنوية",
+      "LastModified": "آخر تعديل",
+      "Action": "الإجراء",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "Export": {
+      "CandidateID": "رقم المرشح",
+      "RewardSchemeName": "اسم مخطط المكافأة",
+      "RewardCategory": "فئة المكافأة",
+      "RewardType": "نوع المكافأة",
+      "RewardPoints": "نقاط المكافأة",
+      "KudosEnabled": "تمكين الإشادة",
+      "BirthdayWishesEnabled": "تمكين تمنيات عيد الميلاد",
+      "ApprovalRequired": "الموافقة مطلوبة",
+      "AnniversaryWishesEnabled": "تمكين تمنيات الذكرى السنوية",
+      "UpdatedAt": "تم التحديث في"
+    },
+    "Messages": {
+      "NoDataFound": "لا توجد بيانات!",
+      "SelectRole": "يرجى اختيار دور...",
+      "NoDataToExport": "لا توجد بيانات للتصدير"
+    },
+    "Validation": {
+      "OKRRequired": "وظيفة OKR/فئة OKR مطلوبة!"
+    }
+  },
+  "common": {
+    "searchHere": "ابحث هنا..",
+    "export": "تصدير",
+    "csv": "CSV",
+    "excel": "Excel",
+    "pdf": "PDF"
+  },
+  "notification": {
+    "settingsTitle": "إعدادات الإشعارات",
+    "to": "إلى",
+    "cc": "نسخة",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "attachment": "المرفق",
+    "view": "عرض",
+    "reupload": "إعادة الرفع",
+    "saveSettings": "حفظ الإعدادات",
+    "updateSettings": "تحديث الإعدادات",
+    "select": "--اختر--",
+    "noDataFound": "لا توجد بيانات!"
+  },
+  "LaunchForms": {
+    "Title": "نماذج الإطلاق",
+    "ConfirmDelete": "هل أنت متأكد أنك تريد حذف هذا النموذج؟",
+    "Submit": "إرسال",
+    "EmployeesSelected": "موظفين محددين",
+    "Buttons": {
+      "Create": "إنشاء",
+      "Cancel": "إلغاء",
+      "Update": "تحديث",
+      "Save": "حفظ"
+    },
+    "FormFields": {
+      "LaunchFormName": "اسم نموذج الإطلاق",
+      "FormType": "نوع النموذج",
+      "FormTemplate": "نموذج النموذج",
+      "LaunchDate": "تاريخ الإطلاق",
+      "ReviewPeriodStartDate": "تاريخ بدء فترة المراجعة",
+      "ReviewPeriodEndDate": "تاريخ انتهاء فترة المراجعة",
+      "Employees": "الموظفون"
+    },
+    "Table": {
+      "Name": "الاسم",
+      "LaunchDate": "تاريخ الإطلاق",
+      "Action": "الإجراء",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "Placeholders": {
+      "SelectFormType": "يرجى اختيار نوع النموذج...",
+      "SelectFormTemplate": "يرجى اختيار نموذج النموذج...",
+      "EnterLaunchDate": "أدخل تاريخ الإطلاق",
+      "EnterStartDate": "أدخل تاريخ البدء",
+      "EnterEndDate": "أدخل تاريخ الانتهاء"
+    }
+  },
+  "addRewardPopup": {
+    "titleAdd": "إضافة مكافأة جديدة",
+    "titleUpdate": "تحديث المكافأة",
+    "rewardName": "اسم المكافأة*",
+    "rewardDescription": "وصف المكافأة*",
+    "rewardType": "نوع المكافأة*",
+    "rewardApprover": "معتمد المكافأة*",
+    "rewardCode": "كود المكافأة*",
+    "rewardPoints": "نقاط المكافأة*",
+    "rewardAmount": "مبلغ المكافأة*",
+    "rewardStatus": "حالة المكافأة*",
+    "rewardIcon": "أيقونة المكافأة*",
+    "viewRewardIcon": "عرض أيقونة المكافأة",
+    "reuploadRewardIcon": "إعادة رفع أيقونة المكافأة",
+    "add": "إضافة",
+    "update": "تحديث",
+    "clear": "مسح",
+    "active": "نشط",
+    "inactive": "غير نشط"
+  },
+  "catalogManagement": {
+    "headerTitle": "بوابة المشرفين - الصلاحيات",
+    "title": "إدارة الكتالوج",
+    "addNewReward": "إضافة مكافأة جديدة",
+    "searchPlaceholder": "البحث في المكافآت...",
+    "validationError": "وظيفة OKR/فئة OKR مطلوبة!",
+    "noData": "لا توجد بيانات!"
+  },
+  "tabsContainer": {
+    "selectAll": "اختر الكل",
+    "objectives": "الأهداف",
+    "keyResults": "النتائج الرئيسية",
+    "tasks": "المهام"
+  },
+  "AdvancedLaunchForms": {
+    "Title": "نماذج الإطلاق المتقدمة",
+    "AdvancedReviewManagement": "إدارة المراجعة المتقدمة",
+    "Buttons": {
+      "Create": "إنشاء",
+      "Cancel": "إلغاء",
+      "Update": "تحديث",
+      "Save": "حفظ"
+    },
+    "FormFields": {
+      "LaunchFormName": "اسم نموذج الإطلاق",
+      "FormName": "اسم النموذج",
+      "FormType": "نوع النموذج",
+      "FormTemplate": "نموذج النموذج",
+      "LaunchDate": "تاريخ الإطلاق",
+      "ReviewPeriodStartDate": "تاريخ بدء فترة المراجعة",
+      "ReviewPeriodEndDate": "تاريخ انتهاء فترة المراجعة",
+      "ToEmployee": "إلى الموظف",
+      "SelfAndManager": "الذاتي والمدير",
+      "Peers": "الزملاء"
+    },
+    "Table": {
+      "FormName": "اسم النموذج",
+      "TemplateName": "اسم النموذج",
+      "EmployeeName": "اسم الموظف",
+      "LaunchDate": "تاريخ الإطلاق",
+      "Action": "الإجراء",
+      "Edit": "تعديل",
+      "Delete": "حذف"
+    },
+    "Placeholders": {
+      "EnterFormName": "أدخل اسم النموذج",
+      "AdvanceReviewManagement": "إدارة المراجعة المتقدمة",
+      "SelectFormTemplate": "يرجى اختيار نموذج النموذج...",
+      "EnterLaunchDate": "أدخل تاريخ الإطلاق",
+      "EnterStartDate": "أدخل تاريخ البدء",
+      "EnterEndDate": "أدخل تاريخ الانتهاء",
+      "SelectEmployee": "يرجى اختيار موظف...",
+      "SelectSelfAndManager": "اختر الذاتي والمدير...",
+      "SelectPeers": "اختر الزملاء..."
+    }
+  },
+  "FilterComponent": {
+    "Title": "الفلاتر",
+    "Buttons": {
+      "Reset": "إعادة تعيين",
+      "Apply": "تطبيق",
+      "Loading": "جاري التحميل..."
+    },
+    "Fields": {
+      "CandidateId": "رقم المرشح",
+      "CandidateName": "اسم المرشح",
+      "Department": "الوظيفة",
+      "Designation": "المسمى الوظيفي",
+      "ApplicationDate": "تاريخ التقديم",
+      "Stage": "المرحلة",
+      "To": "إلى"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "أدخل رقم المرشح",
+      "EnterCandidateName": "أدخل اسم المرشح"
+    },
+    "Options": {
+      "NewApplied": "تم التقديم حديثًا",
+      "PsychometricTest": "اختبار نفسي",
+      "Interview1": "مقابلة 1",
+      "Interview2": "مقابلة 2",
+      "DocumentUpload": "رفع المستندات",
+      "OfferLetter": "خطاب العرض",
+      "Onboarding": "الانضمام",
+      "Rejected": "مرفوض",
+      "ConvertToEmployee": "تحويل إلى موظف"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "لم يتم العثور على وظائف!",
+      "NoDesignationsFound": "لم يتم العثور على مسميات وظيفية!"
+    }
+  }
+}

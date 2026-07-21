@@ -1,0 +1,17 @@
+.notification-container .notification-success {
+  background-color: var(--ts-primary) !important;
+  color: var(--ts-white) !important;
+}
+.notification-container .notification-info {
+  background-color: var(--ts-grey) !important;
+  color: var(--ts-white) !important;
+}
+.notification-container .notification-warning {
+  background-color: var(--ts-red) !important;
+  color: var(--ts-white) !important;
+}
+.notification-container .notification-error {
+  background-color: var(--ts-red) !important;
+  color: var(--ts-white) !important;
+}
+

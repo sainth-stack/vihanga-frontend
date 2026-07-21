@@ -1,0 +1,19 @@
+@import '../../assets/scss/abstracts/abstracts';
+  .react-bootstrap-table table{
+    table-layout: inherit;
+    background-color: white;
+  }
+.react-bootstrap-table td{
+  //word-break: break-all;
+  font-size:12px;
+}
+.react-bootstrap-table th {
+  //word-break: break-all;
+  font-size:10px;
+}
+.react-bootstrap-table thead{
+  background-color: rgba(42, 137, 129, 0.17);
+}
+.react-bootstrap-table-pagination-total{
+  width:30%;
+}

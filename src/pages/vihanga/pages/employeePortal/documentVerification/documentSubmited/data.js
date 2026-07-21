@@ -1,0 +1,56 @@
+export const documentVerificationData = [
+  {
+    id: 1,
+    documentType: "Previous Payslips",
+    attached: "Yes",
+    verified: "Verified",
+    attachedColor: "#388e3c", // green
+    verifiedColor: "#388e3c",
+    progress: 100,
+  },
+  {
+    id: 2,
+    documentType: "Previous Payslips",
+    attached: "No",
+    verified: "Verified",
+    attachedColor: "#d32f2f", // red
+    verifiedColor: "#388e3c",
+    progress: 60,
+  },
+  {
+    id: 3,
+    documentType: "Reference 2",
+    attached: "Yes",
+    verified: "Verified",
+    attachedColor: "#388e3c",
+    verifiedColor: "#388e3c",
+    progress: 80,
+  },
+  {
+    id: 4,
+    documentType: "Experience Letter",
+    attached: "Yes",
+    verified: "Verified",
+    attachedColor: "#388e3c",
+    verifiedColor: "#388e3c",
+    progress: 90,
+  },
+  {
+    id: 5,
+    documentType: "Aadhar Card",
+    attached: "Yes",
+    verified: "Error",
+    attachedColor: "#d32f2f",
+    verifiedColor: "#d32f2f",
+    progress: 40,
+  },
+  {
+    id: 6,
+    documentType: "Others (if any)",
+    attached: "Yes",
+    verified: "Verified",
+    attachedColor: "#388e3c",
+    verifiedColor: "#388e3c",
+    progress: 70,
+  },
+];

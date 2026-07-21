@@ -1,0 +1,42 @@
+@import "../abstracts/abstracts";
+
+.mob-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+@media (max-width: 480px) {
+
+  .search-bar,
+  .sidebar-icon-only .sidebar-list-items,
+  .date,
+  .search-bar2 {
+    width: 100% !important;
+  }
+
+  .userdropdown .dropdown-toggle::after {
+    margin-left: 4.255em !important;
+  }
+
+  .coin-icon {
+    padding-left: 0px !important;
+  }
+
+  h3,
+  h4 {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width:820px) {
+
+  .search-bar,
+  .sidebar-icon-only .sidebar-list-items,
+  .date,
+  .search-bar2 {
+    width: 80% !important;
+  }
+}

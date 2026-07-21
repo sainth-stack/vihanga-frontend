@@ -1,0 +1,10 @@
+body {
+  background-color: var(--ts-app-bg);
+}
+
+.bg-light {
+  background-color: var(--ts-app-bg) !important;
+}
+
+
+

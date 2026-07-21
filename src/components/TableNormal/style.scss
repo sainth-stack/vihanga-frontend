@@ -1,0 +1,95 @@
+@import '../../assets/scss/abstracts/abstracts';
+
+.pagination {
+  justify-content: flex-end;
+}
+
+.border-green {
+  border-top: 2px solid rgba(42, 137, 129, 0.31);
+}
+
+.arrow-btn {
+  background-color: #2A8981;
+  border: none;
+  margin-right: 20px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.gtlt {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.react-bootstrap-table-pagination {
+  justify-content: flex-end;
+  margin: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#pageDropDown::before {
+  text-transform: capitalize;
+}
+
+.react-bootstrap-table-pagination-total {
+  width: 20%;
+}
+
+.react-bootstrap-table-pagination .d-flex {
+  width: 15%;
+}
+
+.d-toggle {
+  border: none;
+  background-color: white;
+}
+
+.react-bootstrap-table-pagination {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2A8981;
+  height: 45px;
+}
+
+#pageDropDown::before {
+  content: "Rows per page: ";
+}
+
+#pageDropDown {
+  background-color: #2A8981;
+  border-color: #2A8981;
+  margin-top: 6px;
+  // width: 120px;
+}
+
+.react-bootstrap-table-pagination div {
+  width: auto;
+}
+
+.react-bootstrap-table-pagination-list {
+  width: 120px;
+}
+
+.react-bootstrap-table-pagination-total {
+  float: right;
+}
+
+.page-item.active {
+  display: none;
+}
+
+.page-item {
+  background-color: #2A8981;
+}
+
+@media screen and (min-width:820px) {
+  .react-bootstrap-table-pagination .col-md-6 {
+    flex: 0 0 66.666667%;
+    max-width: 65%;
+  }
+
+  .react-bootstrap-table-pagination .d-flex {
+    width: 30%;
+  }
+}

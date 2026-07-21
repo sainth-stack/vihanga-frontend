@@ -1,0 +1,1907 @@
+{
+  "Common": {
+    "Close": "Close"
+  },
+  "AdminPage": {
+    "PageTitle": "Talentspotify Admin",
+    "PageSubtitle": "Access all your admin tools and features from one place",
+    "SearchPlaceholder": "Search admin features...",
+    "RolesAndPrivileges": {
+      "Title": "Roles & Privileges",
+      "Description": "Manage user roles, permissions, and access across the workspace"
+    },
+    "RecruitmentManagement": {
+      "Title": "Recruitment Management",
+      "Description": "Track job openings, hiring stages, and candidate progress"
+    },
+    "UploadLeaves": {
+      "Title": "Upload Leaves",
+      "Description": "Upload and manage employee leave records and applications"
+    },
+    "AttendanceUpload": {
+      "Title": "Attendance Upload",
+      "Description": "Upload and review employee attendance records and timesheets"
+    },
+    "ApprovalWorkflow": {
+      "Title": "Approval Workflow",
+      "Description": "Configure and monitor multi-step approvals and related notifications"
+    },
+    "AssetManagement": {
+      "Title": "Asset Management",
+      "Description": "Manage company assets, assignments, and equipment lifecycle"
+    },
+    "LeaveType": {
+      "Title": "Leave Type",
+      "Description": "Define leave categories and set approval and notification rules"
+    },
+    "HolidaysCalendar": {
+      "Title": "Holidays Calendar",
+      "Description": "Manage company holidays, events, and calendar schedules"
+    },
+    "EligibilityCriteria": {
+      "Title": "Eligibility Criteria",
+      "Description": "Define and manage eligibility requirements for various processes"
+    },
+    "PrivilegeGroups": {
+      "Title": "Privileges Groups",
+      "Description": "Create and manage privilege groups for role-based access control"
+    },
+    "OKRManagement": {
+      "Title": "OKR Management",
+      "Description": "Set up and manage Objectives and Key Results for performance tracking"
+    },
+    "Lookups": {
+      "Title": "Lookups",
+      "Description": "Manage reference data and lookup values across the system"
+    },
+    "RewardManagement": {
+      "Title": "Reward Management",
+      "Description": "Configure and manage employee rewards, recognition, and incentive programs"
+    },
+    "CatalogManagement": {
+      "Title": "Catalog Management",
+      "Description": "Manage product catalogs, categories, and inventory items"
+    },
+    "NotificationManagement": {
+      "Title": "Notification Management",
+      "Description": "Configure notification settings, templates, and delivery preferences"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "Advanced Performance Management",
+      "Description": "Configure advanced performance review cycles, ratings, and evaluation criteria"
+    },
+    "IntegrationManagement": {
+      "Title": "Integration Management",
+      "Description": "Manage third-party integrations, APIs, and external system connections"
+    },
+    "QuestionnaireManagement": {
+      "Title": "Questionnaire Management",
+      "Description": "Create and manage surveys, questionnaires, and feedback forms"
+    },
+    "CompetencyManagement": {
+      "Title": "Competency Management",
+      "Description": "Define and manage employee competencies, skills, and development frameworks"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "Performance Management Templates",
+      "Description": "Create and customize performance review templates and evaluation forms"
+    },
+    "LaunchFormsManagement": {
+      "Title": "Launch Forms Management",
+      "Description": "Configure and manage performance review launch forms and workflows"
+    },
+    "CalibrationManagement": {
+      "Title": "Calibration Management",
+      "Description": "Manage performance calibration sessions and rating consistency"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "Advanced Launch Forms Management",
+      "Description": "Advanced configuration for performance review launch forms and automation"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "Admin Portal - Privileges",
+    "MainHeading": "Roles & Privileges",
+    "RoleName": "Role Name",
+    "Description": "Description",
+    "GrantRoleTo": "Grant This Role To...",
+    "GrantRoleDescription": "Select a group to which you wish to grant this role. You may assign a group of users to manage employee records for a certain group. A manager should edit records within their own department.",
+    "PermissionGroupsOrUsers": "Permission groups or users",
+    "SelectPlaceholder": "--Select--",
+    "SearchPlaceholder": "Search here..",
+    "AddButton": "ADD",
+    "CancelButton": "CANCEL",
+    "MakeActiveButton": "Make Active",
+    "MakeInactiveButton": "Make Inactive",
+    "UpdateButton": "Update",
+    "SaveButton": "Save",
+    "TableHeaders": {
+      "SerialNumber": "S.No",
+      "RoleName": "Role Name",
+      "PermissionGroup": "Permission Group or Users",
+      "Active": "Active",
+      "Actions": "Actions"
+    },
+    "Tabs": {
+      "Employees": "EMPLOYEES",
+      "Goals": "GOALS",
+      "Privileges": "Privileges",
+      "Performance": "PERFORMANCE",
+      "Rewards": "REWARDS",
+      "View": "View",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "Upload Leave Records",
+    "PageDescription": "Please upload your leave records in the provided format. You can download a template below.",
+    "DownloadTemplate": "Download Template",
+    "ExportLeaveRecords": "Export Leave Records",
+    "ExportLeaveBalances": "Export Leave Balances",
+    "UploadFileLabel": "Upload Leave Records File",
+    "NoFileUploaded": "No file uploaded",
+    "UploadedFile": "Uploaded file:",
+    "Submit": "Submit",
+    "DateRangeDialog": {
+      "Title": "Select Date Range for Leave Records Export",
+      "StartDate": "Start Date",
+      "EndDate": "End Date",
+      "Cancel": "Cancel",
+      "ExportRecords": "Export Records"
+    },
+    "Instructions": {
+      "Title": "Instructions:",
+      "Step1": "Download the template to see the required format",
+      "Step2": "Fill in the EmpId (Employee Number) and leave days for each leave type",
+      "Step3": "Upload the completed file",
+      "Step4": "The system will validate employee IDs and reduce leave balances"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "Attendance Upload",
+    "PageDescription": "Please upload your attendance sheet in the provided format. You can download a template below.",
+    "DownloadTemplate": "Download Template",
+    "UploadFileLabel": "Upload Attendance File",
+    "NoFileUploaded": "No file uploaded",
+    "UploadedFile": "Uploaded file:",
+    "Submit": "Submit"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "LeaveType History",
+    "TableHeaders": {
+      "Name": "Name",
+      "Code": "Code",
+      "Actions": "Actions"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "Export as CSV",
+      "ExportAsExcel": "Export as Excel",
+      "ExportAsPDF": "Export as PDF"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "Leave Type",
+    "AdvancedConfiguration": "Advanced Configuration",
+    "MaxAdvanceDaysConfiguration": "Max Advance Days Configuration",
+    "MaxAdvanceDaysDescription": "Configure how many days in advance employees need to apply for leave based on the number of days they're requesting.",
+    "AttachmentsRequiredConfiguration": "Attachments Required Configuration",
+    "FormFields": {
+      "Name": "Name",
+      "ImageIcon": "Image / Icon",
+      "Code": "Code",
+      "BalanceBasedOn": "Balance based on (fixed entitlement / Leave grant)",
+      "Units": "Units (Days / hours)",
+      "Status": "Status",
+      "Eligibility": "Eligibility",
+      "CustomName": "Custom Name"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "Max number of leaves can take at a time",
+      "MaxHalfDays": "Max half-day leaves per year",
+      "MaxHalfDaysHelper": "Leave empty for no limit on half-day leaves",
+      "AutoAddLeaves": "Auto Add Leaves",
+      "AddType": "Add Type",
+      "NumberOfDaysToAdd": "Number of days to add"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "Min Days",
+      "MaxDays": "Max Days (leave empty for no limit)",
+      "MaxAdvanceDays": "Max Advance Days",
+      "RemoveRule": "Remove Rule",
+      "AddRule": "Add Rule"
+    },
+    "AttachmentFields": {
+      "Operator": "Operator",
+      "ValueDays": "Value (days)"
+    },
+    "Checkboxes": {
+      "Carryover": "Carryover",
+      "AttachmentsRequired": "Attachments Required"
+    },
+    "Buttons": {
+      "Cancel": "Cancel",
+      "Update": "Update",
+      "Submit": "Submit",
+      "Submitting": "Submitting..."
+    },
+    "Options": {
+      "Hours": "hours",
+      "Days": "days",
+      "Active": "Active",
+      "InActive": "In-Active",
+      "Hourly": "Hourly",
+      "Monthly": "Monthly",
+      "Yearly": "Yearly",
+      "Is": "is",
+      "LesserOrEqual": "lesser or equal to (≤)",
+      "GreaterOrEqual": "greater or equal to (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "Earned Leave (EL)",
+      "SickLeave": "Sick Leave (SL)",
+      "CasualLeave": "Casual Leave (CL)",
+      "MaternityLeave": "Maternity Leave (ML)",
+      "PaternityLeave": "Paternity Leave (PL)",
+      "CompensatoryOff": "Compensatory Off",
+      "BereavementLeave": "Bereavement Leave",
+      "MarriageLeave": "Marriage Leave",
+      "UnpaidLeave": "Unpaid Leave (LWP)",
+      "WorkFromHome": "Work From Home (WFH)",
+      "Others": "Others"
+    },
+    "FileStatus": {
+      "Selected": "✓ Selected:",
+      "Current": "Current:",
+      "NoFileSelected": "No file selected",
+      "LoadingEligibility": "Loading eligibility options..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "Carryover Rules",
+    "CarryoverDateQuestion": "What should the carryover date be?",
+    "CarryoverDateLabel": "Carryover Date",
+    "MaxDaysQuestion": "How many days should carry forward (max)?",
+    "MaxDaysLabel": "Enter maximum days"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "Asset Management System",
+    "AssetAssignment": "Asset Assignment",
+    "AddAsset": "Add Asset",
+    "AssetType": "Asset Type *",
+    "AssetNumber": "Asset Number *",
+    "IssueDate": "Issue Date",
+    "CollectionDate": "Collection Date",
+    "HandOverDate": "HandOver Date",
+    "SelectType": "Select Type",
+    "RemoveAsset": "Remove Asset",
+    "Cancel": "Cancel",
+    "UpdateAsset": "Update Asset",
+    "CreateAsset": "Create Asset",
+    "Updating": "Updating...",
+    "Submitting": "Submitting..."
+  },
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "Employee Information",
+    "FullName": "Full Name *",
+    "EmployeeID": "Employee ID *",
+    "Department": "Function",
+    "Position": "Position",
+    "WorkLocation": "Work Location",
+    "SelectEmployee": "Select Employee"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "Asset Management History",
+    "TableHeaders": {
+      "Name": "Name",
+      "EmployeeID": "Employee ID",
+      "Department": "Function",
+      "AssetType": "Asset Type",
+      "AssetNo": "Asset No",
+      "IssueDate": "Issue Date",
+      "HandOverDate": "HandOver Date",
+      "Action": "Action"
+    },
+    "Actions": {
+      "Edit": "Edit",
+      "Delete": "Delete"
+    },
+    "NoDataFound": "No data found",
+    "Error": "Error"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "Holidays Calendar",
+    "FormFields": {
+      "HolidayName": "Holiday Name",
+      "Date": "Date",
+      "Type": "Type",
+      "Description": "Description"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "Public Holiday",
+      "CompanyHoliday": "Company Holiday",
+      "ReligiousHoliday": "Religious Holiday"
+    },
+    "Buttons": {
+      "Cancel": "Cancel",
+      "Update": "Update",
+      "Submit": "Submit",
+      "Submitting": "Submitting..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "Holidays History",
+    "TableHeaders": {
+      "HolidayName": "Holiday Name",
+      "Type": "Type",
+      "Date": "Date",
+      "Actions": "Actions"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "Loading...",
+    "FailedToLoad": "Failed to Load Dashboard Data",
+    "NoDataAvailable": "No Dashboard Data Available",
+    "NoDataMessage": "Dashboard information is not available at the moment.",
+    "KpiCards": {
+      "MyActiveTasks": "My Active Tasks",
+      "TeamAttendance": "Team attendance",
+      "PunctualityScore": "Punctuality Score",
+      "MyAchievements": "My Achievements",
+      "RewardPoints": "Reward Points"
+    },
+    "SubHeadings": {
+      "Urgent": "Urgent",
+      "PresentToday": "Present today",
+      "Last30Days": "Last 30 days",
+      "ThisMonth": "This Month",
+      "Available": "Available"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "Action Needed",
+      "ReviewNow": "Review Now",
+      "ViewDetails": "View Details"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "OKR Tasks",
+    "AdHocTasks": "Ad Hoc Tasks",
+    "Urgent": "Urgent"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "Loading Recent Tasks...",
+    "FailedToLoadRecentTasks": "Failed to Load Recent Tasks",
+    "NoRecentTasksAvailable": "No Recent Tasks Available",
+    "NoRecentTasksMessage": "Recent tasks information is not available at the moment.",
+    "RecentTasks": "Recent Tasks",
+    "ViewAll": "View all",
+    "NoRecentTasksFound": "No recent tasks found",
+    "AllRecentTasks": "All Recent Tasks",
+    "KpiTask": "KPI Task",
+    "NoDueDate": "No due date",
+    "UntitledTask": "Untitled Task"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "Loading Leaderboard...",
+    "FailedToLoadLeaderboard": "Failed to Load Leaderboard",
+    "NoLeaderboardDataAvailable": "No Leaderboard Data Available",
+    "NoLeaderboardDataMessage": "Reward points leaderboard information is not available at the moment.",
+    "RewardPointsLeaderboard": "Reward Points - Leaderboard",
+    "Company": "COMPANY",
+    "Top5Employees": "Top 5 Employees",
+    "ViewAll": "View All",
+    "NoEmployeesFound": "No employees found",
+    "Unknown": "Unknown",
+    "EmployeeId": "ID: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "Task Dashboard",
+    "FilterOptions": {
+      "ThisWeek": "This Week",
+      "ThisMonth": "This Month",
+      "ThisYear": "This Year",
+      "All": "All"
+    },
+    "Buttons": {
+      "View": "View",
+      "AddTask": "Add Task"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "OKR Progress",
+    "AddOKR": "Add OKR",
+    "NoOKRData": "No OKR Data",
+    "StatusLabels": {
+      "OnTrack": "On-Track",
+      "OffTrack": "Off-Track",
+      "AtRisk": "At-Risk"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "HI {{name}}! Your Objectives are off track to be completed by due date!",
+    "GreetingOnTrack": "HI {{name}}! Your Objectives are on track!",
+    "GreetingAtRisk": "HI {{name}}! Some of your Objectives are at risk!",
+    "Loading": "Loading...",
+    "NoDataAvailable": "No Data Available"
+  },
+  "ObjectivesTable": {
+    "Company": "Company",
+    "Actions": {
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "Approve": "Approve",
+      "Reject": "Reject"
+    },
+    "Columns": {
+      "Objectives": "Objectives",
+      "Progress": "Progress",
+      "Weight": "Weight",
+      "Owner": "Owner",
+      "DueDate": "Due Date",
+      "ApproveReject": "Approve/Reject",
+      "Actions": "Actions",
+      "AddKRTask": "Add KR / Add Task"
+    },
+    "Status": {
+      "OnTrack": "OnTrack",
+      "AtRisk": "AtRisk",
+      "OffTrack": "OffTrack",
+      "NotStarted": "Not Started",
+      "InProgress": "In Progress",
+      "Submit": "Submit",
+      "Draft": "Draft",
+      "PendingApproval": "Pending",
+      "ApprovalRequired": "Approval Required",
+      "Approved": "Approved",
+      "Rejected": "Rejected"
+    },
+    "Tooltips": {
+      "AddKeyResult": "Add Key Result",
+      "AddTask": "Add Task",
+      "Add": "Add"
+    },
+    "TableHeader": {
+      "DisplayOptions": "Display Options",
+      "CompanyOKRs": "Company OKRs",
+      "Cascade": "Cascade",
+      "Delete": "Delete",
+      "Status": "Status",
+      "SearchPlaceholder": "Search here..",
+      "Export": "Export",
+      "CreateOKR": "Create OKR",
+      "Library": "Library",
+      "NonLibrary": "Non Library",
+      "StatusOptions": {
+        "OnTrack": "On Track",
+        "AtRisk": "At Risk",
+        "OffTrack": "Off Track"
+      },
+      "ExportOptions": {
+        "ExportCSV": "Export as CSV",
+        "ExportExcel": "Export as Excel",
+        "ExportPDF": "Export as PDF"
+      },
+      "ExportLabels": {
+        "Type": "Type",
+        "Title": "Title",
+        "Description": "Description",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "Progress",
+        "Status": "Status",
+        "Owner": "Owner",
+        "Weight": "Weight",
+        "StartDate": "Start Date",
+        "DueDate": "Due Date",
+        "Alignment": "Alignment",
+        "CreatedAt": "Created At",
+        "Objective": "Objective",
+        "KeyResult": "Key Result",
+        "Task": "Task",
+        "CompanyOKR": "Company OKR",
+        "IndividualOKR": "Individual OKR",
+        "ExportedOn": "Exported on:",
+        "OKRsExportReport": "OKRs Export Report",
+        "NoDataToExport": "No data to export"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "OKR Year",
+    "SelectYear": "Select Year",
+    "Employee": "Employee",
+    "SelectEmployee": "Select Employee"
+  },
+  "Tasks": {
+    "Task": "Task",
+    "Tasks": "Tasks",
+    "Objective": "Objective",
+    "KR": "KR",
+    "Due Date": "Due Date",
+    "Status": "Status",
+    "Owner": "Owner",
+    "Priority": "Priority",
+    "Progress": "Progress",
+    "Comments": "Comments",
+    "SubTask": "SubTask",
+    "Approval": "Approval",
+    "Action": "Action",
+    "Approve": "Approve",
+    "PendingApproval": "Pending",
+    "Reject": "Reject",
+    "Approved": "Approved",
+    "Rejected": "Rejected",
+    "ApprovalRequired": "Approval Required",
+    "Add": "Add",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "Audit History": "Audit History",
+    "HighLevel": "High Level",
+    "MediumLevel": "Medium Level",
+    "LowLevel": "Low Level",
+    "Not Started": "Not Started",
+    "In Progress": "In Progress",
+    "OnHold": "On Hold",
+    "Completed": "Completed",
+    "Recurrence": "Recurrence",
+    "Main Task": "Main Task",
+    "Comment": "Comment",
+    "commentHere": "Comment here...",
+    "AddComment": "Add Comment",
+    "Submit": "Submit",
+    "Upload Files": "Upload Files",
+    "Uploading": "Uploading...",
+    "File uploaded": "File uploaded",
+    "Processing": "Processing...",
+    "UpdateTask": "Update Task",
+    "SaveAddAnother": "Save & Add Another",
+    "Finish": "Finish",
+    "AddTask": "Add Task",
+    "EditTask": "Edit Task",
+    "Assign To": "Assign To",
+    "Loading task data...": "Loading task data...",
+    "NoDataToExport": "No data to export",
+    "Google Sheet": "Google Sheet"
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "Create Objective",
+    "EditObjective": "Edit Objective",
+    "ObjectiveSavedSuccess": "✓ Objective saved successfully! You can now add Key Results.",
+    "EarnedRewardPoints": "You have earned {{points}} reward points",
+    "FormLabels": {
+      "Objective": "Objective*",
+      "Weight": "Weight*",
+      "Owner": "Owner",
+      "DueDate": "Due Date",
+      "Dimension": "Dimension*",
+      "Comment": "Comment",
+      "UploadFile": "Upload File",
+      "Progress": "Progress"
+    },
+    "Placeholders": {
+      "EnterComment": "Enter your comment here...",
+      "DateFormat": "dd/mm/yyyy"
+    },
+    "Buttons": {
+      "Saving": "Saving...",
+      "UpdateObjective": "Update Objective",
+      "SaveDetails": "Save Details",
+      "AddKeyResults": "Add Key Results",
+      "SaveAndAddKR": "Save & Add KR"
+    },
+    "FileUpload": {
+      "Uploading": "(Uploading...)",
+      "FileUploaded": "✓ File uploaded"
+    },
+    "Stepper": {
+      "Objective": "Objective",
+      "KR": "KR",
+      "Task": "Task"
+    },
+    "Progress": {
+      "SelectProgressStatus": "Select Your Progress Status (In Percentage)"
+    },
+    "Dimensions": {
+      "People": "People",
+      "Financial": "Financial",
+      "Operations": "Operations",
+      "Strategy": "Strategy",
+      "ProcessGovernanceSystem": "Process/Governance/System"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "Add Key Result",
+    "EditKeyResult": "Edit Key Result",
+    "OKRName": "OKR Name",
+    "AlignedToCompanyObjective": "Aligned to company objective",
+    "FormLabels": {
+      "KeyResultName": "Key Result Name*",
+      "Source": "Source",
+      "KPIs": "KPIs*",
+      "Stories": "Stories",
+      "Status": "Status*",
+      "UnitOfMeasurement": "Unit of Measurement",
+      "Polarity": "Polarity",
+      "TargetResult": "Target Result*",
+      "ActualResult": "Actual Result",
+      "TargetDate": "Target Date*",
+      "CompletionDate": "Completion Date",
+      "Comment": "comment",
+      "UploadFile": "Upload File",
+      "ImportTasks": "Import Tasks"
+    },
+    "Messages": {
+      "Tasks": "tasks"
+    },
+    "Buttons": {
+      "Saving": "Saving...",
+      "UpdateDetails": "Update Details",
+      "SaveAndAddAnother": "Save & Add Another",
+      "NextAddTask": "Next: Add Task"
+    },
+    "FileUpload": {
+      "Uploading": "(Uploading...)",
+      "FileUploaded": "✓ File uploaded"
+    },
+    "Polarity": {
+      "Positive": "Positive",
+      "Negative": "Negative"
+    },
+    "StatusOptions": {
+      "NotStarted": "Not Started",
+      "InProgress": "In Progress",
+      "OnHold": "On Hold",
+      "Completed": "Completed"
+    },
+    "KPIOptions": {
+      "Revenue": "Revenue",
+      "UserGrowth": "User Growth",
+      "ConversionRate": "Conversion Rate"
+    },
+    "UnitOptions": {
+      "Number": "Number",
+      "Percentage": "Percentage (%)",
+      "INR": "INR",
+      "USD": "USD",
+      "AED": "AED"
+    },
+    "SourceOptions": {
+      "SelectSource": "--Select Source--",
+      "Salesforce": "Salesforce",
+      "Jira": "Jira"
+    },
+    "BellCurveChart": {
+      "Loading": "Loading...",
+      "Error": "Error:",
+      "UnknownError": "Unknown error",
+      "Value": "Value:",
+      "NoCurveData": "No curve data available",
+      "AtLower": "At Lower",
+      "AtAverage": "At Average",
+      "AtUpper": "At Upper",
+      "Point": "Point"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "Total Weight Achievement",
+    "TotalWeight": "Total Weight",
+    "Q1": "Q1",
+    "Q2": "Q2",
+    "Q3": "Q3",
+    "Q4": "Q4"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "Today's Attendance",
+    "Present": "Present",
+    "OnLeave": "On Leave",
+    "LateArrivals": "Late Arrivals",
+    "TotalEmployees": "Total Employees",
+    "NextHoliday": "Next Holiday",
+    "NoUpcomingHolidays": "No upcoming holidays"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "Performance Trend",
+    "CurrentPerformance": "Current Performance",
+    "UnknownPeriod": "Unknown Period"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "Available Rewards",
+    "Pts": "Pts",
+    "NoRewardsAvailable": "No rewards available at the moment",
+    "KeepEarningPoints": "Keep Earning points for more rewards",
+    "ComingSoonTitle": "Rewards Coming Soon",
+    "ComingSoonDescription": "We're preparing exciting rewards for you! Soon you'll be able to claim rewards based on your achievements and contributions.",
+    "Rewards": {
+      "ExpertBadge": "Expert Badge",
+      "Achievement": "Achievement",
+      "TeamPlayerAward": "Team Player Award",
+      "Recognition": "Recognition",
+      "Claim": "Claim"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "Recent Updates",
+    "NoRecentUpdates": "No recent updates",
+    "ComingSoonTitle": "Updates Feed Coming Soon",
+    "ComingSoonDescription": "We're developing a comprehensive updates feed to keep you informed about important notifications, achievements, and system updates.",
+    "Updates": {
+      "UrgentTasksAlert": "Urgent Tasks Alert",
+      "TaskOverview": "Task Overview",
+      "OKRAlert": "OKR Alert",
+      "OKRProgress": "OKR Progress",
+      "GreatAttendance": "Great Attendance",
+      "AchievementUnlocked": "Achievement Unlocked",
+      "PerformanceReviewReminder": "Performance Review Reminder",
+      "GreatJob": "Great Job"
+    },
+    "TimeLabels": {
+      "Today": "Today",
+      "ThisMonth": "This month",
+      "OneDayAgo": "1 day ago",
+      "ThreeDaysAgo": "3 days ago"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "Birthday List",
+    "ViewAll": "View all",
+    "NoBirthdaysThisMonth": "No birthdays this month",
+    "AllUpcomingBirthdays": "All Upcoming Birthdays",
+    "LoadingTitle": "Loading Birthday List...",
+    "FailedToLoadTitle": "Failed to Load Birthday List",
+    "NoDataTitle": "No Birthdays This Month",
+    "NoDataMessage": "No employees have birthdays in the current month.",
+    "DateFormats": {
+      "Today": "Today",
+      "Tomorrow": "Tomorrow",
+      "Days": "days"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "Anniversary List",
+    "ViewAll": "View all",
+    "NoAnniversariesThisMonth": "No anniversaries this month",
+    "AllUpcomingAnniversaries": "All Upcoming Anniversaries",
+    "DateFormats": {
+      "Today": "Today",
+      "Tomorrow": "Tomorrow",
+      "Days": "days",
+      "Year": "Year",
+      "Years": "Years"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "Send Birthday Wish",
+    "SendPersonalizedMessage": "Send a personalized birthday message to",
+    "HappyBirthdayPlaceholder": "Happy Birthday",
+    "Cancel": "Cancel",
+    "SendWish": "Send Wish",
+    "YearsOfService": "year of service",
+    "YearsOfServicePlural": "years of service"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "Send Anniversary Wish",
+    "SendPersonalizedMessage": "Send a personalized anniversary message to",
+    "CongratulationsPlaceholder": "Congratulations on",
+    "Cancel": "Cancel",
+    "SendWish": "Send Wish",
+    "YearsOfService": "year of service",
+    "YearsOfServicePlural": "years of service"
+  },
+  "EligibilityCriteria": {
+    "Title": "Eligibility Criteria",
+    "FormFields": {
+      "EligibilityName": "Eligibility Name",
+      "Age": "Age (e.g., >30, =27)",
+      "LengthOfService": "Length of Service (e.g., >1, >2)",
+      "JobCategory": "Job Category",
+      "Gender": "Gender",
+      "Grade": "Grade",
+      "MaritalStatus": "Marital Status",
+      "Location": "Location",
+      "ProbationPeriod": "Probation Period",
+      "NoticePeriod": "Notice Period",
+      "PersonType": "Person Type",
+      "Religion": "Religion",
+      "Position": "Position",
+      "HireDate": "Hire Date",
+      "Department": "Function",
+      "WorkType": "Work Type",
+      "ExcludeByDefaultIncludesAll": "Exclude (By default includes all)",
+      "PublicHolidays": "Public Holidays",
+      "Leaves": "Leaves",
+      "Weekends": "Weekends"
+    },
+    "Options": {
+      "All": "All",
+      "Operations": "Operations",
+      "Supervisor": "Supervisor",
+      "Managerial": "Managerial",
+      "ExecutiveLeadership": "Executive Leadership",
+      "Director": "Director",
+      "Location": {
+        "USA": "USA",
+        "India": "India",
+        "UK": "UK"
+      },
+      "PersonType": {
+        "EMP": "EMP",
+        "Contractor": "Contractor",
+        "Intern": "Intern"
+      },
+      "Religion": {
+        "Hindu": "Hindu",
+        "Muslim": "Muslim",
+        "Christian": "Christian",
+        "Sikh": "Sikh",
+        "Buddhist": "Buddhist",
+        "Jain": "Jain",
+        "Other": "Other"
+      },
+      "Gender": {
+        "Male": "Male",
+        "Female": "Female"
+      },
+      "MaritalStatus": {
+        "Married": "Married",
+        "Unmarried": "Unmarried"
+      },
+      "Yes": "Yes",
+      "No": "No",
+      "WorkType": {
+        "FullTime": "Full Time",
+        "PartTime": "Part Time"
+      }
+    },
+    "Buttons": {
+      "Cancel": "Cancel",
+      "Submit": "Submit",
+      "Update": "Update"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "Failed to fetch candidate options",
+      "NoDataFound": "No Data Found!",
+      "SuccessCreate": "Eligibility created successfully",
+      "SuccessUpdate": "Eligibility updated successfully",
+      "ErrorSubmit": "An error occurred while submitting the form. Please try again."
+    },
+    "Validation": {
+      "Required": "{{field}} is required and cannot be empty",
+      "CannotBeEmpty": "{{field}} cannot be empty",
+      "InvalidSymbols": "{{field}} must contain one of the symbols: >, <, =",
+      "FillDetails": "Please fill details before submitting..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "History",
+    "TableHeaders": {
+      "EligibilityName": "Eligibility Name",
+      "Department": "Function",
+      "Actions": "Actions"
+    },
+    "Buttons": {
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "ExportCSV": "Export as CSV",
+      "ExportExcel": "Export as Excel",
+      "ExportPDF": "Export as PDF"
+    },
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "New Applied",
+        "PsychometricTest": "Psychometric Test"
+      },
+      "ExportOptions": {
+        "CSV": "Export as CSV",
+        "Excel": "Export as Excel",
+        "PDF": "Export as PDF"
+      }
+    },
+    "Messages": {
+      "FetchError": "Failed to fetch data",
+      "DeleteSuccess": "Record deleted successfully",
+      "DeleteError": "Failed to delete record",
+      "ExportSuccess": "Exported successfully",
+      "ExportError": "Failed to export data",
+      "NoData": "No data available"
+    },
+    "Placeholders": {
+      "Search": "Search...",
+      "Select": "--Select--"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "Approval Workflow",
+    "Description": "Configure and manage approval chain for different transaction types",
+    "NewWorkflowButton": "New Workflow"
+  },
+  "WorkflowType": {
+    "TitleCreate": "Create New Workflow",
+    "TitleEdit": "Edit Workflow",
+    "SubtitleCreate": "Set up a new approval workflow for your organization",
+    "SubtitleEdit": "Modify the approval workflow for your organization",
+    "SelectTransactionTitle": "Select Transaction Type",
+    "SelectTransactionDescription": "Choose the type of transaction that will follow this approval workflow",
+    "Steps": {
+      "TransactionType": "Transaction Type",
+      "WorkflowDetails": "Workflow Details",
+      "ApprovalChain": "Approval Chain"
+    },
+    "Buttons": {
+      "Previous": "Previous",
+      "Cancel": "Cancel",
+      "Next": "Next",
+      "Submitting": "Submitting...",
+      "CreateWorkflow": "Create Workflow",
+      "UpdateWorkflow": "Update Workflow"
+    },
+    "Messages": {
+      "CreateSuccess": "Workflow created successfully.",
+      "UpdateSuccess": "Workflow updated successfully.",
+      "CreateError": "Failed to create workflow. Please try again.",
+      "UpdateError": "Failed to update workflow. Please try again."
+    },
+    "UnknownStep": "Unknown Step"
+  },
+  "TransactionCard": {
+    "Recruitment": "Recruitment",
+    "RecruitmentDescription": "Workflow for hiring and approval process",
+    "ExpenseApproval": "Expense Approval",
+    "ExpenseApprovalDescription": "Approval flow for employee expenses",
+    "LeaveRequest": "Leave Request",
+    "LeaveRequestDescription": "Approval chain for employee leave requests",
+    "PurchaseOrder": "Purchase Order",
+    "PurchaseOrderDescription": "Workflow for managing purchase orders",
+    "BudgetApproval": "Budget Approval",
+    "BudgetApprovalDescription": "Approval process for financial budgets"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "Workflow Details",
+    "ProvideNameDescription": "Provide a name and description for this approval workflow",
+    "WorkflowName": "Workflow Name",
+    "WorkflowNamePlaceholder": "e.g., Standard Leave Approval",
+    "Description": "Description",
+    "DescriptionPlaceholder": "Describe the purpose and use cases for this workflow",
+    "Condition": "Condition",
+    "ConditionPlaceholder": "Optional condition for the workflow",
+    "ConditionLeaveRequest": "Condition (for Leave Requests)",
+    "SetRules": "Set rules based on number of days in the leave request",
+    "Attribute": "Attribute",
+    "SelectAttribute": "Select attribute",
+    "Operator": "Operator",
+    "SelectOperator": "Select operator",
+    "Value": "Value",
+    "EnterNumber": "Enter number",
+    "Days": "Days",
+    "is": "is",
+    "lesserOrEqual": "lesser or equal to (≤)",
+    "greaterOrEqual": "greater or equal to (≥)",
+    "between": "between",
+    "Min": "Min",
+    "Max": "Max"
+  },
+  "workflowFilter": {
+    "searchPlaceholder": "Search Work Flow",
+    "filterButton": "Filter",
+    "allTypes": "All Types",
+    "workflow": "Workflow",
+    "task": "Task"
+  },
+  "workflowChain": {
+    "configureApprovalChain": "Configure Approval Chain",
+    "defineSequence": "Define the sequence of approvers for this workflow",
+    "currentApprovalChain": "Current Approval Chain",
+    "noStepsDefined": "No Approval Steps Defined Yet",
+    "addStep": "Add Step",
+    "completeDetailsError": "Please complete transaction type and workflow details first"
+  },
+  "addApprovalHeader": {
+    "title": "Add Approval Step",
+    "rolesTab": "Roles",
+    "individualUserTab": "Individual User",
+    "searchPlaceholder": "Search Work Flow"
+  },
+  "formNavigation": {
+    "previous": "Previous",
+    "cancel": "Cancel",
+    "createWorkflow": "Create Workflow"
+  },
+  "selectedApprovers": {
+    "title": "Selected Approvers:",
+    "noApprovers": "No Approvers Selected Yet",
+    "saveStep": "Save Step",
+    "cancel": "Cancel"
+  },
+  "approval": {
+    "saveApprovers": "Save Approvers"
+  },
+  "approval2": {
+    "card1Title": "Line Manager",
+    "card1Description": "Direct Supervisor of the Employee",
+    "select": "Select",
+    "remove": "Remove",
+    "selected": "Selected",
+    "removed": "Removed"
+  },
+  "approval3": {
+    "card2Title": "HR Manager",
+    "card2Description": "Human Resources Functional Head",
+    "select": "Select",
+    "remove": "Remove",
+    "selected": "Selected",
+    "removed": "Removed"
+  },
+  "approval4": {
+    "card3Title": "Functional Head",
+    "card3Description": "Head of the Functions",
+    "select": "Select",
+    "remove": "Remove",
+    "selected": "Selected",
+    "removed": "Removed"
+  },
+  "approval5": {
+    "card4Title": "CEO",
+    "card4Description": "Chief Executive Officer",
+    "select": "Select",
+    "remove": "Remove",
+    "selected": "Selected",
+    "removed": "Removed"
+  },
+  "approval6": {
+    "card5Title": "Finance Director",
+    "card5Description": "Manager Overseeing Specific Project",
+    "select": "Select",
+    "remove": "Remove",
+    "selected": "Selected",
+    "removed": "Removed"
+  },
+  "approval7": {
+    "card6Title": "Project Manager",
+    "card6Description": "Direct Supervisor of the Employee",
+    "select": "Select",
+    "remove": "Remove",
+    "selected": "Selected",
+    "removed": "Removed"
+  },
+  "transactions": {
+    "leaveRequestTitle": "Leave Request",
+    "leaveRequestDescription": "Approval flow for employee leave requests",
+    "timesheetTitle": "Timesheet",
+    "timesheetDescription": "Approval flow for employee timesheets",
+    "resignationRequestTitle": "Resignation Request",
+    "resignationRequestDescription": "Approval flow for employee resignation requests"
+  },
+  "workflow": {
+    "selectTransactionType": "Select Transaction Type",
+    "chooseTransactionType": "Choose the type of transaction that will follow this approval workflow",
+    "editWorkflow": "Edit Workflow",
+    "createNewWorkflow": "Create New Workflow",
+    "modifyWorkflow": "Modify the approval workflow for your organization",
+    "setupNewWorkflow": "Set up a new approval workflow for your organization",
+    "previous": "Previous",
+    "cancel": "Cancel",
+    "next": "Next",
+    "submitting": "Submitting...",
+    "updateWorkflow": "Update Workflow",
+    "createWorkflow": "Create Workflow",
+    "updatedSuccess": "Workflow updated successfully",
+    "createdSuccess": "Workflow created successfully",
+    "failed": "Failed to {{action}} workflow. Please try again.",
+    "create": "create",
+    "update": "update",
+    "unknownStep": "Unknown Step",
+    "Transaction Type": "Transaction Type",
+    "Workflow Details": "Workflow Details",
+    "Approval Chain": "Approval Chain"
+  },
+  "LookUpScreen": {
+    "CreateLookUp": "Create LookUp",
+    "LookupType": "Lookup Type",
+    "Meaning": "Meaning",
+    "Add": "Add",
+    "Code": "Code",
+    "Delete": "Delete",
+    "Submit": "Submit",
+    "DateStart": "Date Start",
+    "DateEnd": "Date End",
+    "Enabled": "Enabled",
+    "Actions": "Actions",
+    "Type": "Type",
+    "EditLookUp": "Edit Lookup",
+    "Update": "Update",
+    "Cancel": "Cancel",
+    "PerformanceRatingScale": "Performance Rating Scale"
+  },
+  "CompetencyManagement": {
+    "CompetencyManagement": "CompetencyManagement",
+    "Name": "Name",
+    "PositionLevel": "Position Level",
+    "Action": "Action",
+    "Create": "Create",
+    "CreateNewCompetency": "Create New Competency",
+    "EditCompetency": "Edit Competency",
+    "CompetencyName": "Competency Name",
+    "Description": "Description",
+    "StartDate": "Start Date",
+    "EndDate": "End Date",
+    "CompetencyType": "Competency Type",
+    "DevelopmentActivities": "Development Activities",
+    "CoachingActivities": "Coaching Activities",
+    "CategoryActivities": "Category Activities",
+    "PositionLevelField": "Position Level",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "Update": "Update"
+  },
+  "OKRManagement": {
+    "OKRManagement": "OKR Management",
+    "OkrLibrary": "OKR LIBRARY",
+    "Okr": "OKR",
+    "Transfer": "TRANSFER",
+    "Create": "Create",
+    "BulkUpload": "Bulk Upload",
+    "Industry": "Industry",
+    "IsActive": "Is Active",
+    "LastModified": "Last Modified",
+    "Action": "Action",
+    "OkrTemplateName": "OKR Template Name",
+    "StartDate": "Start Date",
+    "EndDate": "End Date",
+    "EligibilityGroup": "Eligibility Group",
+    "TransferFromEmployee": "Transfer From Employee :",
+    "TransferToEmployee": "Transfer To Employee :",
+    "FindOkr": "Find OKR",
+    "InstructionsToUsers": "Instructions to Users",
+    "LowValueRange": "Low Value Range",
+    "MidValueRange": "Mid Value Range",
+    "HighValueRange": "High Value Range",
+    "Min": "Min",
+    "Max": "Max",
+    "IncludingKeyResults": "Including Key Results",
+    "ImportOkrLibrary": "Import OKR Library",
+    "Export": "Export",
+    "DownloadTemplate": "Download Template",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "IncludeOkr": "Include OKR",
+    "Edit": "Edit",
+    "Delete": "Delete"
+  },
+  "TimeLogin": {
+    "title": "Geo Location Time Entry",
+    "discription-title": "Clock in out based on your physical location",
+    "buttonLables": {
+      "bio": "Manual / Bio",
+      "geo": "Geo"
+    },
+    "refreshing": " Refreshing...",
+    "refreshLocation": "Refresh Location",
+    "LocationService": "Location Services",
+    "message": "Please allow location access when prompted. Your location is only used to verify presence at work.",
+    "getting": "Getting your location....",
+    "RetryLocation": "Retry Location",
+    "ManualLocation": "Manual Location",
+    "time": "Current system time",
+    "clockOut": "Clock Out",
+    "clockin": "Clock In",
+    "manuallyLocation": "Enter Location Manually",
+    "textLabel": {
+      "Latitude": "Latitude",
+      "Logitude": "Longitude"
+    },
+    "Cancel": "Cancel",
+    "setLocation": "Set Location",
+    "waitingError": "Waiting for location access...",
+    "TimeSheetHistory": {
+      "history": "TimeSheet History",
+      "totalTime": "Total Time",
+      "week": "Week"
+    },
+    "TableColumn": {
+      "Employee": "Employee",
+      "day": "day",
+      "Date": "Date",
+      "timein": "Time In",
+      "timeOut": "Time Out",
+      "hours": "Hours",
+      "method": "Method",
+      "position": "Position",
+      "remarks": "Remarks",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "actionButton": {
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "DialogBox": {
+      "title": "Time Entry Details",
+      "ApprovalHistory": "Approval History",
+      "Nodetailsavailable": "No details available",
+      "CurrentLocationMap": "Current Location Map"
+    },
+    "exportOptions": {
+      "export": "Export",
+      "exportExcel": "Export as Excel",
+      "exportCSV": "Export as CSV",
+      "exportPDF": "Export as PDF"
+    }
+  },
+  "AbsenceTime": {
+    "LeavePolicy": "Leave Policy",
+    "applyForLeave": "Apply for leave",
+    "teamLeave": "Team Leave",
+    "LoadingLeaves": "Loading leave types...",
+    "formLabel": {
+      "absenceType": "Absence type / Category",
+      "halfDay": "Half day",
+      "form": "From",
+      "to": "To",
+      "durationAbsence": "Duration of absence",
+      "note": "note"
+    },
+    "Uplode": "Upload attachments",
+    "sumbitting": "Submitting...",
+    "buttonConfg": {
+      "cancel": "Cancel",
+      "update": "Update",
+      "submit": "Submit"
+    },
+    "leavesAvailable": "No other leaves available.",
+    "close": "Close",
+    "tableColumn": {
+      "date": "Date",
+      "employee": "Employee",
+      "type": "Type",
+      "duration": "Duration",
+      "status": "Status",
+      "action": "Action"
+    },
+    "editRequest": "Edit Request",
+    "deleteRequest": "Delete Request",
+    "approve": "Approve",
+    "reject": "Reject",
+    "leaveDetailsView": {
+      "leaveType": "Leave Type",
+      "duration": "Duration",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "applicationOn": "applicationOn"
+    },
+    "reasons": {
+      "reason": "Reason",
+      "rejectionReason": "Rejection Reason:"
+    },
+    "approvalStatus": "Current Approval Status",
+    "noDetails": "No details available",
+    "requests": {
+      "approveLeave": "Approve Leave Request",
+      "rejectLeave": "Reject Leave Request",
+      "details": "Request Details"
+    },
+    "period": "Period",
+    "Comments(Optional)": "Comments (Optional)",
+    "Comments": "Comments",
+    "noComments": "No comments",
+    "RejectionReason": "Rejection Reason *",
+    "approveRequest": "Approve Request",
+    "rejectRequest": "Reject Request",
+    "DialogBox": {
+      "title": "Leave Request Details",
+      "alert": "Failed to load leave request details"
+    },
+    "searchHear": "Search here..",
+    "TeamLeave": {
+      "teamLeave": "Team Leave",
+      "managerBoard": "Manager Board:",
+      "all": "All",
+      "teamA": "Team A",
+      "teamB": "Team B"
+    },
+    "tableHeader": {
+      "displayOptions": "Display Options",
+      "priority": "Priority",
+      "status": "Status"
+    },
+    "filters": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "EventCalender": {
+      "filter": "Filter:"
+    }
+  },
+  "FileUploadFile": {
+    "chooseAFile": "Choose a file or drag & drop it here",
+    "uploading": "Uploading...",
+    "fileTypes": "JPEG, PNG, PDF, CSV, Excel, up to 50MB",
+    "browseFile": "Browse File",
+    "selectedFile": "Selected File",
+    "clickhere": "Click Here"
+  },
+  "RecruitmentManagement": {
+    "WelcomeBack": "Welcome Back",
+    "NewCandidate": "New Candidate",
+    "ID": "ID",
+    "Name": "Name",
+    "Email": "E-mail",
+    "AppliedOn": "Applied On",
+    "Stages": "Stages",
+    "Actions": "Actions",
+    "InProgress": "In Progress",
+    "WaitingForFeedback": "Waiting For Feedback",
+    "OfferReleased": "Offer Released",
+    "CandidatesList": "Candidates List",
+    "AddNewCandidate": "Add New Candidate",
+    "CandidateDetails": "Candidate Details",
+    "PsychometricAssessment": "Psychometric Assessment",
+    "Interview1": "Interview 1",
+    "Interview2": "Interview 2",
+    "DocumentVerification": "Document Verification",
+    "Offer": "Offer",
+    "OfferLetter": "Offer Letter",
+    "Onboarding": "Onboarding",
+    "CandidateName": "Candidate Name",
+    "EmailAddress": "Email Address",
+    "AddPhoto": "Add Photo",
+    "PhoneNo": "Phone No",
+    "ExperienceInYears": "Experience (in Years)",
+    "EducationQualification": "Education Qualification",
+    "DateOfBirth": "Date of Birth",
+    "Gender": "Gender",
+    "Location": "Location",
+    "Source": "Source",
+    "Department": "Function",
+    "Designation": "Designation",
+    "LegalEntity": "Legal Entity",
+    "ProjectName": "Project Name",
+    "ReportingManager": "Reporting Manager",
+    "Status": "Status",
+    "Resume": "Resume",
+    "Cancel": "Cancel",
+    "Submit": "Submit",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "EditCandidate": "Edit Candidate",
+    "ClickHere": "Click Here",
+    "Update": "Update",
+    "MoveToTalentPool": "Move to Talent Pool?",
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other",
+    "Yes": "Yes",
+    "No": "No",
+    "SuitableDesignation": "Suitable Designation",
+    "NoticePeriodDays": "Notice Period (days)",
+    "DateOfJoining": "Date of Joining",
+    "ProbationPeriodDays": "Probation Period (days)",
+    "PsychometricReviewReport": "Psychometric Review Report",
+    "DocumentsUploadOverview": "Documents Upload Overview",
+    "SaveAsDraft": "Save as Draft",
+    "DraftLoaded": "Draft data loaded",
+    "GrossSalary": "Gross Salary",
+    "Interviewer1": "Interviewer 1",
+    "Interviewer2": "Interviewer 2"
+  },
+  "PrivilegeGroups": {
+    "PrivilegeGroups": "Privilege Groups",
+    "CreateNewGroup": "Create New Group",
+    "GroupName": "Group Name",
+    "UserType": "User Type",
+    "SonicOfDynamic": "Sonic Of Dynamic",
+    "ActiveMembership": "Active Membership",
+    "LastModified": "Last Modified",
+    "Action": "Action",
+    "ActiveGroupMembership": "Active Group Membership",
+    "ChooseGroupMembers": "Choose Group Members",
+    "PeoplePool": "People Pool",
+    "PickACategory": "Pick a Category",
+    "ExcludeThesePeopleGroupName": "Exclude These People Group Name",
+    "Select": "Select",
+    "Cancel": "Cancel",
+    "Finished": "Finished",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "AddPrivilegeGroup": "Add Privilege Group",
+    "UpdatePrivilegeGroup": "Update Privilege Group",
+    "GroupCreatedSuccessfully": "Group created successfully!",
+    "GroupUpdatedSuccessfully": "Group updated successfully!",
+    "GroupDeletedSuccessfully": "Group deleted successfully!",
+    "AreYouSureDelete": "Are you sure you want to delete this group?",
+    "NoDataFound": "No Data Found",
+    "Loading": "Loading...",
+    "SearchGroups": "Search Groups",
+    "ViewDetails": "View Details",
+    "SaveChanges": "Save Changes",
+    "Confirm": "Confirm",
+    "Yes": "Yes",
+    "No": "No",
+    "Active": "Active",
+    "Inactive": "Inactive",
+    "Members": "Members",
+    "Status": "Status",
+    "CreatedBy": "Created By",
+    "ModifiedBy": "Modified By",
+    "GroupNameIsRequired": "Group Name is required",
+    "ErrorFetchingData": "Error fetching data!",
+    "SomethingWentWrong": "Something went wrong!",
+    "PleaseEnterGroupName": "Please enter group name",
+    "PleaseSelectUserType": "Please select user type",
+    "PleaseSelectMembers": "Please select group members"
+  },
+  "SessionTab": {
+    "Title": "Sessions",
+    "FormTitle": "Define The Sessions Details",
+    "Buttons": {
+      "Create": "Create",
+      "Cancel": "Cancel",
+      "Update": "Update",
+      "Save": "Save"
+    },
+    "FormFields": {
+      "SessionName": "Session Name",
+      "Template": "Template",
+      "SessionStartDate": "Session Start Date",
+      "SessionEndDate": "Session End Date",
+      "SessionOwners": "Session Owners",
+      "EmployeeGroup": "Employee Group"
+    },
+    "Table": {
+      "Name": "NAME",
+      "Action": "ACTION",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    },
+    "Placeholders": {
+      "SearchHere": "Search here...",
+      "SelectTemplate": "Select template",
+      "EnterSessionName": "Enter session name",
+      "SelectSessionOwners": "Select session owners",
+      "SelectEmployeeGroup": "Select employee group"
+    },
+    "Validation": {
+      "FillRequiredFields": "Please fill in all required fields"
+    },
+    "Messages": {
+      "FailedDelete": "Failed to delete session",
+      "ErrorDelete": "An error occurred while deleting the session",
+      "FailedCreate": "Failed to create session",
+      "ErrorCreate": "An error occurred while creating the session",
+      "FailedUpdate": "Failed to update session",
+      "ErrorUpdate": "An error occurred while updating the session"
+    }
+  },
+  "GuideLinesTab": {
+    "Instructions": {
+      "SelectDataSource": "Select the data source for the elements you want calibrate:"
+    },
+    "Performance": {
+      "Title": "Performance",
+      "Description": "Performance calibration includes the evaluation of performance, goals, potential, or other customer-defined elements. 1. Select the form template(s) that elements you want to calibrateAll fields are required."
+    },
+    "Options": {
+      "Calibration": "Calibration",
+      "SelfSubmission": "Self Submission",
+      "ManagerReview": "Manager Review",
+      "ManagerSignOff": "Manager SignOff",
+      "EmployeeSignOff": "Employee SignOff"
+    },
+    "RatingScale": {
+      "Ineffective": "1. Ineffective",
+      "SomewhatAchieved": "2. Somewhat Achieved",
+      "Achieved": "3. Achieved",
+      "Overperformed": "4. Overperformed",
+      "Outstanding": "5. Outstanding"
+    },
+    "Table": {
+      "Template": "Template",
+      "RouteMap": "Route Map",
+      "RoutingStep": "At Routing Step can data be Used?"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Select template",
+      "SelectStep": "Select step"
+    },
+    "DefaultStep": "PM2 Performance Evaluation"
+  },
+  "CalibrationManagement": {
+    "Options": {
+      "Calibration": "Calibration",
+      "SelfSubmission": "Self Submission",
+      "ManagerReview": "Manager Review",
+      "ManagerSignOff": "Manager SignOff",
+      "EmployeeSignOff": "Employee SignOff"
+    },
+    "Table": {
+      "SNo": "s.no",
+      "Rating": "rating",
+      "RouteMap": "Route Map",
+      "Delete": "Delete"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Please select a template..."
+    },
+    "Notes": {
+      "Part1": "Note: sometimes your calibration data might come from multiple templates in that case, the system only supports the elements defined in the primary template (indicated with the ",
+      "Part2": "). If you select multiple Performance templates, make sure that these templates have the same structure, indexes, and route map."
+    },
+    "Instructions": {
+      "SelectElement": "2. Select at least one element for calibration. Then define its distribution guideline."
+    },
+    "OverallFormRating": "Overall Form Rating",
+    "Buttons": {
+      "Add": "Add"
+    }
+  },
+  "IntegrationManagement": {
+    "AdminPortal": "Admin Portal - Integration Management",
+    "BusinessLevelConnectors": "Business Level Connectors",
+    "ActivationDescription": "Activating a service provides users with the ability to connect to the service, facilitating the retrieval of data for auto updation of key result or the seamless synchronization of users from a service",
+    "Manage": "Manage",
+    "ReadMore": "Read more"
+  },
+  "TopHeader": {
+    "ManageSalesforceConnection": "Manage Salesforce Connection",
+    "Delete": "Delete"
+  },
+  "PerformanceManagement": {
+    "Title": "Performance Management",
+    "Create": "Create",
+    "TypeOfEvaluation": "Type of evaluation",
+    "Select": "Select...",
+    "FrequencyOfEvaluation": "Frequency of evaluation",
+    "StartDate": "Start Date",
+    "EnterStartDate": "Enter Start Date",
+    "LaunchDate": "Launch Date",
+    "EnterLaunchDate": "Enter Launch Date",
+    "ListGroupName": "List Group Name",
+    "Employee": "Employee",
+    "Manager": "Manager",
+    "Leadership": "Leadership",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "OverallRating": "Overall Rating",
+    "AbsoluteRating": "Absolute Rating",
+    "RatingScale": "Rating Scale",
+    "OKRWastage": "OKR Wastage",
+    "CompetencyWeightage": "Competency Weightage",
+    "Weightage360": "360 Weightage",
+    "IncludeSelfEvaluation": "Include Self Evaluation",
+    "EmployeeAcknowledgement": "Employee Acknowledgement",
+    "HRBPReview": "HRBP Review",
+    "ApprovalRequired": "Approval Required",
+    "Monthly": "Monthly",
+    "Quarterly": "Quarterly",
+    "SemiAnnually": "Semi Annually",
+    "Annually": "Annually"
+  },
+  "Templates": {
+    "Title": "Templates",
+    "Buttons": {
+      "Create": "Create",
+      "Cancel": "Cancel",
+      "Update": "Update",
+      "Save": "Save",
+      "SelectAll": "Select All",
+      "UnselectAll": "Unselect All"
+    },
+    "Table": {
+      "Name": "Name",
+      "Action": "Action",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    },
+    "FormFields": {
+      "TemplatesName": "Templates Name",
+      "TemplateName": "Template Name",
+      "Description": "Description",
+      "PercentageType": "Percentage Type",
+      "RatingScale": "Rating Scale",
+      "GoalPercentage": "Goal Percentage",
+      "ObjectivePercentage": "Objective Percentage",
+      "CompetenciesPercentage": "Competencies Percentage",
+      "Competencies": "Competencies",
+      "ReviewSteps": "Review Steps",
+      "EmployeeDisplayOptions": "Employee Display Options"
+    },
+    "Placeholders": {
+      "EnterTemplateName": "Enter Template Name",
+      "EnterDescription": "Enter Description",
+      "EnterRatingScale": "Enter Rating Scale",
+      "EnterGoalPercentage": "Enter Goal Percentage",
+      "EnterObjectivePercentage": "Enter Objective Percentage",
+      "EnterCompetenciesPercentage": "Enter Competencies Percentage",
+      "SelectCompetencies": "Select Competencies"
+    },
+    "Options": {
+      "Goals": "Goals",
+      "Objectives": "Objectives",
+      "PerformanceRatingScale": "Performance Rating Scale",
+      "AllCompetencies": "ALL Competencies"
+    },
+    "DisplayOptions": {
+      "FirstName": "First Name",
+      "LastName": "Last Name",
+      "Department": "Function",
+      "Grade": "Grade",
+      "Manager": "Manager",
+      "Designation": "Designation"
+    },
+    "DisplaySteps": {
+      "SelfSubmission": "Self Submission",
+      "ManagerReview": "Manager Review",
+      "HRReview": "HR Review",
+      "ManagerSignOff": "Manager Sign Off",
+      "EmployeeSignOff": "Employee Sign Off",
+      "Completed": "Completed"
+    },
+    "DisplayStepsText": {
+      "SubmitToManager": "Submit to Manager",
+      "SubmitToHR": "Submit to HR",
+      "SubmitToManagerSignOff": "Submit to Manager for Sign off",
+      "SubmitToEmployeeSignOff": "Submit to Employee for Sign off",
+      "SignOffToComplete": "Sign off to Complete"
+    },
+    "Messages": {
+      "UnknownError": "An unknown error occurred"
+    }
+  },
+  "OKRLibraryTab": {
+    "Fields": {
+      "RewardSchemeName": "Reward Scheme Name *",
+      "ObjectivesAchievementPercent": "Objectives Achievement %",
+      "ObjectivesAchievementPoints": "Objectives Achievement Points",
+      "KrAchievementPercent": "KR Achievement %",
+      "KrAchievementPoints": "KR Achievement Points",
+      "TaskAchievementPercent": "Task Achievement %",
+      "TaskAchievementPoints": "Task Achievement Points",
+      "SubTaskAchievementPercent": "Sub Task Achievement %",
+      "SubTaskPoints": "Sub Task Points",
+      "RewardCategory": "Reward Category*",
+      "RewardType": "Reward Type*",
+      "OKRTemplate": "OKR Template*",
+      "EligibilityGroup": "Eligibility Group*",
+      "KudosEnabled": "Kudos Enabled",
+      "BirthdayWishesEnabled": "Birthday Wishes Enabled",
+      "ApprovalRequired": "Approval Required",
+      "AnniversaryWishesEnabled": "Anniversary Wishes Enabled"
+    },
+    "Sections": {
+      "RewardPoints": "Reward Points",
+      "Achievement": "Achievement",
+      "Eligibility": "Eligibility",
+      "Toggles": "Toggles"
+    },
+    "RewardPoints": {
+      "Bronze": "Select Reward Points (Bronze)",
+      "Silver": "Select Reward Points (Silver)",
+      "Gold": "Select Reward Points (Gold)"
+    },
+    "Buttons": {
+      "Cancel": "Cancel",
+      "Save": "Save"
+    },
+    "Validation": {
+      "FieldRequired": "{{field}} is required",
+      "FillRequiredFields": "Please fill all the required fields"
+    },
+    "EmployeesSelected": "employees selected",
+    "NotAvailable": "N/A"
+  },
+  "RewardsManagement": {
+    "TitleHeader": "Admin Portal - Privileges",
+    "Title": "Reward Management",
+    "Bronze": "Bronze",
+    "Silver": "Silver",
+    "Gold": "Gold",
+    "Yes": "Yes",
+    "No": "No",
+    "Buttons": {
+      "Create": "Create",
+      "CreateRewards": "Create Rewards"
+    },
+    "Table": {
+      "SNo": "S.No",
+      "Scheme": "Scheme",
+      "Category": "Category",
+      "Type": "Type",
+      "Points": "Points",
+      "Kudos": "Kudos",
+      "Birthday": "Birthday",
+      "ApprovalRequired": "Approval Required",
+      "Anniversary": "Anniversary",
+      "LastModified": "Last Modified",
+      "Action": "Action",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    },
+    "Export": {
+      "CandidateID": "CandidateID",
+      "RewardSchemeName": "Reward Scheme Name",
+      "RewardCategory": "Reward Category",
+      "RewardType": "Reward Type",
+      "RewardPoints": "Reward Points",
+      "KudosEnabled": "Kudos Enabled",
+      "BirthdayWishesEnabled": "Birthday Wishes Enabled",
+      "ApprovalRequired": "Approval Required",
+      "AnniversaryWishesEnabled": "Anniversary Wishes Enabled",
+      "UpdatedAt": "Updated At"
+    },
+    "Messages": {
+      "NoDataFound": "No Data Found!",
+      "SelectRole": "Please select role...",
+      "NoDataToExport": "No data to export"
+    },
+    "Validation": {
+      "OKRRequired": "OKR Function/OKR Category is required!"
+    }
+  },
+  "common": {
+    "searchHere": "Search here..",
+    "export": "Export",
+    "csv": "CSV",
+    "excel": "Excel",
+    "pdf": "PDF"
+  },
+  "notification": {
+    "settingsTitle": "Notification Settings",
+    "to": "To",
+    "cc": "CC",
+    "subject": "Subject",
+    "message": "Message",
+    "attachment": "Attachment",
+    "view": "View",
+    "reupload": "Re-Upload",
+    "saveSettings": "Save Settings",
+    "updateSettings": "Update Settings",
+    "select": "--Select--",
+    "noDataFound": "No Data Found!"
+  },
+  "LaunchForms": {
+    "Title": "Launch Forms",
+    "ConfirmDelete": "Are you sure you want to delete this form?",
+    "Submit": "Submit",
+    "EmployeesSelected": "employees selected",
+    "Buttons": {
+      "Create": "Create",
+      "Cancel": "Cancel",
+      "Update": "Update",
+      "Save": "Save"
+    },
+    "FormFields": {
+      "LaunchFormName": "Launch Form Name",
+      "FormType": "Form Type",
+      "FormTemplate": "Form Template",
+      "LaunchDate": "Launch Date",
+      "ReviewPeriodStartDate": "Review Period Start Date",
+      "ReviewPeriodEndDate": "Review Period End Date",
+      "Employees": "Employees"
+    },
+    "Table": {
+      "Name": "Name",
+      "LaunchDate": "Launch Date",
+      "Action": "Action",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    },
+    "Placeholders": {
+      "SelectFormType": "Please select a form type...",
+      "SelectFormTemplate": "Please select a form template...",
+      "EnterLaunchDate": "Enter a Launch Date",
+      "EnterStartDate": "Enter Start Date",
+      "EnterEndDate": "Enter End Date"
+    }
+  },
+  "addRewardPopup": {
+    "titleAdd": "Add New Reward",
+    "titleUpdate": "Update Reward",
+    "rewardName": "Reward Name*",
+    "rewardDescription": "Reward Description*",
+    "rewardType": "Reward Type*",
+    "rewardApprover": "Reward Approver*",
+    "rewardCode": "Reward Code*",
+    "rewardPoints": "Reward Points*",
+    "rewardAmount": "Reward Amount*",
+    "rewardStatus": "Reward Status*",
+    "rewardIcon": "Reward Icon*",
+    "viewRewardIcon": "View Reward Icon",
+    "reuploadRewardIcon": "Reupload Reward Icon",
+    "add": "Add",
+    "update": "Update",
+    "clear": "Clear",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "catalogManagement": {
+    "headerTitle": "Admin Portal - Privileges",
+    "title": "Catalog Management",
+    "addNewReward": "Add New Reward",
+    "searchPlaceholder": "Search rewards...",
+    "validationError": "OKR Function/OKR Category is required!",
+    "noData": "No Data Found!"
+  },
+  "tabsContainer": {
+    "selectAll": "Select All",
+    "objectives": "Objectives",
+    "keyResults": "Key Results",
+    "tasks": "Tasks"
+  },
+  "AdvancedLaunchForms": {
+    "Title": "Advanced Launch Forms",
+    "AdvancedReviewManagement": "Advanced Review Management",
+    "Buttons": {
+      "Create": "Create",
+      "Cancel": "Cancel",
+      "Update": "Update",
+      "Save": "Save"
+    },
+    "FormFields": {
+      "LaunchFormName": "Launch Form Name",
+      "FormName": "Form Name",
+      "FormType": "Form Type",
+      "FormTemplate": "Form Template",
+      "LaunchDate": "Launch Date",
+      "ReviewPeriodStartDate": "Review Period Start Date",
+      "ReviewPeriodEndDate": "Review Period End Date",
+      "ToEmployee": "To Employee",
+      "SelfAndManager": "Self and Manager",
+      "Peers": "Peers"
+    },
+    "Table": {
+      "FormName": "Form Name",
+      "TemplateName": "Template Name",
+      "EmployeeName": "Employee Name",
+      "LaunchDate": "Launch Date",
+      "Action": "Action",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    },
+    "Placeholders": {
+      "EnterFormName": "Enter Form Name",
+      "AdvanceReviewManagement": "Advance Review Management",
+      "SelectFormTemplate": "Please select a form template...",
+      "EnterLaunchDate": "Enter Launch Date",
+      "EnterStartDate": "Enter Start Date",
+      "EnterEndDate": "Enter End Date",
+      "SelectEmployee": "Please select an employee...",
+      "SelectSelfAndManager": "Select self and manager...",
+      "SelectPeers": "Select peers..."
+    }
+  },
+  "FilterComponent": {
+    "Title": "Filters",
+    "Buttons": {
+      "Reset": "Reset",
+      "Apply": "Apply",
+      "Loading": "Loading..."
+    },
+    "Fields": {
+      "CandidateId": "Candidate ID",
+      "CandidateName": "Candidate Name",
+      "Department": "Function",
+      "Designation": "Designation",
+      "ApplicationDate": "Application Date",
+      "Stage": "Stage",
+      "To": "to"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "Enter candidate ID",
+      "EnterCandidateName": "Enter candidate name"
+    },
+    "Options": {
+      "NewApplied": "New Applied",
+      "PsychometricTest": "Psychometric Test",
+      "Interview1": "Interview 1",
+      "Interview2": "Interview 2",
+      "DocumentUpload": "Document Upload",
+      "OfferLetter": "Offer Letter",
+      "Onboarding": "Onboarding",
+      "Rejected": "Rejected",
+      "ConvertToEmployee": "Convert to Employee"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "No Functions Found!",
+      "NoDesignationsFound": "No Designations Found!"
+    }
+  }
+}

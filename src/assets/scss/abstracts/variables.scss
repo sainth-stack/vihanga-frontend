@@ -1,0 +1,112 @@
+$primary-color: #222;
+$primary-color-dark: #222;
+$light-gray: #d6d6d6;
+$ash: #f7f7f7;
+$light-ash: #efefef;
+$primary-bg: #180065;
+$gold: #c89a32;
+$orange: #f58d45;
+$white: #fff;
+$green: #0a8c5b;
+$green-18: #837F39;
+$black: #000;
+$black-50: #565958;
+$black-33: #333536;
+$black-1c: #1c2c25;
+$grey: #e8e4e4;
+$ash-gray: #c4c4c4;
+$grey-65: #656565;
+$grey-50: #8c8c8c;
+$black-4D: #4d4d4d;
+$full-height: 100vh;
+$violet: #180065;
+$light-violet: #796ba6;
+$light-blue: #edf1fb;
+$light-violet50: #d6def5;
+$light-violet: #796ba6;
+$pink: #da274a;
+$skyblue: #3fc1e8;
+$cyanBlue: #07e1c7;
+$blue: #3783f5;
+$green-2f: #27bf2f;
+$green-href: #0f994e;
+$bg-ash: #f9f9f9;
+$label-ash: #575757;
+$light-ash: #efefef;
+$gray-span: #909090;
+$gray-6c: #6c6c6c;
+$calender-header: #aebfef;
+$tick-bg: #bf27276e;
+$thead-bg: #aebfef80;
+$red-dark: #ff0000;
+$blue-btn: #d4defb;
+$col-555555: #555555;
+$pagination-bg: #aebfef;
+
+$black-5: rgba(0, 0, 0, 0.5);
+$black-2: rgba(0, 0, 0, 0.2);
+$prev-btn: #f2f2f2;
+$c1: #e5e5e5;
+$c2: #180065;
+$c3: #f9f9f9;
+$c4: #556080;
+$c5: #6c6c6c;
+$c6: #dff5fb;
+$c7: #dff9e1;
+$c8: #dfedff;
+$c9: #fee7e5;
+
+$c10: #b9e1ec;
+$c11: #bfedc2;
+$c12: #b8ceeb;
+$c13: #f2d0cd;
+$c14: #0d0d0d;
+$c15: #424242;
+$c16: #d7dff7;
+$c17: $calender-header;
+$c18: $gray-6c;
+$c19: $green-2f;
+$col-CC2B5A: "#CC2B5A";
+$light-bg: $light-gray;
+$c20: #ff6f06;
+$c21: #d73e3e;
+/* Color */
+$myColors: (
+  "c1": $c1,
+  "c2": $c2,
+  "c3": $c3,
+  "c4": $c4,
+  "c5": $c5,
+  "c6": $c6,
+  "c7": $c7,
+  "c8": $c8,
+  "c9": $c9,
+  "c10": $c10,
+  "c11": $c11,
+  "c12": $c12,
+  "c13": $c13,
+  "c14": $c14,
+  "c15": $c15,
+  "c16": $c16,
+  "c17": $c17,
+  "c18": $c18,
+  "c19": $c19,
+  "c20": $c20,
+  "c21": $c21
+);
+
+@each $name, $colors in $myColors {
+  $index: index($myColors, $colors);
+  .text-#{$name} {
+    color: $colors;
+  }
+  .bg-#{$name} {
+    background-color: $colors;
+  }
+  .bg-h-#{$name} {
+    background-color: $colors;
+  }
+  .bc-#{$name} {
+    border-color: $colors;
+  }
+}

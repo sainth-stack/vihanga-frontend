@@ -1,0 +1,25 @@
+.count-style{
+  width:70px;
+  height:70px;
+  border-radius: 100px;
+  background-color: #3FC429;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.count-number{
+  text-align: center;
+  line-height: 70px;
+  color: white;
+}
+.bg-gray{
+  background-color: #F1F6F6;
+}
+.text-teal{
+  color:#2A8981;
+}
+.h43{
+  height:43px;
+}
+.form-headings{
+  font-weight: bold;
+}

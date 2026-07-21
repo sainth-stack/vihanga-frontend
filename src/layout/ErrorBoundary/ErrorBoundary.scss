@@ -1,0 +1,75 @@
+.error-boundary-container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+}
+
+.error-boundary-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08), 0 1.5px 4px rgba(131,127,57,0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.error-boundary-icon {
+  background: #fffbe6;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 2px 8px rgba(131,127,57,0.10);
+}
+
+.error-boundary-svg {
+  width: 36px;
+  height: 36px;
+  color: #d97706;
+}
+
+.error-boundary-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+.error-boundary-message {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.error-boundary-empid {
+  color: #836f39;
+  font-weight: 500;
+  background: #f6e9c6;
+  border-radius: 6px;
+  padding: 0.1em 0.5em;
+  font-size: 0.98em;
+}
+
+.error-boundary-logout-btn {
+  background: rgb(131, 127, 57);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75em 2em;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(131,127,57,0.10);
+}
+
+.error-boundary-logout-btn:hover {
+  background: linear-gradient(90deg, #bfae4a 0%, #837f39 100%);
+}

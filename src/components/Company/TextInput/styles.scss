@@ -1,0 +1,52 @@
+@import '../../../assets/scss/abstracts/abstracts';
+.input-box{
+  border-radius: 5px;
+  border:1px solid rgba(60, 71, 88, 0.28);
+  background-color: #FFFFFF;
+  // min-width: 280px;
+  //min-width: 180px;
+  //height:40px;
+  //padding-left:15px;
+  font-size: 13px;
+}
+.w-30{
+  min-width:80px;
+  //height:40px;
+}
+.leftradius{
+  border-radius: 0;
+  border-top-left-radius: 0px!important;
+  border-bottom-left-radius: 0px!important;
+}
+.rightRadius{
+  border-top-right-radius: 0px!important;
+  border-bottom-right-radius: 0px!important;
+}
+.fs13{
+  font-size:13px;
+}
+.form-control{
+  //padding:5px!important;
+  //margin:5px!important;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.password-toggle-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.input-with-toggle {
+  padding-right: 2.5rem;
+}

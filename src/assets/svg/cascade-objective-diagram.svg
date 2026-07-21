@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 262" width="456" height="314" fill="none" aria-hidden="true">
+  <defs>
+    <filter id="cascade-pill-shadow" x="-12%" y="-12%" width="124%" height="132%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+    <filter id="cascade-solid-shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .diagram-line { stroke: #8b8b4c; stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .diagram-text { fill: #333333; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 500; }
+      .diagram-text-inverse { fill: #FFFFFF; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 500; }
+      .diagram-dot { fill: #8b8b4c; }
+    </style>
+  </defs>
+  <!-- Top: Objective (white pill + olive border + shadow) -->
+  <rect
+    fill="#FFFFFF"
+    stroke="#8b8b4c"
+    stroke-width="1.75"
+    filter="url(#cascade-pill-shadow)"
+    x="125"
+    y="10"
+    width="130"
+    height="38"
+    rx="19"
+    ry="19"
+  />
+  <text class="diagram-text" x="190" y="34" text-anchor="middle">Objective</text>
+  <!-- Connectors — taller stem + branch -->
+  <line class="diagram-line" x1="190" y1="48" x2="190" y2="88"/>
+  <circle class="diagram-dot" cx="190" cy="88" r="2.5"/>
+  <line class="diagram-line" x1="100" y1="88" x2="280" y2="88"/>
+  <circle class="diagram-dot" cx="100" cy="88" r="2.5"/>
+  <circle class="diagram-dot" cx="280" cy="88" r="2.5"/>
+  <line class="diagram-line" x1="100" y1="88" x2="100" y2="118"/>
+  <circle class="diagram-dot" cx="100" cy="118" r="2.5"/>
+  <line class="diagram-line" x1="280" y1="88" x2="280" y2="118"/>
+  <circle class="diagram-dot" cx="280" cy="118" r="2.5"/>
+  <!-- Middle: Key Results -->
+  <rect
+    fill="#FFFFFF"
+    stroke="#8b8b4c"
+    stroke-width="1.75"
+    filter="url(#cascade-pill-shadow)"
+    x="35"
+    y="118"
+    width="130"
+    height="38"
+    rx="19"
+    ry="19"
+  />
+  <text class="diagram-text" x="100" y="142" text-anchor="middle">Key Result</text>
+  <rect
+    fill="#FFFFFF"
+    stroke="#8b8b4c"
+    stroke-width="1.75"
+    filter="url(#cascade-pill-shadow)"
+    x="215"
+    y="118"
+    width="130"
+    height="38"
+    rx="19"
+    ry="19"
+  />
+  <text class="diagram-text" x="280" y="142" text-anchor="middle">Key Result</text>
+  <!-- Under left KR — longer vertical to bottom tier -->
+  <line class="diagram-line" x1="100" y1="156" x2="100" y2="208"/>
+  <circle class="diagram-dot" cx="100" cy="208" r="2.5"/>
+  <!-- Bottom: Objective (solid olive + white ring + shadow) -->
+  <rect
+    fill="#8b8b4c"
+    stroke="#FFFFFF"
+    stroke-width="2"
+    filter="url(#cascade-solid-shadow)"
+    x="35"
+    y="208"
+    width="130"
+    height="38"
+    rx="19"
+    ry="19"
+  />
+  <text class="diagram-text-inverse" x="100" y="232" text-anchor="middle">Objective</text>
+</svg>

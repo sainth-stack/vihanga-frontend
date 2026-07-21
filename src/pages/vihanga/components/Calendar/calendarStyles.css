@@ -1,0 +1,31 @@
+/* Small and black prev/next icons */
+.fc .fc-button {
+  padding: 2px 6px !important;
+  font-size: 12px !important;
+  background-color: transparent !important;
+  color: black !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.fc .fc-icon {
+  font-size: 14px !important; /* icon size */
+  color: black !important;
+}
+
+/* Day and week names in black */
+.fc .fc-col-header-cell-cushion {
+  color: black !important;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Day numbers in black */
+.fc-daygrid-day-number {
+  color: black !important;
+  font-size: 12px;
+}
+
+.fc .fc-toolbar-title{
+    font-size: .8rem !important;
+}

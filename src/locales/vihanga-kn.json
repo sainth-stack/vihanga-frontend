@@ -1,0 +1,1921 @@
+{
+"AdminPage": {
+  "PageTitle": "ಟ್ಯಾಲೆಂಟ್‌ಸ್ಪಾಟಿಫೈ ನಿರ್ವಹಣೆ",
+  "PageSubtitle": "ನಮ್ಮ ಎಲ್ಲಾ ನಿರ್ವಹಣಾ ಸಾಧನಗಳು ಮತ್ತು ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಒಂದು ಸ್ಥಳದಲ್ಲಿ ಪ್ರವೇಶಿಸಿ",
+  "SearchPlaceholder": "ನಿರ್ವಹಣಾ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಹುಡುಕಿ...",
+  "RolesAndPrivileges": {
+    "Title": "ಪಾತ್ರಗಳು ಮತ್ತು ವಿಶೇಷಾಧಿಕಾರಗಳು",
+    "Description": "ಬಳಕೆದಾರರ ಪಾತ್ರಗಳು, ಅನುಮತಿಗಳು ಮತ್ತು ಕಾರ್ಯಸ್ಥಳದ ಪ್ರವೇಶವನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "RecruitmentManagement": {
+    "Title": "ಭರ್ತಿ ನಿರ್ವಹಣೆ",
+    "Description": "ಕೆಲಸದ ಅವಕಾಶಗಳು, ನೇಮಕಾತಿ ಹಂತಗಳು ಮತ್ತು ಅಭ್ಯರ್ಥಿಗಳ ಪ್ರಗತಿಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ"
+  },
+  "UploadLeaves": {
+    "Title": "ರಜಾ ಅಪ್ಲೋಡ್",
+    "Description": "ಸಿಬ್ಬಂದಿಯ ರಜಾ ದಾಖಲೆಗಳು ಮತ್ತು ಅರ್ಜಿಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "AttendanceUpload": {
+    "Title": "ಹಾಜರಾತಿ ಅಪ್ಲೋಡ್",
+    "Description": "ಸಿಬ್ಬಂದಿಯ ಹಾಜರಾತಿ ದಾಖಲೆಗಳು ಮತ್ತು ಸಮಯಪಟ್ಟಿಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ"
+  },
+  "ApprovalWorkflow": {
+    "Title": "ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹ",
+    "Description": "ಬಹು ಹಂತದ ಅನುಮೋದನೆಗಳನ್ನು ಸಂರಚಿಸಿ ಮತ್ತು ಸಂಬಂಧಿತ ಅಧಿಸೂಚನೆಗಳನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಿ"
+  },
+  "AssetManagement": {
+    "Title": "ಆಸ್ತಿ ನಿರ್ವಹಣೆ",
+    "Description": "ಕಂಪನಿಯ ಆಸ್ತಿಗಳು, ಹಂಚಿಕೆಗಳು ಮತ್ತು ಉಪಕರಣಗಳ ಜೀವನಚಕ್ರವನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "LeaveType": {
+    "Title": "ರಜೆಯ ಪ್ರಕಾರ",
+    "Description": "ರಜೆಯ ವರ್ಗಗಳನ್ನು ನಿರ್ವಚಿಸಿ ಮತ್ತು ಅನುಮೋದನೆ ಹಾಗೂ ಅಧಿಸೂಚನಾ ನಿಯಮಗಳನ್ನು ಹೊಂದಿಸಿ"
+  },
+  "HolidaysCalendar": {
+    "Title": "ರಜಾದಿನಗಳ ಕ್ಯಾಲೆಂಡರ್",
+    "Description": "ಕಂಪನಿಯ ರಜಾದಿನಗಳು, ಈವೆಂಟ್‌ಗಳು ಮತ್ತು ಕ್ಯಾಲೆಂಡರ್ ವೇಳಾಪಟ್ಟಿಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "EligibilityCriteria": {
+    "Title": "ಅರ್ಹತಾ ಮಾನದಂಡಗಳು",
+    "Description": "ವಿವಿಧ ಪ್ರಕ್ರಿಯೆಗಳಿಗಾಗಿ ಅರ್ಹತಾ ಅವಶ್ಯಕತೆಗಳನ್ನು ನಿರ್ವಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "PrivilegeGroups": {
+    "Title": "ವಿಶೇಷಾಧಿಕಾರ ಗುಂಪುಗಳು",
+    "Description": "ಪಾತ್ರ ಆಧಾರಿತ ಪ್ರವೇಶ ನಿಯಂತ್ರಣಕ್ಕಾಗಿ ವಿಶೇಷಾಧಿಕಾರ ಗುಂಪುಗಳನ್ನು ರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "OKRManagement": {
+    "Title": "OKR ನಿರ್ವಹಣೆ",
+    "Description": "ಕಾರ್ಯಕ್ಷಮತೆಯ ಟ್ರ್ಯಾಕಿಂಗ್‌ಗಾಗಿ ಉದ್ದೇಶಗಳು ಮತ್ತು ಪ್ರಮುಖ ಫಲಿತಾಂಶಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "Lookups": {
+    "Title": "ಲುಕಪ್‌ಗಳು",
+    "Description": "ವ್ಯವಸ್ಥೆಯಾದ್ಯಂತ ಉಲ್ಲೇಖ ಡೇಟಾ ಮತ್ತು ಲುಕಪ್ ಮೌಲ್ಯಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "RewardManagement": {
+    "Title": "ಪ್ರಶಸ್ತಿ ನಿರ್ವಹಣೆ",
+    "Description": "ಸಿಬ್ಬಂದಿಯ ಪ್ರಶಸ್ತಿಗಳು, ಗೌರವಗಳು ಮತ್ತು ಪ್ರೋತ್ಸಾಹ ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಸಂರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "CatalogManagement": {
+    "Title": "ಕ್ಯಾಟಲಾಗ್ ನಿರ್ವಹಣೆ",
+    "Description": "ಉತ್ಪನ್ನ ಕ್ಯಾಟಲಾಗ್‌ಗಳು, ವರ್ಗಗಳು ಮತ್ತು ಇನ್‌ವೆಂಟರಿ ಅಂಶಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "NotificationManagement": {
+    "Title": "ಅಧಿಸೂಚನೆ ನಿರ್ವಹಣೆ",
+    "Description": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಟೆಂಪ್ಲೇಟುಗಳು ಮತ್ತು ವಿತರಣೆ ಆಯ್ಕೆಗಳನ್ನು ಸಂರಚಿಸಿ"
+  },
+  "AdvancedPerformanceManagement": {
+    "Title": "ಸುಧಾರಿತ ಕಾರ್ಯಕ್ಷಮತಾ ನಿರ್ವಹಣೆ",
+    "Description": "ಸುಧಾರಿತ ಕಾರ್ಯಕ್ಷಮತಾ ವಿಮರ್ಶಾ ಚಕ್ರಗಳು, ರೇಟಿಂಗ್‌ಗಳು ಮತ್ತು ಮೌಲ್ಯಮಾಪನ ಮಾನದಂಡಗಳನ್ನು ಸಂರಚಿಸಿ"
+  },
+  "IntegrationManagement": {
+    "Title": "ಒಕ್ಕೂಟ ನಿರ್ವಹಣೆ",
+    "Description": "ಮೂರನೇ ಪಕ್ಷದ ಒಕ್ಕೂಟಗಳು, APIಗಳು ಮತ್ತು ಬಾಹ್ಯ ವ್ಯವಸ್ಥೆಯ ಸಂಪರ್ಕಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "QuestionnaireManagement": {
+    "Title": "ಪ್ರಶ್ನಾವಳಿ ನಿರ್ವಹಣೆ",
+    "Description": "ಸಮೀಕ್ಷೆಗಳು, ಪ್ರಶ್ನಾವಳಿಗಳು ಮತ್ತು ಪ್ರತಿಕ್ರಿಯಾ ಫಾರ್ಮ್‌ಗಳನ್ನು ರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "CompetencyManagement": {
+    "Title": "ನೈಪುಣ್ಯ ನಿರ್ವಹಣೆ",
+    "Description": "ಸಿಬ್ಬಂದಿಯ ನೈಪುಣ್ಯಗಳು, ಕೌಶಲ್ಯಗಳು ಮತ್ತು ಅಭಿವೃದ್ಧಿ ಚೌಕಟ್ಟುಗಳನ್ನು ನಿರ್ವಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "PerformanceManagementTemplates": {
+    "Title": "ಕಾರ್ಯಕ್ಷಮತಾ ನಿರ್ವಹಣಾ ಟೆಂಪ್ಲೇಟ್‌ಗಳು",
+    "Description": "ಕಾರ್ಯಕ್ಷಮತಾ ವಿಮರ್ಶಾ ಟೆಂಪ್ಲೇಟ್‌ಗಳು ಮತ್ತು ಮೌಲ್ಯಮಾಪನ ಫಾರ್ಮ್‌ಗಳನ್ನು ರಚಿಸಿ ಮತ್ತು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"
+  },
+  "LaunchFormsManagement": {
+    "Title": "ಪ್ರಾರಂಭ ಫಾರ್ಮ್‌ಗಳ ನಿರ್ವಹಣೆ",
+    "Description": "ಕಾರ್ಯಕ್ಷಮತಾ ವಿಮರ್ಶಾ ಪ್ರಾರಂಭ ಫಾರ್ಮ್‌ಗಳು ಮತ್ತು ಕಾರ್ಯಪ್ರವಾಹಗಳನ್ನು ಸಂರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ"
+  },
+  "CalibrationManagement": {
+    "Title": "ಕ್ಯಾಲಿಬ್ರೇಷನ್ ನಿರ್ವಹಣೆ",
+    "Description": "ಕಾರ್ಯಕ್ಷಮತಾ ಕ್ಯಾಲಿಬ್ರೇಷನ್ ಸೆಷನ್‌ಗಳು ಮತ್ತು ರೇಟಿಂಗ್ ಸ್ಥಿರತೆಯನ್ನು ನಿರ್ವಹಿಸಿ"
+  },
+  "AdvancedLaunchFormsManagement": {
+    "Title": "ಸುಧಾರಿತ ಪ್ರಾರಂಭ ಫಾರ್ಮ್‌ಗಳ ನಿರ್ವಹಣೆ",
+    "Description": "ಕಾರ್ಯಕ್ಷಮತಾ ವಿಮರ್ಶಾ ಪ್ರಾರಂಭ ಫಾರ್ಮ್‌ಗಳು ಮತ್ತು ಸ್ವಯಂಚಾಲಿತ ಪ್ರಕ್ರಿಯೆಗಳ ಸುಧಾರಿತ ಸಂರಚನೆ"
+  }
+},
+
+"RolesAndPrivileges": {
+  "PageTitle": "ನಿರ್ವಹಣಾ ಪೋರ್ಟಲ್ - ಸೌಲಭ್ಯಗಳು",
+  "MainHeading": "ಪಾತ್ರಗಳು ಮತ್ತು ಸೌಲಭ್ಯಗಳು",
+  "RoleName": "ಪಾತ್ರದ ಹೆಸರು",
+  "Description": "ವಿವರಣೆ",
+  "GrantRoleTo": "ಈ ಪಾತ್ರವನ್ನು ನೀಡಿ...",
+  "GrantRoleDescription": "ಈ ಪಾತ್ರವನ್ನು ನೀಡಲು ಬಯಸುವ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ. ನೀವು ನಿರ್ದಿಷ್ಟ ಗುಂಪಿನ ನೌಕರರ ದಾಖಲೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಬಳಕೆದಾರರ ಗುಂಪನ್ನು ನಿಯೋಜಿಸಬಹುದು. ಮ್ಯಾನೇಜರ್ ತಮ್ಮದೇ ಕಾರ್ಯದ ದಾಖಲೆಗಳನ್ನು ಸಂಪಾದಿಸಬೇಕು.",
+  "PermissionGroupsOrUsers": "ಅನುಮತಿ ಗುಂಪುಗಳು ಅಥವಾ ಬಳಕೆದಾರರು",
+  "SelectPlaceholder": "--ಆಯ್ಕೆಮಾಡಿ--",
+  "SearchPlaceholder": "ಇಲ್ಲಿ ಹುಡುಕಿ...",
+  "AddButton": "ಸೇರಿಸಿ",
+  "CancelButton": "ರದ್ದುಮಾಡಿ",
+  "MakeActiveButton": "ಸಕ್ರಿಯಗೊಳಿಸಿ",
+  "MakeInactiveButton": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+  "UpdateButton": "ನವೀಕರಿಸಿ",
+  "SaveButton": "ಉಳಿಸಿ",
+  "TableHeaders": {
+    "SerialNumber": "ಅ.ಸಂ.",
+    "RoleName": "ಪಾತ್ರದ ಹೆಸರು",
+    "PermissionGroup": "ಅನುಮತಿ ಗುಂಪು ಅಥವಾ ಬಳಕೆದಾರರು",
+    "Active": "ಸಕ್ರಿಯ",
+    "Actions": "ಕ್ರಿಯೆಗಳು"
+  },
+  "Tabs": {
+    "Employees": "ನೌಕರರು",
+    "Goals": "ಗುರಿಗಳು",
+    "Privileges": "ಸೌಲಭ್ಯಗಳು",
+    "Performance": "ಪ್ರದರ್ಶನ",
+    "Rewards": "ಪ್ರಶಸ್ತಿಗಳು",
+    "View": "ವೀಕ್ಷಿಸಿ",
+    "Edit": "ಸಂಪಾದಿಸಿ",
+    "Delete": "ಅಳಿಸಿ"
+  }
+},
+
+"UploadLeaves": {
+  "PageTitle": "ರಜೆ ದಾಖಲೆಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "PageDescription": "ದಯವಿಟ್ಟು ನೀಡಿದ ವಿನ್ಯಾಸದಲ್ಲಿ ನಿಮ್ಮ ರಜೆ ದಾಖಲೆಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ. ಕೆಳಗಿನ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.",
+  "DownloadTemplate": "ಟೆಂಪ್ಲೇಟ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+  "ExportLeaveRecords": "ರಜೆ ದಾಖಲೆಗಳನ್ನು ರಫ್ತು ಮಾಡಿ",
+  "ExportLeaveBalances": "ರಜೆ ಶೇಷಗಳನ್ನು ರಫ್ತು ಮಾಡಿ",
+  "UploadFileLabel": "ರಜೆ ದಾಖಲೆಗಳ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "NoFileUploaded": "ಯಾವುದೇ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಆಗಿಲ್ಲ",
+  "UploadedFile": "ಅಪ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್:",
+  "Submit": "ಸಲ್ಲಿಸಿ",
+  "DateRangeDialog": {
+    "Title": "ರಜೆ ದಾಖಲೆ ರಫ್ತುಗೆ ದಿನಾಂಕ ಶ್ರೇಣಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "StartDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "EndDate": "ಅಂತಿಮ ದಿನಾಂಕ",
+    "Cancel": "ರದ್ದುಮಾಡಿ",
+    "ExportRecords": "ದಾಖಲೆಗಳನ್ನು ರಫ್ತು ಮಾಡಿ"
+  },
+  "Instructions": {
+    "Title": "ಸೂಚನೆಗಳು:",
+    "Step1": "ಅಗತ್ಯವಾದ ವಿನ್ಯಾಸವನ್ನು ನೋಡಲು ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "Step2": "ಪ್ರತಿ ರಜೆ ಪ್ರಕಾರಕ್ಕೆ EmpId (ನೌಕರ ಸಂಖ್ಯೆ) ಮತ್ತು ರಜೆ ದಿನಗಳನ್ನು ತುಂಬಿ",
+    "Step3": "ಪೂರ್ಣಗೊಂಡ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "Step4": "ಸಿಸ್ಟಮ್ ನೌಕರರ ID ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ರಜೆ ಶೇಷಗಳನ್ನು ಕಡಿಮೆಮಾಡುತ್ತದೆ"
+  }
+},
+
+"AttendanceUpload": {
+  "PageTitle": "ಹಾಜರಾತಿ ಅಪ್‌ಲೋಡ್",
+  "PageDescription": "ದಯವಿಟ್ಟು ನೀಡಿದ ವಿನ್ಯಾಸದಲ್ಲಿ ನಿಮ್ಮ ಹಾಜರಾತಿ ಶೀಟ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ. ಕೆಳಗಿನ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.",
+  "DownloadTemplate": "ಟೆಂಪ್ಲೇಟ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+  "UploadFileLabel": "ಹಾಜರಾತಿ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "NoFileUploaded": "ಯಾವುದೇ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಆಗಿಲ್ಲ",
+  "UploadedFile": "ಅಪ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್:",
+  "Submit": "ಸಲ್ಲಿಸಿ"
+},
+
+"LeaveTypeTable": {
+  "PageTitle": "ರಜೆ ಪ್ರಕಾರದ ಇತಿಹಾಸ",
+  "TableHeaders": {
+    "Name": "ಹೆಸರು",
+    "Code": "ಕೋಡ್",
+    "Actions": "ಕ್ರಿಯೆಗಳು"
+  },
+  "ExportOptions": {
+    "ExportAsCSV": "CSV ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+    "ExportAsExcel": "Excel ಆಗಿ ರಫ್ತು ಮಾಡಿ",
+    "ExportAsPDF": "PDF ಆಗಿ ರಫ್ತು ಮಾಡಿ"
+  }
+},
+
+"LeaveType": {
+  "PageTitle": "ರಜೆ ಪ್ರಕಾರ",
+  "AdvancedConfiguration": "ಅಧಿಕ ಸಂರಚನೆ",
+  "MaxAdvanceDaysConfiguration": "ಗರಿಷ್ಠ ಮುಂಗಡ ದಿನಗಳ ಸಂರಚನೆ",
+  "MaxAdvanceDaysDescription": "ನೌಕರರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬೇಕಾದ ಮುಂಗಡ ದಿನಗಳನ್ನು ಅವರ ಕೇಳುವ ದಿನಗಳ ಆಧಾರದ ಮೇಲೆ ಸಂರಚಿಸಿ.",
+  "AttachmentsRequiredConfiguration": "ಲಗತ್ತೆ ಅಗತ್ಯ ಸಂರಚನೆ",
+  "FormFields": {
+    "Name": "ಹೆಸರು",
+    "ImageIcon": "ಚಿತ್ರ / ಐಕಾನ್",
+    "Code": "ಕೋಡ್",
+    "BalanceBasedOn": "ಸಂತುಲನ ಆಧಾರ (ನಿಗದಿತ ಹಕ್ಕು / ರಜೆ ಅನುದಾನ)",
+    "Units": "ಘಟಕಗಳು (ದಿನಗಳು / ಗಂಟೆಗಳು)",
+    "Status": "ಸ್ಥಿತಿ",
+    "Eligibility": "ಅರ್ಹತೆ",
+    "CustomName": "ಕಸ್ಟಮ್ ಹೆಸರು"
+  },
+  "AdvancedFields": {
+    "MaxLeavesAtOnce": "ಒಮ್ಮೆ ತೆಗೆದುಕೊಳ್ಳಬಹುದಾದ ಗರಿಷ್ಠ ರಜೆಗಳು",
+    "MaxHalfDays": "ಪ್ರತಿ ವರ್ಷ ಗರಿಷ್ಠ ಅರ್ಧದಿನ ರಜೆಗಳು",
+    "MaxHalfDaysHelper": "ಅರ್ಧದಿನ ರಜೆಗಳ ಮಿತಿಯಿಲ್ಲದಿದ್ದರೆ ಖಾಲಿ ಬಿಡಿ",
+    "AutoAddLeaves": "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಜೆ ಸೇರಿಸಿ",
+    "AddType": "ಸೇರಿಸುವ ಪ್ರಕಾರ",
+    "NumberOfDaysToAdd": "ಸೇರಿಸಬೇಕಾದ ದಿನಗಳ ಸಂಖ್ಯೆ"
+  },
+  "MaxAdvanceFields": {
+    "MinDays": "ಕನಿಷ್ಠ ದಿನಗಳು",
+    "MaxDays": "ಗರಿಷ್ಠ ದಿನಗಳು (ಮಿತಿಯಿಲ್ಲದಿದ್ದರೆ ಖಾಲಿ ಬಿಡಿ)",
+    "MaxAdvanceDays": "ಗರಿಷ್ಠ ಮುಂಗಡ ದಿನಗಳು",
+    "RemoveRule": "ನಿಯಮ ತೆಗೆದುಹಾಕಿ",
+    "AddRule": "ನಿಯಮ ಸೇರಿಸಿ"
+  },
+  "AttachmentFields": {
+    "Operator": "ಆಪರೇಟರ್",
+    "ValueDays": "ಮೌಲ್ಯ (ದಿನಗಳು)"
+  },
+  "Checkboxes": {
+    "Carryover": "ಕ್ಯಾರಿಯೋವರ್",
+    "AttachmentsRequired": "ಲಗತ್ತೆಗಳು ಅಗತ್ಯ"
+  },
+  "Buttons": {
+    "Cancel": "ರದ್ದುಮಾಡಿ",
+    "Update": "ನವೀಕರಿಸಿ",
+    "Submit": "ಸಲ್ಲಿಸಿ",
+    "Submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "Options": {
+    "Hours": "ಗಂಟೆಗಳು",
+    "Days": "ದಿನಗಳು",
+    "Active": "ಸಕ್ರಿಯ",
+    "InActive": "ನಿಷ್ಕ್ರಿಯ",
+    "Hourly": "ಗಂಟೆಗಟ್ಟಲೆ",
+    "Monthly": "ತಿಂಗಳಿಗೆ",
+    "Yearly": "ವಾರ್ಷಿಕ",
+    "Is": "ಅಾಗಿದೆ",
+    "LesserOrEqual": "ಕಡಿಮೆ ಅಥವಾ ಸಮಾನ (≤)",
+    "GreaterOrEqual": "ಹೆಚ್ಚು ಅಥವಾ ಸಮಾನ (≥)"
+  },
+  "LeaveNames": {
+    "EarnedLeave": "ಪಡೆಯಲಾದ ರಜೆ (EL)",
+    "SickLeave": "ಅನಾರೋಗ್ಯ ರಜೆ (SL)",
+    "CasualLeave": "ಕ್ಯಾಶುಯಲ್ ರಜೆ (CL)",
+    "MaternityLeave": "ಮಾತೃತ್ವ ರಜೆ (ML)",
+    "PaternityLeave": "ಪಿತೃತ್ವ ರಜೆ (PL)",
+    "CompensatoryOff": "ಪರಿಹಾರ ರಜೆ",
+    "BereavementLeave": "ಶೋಕಾಚರಣೆ ರಜೆ",
+    "MarriageLeave": "ಮದುವೆ ರಜೆ",
+    "UnpaidLeave": "ವೇತನವಿಲ್ಲದ ರಜೆ (LWP)",
+    "WorkFromHome": "ಮನೆಮಾತಿನಿಂದ ಕೆಲಸ (WFH)",
+    "Others": "ಇತರೆ"
+  },
+  "FileStatus": {
+    "Selected": "✓ ಆಯ್ಕೆಯಾಗಿದೆ:",
+    "Current": "ಪ್ರಸ್ತುತ:",
+    "NoFileSelected": "ಯಾವುದೇ ಫೈಲ್ ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ",
+    "LoadingEligibility": "ಅರ್ಹತೆ ಆಯ್ಕೆಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ..."
+  }
+},
+
+"CarryoverRulesPopup": {
+  "Title": "ಕ್ಯಾರಿಯೋವರ್ ನಿಯಮಗಳು",
+  "CarryoverDateQuestion": "ಕ್ಯಾರಿಯೋವರ್ ದಿನಾಂಕ ಯಾವಾಗ ಇರಬೇಕು?",
+  "CarryoverDateLabel": "ಕ್ಯಾರಿಯೋವರ್ ದಿನಾಂಕ",
+  "MaxDaysQuestion": "ಎಷ್ಟು ದಿನಗಳನ್ನು ಮುಂದೂಡಬೇಕು (ಗರಿಷ್ಠ)?",
+  "MaxDaysLabel": "ಗರಿಷ್ಠ ದಿನಗಳನ್ನು ನಮೂದಿಸಿ"
+},
+
+"AssetsManagementSystem": {
+  "PageTitle": "ಆಸ್ತಿ ನಿರ್ವಹಣಾ ವ್ಯವಸ್ಥೆ",
+  "AssetAssignment": "ಆಸ್ತಿ ಹಂಚಿಕೆ",
+  "AddAsset": "ಆಸ್ತಿ ಸೇರಿಸಿ",
+  "AssetType": "ಆಸ್ತಿ ಪ್ರಕಾರ *",
+  "AssetNumber": "ಆಸ್ತಿ ಸಂಖ್ಯೆ *",
+  "IssueDate": "ನೀಡುವ ದಿನಾಂಕ",
+  "CollectionDate": "ಸಂಗ್ರಹ ದಿನಾಂಕ",
+  "HandOverDate": "ಹಸ್ತಾಂತರ ದಿನಾಂಕ",
+  "SelectType": "ಪ್ರಕಾರ ಆಯ್ಕೆಮಾಡಿ",
+  "RemoveAsset": "ಆಸ್ತಿ ತೆಗೆದುಹಾಕಿ",
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "UpdateAsset": "ಆಸ್ತಿ ನವೀಕರಿಸಿ",
+  "CreateAsset": "ಆಸ್ತಿ ರಚಿಸಿ",
+  "Updating": "ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ...",
+  "Submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ..."
+},
+
+"EmployeeDetailsForm": {
+  "EmployeeInformation": "ನೌಕರರ ಮಾಹಿತಿ",
+  "FullName": "ಪೂರ್ಣ ಹೆಸರು *",
+  "EmployeeID": "ನೌಕರರ ID *",
+  "Department": "ಕಾರ್ಯ",
+  "Position": "ಹುದ್ದೆ",
+  "WorkLocation": "ಕೆಲಸದ ಸ್ಥಳ",
+  "SelectEmployee": "ನೌಕರರನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+},
+
+"AssetsManagementTable": {
+  "AssetManagementHistory": "ಆಸ್ತಿ ನಿರ್ವಹಣಾ ಇತಿಹಾಸ",
+  "TableHeaders": {
+    "Name": "ಹೆಸರು",
+    "EmployeeID": "ನೌಕರರ ID",
+    "Department": "ಕಾರ್ಯ",
+    "AssetType": "ಆಸ್ತಿ ಪ್ರಕಾರ",
+    "AssetNo": "ಆಸ್ತಿ ಸಂಖ್ಯೆ",
+    "IssueDate": "ನೀಡುವ ದಿನಾಂಕ",
+    "HandOverDate": "ಹಸ್ತಾಂತರ ದಿನಾಂಕ",
+    "Action": "ಕ್ರಿಯೆ"
+  },
+  "Actions": {
+    "Edit": "ಸಂಪಾದಿಸಿ",
+    "Delete": "ಅಳಿಸಿ"
+  },
+  "NoDataFound": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+  "Error": "ದೋಷ"
+},
+
+"HolidaysCalendar": {
+  "PageTitle": "ರಜಾದಿನಗಳ ಕ್ಯಾಲೆಂಡರ್",
+  "FormFields": {
+    "HolidayName": "ರಜಾದಿನದ ಹೆಸರು",
+    "Date": "ದಿನಾಂಕ",
+    "Type": "ಪ್ರಕಾರ",
+    "Description": "ವಿವರಣೆ"
+  },
+  "TypeOptions": {
+    "PublicHoliday": "ಸಾರ್ವಜನಿಕ ರಜೆ",
+    "CompanyHoliday": "ಕಂಪನಿ ರಜೆ",
+    "ReligiousHoliday": "ಧಾರ್ಮಿಕ ರಜೆ"
+  },
+  "Buttons": {
+    "Cancel": "ರದ್ದುಮಾಡಿ",
+    "Update": "ನವೀಕರಿಸಿ",
+    "Submit": "ಸಲ್ಲಿಸಿ",
+    "Submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ..."
+  }
+},
+
+"HolidayTable": {
+  "HolidaysHistory": "ರಜಾದಿನಗಳ ಇತಿಹಾಸ",
+  "TableHeaders": {
+    "HolidayName": "ರಜಾದಿನದ ಹೆಸರು",
+    "Type": "ಪ್ರಕಾರ",
+    "Date": "ದಿನಾಂಕ",
+    "Actions": "ಕ್ರಿಯೆಗಳು"
+  }
+},
+
+"TopKpiCards": {
+  "Loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "FailedToLoad": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಡೇಟಾ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+  "NoDataAvailable": "ಯಾವುದೇ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ",
+  "NoDataMessage": "ಪ್ರಸ್ತುತ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.",
+  "KpiCards": {
+    "MyActiveTasks": "ನನ್ನ ಸಕ್ರಿಯ ಕಾರ್ಯಗಳು",
+    "TeamAttendance": "ತಂಡದ ಹಾಜರಾತಿ",
+    "PunctualityScore": "ಸಮಯಪಾಲನೆ ಅಂಕ",
+    "MyAchievements": "ನನ್ನ ಸಾಧನೆಗಳು",
+    "RewardPoints": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳು"
+  },
+  "SubHeadings": {
+    "Urgent": "ತುರ್ತು",
+    "PresentToday": "ಇಂದು ಹಾಜರಿದ್ದಾರೆ",
+    "Last30Days": "ಕಳೆದ 30 ದಿನಗಳು",
+    "ThisMonth": "ಈ ತಿಂಗಳು",
+    "Available": "ಲಭ್ಯವಿದೆ"
+  },
+  "ActionLabels": {
+    "ActionNeeded": "ಕ್ರಿಯೆ ಅಗತ್ಯವಿದೆ",
+    "ReviewNow": "ಈಗ ವಿಮರ್ಶಿಸಿ",
+    "ViewDetails": "ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+  }
+},
+
+"TopCards": {
+  "KpiTasks": "KPI ಕಾರ್ಯಗಳು",
+  "AdHocTasks": "ತಾತ್ಕಾಲಿಕ ಕಾರ್ಯಗಳು",
+  "Urgent": "ತುರ್ತು"
+},
+
+"TaskProgress": {
+  "LoadingRecentTasks": "ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "FailedToLoadRecentTasks": "ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+  "NoRecentTasksAvailable": "ಯಾವುದೇ ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳು ಲಭ್ಯವಿಲ್ಲ",
+  "NoRecentTasksMessage": "ಪ್ರಸ್ತುತ ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.",
+  "RecentTasks": "ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳು",
+  "ViewAll": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸಿ",
+  "NoRecentTasksFound": "ಯಾವುದೇ ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+  "AllRecentTasks": "ಎಲ್ಲಾ ಇತ್ತೀಚಿನ ಕಾರ್ಯಗಳು",
+  "KpiTask": "KPI ಕಾರ್ಯ",
+  "NoDueDate": "ನಿಗದಿತ ದಿನಾಂಕವಿಲ್ಲ",
+  "UntitledTask": "ಶೀರ್ಷಿಕೆ ಇಲ್ಲದ ಕಾರ್ಯ"
+},
+
+"DashboardRewardLeaderboard": {
+  "LoadingLeaderboard": "ಲೀಡರ್ಬೋರ್ಡ್ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "FailedToLoadLeaderboard": "ಲೀಡರ್ಬೋರ್ಡ್ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+  "NoLeaderboardDataAvailable": "ಲೀಡರ್ಬೋರ್ಡ್ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ",
+  "NoLeaderboardDataMessage": "ಪ್ರತಿಫಲ ಅಂಕಗಳ ಲೀಡರ್ಬೋರ್ಡ್ ಮಾಹಿತಿಯನ್ನು ಪ್ರಸ್ತುತ ಲಭ್ಯವಿಲ್ಲ.",
+  "RewardPointsLeaderboard": "ಪ್ರತಿಫಲ ಅಂಕಗಳು - ಲೀಡರ್ಬೋರ್ಡ್",
+  "Company": "ಕಂಪನಿ",
+  "Top5Employees": "ಮೇಲಿನ 5 ನೌಕರರು",
+  "ViewAll": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸಿ",
+  "NoEmployeesFound": "ಯಾವುದೇ ನೌಕರರು ಕಂಡುಬಂದಿಲ್ಲ",
+  "Unknown": "ಅಜ್ಞಾತ",
+  "EmployeeId": "ಐಡಿ: #"
+},
+"TaskDashboardHeader": {
+  "TaskDashboard": "ಕಾರ್ಯ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+  "FilterOptions": {
+    "ThisWeek": "ಈ ವಾರ",
+    "ThisMonth": "ಈ ತಿಂಗಳು",
+    "ThisYear": "ಈ ವರ್ಷ",
+    "All": "ಎಲ್ಲಾ"
+  },
+  "Buttons": {
+    "View": "ವೀಕ್ಷಿಸಿ",
+    "AddTask": "ಕಾರ್ಯವನ್ನು ಸೇರಿಸಿ"
+  }
+},
+"OKRProgress": {
+  "OKRProgress": "OKR ಪ್ರಗತಿ",
+  "AddOKR": "OKR ಸೇರಿಸಿ",
+  "NoOKRData": "OKR ಡೇಟಾ ಇಲ್ಲ",
+  "StatusLabels": {
+    "OnTrack": "ಮಾರ್ಗದಲ್ಲಿದೆ",
+    "OffTrack": "ಮಾರ್ಗದ ಹೊರಗೆ",
+    "AtRisk": "ಅಪಾಯದಲ್ಲಿದೆ"
+  }
+},
+"ObjectivesDashboard": {
+  "GreetingOffTrack": "ಹಾಯ್ {{name}}! ನಿಮ್ಮ ಉದ್ದೇಶಗಳು ನಿಗದಿತ ದಿನಾಂಕಕ್ಕೆ ಮುಗಿಯುವ ಸಾಧ್ಯತೆಯಿಲ್ಲ!",
+  "GreetingOnTrack": "ಹಾಯ್ {{name}}! ನಿಮ್ಮ ಉದ್ದೇಶಗಳು ಸರಿಯಾದ ಮಾರ್ಗದಲ್ಲಿವೆ!",
+  "GreetingAtRisk": "ಹಾಯ್ {{name}}! ನಿಮ್ಮ ಕೆಲವು ಉದ್ದೇಶಗಳು ಅಪಾಯದಲ್ಲಿವೆ!",
+  "Loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "NoDataAvailable": "ಯಾವುದೇ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ"
+},
+"ObjectivesTable": {
+  "Actions": {
+    "Edit": "ತಿದ್ದು",
+    "Delete": "ಅಳಿಸಿ",
+    "Approve": "ಅಂಗೀಕರಿಸಿ",
+    "Reject": "ನಿರಾಕರಿಸಿ"
+  },
+  "Columns": {
+    "Objectives": "ಉದ್ದೇಶಗಳು",
+    "Progress": "ಪ್ರಗತಿ",
+    "Weight": "ತೂಕ",
+    "Owner": "ಮಾಲೀಕ",
+    "DueDate": "ಗಡುವು ದಿನಾಂಕ",
+    "ApproveReject": "ಅಂಗೀಕಾರ / ನಿರಾಕರಣೆ",
+    "Actions": "ಕ್ರಿಯೆಗಳು",
+    "AddKRTask": "KR ಸೇರಿಸಿ / ಕಾರ್ಯ ಸೇರಿಸಿ"
+  },
+  "Status": {
+    "OnTrack": "ಮಾರ್ಗದಲ್ಲಿದೆ",
+    "AtRisk": "ಅಪಾಯದಲ್ಲಿದೆ",
+    "OffTrack": "ಮಾರ್ಗದ ಹೊರಗೆ",
+    "NotStarted": "ಪ್ರಾರಂಭವಾಗಿಲ್ಲ",
+    "InProgress": "ನಡೆದ course",
+    "Submit": "ಸಲ್ಲಿಸು",
+    "Draft": "ಕರಡು",
+    "PendingApproval": "ಬಾಕಿ",
+    "ApprovalRequired": "ಅಂಗೀಕಾರ ಅಗತ್ಯವಿದೆ",
+    "Approved": "ಅಂಗೀಕರಿಸಲಾಗಿದೆ",
+    "Rejected": "ನಿರಾಕರಿಸಲಾಗಿದೆ"
+  },
+  "Tooltips": {
+    "AddKeyResult": "ಕೀ ರಿಸಲ್ಟ್ ಸೇರಿಸಿ",
+    "AddTask": "ಕಾರ್ಯ ಸೇರಿಸಿ",
+    "Add": "ಸೇರಿಸು"
+  },
+  "TableHeader": {
+    "DisplayOptions": "ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು",
+    "CompanyOKRs": "ಕಂಪನಿ OKRs",
+    "Cascade": "ಕೆಸ್ಕೇಡ್",
+    "Delete": "ಅಳಿಸಿ",
+    "Status": "ಸ್ಥಿತಿ",
+    "SearchPlaceholder": "ಇಲ್ಲಿ ಹುಡುಕಿ...",
+    "Export": "ರಫ್ತುಮಾಡಿ",
+    "CreateOKR": "OKR ರಚಿಸಿ",
+    "Library": "ಲೈಬ್ರರಿ",
+    "NonLibrary": "ನಾನ್ ಲೈಬ್ರರಿ",
+    "StatusOptions": {
+      "OnTrack": "ಮಾರ್ಗದಲ್ಲಿದೆ",
+      "AtRisk": "ಅಪಾಯದಲ್ಲಿದೆ",
+      "OffTrack": "ಮಾರ್ಗದ ಹೊರಗೆ"
+    },
+    "ExportOptions": {
+      "ExportCSV": "CSV ಆಗಿ ರಫ್ತುಮಾಡಿ",
+      "ExportExcel": "ಎಕ್ಸೆಲ್ ಆಗಿ ರಫ್ತುಮಾಡಿ",
+      "ExportPDF": "PDF ಆಗಿ ರಫ್ತುಮಾಡಿ"
+    },
+    "ExportLabels": {
+      "Type": "ಪ್ರಕಾರ",
+      "Title": "ಶೀರ್ಷಿಕೆ",
+      "Description": "ವಿವರಣೆ",
+      "TargetResult": "Target Result",
+      "ActualResult": "Actual Result",
+      "Progress": "ಪ್ರಗತಿ",
+      "Status": "ಸ್ಥಿತಿ",
+      "Owner": "ಮಾಲೀಕ",
+      "Weight": "ತೂಕ",
+      "StartDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+      "DueDate": "ಗಡುವು ದಿನಾಂಕ",
+      "Alignment": "ಸಮಾಲೋಚನೆ",
+      "CreatedAt": "ರಚಿಸಲಾದ ಸಮಯ",
+      "Objective": "ಉದ್ದೇಶ",
+      "KeyResult": "ಮುಖ್ಯ ಫಲಿತಾಂಶ",
+      "Task": "ಕಾರ್ಯ",
+      "CompanyOKR": "ಕಂಪನಿ OKR",
+      "IndividualOKR": "ವೈಯಕ್ತಿಕ OKR",
+      "ExportedOn": "ರಫ್ತು ಮಾಡಿದ ದಿನಾಂಕ:",
+      "OKRsExportReport": "OKRs ರಫ್ತು ವರದಿ",
+      "NoDataToExport": "ರಫ್ತು ಮಾಡಲು ಡೇಟಾ ಇಲ್ಲ"
+    }
+  }
+},
+"OKRCard": {
+  "OKRYear": "OKR ವರ್ಷ",
+  "SelectYear": "ವರ್ಷ ಆಯ್ಕೆಮಾಡಿ",
+  "Employee": "ನೌಕರ",
+  "SelectEmployee": "ನೌಕರರನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+},
+
+"Tasks": {
+  "Task": "ಕಾರ್ಯ",
+  "Tasks": "ಕಾರ್ಯಗಳು",
+  "Objective": "ಉದ್ದೇಶ",
+  "KR": "ಮುಖ್ಯ ಫಲಿತಾಂಶ (KR)",
+  "Due Date": "ಗಡುವು ದಿನಾಂಕ",
+  "Status": "ಸ್ಥಿತಿ",
+  "Owner": "ಮಾಲೀಕ",
+  "Priority": "ಆದ್ಯತೆ",
+  "Progress": "ಪ್ರಗತಿ",
+  "Comments": "ಪ್ರತಿಕ್ರಿಯೆಗಳು",
+  "SubTask": "ಉಪಕಾರ್ಯ",
+  "Approval": "ಅಂಗೀಕಾರ",
+  "Action": "ಕ್ರಿಯೆ",
+  "Approve": "ಅಂಗೀಕರಿಸಿ",
+  "PendingApproval": "ಬಾಕಿ",
+  "Reject": "ನಿರಾಕರಿಸಿ",
+  "Approved": "ಅಂಗೀಕರಿಸಲಾಗಿದೆ",
+  "Rejected": "ನಿರಾಕರಿಸಲಾಗಿದೆ",
+  "ApprovalRequired": "ಅಂಗೀಕಾರ ಅಗತ್ಯವಿದೆ",
+  "Edit": "ತಿದ್ದು",
+  "Delete": "ಅಳಿಸಿ",
+  "Audit History": "ಆಡಿಟ್ ಇತಿಹಾಸ",
+  "HighLevel": "ಉನ್ನತ ಮಟ್ಟ",
+  "MediumLevel": "ಮಧ್ಯಮ ಮಟ್ಟ",
+  "LowLevel": "ಕಡಿಮೆ ಮಟ್ಟ",
+  "Not Started": "ಪ್ರಾರಂಭವಾಗಿಲ್ಲ",
+  "In Progress": "ನಡೆದ ಕೋರ್ಸ್‌ನಲ್ಲಿ",
+  "OnHold": "ತಡೆಹಿಡಿದಿದೆ",
+  "Completed": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+  "Recurrence": "ಪುನರಾವರ್ತನೆ",
+  "Main Task": "ಮುಖ್ಯ ಕಾರ್ಯ",
+  "Comment": "ಟಿಪ್ಪಣಿ",
+  "commentHere": "ಇಲ್ಲಿ ಟಿಪ್ಪಣಿ ಬರೆಯಿರಿ...",
+  "AddComment": "ಕಾಮೆಂಟ್ ಸೇರಿಸಿ",
+  "Submit": "ಸಲ್ಲಿಸು",
+  "Upload Files": "ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "Uploading": "ಅಪ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "File uploaded": "ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಆಯಿತು",
+  "Processing": "ಪ್ರಕ್ರಿಯೆ ನಡೆಯುತ್ತಿದೆ...",
+  "UpdateTask": "ಕಾರ್ಯವನ್ನು ನವೀಕರಿಸಿ",
+  "SaveAddAnother": "ಉಳಿಸಿ ಮತ್ತು ಮತ್ತೊಂದು ಸೇರಿಸಿ",
+  "Finish": "ಮುಗಿಸು",
+  "AddTask": "ಕಾರ್ಯ ಸೇರಿಸಿ",
+  "EditTask": "ಕಾರ್ಯ ತಿದ್ದು",
+  "Assign To": "ನಿಯೋಜಿಸಿ",
+  "Loading task data...": "ಕಾರ್ಯ ಡೇಟಾ ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+},
+
+"ObjectiveForm": {
+  "CreateObjective": "ಉದ್ದೇಶ ರಚಿಸಿ",
+  "EditObjective": "ಉದ್ದೇಶ ತಿದ್ದು",
+  "ObjectiveSavedSuccess": "✓ ಉದ್ದೇಶ ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ! ನೀವು ಈಗ ಮುಖ್ಯ ಫಲಿತಾಂಶಗಳನ್ನು ಸೇರಿಸಬಹುದು.",
+  "EarnedRewardPoints": "ನೀವು {{points}} ಬಹುಮಾನ ಅಂಕಗಳನ್ನು ಗಳಿಸಿದ್ದೀರಿ",
+  "FormLabels": {
+    "Objective": "ಉದ್ದೇಶ*",
+    "Weight": "ತೂಕ*",
+    "Owner": "ಮಾಲೀಕ",
+    "DueDate": "ಗಡುವು ದಿನಾಂಕ",
+    "Dimension": "ಮಿತಿಯು*",
+    "Comment": "ಟಿಪ್ಪಣಿ",
+    "UploadFile": "ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "Progress": "ಪ್ರಗತಿ"
+  },
+  "Placeholders": {
+    "EnterComment": "ನಿಮ್ಮ ಟಿಪ್ಪಣಿಯನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಿ...",
+    "DateFormat": "dd/mm/yyyy"
+  },
+  "Buttons": {
+    "Saving": "ಉಳಿಸುತ್ತಿದೆ...",
+    "UpdateObjective": "ಉದ್ದೇಶ ನವೀಕರಿಸಿ",
+    "SaveDetails": "ವಿವರಗಳನ್ನು ಉಳಿಸಿ",
+    "AddKeyResults": "ಮುಖ್ಯ ಫಲಿತಾಂಶಗಳನ್ನು ಸೇರಿಸಿ",
+    "SaveAndAddKR": "ಉಳಿಸಿ ಮತ್ತು KR ಸೇರಿಸಿ"
+  },
+  "FileUpload": {
+    "Uploading": "(ಅಪ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ...)",
+    "FileUploaded": "✓ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಆಯಿತು"
+  },
+  "Stepper": {
+    "Objective": "ಉದ್ದೇಶ",
+    "KR": "ಮುಖ್ಯ ಫಲಿತಾಂಶ",
+    "Task": "ಕಾರ್ಯ"
+  },
+  "Progress": {
+    "SelectProgressStatus": "ನಿಮ್ಮ ಪ್ರಗತಿ ಸ್ಥಿತಿಯನ್ನು (ಶೇಕಡಾವಾರು) ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "Dimensions": {
+    "People": "ಜನರು",
+    "Financial": "ಹಣಕಾಸು",
+    "Operations": "ಕಾರ್ಯಾಚರಣೆಗಳು",
+    "Strategy": "ಯೋಜನೆ",
+    "ProcessGovernanceSystem": "ಪ್ರಕ್ರಿಯೆ / ಆಡಳಿತ / ವ್ಯವಸ್ಥೆ"
+  }
+},
+
+"KeyResultForm": {
+  "AddKeyResult": "ಮುಖ್ಯ ಫಲಿತಾಂಶ ಸೇರಿಸಿ",
+  "EditKeyResult": "ಮುಖ್ಯ ಫಲಿತಾಂಶ ತಿದ್ದು",
+  "OKRName": "OKR ಹೆಸರು",
+  "AlignedToCompanyObjective": "ಕಂಪನಿ ಉದ್ದೇಶಕ್ಕೆ ಹೊಂದಾಣಿಕೆ",
+  "FormLabels": {
+    "KeyResultName": "ಮುಖ್ಯ ಫಲಿತಾಂಶದ ಹೆಸರು*",
+    "Source": "ಮೂಲ",
+    "KPIs": "KPIಗಳು*",
+    "Status": "ಸ್ಥಿತಿ*",
+    "UnitOfMeasurement": "ಮಾಪನ ಘಟಕ",
+    "Polarity": "ಧ್ರುವತೆ",
+    "TargetResult": "ಗುರಿ ಫಲಿತಾಂಶ*",
+    "ActualResult": "ನಿಜವಾದ ಫಲಿತಾಂಶ",
+    "TargetDate": "ಗುರಿ ದಿನಾಂಕ*",
+    "CompletionDate": "ಪೂರ್ಣಗೊಂಡ ದಿನಾಂಕ",
+    "Comment": "ಟಿಪ್ಪಣಿ",
+    "UploadFile": "ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "Buttons": {
+    "Saving": "ಉಳಿಸುತ್ತಿದೆ...",
+    "UpdateDetails": "ವಿವರಗಳನ್ನು ನವೀಕರಿಸಿ",
+    "SaveAndAddAnother": "ಉಳಿಸಿ ಮತ್ತು ಮತ್ತೊಂದು ಸೇರಿಸಿ",
+    "NextAddTask": "ಮುಂದೆ: ಕಾರ್ಯ ಸೇರಿಸಿ"
+  },
+  "FileUpload": {
+    "Uploading": "(ಅಪ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ...)",
+    "FileUploaded": "✓ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಆಯಿತು"
+  },
+  "Polarity": {
+    "Positive": "ಧನಾತ್ಮಕ",
+    "Negative": "ಋಣಾತ್ಮಕ"
+  },
+  "StatusOptions": {
+    "NotStarted": "ಪ್ರಾರಂಭವಾಗಿಲ್ಲ",
+    "InProgress": "ನಡೆದ ಕೋರ್ಸ್‌ನಲ್ಲಿ",
+    "OnHold": "ತಡೆಹಿಡಿದಿದೆ",
+    "Completed": "ಪೂರ್ಣಗೊಂಡಿದೆ"
+  },
+  "KPIOptions": {
+    "Revenue": "ಆದಾಯ",
+    "UserGrowth": "ಬಳಕೆದಾರರ ಬೆಳವಣಿಗೆ",
+    "ConversionRate": "ರೂಪಾಂತರ ದರ"
+  },
+  "UnitOptions": {
+    "Number": "ಸಂಖ್ಯೆ",
+    "Percentage": "ಶೇಕಡಾವಾರು (%)",
+    "INR": "INR",
+    "USD": "USD",
+    "AED": "AED"
+  },
+  "SourceOptions": {
+    "SelectSource": "--ಮೂಲ ಆಯ್ಕೆಮಾಡಿ--",
+    "Salesforce": "ಸೆಲ್ಸ್‌ಫೋರ್ಸ್"
+  },
+  "BellCurveChart": {
+    "Loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "Error": "ದೋಷ:",
+    "UnknownError": "ಅಜ್ಞಾತ ದೋಷ",
+    "Value": "ಮೌಲ್ಯ:",
+    "NoCurveData": "ವಕ್ರ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ",
+    "AtLower": "ಕಡಿಮೆ ಮಟ್ಟದಲ್ಲಿ",
+    "AtAverage": "ಸರಾಸರಿಯಲ್ಲಿ",
+    "AtUpper": "ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ",
+    "Point": "ಬಿಂದು"
+  }
+},
+
+"OKRCharts": {
+  "TotalWeightAchievement": "ಒಟ್ಟು ತೂಕದ ಸಾಧನೆ",
+  "TotalWeight": "ಒಟ್ಟು ತೂಕ",
+  "Q1": "ತ್ರೈಮಾಸಿಕ 1",
+  "Q2": "ತ್ರೈಮಾಸಿಕ 2",
+  "Q3": "ತ್ರೈಮಾಸಿಕ 3",
+  "Q4": "ತ್ರೈಮಾಸಿಕ 4"
+},
+
+"TodayAttendance": {
+  "TodaysAttendance": "ಇಂದಿನ ಹಾಜರಾತಿ",
+  "Present": "ಹಾಜರಿದ್ದಾರೆ",
+  "OnLeave": "ರಜೆ ಮೇಲೆ",
+  "LateArrivals": "ತಡ ಆಗಮಿಸಿದವರು",
+  "TotalEmployees": "ಒಟ್ಟು ನೌಕರರು",
+  "NextHoliday": "ಮುಂದಿನ ರಜೆ",
+  "NoUpcomingHolidays": "ಮುಂದಿನ ರಜೆಗಳಿಲ್ಲ"
+},
+
+"PerformanceTrendDashboard": {
+  "PerformanceTrend": "ಕಾರ್ಯಕ್ಷಮತೆ ಪ್ರವೃತ್ತಿ",
+  "CurrentPerformance": "ಪ್ರಸ್ತುತ ಕಾರ್ಯಕ್ಷಮತೆ",
+  "UnknownPeriod": "ಅಪರಿಚಿತ ಅವಧಿ"
+},
+
+"AvailableRewards": { 
+  "AvailableRewards": "ಲಭ್ಯವಿರುವ ಬಹುಮಾನಗಳು",
+  "Pts": "ಅಂಕಗಳು",
+  "NoRewardsAvailable": "ಈ ಕ್ಷಣಕ್ಕೆ ಯಾವುದೇ ಬಹುಮಾನಗಳು ಲಭ್ಯವಿಲ್ಲ",
+  "KeepEarningPoints": "ಹೆಚ್ಚು ಬಹುಮಾನಗಳಿಗಾಗಿ ಅಂಕಗಳನ್ನು ಗಳಿಸುತ್ತಿರಿ",
+  "ComingSoonTitle": "ಬಹುಮಾನಗಳು ಶೀಘ್ರದಲ್ಲೇ ಬರುತ್ತಿವೆ",
+  "ComingSoonDescription": "ನಾವು ನಿಮಗಾಗಿ ರೋಚಕ ಬಹುಮಾನಗಳನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಿದ್ದೇವೆ! ಶೀಘ್ರದಲ್ಲೇ ನೀವು ನಿಮ್ಮ ಸಾಧನೆಗಳು ಮತ್ತು ಕೊಡುಗೆಗಳ ಆಧಾರದ ಮೇಲೆ ಬಹುಮಾನಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.",
+  "Rewards": {
+    "ExpertBadge": "ತಜ್ಞ ಬ್ಯಾಡ್ಜ್",
+    "Achievement": "ಸಾಧನೆ",
+    "TeamPlayerAward": "ಟೀಮ್ ಪ್ಲೇಯರ್ ಪ್ರಶಸ್ತಿ",
+    "Recognition": "ಪ್ರಶಂಸೆ",
+    "Claim": "ದಾವೆ ಮಾಡು"
+  }
+},
+"RecentUpdates": {
+  "RecentUpdates": "ಇತ್ತೀಚಿನ ನವೀಕರಣಗಳು",
+  "NoRecentUpdates": "ಇತ್ತೀಚಿನ ನವೀಕರಣಗಳಿಲ್ಲ",
+  "ComingSoonTitle": "ನವೀಕರಣಗಳ ಫೀಡ್ ಶೀಘ್ರದಲ್ಲೇ ಬರುತ್ತಿದೆ",
+  "ComingSoonDescription": "ಮುಖ್ಯ ಅಧಿಸೂಚನೆಗಳು, ಸಾಧನೆಗಳು ಮತ್ತು ವ್ಯವಸ್ಥೆಯ ನವೀಕರಣಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ಮಾಹಿತಿ ನೀಡಲು ನಾವು ಸಮಗ್ರ ನವೀಕರಣ ಫೀಡ್ ಅಭಿವೃದ್ಧಿಪಡಿಸುತ್ತಿದ್ದೇವೆ.",
+  "Updates": {
+    "UrgentTasksAlert": "ತುರ್ತು ಕಾರ್ಯಗಳ ಎಚ್ಚರಿಕೆ",
+    "TaskOverview": "ಕಾರ್ಯದ ಅವಲೋಕನ",
+    "OKRAlert": "OKR ಎಚ್ಚರಿಕೆ",
+    "OKRProgress": "OKR ಪ್ರಗತಿ",
+    "GreatAttendance": "ಉತ್ತಮ ಹಾಜರಾತಿ",
+    "AchievementUnlocked": "ಸಾಧನೆ ಅನ್ಲಾಕ್ ಆಗಿದೆ",
+    "PerformanceReviewReminder": "ಕಾರ್ಯಕ್ಷಮತೆ ವಿಮರ್ಶೆ ನೆನಪಿಸಿ",
+    "GreatJob": "ಅದ್ಭುತ ಕೆಲಸ"
+  },
+  "TimeLabels": {
+    "Today": "ಇಂದು",
+    "ThisMonth": "ಈ ತಿಂಗಳು",
+    "OneDayAgo": "1 ದಿನ ಹಿಂದಿನದು",
+    "ThreeDaysAgo": "3 ದಿನಗಳ ಹಿಂದೆ"
+  }
+},
+"BirthdayList": {
+  "BirthdayList": "ಹುಟ್ಟುಹಬ್ಬಗಳ ಪಟ್ಟಿ",
+  "ViewAll": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸು",
+  "NoBirthdaysThisMonth": "ಈ ತಿಂಗಳಲ್ಲಿ ಯಾವುದೇ ಹುಟ್ಟುಹಬ್ಬಗಳಿಲ್ಲ",
+  "AllUpcomingBirthdays": "ಎಲ್ಲಾ ಮುಂಬರುವ ಹುಟ್ಟುಹಬ್ಬಗಳು",
+  "LoadingTitle": "ಹುಟ್ಟುಹಬ್ಬಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "FailedToLoadTitle": "ಹುಟ್ಟುಹಬ್ಬಗಳ ಪಟ್ಟಿಯನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+  "NoDataTitle": "ಈ ತಿಂಗಳಲ್ಲಿ ಹುಟ್ಟುಹಬ್ಬಗಳಿಲ್ಲ",
+  "NoDataMessage": "ಪ್ರಸ್ತುತ ತಿಂಗಳಲ್ಲಿ ಯಾವುದೇ ನೌಕರರಿಗೂ ಹುಟ್ಟುಹಬ್ಬವಿಲ್ಲ.",
+  "DateFormats": {
+    "Today": "ಇಂದು",
+    "Tomorrow": "ನಾಳೆ",
+    "Days": "ದಿನಗಳು"
+  }
+},
+"AnniversaryList": {
+  "AnniversaryList": "ವಾರ್ಷಿಕೋತ್ಸವ ಪಟ್ಟಿ",
+  "ViewAll": "ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸು",
+  "NoAnniversariesThisMonth": "ಈ ತಿಂಗಳಲ್ಲಿ ಯಾವುದೇ ವಾರ್ಷಿಕೋತ್ಸವಗಳಿಲ್ಲ",
+  "AllUpcomingAnniversaries": "ಎಲ್ಲಾ ಮುಂಬರುವ ವಾರ್ಷಿಕೋತ್ಸವಗಳು",
+  "DateFormats": {
+    "Today": "ಇಂದು",
+    "Tomorrow": "ನಾಳೆ",
+    "Days": "ದಿನಗಳು",
+    "Year": "ವರ್ಷ",
+    "Years": "ವರ್ಷಗಳು"
+  }
+},
+"BirthdayWishModal": {
+  "SendBirthdayWish": "ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯ ಕಳುಹಿಸಿ",
+  "SendPersonalizedMessage": "ವೈಯಕ್ತಿಕ ಹುಟ್ಟುಹಬ್ಬದ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿ",
+  "HappyBirthdayPlaceholder": "ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯಗಳು",
+  "Cancel": "ರದ್ದುಮಾಡು",
+  "SendWish": "ಶುಭಾಶಯ ಕಳುಹಿಸು",
+  "YearsOfService": "ಸೇವೆಯ ವರ್ಷ",
+  "YearsOfServicePlural": "ಸೇವೆಯ ವರ್ಷಗಳು"
+},
+"AnniversaryWishModal": {
+  "SendAnniversaryWish": "ವಾರ್ಷಿಕೋತ್ಸವದ ಶುಭಾಶಯ ಕಳುಹಿಸಿ",
+  "SendPersonalizedMessage": "ವೈಯಕ್ತಿಕ ವಾರ್ಷಿಕೋತ್ಸವ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಿ",
+  "CongratulationsPlaceholder": "ಅಭಿನಂದನೆಗಳು",
+  "Cancel": "ರದ್ದುಮಾಡು",
+  "SendWish": "ಶುಭಾಶಯ ಕಳುಹಿಸು",
+  "YearsOfService": "ಸೇವೆಯ ವರ್ಷ",
+  "YearsOfServicePlural": "ಸೇವೆಯ ವರ್ಷಗಳು"
+},
+"EligibilityCriteria": {
+  "Title": "ಅರ್ಹತಾ ಮಾನದಂಡಗಳು",
+  "FormFields": {
+    "EligibilityName": "ಅರ್ಹತಾ ಹೆಸರು",
+    "Age": "ವಯಸ್ಸು (ಉದಾ., >30, =27)",
+    "LengthOfService": "ಸೇವೆಯ ಅವಧಿ (ಉದಾ., >1, >2)",
+    "JobCategory": "ಉದ್ಯೋಗ ವರ್ಗ",
+    "Gender": "ಲಿಂಗ",
+    "Grade": "ಶ್ರೇಣಿ",
+    "MaritalStatus": "ವೈವಾಹಿಕ ಸ್ಥಿತಿ",
+    "Location": "ಸ್ಥಳ",
+    "ProbationPeriod": "ಪರೀಕ್ಷಾ ಅವಧಿ",
+    "NoticePeriod": "ನೋಟಿಸ್ ಅವಧಿ",
+    "PersonType": "ವ್ಯಕ್ತಿ ಪ್ರಕಾರ",
+    "Religion": "ಧರ್ಮ",
+    "Position": "ಸ್ಥಾನ",
+    "HireDate": "ನೇಮಕಾತಿ ದಿನಾಂಕ",
+    "Department": "ಕಾರ್ಯ",
+    "WorkType": "ಕೆಲಸದ ಪ್ರಕಾರ",
+    "ExcludeByDefaultIncludesAll": "ವಿಲೇಖನ (ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಎಲ್ಲವನ್ನೂ ಒಳಗೊಂಡಿದೆ)",
+    "PublicHolidays": "ಸಾರ್ವಜನಿಕ ರಜಾದಿನಗಳು",
+    "Leaves": "ರಜೆಗಳು",
+    "Weekends": "ವಾರಾಂತ್ಯಗಳು"
+  },
+  "Options": {
+    "All": "ಎಲ್ಲಾ",
+    "Operations": "ಕಾರ್ಯಾಚರಣೆಗಳು",
+    "Supervisor": "ಮೇಲ್ವಿಚಾರಕ",
+    "Managerial": "ನಿರ್ವಹಣಾ",
+    "ExecutiveLeadership": "ಕಾರ್ಯನಿರ್ವಹಣಾ ನಾಯಕತ್ವ",
+    "Director": "ನಿರ್ದೇಶಕ",
+    "Location": {
+      "USA": "ಅಮೆರಿಕಾ",
+      "India": "ಭಾರತ",
+      "UK": "ಇಂಗ್ಲೆಂಡ್"
+    },
+    "PersonType": {
+      "EMP": "ನೌಕರ",
+      "Contractor": "ಕಾಂಟ್ರಾಕ್ಟರ್",
+      "Intern": "ಇಂಟರ್ನ್"
+    },
+    "Religion": {
+      "Hindu": "ಹಿಂದೂ",
+      "Muslim": "ಮುಸ್ಲಿಂ",
+      "Christian": "ಕ್ರೈಸ್ತ",
+      "Sikh": "ಸಿಖ್",
+      "Buddhist": "ಬೌದ್ಧ",
+      "Jain": "ಜೈನ",
+      "Other": "ಇತರೆ"
+    },
+    "Gender": {
+      "Male": "ಪುರುಷ",
+      "Female": "ಮಹಿಳೆ"
+    },
+    "MaritalStatus": {
+      "Married": "ವಿವಾಹಿತ",
+      "Unmarried": "ಅವಿವಾಹಿತ"
+    },
+    "Yes": "ಹೌದು",
+    "No": "ಇಲ್ಲ",
+    "WorkType": {
+      "FullTime": "ಪೂರ್ಣಾವಧಿ",
+      "PartTime": "ಭಾಗಕಾಲ"
+    }
+  },
+  "Buttons": {
+    "Cancel": "ರದ್ದುಮಾಡು",
+    "Submit": "ಸಲ್ಲಿಸು",
+    "Update": "ನವೀಕರಿಸು"
+  },
+  "Messages": {
+    "FailedFetchCandidates": "ಅರ್ಹ ಅಭ್ಯರ್ಥಿಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ",
+    "NoDataFound": "ಯಾವುದೇ ಡೇಟಾ ಸಿಕ್ಕಿಲ್ಲ!",
+    "SuccessCreate": "ಅರ್ಹತೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸೃಷ್ಟಿಸಲಾಗಿದೆ",
+    "SuccessUpdate": "ಅರ್ಹತೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+    "ErrorSubmit": "ಫಾರ್ಮ್ ಸಲ್ಲಿಸುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "Validation": {
+    "Required": "{{field}} ಅಗತ್ಯವಿದೆ ಮತ್ತು ಖಾಲಿಯಾಗಿರಬಾರದು",
+    "CannotBeEmpty": "{{field}} ಖಾಲಿಯಾಗಿರಬಾರದು",
+    "InvalidSymbols": "{{field}} ನಲ್ಲಿ ಈ ಚಿಹ್ನೆಗಳಲ್ಲಿ ಒಂದನ್ನು ಹೊಂದಿರಬೇಕು: >, <, =",
+    "FillDetails": "ಸಲ್ಲಿಸುವ ಮೊದಲು ವಿವರಗಳನ್ನು ತುಂಬಿ..."
+  }
+},
+
+"EligibilityTable": {
+  "Title": "ಇತಿಹಾಸ",
+  "TableHeaders": {
+    "EligibilityName": "ಅರ್ಹತಾ ಹೆಸರು",
+    "Department": "ಕಾರ್ಯ",
+    "Actions": "ಕ್ರಿಯೆಗಳು"
+  },
+  "Buttons": {
+    "Edit": "ಸಂಪಾದಿಸು",
+    "Delete": "ಅಳಿಸು",
+    "ExportCSV": "CSV ಆಗಿ ರಫ್ತುಮಾಡು",
+    "ExportExcel": "Excel ಆಗಿ ರಫ್ತುಮಾಡು",
+    "ExportPDF": "PDF ಆಗಿ ರಫ್ತುಮಾಡು"
+  },
+  "MenuItems": {
+    "Stage": {
+      "NewApplied": "ಹೊಸ ಅರ್ಜಿ ಸಲ್ಲಿಸಲಾಗಿದೆ",
+      "PsychometricTest": "ಸೈಕೋಮೆಟ್ರಿಕ್ ಪರೀಕ್ಷೆ"
+    },
+    "ExportOptions": {
+      "CSV": "CSV ಆಗಿ ರಫ್ತುಮಾಡು",
+      "Excel": "Excel ಆಗಿ ರಫ್ತುಮಾಡು",
+      "PDF": "PDF ಆಗಿ ರಫ್ತುಮಾಡು"
+    }
+  },
+  "Messages": {
+    "FetchError": "ಡೇಟಾ ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ",
+    "DeleteSuccess": "ದಾಖಲೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ",
+    "DeleteError": "ದಾಖಲೆಯನ್ನು ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "ExportSuccess": "ಯಶಸ್ವಿಯಾಗಿ ರಫ್ತುಮಾಡಲಾಗಿದೆ",
+    "ExportError": "ಡೇಟಾವನ್ನು ರಫ್ತು ಮಾಡಲು ವಿಫಲವಾಗಿದೆ",
+    "NoData": "ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ"
+  },
+  "Placeholders": {
+    "Search": "ಹುಡುಕು...",
+    "Select": "--ಆಯ್ಕೆಮಾಡು--"
+  }
+},
+"ApprovalWorkflowCard": {
+  "Title": "ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹ",
+  "Description": "ವಿವಿಧ ವಹಿವಾಟು ಪ್ರಕಾರಗಳಿಗಾಗಿ ಅನುಮೋದನಾ ಸರಪಳಿಯನ್ನು ಸಂರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ",
+  "NewWorkflowButton": "ಹೊಸ ಕಾರ್ಯಪ್ರವಾಹ"
+},
+"WorkflowType": {
+  "TitleCreate": "ಹೊಸ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ರಚಿಸಿ",
+  "TitleEdit": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಸಂಪಾದಿಸಿ",
+  "SubtitleCreate": "ನಿಮ್ಮ ಸಂಸ್ಥೆಗೆ ಹೊಸ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಸ್ಥಾಪಿಸಿ",
+  "SubtitleEdit": "ನಿಮ್ಮ ಸಂಸ್ಥೆಯ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ತಿದ್ದುಪಡಿ ಮಾಡಿ",
+  "SelectTransactionTitle": "ವಹಿವಾಟಿನ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "SelectTransactionDescription": "ಈ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಅನುಸರಿಸುವ ವಹಿವಾಟಿನ ಪ್ರಕಾರವನ್ನು ಆರಿಸಿ",
+  "Steps": {
+    "TransactionType": "ವಹಿವಾಟಿನ ಪ್ರಕಾರ",
+    "WorkflowDetails": "ಕಾರ್ಯಪ್ರವಾಹದ ವಿವರಗಳು",
+    "ApprovalChain": "ಅನುಮೋದನಾ ಸರಪಳಿ"
+  },
+  "Buttons": {
+    "Previous": "ಹಿಂದೆ",
+    "Cancel": "ರದ್ದುಮಾಡು",
+    "Next": "ಮುಂದೆ",
+    "Submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ...",
+    "CreateWorkflow": "ಕಾರ್ಯಪ್ರವಾಹ ರಚಿಸಿ",
+    "UpdateWorkflow": "ಕಾರ್ಯಪ್ರವಾಹ ನವೀಕರಿಸಿ"
+  },
+  "Messages": {
+    "CreateSuccess": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ.",
+    "UpdateSuccess": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ.",
+    "CreateError": "ಕಾರ್ಯಪ್ರವಾಹ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "UpdateError": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "UnknownStep": "ಅಪರಿಚಿತ ಹಂತ"
+},
+"TransactionCard": {
+  "Recruitment": "ಭರ್ತಿ",
+  "RecruitmentDescription": "ನೇಮಕಾತಿ ಮತ್ತು ಅನುಮೋದನಾ ಪ್ರಕ್ರಿಯೆಯ ಕಾರ್ಯಪ್ರವಾಹ",
+  "ExpenseApproval": "ವೆಚ್ಚ ಅನುಮೋದನೆ",
+  "ExpenseApprovalDescription": "ನೌಕರರ ವೆಚ್ಚಗಳಿಗೆ ಅನುಮೋದನಾ ಪ್ರಕ್ರಿಯೆ",
+  "LeaveRequest": "ರಜೆ ವಿನಂತಿ",
+  "LeaveRequestDescription": "ನೌಕರರ ರಜೆ ವಿನಂತಿಗಳ ಅನುಮೋದನಾ ಸರಪಳಿ",
+  "PurchaseOrder": "ಖರೀದಿ ಆದೇಶ",
+  "PurchaseOrderDescription": "ಖರೀದಿ ಆದೇಶಗಳನ್ನು ನಿರ್ವಹಿಸುವ ಕಾರ್ಯಪ್ರವಾಹ",
+  "BudgetApproval": "ಬಜೆಟ್ ಅನುಮೋದನೆ",
+  "BudgetApprovalDescription": "ಆರ್ಥಿಕ ಬಜೆಟ್‌ಗಳ ಅನುಮೋದನಾ ಪ್ರಕ್ರಿಯೆ"
+},
+"WorkFlowDetails": {
+  "WorkflowDetails": "ಕಾರ್ಯಪ್ರವಾಹದ ವಿವರಗಳು",
+  "ProvideNameDescription": "ಈ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹಕ್ಕೆ ಹೆಸರು ಮತ್ತು ವಿವರಣೆ ನೀಡಿ",
+  "WorkflowName": "ಕಾರ್ಯಪ್ರವಾಹದ ಹೆಸರು",
+  "WorkflowNamePlaceholder": "ಉದಾ., ಸಾಮಾನ್ಯ ರಜೆ ಅನುಮೋದನೆ",
+  "Description": "ವಿವರಣೆ",
+  "DescriptionPlaceholder": "ಈ ಕಾರ್ಯಪ್ರವಾಹದ ಉದ್ದೇಶ ಮತ್ತು ಬಳಕೆ ಪ್ರಕರಣಗಳನ್ನು ವಿವರಿಸಿ",
+  "Condition": "ಶರತ್ತು",
+  "ConditionPlaceholder": "ಕಾರ್ಯಪ್ರವಾಹದ ಐಚ್ಛಿಕ ಶರತ್ತು",
+  "ConditionLeaveRequest": "ಶರತ್ತು (ರಜೆ ವಿನಂತಿಗಳಿಗಾಗಿ)",
+  "SetRules": "ರಜೆ ವಿನಂತಿಯ ದಿನಗಳ ಸಂಖ್ಯೆಯ ಆಧಾರದ ಮೇಲೆ ನಿಯಮಗಳನ್ನು ಹೊಂದಿಸಿ",
+  "Attribute": "ಗುಣಲಕ್ಷಣ",
+  "SelectAttribute": "ಗುಣಲಕ್ಷಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "Operator": "ಆಪರೇಟರ್",
+  "SelectOperator": "ಆಪರೇಟರ್ ಆಯ್ಕೆಮಾಡಿ",
+  "Value": "ಮೌಲ್ಯ",
+  "EnterNumber": "ಸಂಖ್ಯೆ ನಮೂದಿಸಿ",
+  "Days": "ದಿನಗಳು",
+  "is": "ಆಗಿದೆ",
+  "lesserOrEqual": "ಕಡಿಮೆ ಅಥವಾ ಸಮ (≤)",
+  "greaterOrEqual": "ಹೆಚ್ಚು ಅಥವಾ ಸಮ (≥)"
+},
+"workflowFilter": {
+  "searchPlaceholder": "ಕಾರ್ಯಪ್ರವಾಹ ಹುಡುಕಿ",
+  "filterButton": "ಫಿಲ್ಟರ್",
+  "allTypes": "ಎಲ್ಲಾ ಪ್ರಕಾರಗಳು",
+  "workflow": "ಕಾರ್ಯಪ್ರವಾಹ",
+  "task": "ಕಾರ್ಯ"
+},
+"workflowChain": {
+  "configureApprovalChain": "ಅನುಮೋದನಾ ಸರಪಳಿಯನ್ನು ಸಂರಚಿಸಿ",
+  "defineSequence": "ಈ ಕಾರ್ಯಪ್ರವಾಹಕ್ಕೆ ಅನುಮೋದಕರ ಕ್ರಮವನ್ನು ನಿರ್ಧರಿಸಿ",
+  "currentApprovalChain": "ಪ್ರಸ್ತುತ ಅನುಮೋದನಾ ಸರಪಳಿ",
+  "noStepsDefined": "ಇನ್ನೂ ಯಾವುದೇ ಹಂತಗಳನ್ನು ನಿರ್ಧರಿಸಲಾಗಿಲ್ಲ",
+  "addStep": "ಹಂತ ಸೇರಿಸಿ",
+  "completeDetailsError": "ದಯವಿಟ್ಟು ಮೊದಲು ವಹಿವಾಟಿನ ಪ್ರಕಾರ ಮತ್ತು ಕಾರ್ಯಪ್ರವಾಹದ ವಿವರಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ"
+},
+"addApprovalHeader": {
+  "title": "ಅನುಮೋದನಾ ಹಂತ ಸೇರಿಸಿ",
+  "rolesTab": "ಪಾತ್ರಗಳು",
+  "individualUserTab": "ವೈಯಕ್ತಿಕ ಬಳಕೆದಾರ",
+  "searchPlaceholder": "ಕಾರ್ಯಪ್ರವಾಹ ಹುಡುಕಿ"
+},
+"formNavigation": {
+  "previous": "ಹಿಂದೆ",
+  "cancel": "ರದ್ದುಮಾಡು",
+  "createWorkflow": "ಕಾರ್ಯಪ್ರವಾಹ ರಚಿಸಿ"
+},
+"selectedApprovers": {
+  "title": "ಆಯ್ಕೆಗೊಂಡ ಅನುಮೋದಕರು:",
+  "noApprovers": "ಇನ್ನೂ ಯಾವುದೇ ಅನುಮೋದಕರನ್ನು ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ",
+  "saveStep": "ಹಂತವನ್ನು ಉಳಿಸಿ",
+  "cancel": "ರದ್ದುಮಾಡು"
+},
+"approval": {
+  "saveApprovers": "ಅನುಮೋದಕರನ್ನು ಉಳಿಸಿ"
+},
+"approval2": {
+  "card1Title": "ಲೈನ್ ಮ್ಯಾನೇಜರ್",
+  "card1Description": "ನೌಕರನ ನೇರ ಮೇಲ್ವಿಚಾರಕ",
+  "select": "ಆಯ್ಕೆಮಾಡು",
+  "remove": "ತೆಗೆದುಹಾಕು",
+  "selected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+},
+"approval3": {
+  "card2Title": "ಮಾನವ ಸಂಪನ್ಮೂಲ ನಿರ್ವಾಹಕ",
+  "card2Description": "ಮಾನವ ಸಂಪನ್ಮೂಲ ವಿಭಾಗದ ಮುಖ್ಯಸ್ಥ",
+  "select": "ಆಯ್ಕೆಮಾಡು",
+  "remove": "ತೆಗೆದುಹಾಕು",
+  "selected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+},
+"approval4": {
+  "card3Title": "ಕಾರ್ಯನಿರ್ವಹಣಾ ಮುಖ್ಯಸ್ಥ",
+  "card3Description": "ವಿಭಾಗದ ಮುಖ್ಯಸ್ಥ",
+  "select": "ಆಯ್ಕೆಮಾಡು",
+  "remove": "ತೆಗೆದುಹಾಕು",
+  "selected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+},
+"approval5": {
+  "card4Title": "ಮುಖ್ಯ ಕಾರ್ಯನಿರ್ವಹಣಾ ಅಧಿಕಾರಿ (CEO)",
+  "card4Description": "ಮುಖ್ಯ ಕಾರ್ಯನಿರ್ವಹಣಾ ಅಧಿಕಾರಿ",
+  "select": "ಆಯ್ಕೆಮಾಡು",
+  "remove": "ತೆಗೆದುಹಾಕು",
+  "selected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+},
+"approval6": {
+  "card5Title": "ಹಣಕಾಸು ನಿರ್ದೇಶಕ",
+  "card5Description": "ನಿರ್ದಿಷ್ಟ ಯೋಜನೆಯನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವ ನಿರ್ವಾಹಕ",
+  "select": "ಆಯ್ಕೆಮಾಡು",
+  "remove": "ತೆಗೆದುಹಾಕು",
+  "selected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+},
+"approval7": {
+  "card6Title": "ಯೋಜನಾ ನಿರ್ವಾಹಕ",
+  "card6Description": "ನೌಕರನ ನೇರ ಮೇಲ್ವಿಚಾರಕ",
+  "select": "ಆಯ್ಕೆಮಾಡು",
+  "remove": "ತೆಗೆದುಹಾಕು",
+  "selected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "removed": "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
+},
+"transactions": {
+  "leaveRequestTitle": "ರಜೆ ವಿನಂತಿ",
+  "leaveRequestDescription": "ನೌಕರರ ರಜೆ ವಿನಂತಿಗಳ ಅನುಮೋದನಾ ಪ್ರಕ್ರಿಯೆ",
+  "timesheetTitle": "ಟೈಮ್‌ಶೀಟ್",
+  "timesheetDescription": "ನೌಕರರ ಸಮಯಪಟ್ಟಿಗಳ ಅನುಮೋದನಾ ಪ್ರಕ್ರಿಯೆ",
+  "resignationRequestTitle": "ರಾಜೀನಾಮೆ ವಿನಂತಿ",
+  "resignationRequestDescription": "ನೌಕರರ ರಾಜೀನಾಮೆ ವಿನಂತಿಗಳ ಅನುಮೋದನಾ ಪ್ರಕ್ರಿಯೆ"
+},
+
+"workflow": {
+  "selectTransactionType": "ವಹಿವಾಟು ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "chooseTransactionType": "ಈ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಅನುಸರಿಸುವ ವಹಿವಾಟು ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "editWorkflow": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಸಂಪಾದಿಸಿ",
+  "createNewWorkflow": "ಹೊಸ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ರಚಿಸಿ",
+  "modifyWorkflow": "ನಿಮ್ಮ ಸಂಸ್ಥೆಯ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ತಿದ್ದುಪಡಿ ಮಾಡಿ",
+  "setupNewWorkflow": "ನಿಮ್ಮ ಸಂಸ್ಥೆಗೆ ಹೊಸ ಅನುಮೋದನಾ ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಸ್ಥಾಪಿಸಿ",
+  "previous": "ಹಿಂದೆ",
+  "cancel": "ರದ್ದುಮಾಡಿ",
+  "next": "ಮುಂದೆ",
+  "submitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ...",
+  "updateWorkflow": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ನವೀಕರಿಸಿ",
+  "createWorkflow": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ರಚಿಸಿ",
+  "updatedSuccess": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+  "createdSuccess": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+  "failed": "ಕಾರ್ಯಪ್ರವಾಹವನ್ನು {{action}} ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.",
+  "create": "ರಚಿಸಿ",
+  "update": "ನವೀಕರಿಸಿ",
+  "unknownStep": "ಅಜ್ಞಾತ ಹಂತ",
+  "Transaction Type": "ವಹಿವಾಟು ಪ್ರಕಾರ",
+  "Workflow Details": "ಕಾರ್ಯಪ್ರವಾಹದ ವಿವರಗಳು",
+  "Approval Chain": "ಅನುಮೋದನಾ ಸರಣಿ"
+},
+"LookUpScreen": {
+  "CreateLookUp": "ಲೂಕಪ್ ರಚಿಸಿ",
+  "LookupType": "ಲೂಕಪ್ ಪ್ರಕಾರ",
+  "Meaning": "ಅರ್ಥ",
+  "Add": "ಸೇರಿಸಿ",
+  "Code": "ಕೋಡ್",
+  "Delete": "ಅಳಿಸಿ",
+  "Submit": "ಸಲ್ಲಿಸಿ",
+  "DateStart": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+  "DateEnd": "ಅಂತಿಮ ದಿನಾಂಕ",
+  "Enabled": "ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ",
+  "Actions": "ಕ್ರಿಯೆಗಳು",
+  "Type": "ಪ್ರಕಾರ",
+  "EditLookUp": "ಲೂಕಪ್ ಸಂಪಾದಿಸಿ",
+  "Update": "ನವೀಕರಿಸಿ",
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "PerformanceRatingScale": "ಕಾರ್ಯಕ್ಷಮತೆ ಮೌಲ್ಯಮಾಪನ ಪ್ರಮಾಣ"
+},
+"CompetencyManagement": {
+  "CompetencyManagement": "ಸಾಮರ್ಥ್ಯ ನಿರ್ವಹಣೆ",
+  "Name": "ಹೆಸರು",
+  "PositionLevel": "ಸ್ಥಾನಮಟ್ಟ",
+  "Action": "ಕ್ರಿಯೆ",
+  "Create": "ರಚಿಸಿ",
+  "CreateNewCompetency": "ಹೊಸ ಸಾಮರ್ಥ್ಯವನ್ನು ರಚಿಸಿ",
+  "EditCompetency": "ಸಾಮರ್ಥ್ಯವನ್ನು ಸಂಪಾದಿಸಿ",
+  "CompetencyName": "ಸಾಮರ್ಥ್ಯದ ಹೆಸರು",
+  "Description": "ವಿವರಣೆ",
+  "StartDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+  "EndDate": "ಅಂತಿಮ ದಿನಾಂಕ",
+  "CompetencyType": "ಸಾಮರ್ಥ್ಯ ಪ್ರಕಾರ",
+  "DevelopmentActivities": "ಅಭಿವೃದ್ಧಿ ಚಟುವಟಿಕೆಗಳು",
+  "CoachingActivities": "ಪ್ರಶಿಕ್ಷಣ ಚಟುವಟಿಕೆಗಳು",
+  "CategoryActivities": "ವರ್ಗ ಚಟುವಟಿಕೆಗಳು",
+  "PositionLevelField": "ಸ್ಥಾನಮಟ್ಟ",
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "Save": "ಉಳಿಸಿ",
+  "Update": "ನವೀಕರಿಸಿ"
+},
+"OKRManagement": {
+  "OKRManagement": "OKR ನಿರ್ವಹಣೆ",
+  "OkrLibrary": "OKR ಗ್ರಂಥಾಲಯ",
+  "Okr": "OKR",
+  "Transfer": "ಸ್ಥಳಾಂತರ",
+  "Create": "ರಚಿಸಿ",
+  "BulkUpload": "ಬಲ್ಕ್ ಅಪ್‌ಲೋಡ್",
+  "Industry": "ಉದ್ಯಮ",
+  "IsActive": "ಸಕ್ರಿಯವಾಗಿದೆ",
+  "LastModified": "ಕೊನೆಯ ಬದಲಾವಣೆ",
+  "Action": "ಕ್ರಿಯೆ",
+  "OkrTemplateName": "OKR ಟೆಂಪ್ಲೇಟ್ ಹೆಸರು",
+  "StartDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+  "EndDate": "ಅಂತಿಮ ದಿನಾಂಕ",
+  "EligibilityGroup": "ಅರ್ಹತಾ ಗುಂಪು",
+  "TransferFromEmployee": "ಉದ್ಯೋಗಿಯಿಂದ ಸ್ಥಳಾಂತರಿಸಿ :",
+  "TransferToEmployee": "ಉದ್ಯೋಗಿಗೆ ಸ್ಥಳಾಂತರಿಸಿ :",
+  "FindOkr": "OKR ಹುಡುಕಿ",
+  "InstructionsToUsers": "ಬಳಕೆದಾರರಿಗೆ ಸೂಚನೆಗಳು",
+  "LowValueRange": "ಕಡಿಮೆ ಮೌಲ್ಯದ ಶ್ರೇಣಿ",
+  "MidValueRange": "ಮಧ್ಯಮ ಮೌಲ್ಯದ ಶ್ರೇಣಿ",
+  "HighValueRange": "ಹೆಚ್ಚು ಮೌಲ್ಯದ ಶ್ರೇಣಿ",
+  "Min": "ಕನಿಷ್ಠ",
+  "Max": "ಗರಿಷ್ಠ",
+  "IncludingKeyResults": "ಮುಖ್ಯ ಫಲಿತಾಂಶಗಳನ್ನು ಒಳಗೊಂಡಿದೆ",
+  "ImportOkrLibrary": "OKR ಗ್ರಂಥಾಲಯವನ್ನು ಆಮದುಮಾಡಿ",
+  "Export": "ರಫ್ತುಮಾಡಿ",
+  "DownloadTemplate": "ಟೆಂಪ್ಲೇಟ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "Save": "ಉಳಿಸಿ",
+  "IncludeOkr": "OKR ಸೇರಿಸಿ",
+  "Edit": "ಸಂಪಾದಿಸಿ",
+  "Delete": "ಅಳಿಸಿ"
+},
+"TimeLogin": {
+  "title": "ಭೂಗೋಳ ಸ್ಥಳ ಆಧಾರಿತ ಸಮಯ ದಾಖಲೆ",
+  "discription-title": "ನಿಮ್ಮ ಭೌತಿಕ ಸ್ಥಳದ ಆಧಾರದ ಮೇಲೆ ಕ್ಲಾಕ್ ಇನ್/ಔಟ್ ಮಾಡಿ",
+  "buttonLables": {
+    "bio": "ಕೈಯಾರೆ / ಬಯೋ",
+    "geo": "ಭೂಗೋಳ"
+  },
+  "refreshing": "ಪುನಃತಾಜಾಗೊಳಿಸಲಾಗುತ್ತಿದೆ...",
+  "refreshLocation": "ಸ್ಥಳವನ್ನು ಪುನಃತಾಜಾಗೊಳಿಸಿ",
+  "LocationService": "ಸ್ಥಳ ಸೇವೆಗಳು",
+  "message": "ಪ್ರೇರಣೆಯಾದಾಗ ಸ್ಥಳ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ. ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಕೆಲಸದ ಹಾಜರಾತಿ ಪರಿಶೀಲನೆಗಾಗಿ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ.",
+  "getting": "ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ....",
+  "RetryLocation": "ಸ್ಥಳವನ್ನು ಮರುಪ್ರಯತ್ನಿಸಿ",
+  "ManualLocation": "ಕೈಯಾರೆ ಸ್ಥಳ ನಮೂದಿಸಿ",
+  "time": "ಪ್ರಸ್ತುತ ಸಿಸ್ಟಮ್ ಸಮಯ",
+  "clockOut": "ಕ್ಲಾಕ್ ಔಟ್",
+  "clockin": "ಕ್ಲಾಕ್ ಇನ್",
+  "manuallyLocation": "ಕೈಯಾರೆ ಸ್ಥಳ ನಮೂದಿಸಿ",
+  "textLabel": {
+    "Latitude": "ಅಕ್ಷಾಂಶ",
+    "Logitude": "ರೇಖಾಂಶ"
+  },
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "setLocation": "ಸ್ಥಳವನ್ನು ಸೆಟ್ ಮಾಡಿ",
+  "waitingError": "ಸ್ಥಳ ಪ್ರವೇಶಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ...",
+  "TimeSheetHistory": {
+    "history": "ಸಮಯಪತ್ರ ಇತಿಹಾಸ",
+    "totalTime": "ಒಟ್ಟು ಸಮಯ",
+    "week": "ವಾರ"
+  },
+  "TableColumn": {
+    "Employee": "ಉದ್ಯೋಗಿ",
+    "day": "ದಿನ",
+    "Date": "ದಿನಾಂಕ",
+    "timein": "ಸಮಯ ಪ್ರಾರಂಭ",
+    "timeOut": "ಸಮಯ ಅಂತ್ಯ",
+    "hours": "ಗಂಟೆಗಳು",
+    "method": "ವಿಧಾನ",
+    "position": "ಸ್ಥಾನ",
+    "remarks": "ಟಿಪ್ಪಣಿ",
+    "status": "ಸ್ಥಿತಿ",
+    "actions": "ಕ್ರಿಯೆಗಳು"
+  },
+  "actionButton": {
+    "approve": "ಅನುಮೋದಿಸಿ",
+    "reject": "ನಿರಾಕರಿಸಿ"
+  },
+  "DialogBox": {
+    "title": "ಸಮಯ ದಾಖಲೆ ವಿವರಗಳು",
+    "ApprovalHistory": "ಅನುಮೋದನಾ ಇತಿಹಾಸ",
+    "Nodetailsavailable": "ವಿವರಗಳು ಲಭ್ಯವಿಲ್ಲ",
+    "CurrentLocationMap": "ಪ್ರಸ್ತುತ ಸ್ಥಳ ನಕ್ಷೆ"
+  },
+  "exportOptions": {
+    "export": "ರಫ್ತುಮಾಡಿ",
+    "exportExcel": "Excel ರೂಪದಲ್ಲಿ ರಫ್ತುಮಾಡಿ",
+    "exportCSV": "CSV ರೂಪದಲ್ಲಿ ರಫ್ತುಮಾಡಿ",
+    "exportPDF": "PDF ರೂಪದಲ್ಲಿ ರಫ್ತುಮಾಡಿ"
+  }
+},
+
+ "AbsenceTime": {
+  "LeavePolicy": "ರಜೆ ನೀತಿ",
+  "applyForLeave": "ರಜೆಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+  "teamLeave": "ತಂಡದ ರಜೆ",
+  "LoadingLeaves": "ರಜೆ ಪ್ರಕಾರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "formLabel": {
+    "absenceType": "ಗೈರುಹಾಜರಾತಿ ಪ್ರಕಾರ / ವರ್ಗ",
+    "halfDay": "ಅರ್ಧ ದಿನ",
+    "form": "ರಿಂದ",
+    "to": "ವರೆಗೆ",
+    "durationAbsence": "ಗೈರುಹಾಜರಾತಿ ಅವಧಿ",
+    "note": "ಟಿಪ್ಪಣಿ"
+  },
+  "Uplode": "ಲಗತ್ತನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+  "sumbitting": "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ...",
+  "buttonConfg": {
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "update": "ನವೀಕರಿಸಿ",
+    "submit": "ಸಲ್ಲಿಸಿ"
+  },
+  "leavesAvailable": "ಇತರೆ ರಜೆಗಳು ಲಭ್ಯವಿಲ್ಲ.",
+  "close": "ಮುಚ್ಚಿ",
+  "tableColumn": {
+    "date": "ದಿನಾಂಕ",
+    "employee": "ಉದ್ಯೋಗಿ",
+    "type": "ಪ್ರಕಾರ",
+    "duration": "ಅವಧಿ",
+    "status": "ಸ್ಥಿತಿ",
+    "action": "ಕ್ರಿಯೆ"
+  },
+  "editRequest": "ಅರ್ಜಿ ಸಂಪಾದಿಸಿ",
+  "deleteRequest": "ಅರ್ಜಿ ಅಳಿಸಿ",
+  "approve": "ಅನುಮೋದಿಸಿ",
+  "reject": "ನಿರಾಕರಿಸಿ",
+  "leaveDetailsView": {
+    "leaveType": "ರಜೆ ಪ್ರಕಾರ",
+    "duration": "ಅವಧಿ",
+    "startDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "endDate": "ಅಂತಿಮ ದಿನಾಂಕ",
+    "applicationOn": "ಅರ್ಜಿಯ ದಿನಾಂಕ"
+  },
+  "reasons": {
+    "reason": "ಕಾರಣ",
+    "rejectionReason": "ನಿರಾಕರಣೆಯ ಕಾರಣ:"
+  },
+  "approvalStatus": "ಪ್ರಸ್ತುತ ಅನುಮೋದನಾ ಸ್ಥಿತಿ",
+  "noDetails": "ವಿವರಗಳು ಲಭ್ಯವಿಲ್ಲ",
+  "requests": {
+    "approveLeave": "ರಜೆ ಅರ್ಜಿಯನ್ನು ಅನುಮೋದಿಸಿ",
+    "rejectLeave": "ರಜೆ ಅರ್ಜಿಯನ್ನು ನಿರಾಕರಿಸಿ",
+    "details": "ಅರ್ಜಿ ವಿವರಗಳು"
+  },
+  "period": "ಅವಧಿ",
+  "Comments(Optional)": "ಟಿಪ್ಪಣಿಗಳು (ಐಚ್ಛಿಕ)",
+  "RejectionReason": "ನಿರಾಕರಣೆಯ ಕಾರಣ *",
+  "approveRequest": "ಅರ್ಜಿ ಅನುಮೋದಿಸಿ",
+  "rejectRequest": "ಅರ್ಜಿ ನಿರಾಕರಿಸಿ",
+  "DialogBox": {
+    "title": "ರಜೆ ಅರ್ಜಿ ವಿವರಗಳು",
+    "alert": "ರಜೆ ಅರ್ಜಿಯ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
+  },
+  "searchHear": "ಇಲ್ಲಿ ಹುಡುಕಿ...",
+  "TeamLeave": {
+    "teamLeave": "ತಂಡದ ರಜೆ",
+    "managerBoard": "ಮ್ಯಾನೇಜರ್ ಬೋರ್ಡ್:",
+    "all": "ಎಲ್ಲಾ",
+    "teamA": "ತಂಡ A",
+    "teamB": "ತಂಡ B"
+  },
+  "tableHeader": {
+    "displayOptions": "ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು",
+    "priority": "ಆದ್ಯತೆ",
+    "status": "ಸ್ಥಿತಿ"
+  },
+  "filters": {
+    "high": "ಹೆಚ್ಚು",
+    "medium": "ಮಧ್ಯಮ",
+    "low": "ಕಡಿಮೆ"
+  },
+  "EventCalender": {
+    "filter": "ಫಿಲ್ಟರ್:"
+  }
+},
+"FileUploadFile": {
+  "chooseAFile": "ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಇಲ್ಲಿ ಎಳೆದು ಬಿಟ್ಟು ಬಿಡಿ",
+  "uploading": "ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "fileTypes": "JPEG, PNG, PDF, CSV, Excel, ಗರಿಷ್ಠ 50MB",
+  "browseFile": "ಫೈಲ್ ಬ್ರೌಸ್ ಮಾಡಿ",
+  "selectedFile": "ಆಯ್ದ ಫೈಲ್",
+  "clickhere": "ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+},
+"RecruitmentManagement": {
+  "WelcomeBack": "ಮತ್ತೆ ಸ್ವಾಗತ",
+  "NewCandidate": "ಹೊಸ ಅಭ್ಯರ್ಥಿ",
+  "ID": "ಐಡಿ",
+  "Name": "ಹೆಸರು",
+  "Email": "ಇಮೇಲ್",
+  "AppliedOn": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿದ ದಿನಾಂಕ",
+  "Stages": "ಹಂತಗಳು",
+  "Actions": "ಕ್ರಿಯೆಗಳು",
+  "InProgress": "ಪ್ರಗತಿಯಲ್ಲಿ",
+  "WaitingForFeedback": "ಪ್ರತಿಕ್ರಿಯೆಗೆ ಕಾಯಲಾಗುತ್ತಿದೆ",
+  "OfferReleased": "ಆಫರ್ ಬಿಡುಗಡೆಗೊಂಡಿದೆ",
+  "CandidatesList": "ಅಭ್ಯರ್ಥಿಗಳ ಪಟ್ಟಿ",
+  "AddNewCandidate": "ಹೊಸ ಅಭ್ಯರ್ಥಿಯನ್ನು ಸೇರಿಸಿ",
+  "CandidateDetails": "ಅಭ್ಯರ್ಥಿ ವಿವರಗಳು",
+  "PsychometricAssessment": "ಸೈಕೋಮೆಟ್ರಿಕ್ ಮೌಲ್ಯಮಾಪನ",
+  "Interview1": "ಇಂಟರ್ವ್ಯೂ 1",
+  "Interview2": "ಇಂಟರ್ವ್ಯೂ 2",
+  "DocumentVerification": "ದಾಖಲೆ ಪರಿಶೀಲನೆ",
+  "Offer": "ಆಫರ್",
+  "OfferLetter": "ಆಫರ್ ಲೆಟರ್",
+  "Onboarding": "ಆನ್‌ಬೋರ್ಡಿಂಗ್",
+  "CandidateName": "ಅಭ್ಯರ್ಥಿಯ ಹೆಸರು",
+  "EmailAddress": "ಇಮೇಲ್ ವಿಳಾಸ",
+  "AddPhoto": "ಫೋಟೋ ಸೇರಿಸಿ",
+  "PhoneNo": "ಫೋನ್ ಸಂಖ್ಯೆ",
+  "ExperienceInYears": "ಅನುಭವ (ವರ್ಷಗಳಲ್ಲಿ)",
+  "EducationQualification": "ಶೈಕ್ಷಣಿಕ ಅರ್ಹತೆ",
+  "DateOfBirth": "ಹುಟ್ಟಿದ ದಿನಾಂಕ",
+  "Gender": "ಲಿಂಗ",
+  "Location": "ಸ್ಥಳ",
+  "Source": "ಮೂಲ",
+  "Department": "ಕಾರ್ಯ",
+  "Designation": "ಹುದ್ದೆ",
+  "LegalEntity": "ಕಾನೂನು ಸಂಸ್ಥೆ",
+  "ProjectName": "ಯೋಜನೆಯ ಹೆಸರು",
+  "ReportingManager": "ವರದಿ ಮಾಡುವ ಮ್ಯಾನೇಜರ್",
+  "Status": "ಸ್ಥಿತಿ",
+  "Resume": "ರಿಜ್ಯೂಮ್",
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "Submit": "ಸಲ್ಲಿಸಿ",
+  "Edit": "ಸಂಪಾದಿಸಿ",
+  "Delete": "ಅಳಿಸಿ",
+  "EditCandidate": "ಅಭ್ಯರ್ಥಿಯನ್ನು ಸಂಪಾದಿಸಿ",
+  "ClickHere": "ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ",
+  "Update": "ನವೀಕರಿಸಿ",
+  "MoveToTalentPool": "ಟ್ಯಾಲೆಂಟ್ ಪೂಲ್‌ಗೆ ಸ್ಥಳಾಂತರಿಸಬೇಕೇ?",
+  "Male": "ಪುರುಷ",
+  "Female": "ಸ್ತ್ರೀ",
+  "Other": "ಇತರೆ",
+  "Yes": "ಹೌದು",
+  "No": "ಇಲ್ಲ",
+  "SuitableDesignation": "ಸೂಕ್ತ ಹುದ್ದೆ",
+  "NoticePeriodDays": "ನೋಟಿಸ್ ಅವಧಿ (ದಿನಗಳಲ್ಲಿ)",
+  "DateOfJoining": "ಸೇರ್ಪಡೆಯ ದಿನಾಂಕ",
+  "ProbationPeriodDays": "ಪ್ರೊಬೇಶನ್ ಅವಧಿ (ದಿನಗಳಲ್ಲಿ)",
+  "PsychometricReviewReport": "ಸೈಕೋಮೆಟ್ರಿಕ್ ವಿಮರ್ಶಾ ವರದಿ",
+  "DocumentsUploadOverview": "ದಾಖಲೆಗಳ ಅಪ್‌ಲೋಡ್ ಅವಲೋಕನ",
+  "SaveAsDraft": "ಡ್ರಾಫ್ಟ್ ಆಗಿ ಉಳಿಸಿ",
+  "DraftLoaded": "ಡ್ರಾಫ್ಟ್ ಡೇಟಾ ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+  "GrossSalary": "ಒಟ್ಟು ಸಂಬಳ",
+  "Interviewer1": "ಸಂದರ್ಶಕ 1",
+  "Interviewer2": "ಸಂದರ್ಶಕ 2"
+},
+"PrivilegeGroups": {
+  "PrivilegeGroups": "ಅಧಿಕಾರ ಗುಂಪುಗಳು",
+  "CreateNewGroup": "ಹೊಸ ಗುಂಪು ರಚಿಸಿ",
+  "GroupName": "ಗುಂಪಿನ ಹೆಸರು",
+  "UserType": "ಬಳಕೆದಾರ ಪ್ರಕಾರ",
+  "SonicOfDynamic": "ಡೈನಾಮಿಕ್‌ನ ಸೊನಿಕ್",
+  "ActiveMembership": "ಸಕ್ರಿಯ ಸದಸ್ಯತ್ವ",
+  "LastModified": "ಕೊನೆಯ ಬದಲಾವಣೆ",
+  "Action": "ಕ್ರಿಯೆ",
+  "ActiveGroupMembership": "ಸಕ್ರಿಯ ಗುಂಪಿನ ಸದಸ್ಯತ್ವ",
+  "ChooseGroupMembers": "ಗುಂಪಿನ ಸದಸ್ಯರನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "PeoplePool": "ಜನರ ಪೂಲ್",
+  "PickACategory": "ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "ExcludeThesePeopleGroupName": "ಈ ಜನರನ್ನು ಹೊರತುಪಡಿಸಿ",
+  "Select": "ಆಯ್ಕೆಮಾಡಿ",
+  "Cancel": "ರದ್ದುಮಾಡಿ",
+  "Finished": "ಮುಗಿದಿದೆ",
+  "Edit": "ಸಂಪಾದಿಸಿ",
+  "Delete": "ಅಳಿಸಿ",
+  "AddPrivilegeGroup": "ಅಧಿಕಾರ ಗುಂಪು ಸೇರಿಸಿ",
+  "UpdatePrivilegeGroup": "ಅಧಿಕಾರ ಗುಂಪು ನವೀಕರಿಸಿ",
+  "GroupCreatedSuccessfully": "ಗುಂಪು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ!",
+  "GroupUpdatedSuccessfully": "ಗುಂಪು ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ!",
+  "GroupDeletedSuccessfully": "ಗುಂಪು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಲಾಗಿದೆ!",
+  "AreYouSureDelete": "ಈ ಗುಂಪನ್ನು ಅಳಿಸಲು ನಿಮಗೆ ಖಚಿತವೇ?",
+  "NoDataFound": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+  "Loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "SearchGroups": "ಗುಂಪುಗಳನ್ನು ಹುಡುಕಿ",
+  "ViewDetails": "ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+  "SaveChanges": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ",
+  "Confirm": "ದೃಢೀಕರಿಸಿ",
+  "Yes": "ಹೌದು",
+  "No": "ಇಲ್ಲ",
+  "Active": "ಸಕ್ರಿಯ",
+  "Inactive": "ನಿಷ್ಕ್ರಿಯ",
+  "Members": "ಸದಸ್ಯರು",
+  "Status": "ಸ್ಥಿತಿ",
+  "CreatedBy": "ರಚಿಸಿದವರು",
+  "ModifiedBy": "ತಿದ್ದುಪಡಿ ಮಾಡಿದವರು",
+  "GroupNameIsRequired": "ಗುಂಪಿನ ಹೆಸರು ಅಗತ್ಯವಿದೆ",
+  "ErrorFetchingData": "ಡೇಟಾ ಪಡೆಯುವಲ್ಲಿ ದೋಷ!",
+  "SomethingWentWrong": "ಏನೋ ತಪ್ಪಾಗಿದೆ!",
+  "PleaseEnterGroupName": "ದಯವಿಟ್ಟು ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+  "PleaseSelectUserType": "ದಯವಿಟ್ಟು ಬಳಕೆದಾರ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "PleaseSelectMembers": "ದಯವಿಟ್ಟು ಗುಂಪಿನ ಸದಸ್ಯರನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+},
+"SessionTab": {
+  "Title": "ಅಧಿವೇಶನಗಳು",
+  "FormTitle": "ಅಧಿವೇಶನ ವಿವರಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಿ",
+  "Buttons": {
+    "Create": "ರಚಿಸಿ",
+    "Cancel": "ರದ್ದುಮಾಡಿ",
+    "Update": "ನವೀಕರಿಸಿ",
+    "Save": "ಉಳಿಸಿ"
+  },
+  "FormFields": {
+    "SessionName": "ಅಧಿವೇಶನ ಹೆಸರು",
+    "Template": "ಟೆಂಪ್ಲೇಟ್",
+    "SessionStartDate": "ಅಧಿವೇಶನ ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "SessionEndDate": "ಅಧಿವೇಶನ ಅಂತಿಮ ದಿನಾಂಕ",
+    "SessionOwners": "ಅಧಿವೇಶನ ಮಾಲೀಕರು",
+    "EmployeeGroup": "ಉದ್ಯೋಗಿ ಗುಂಪು"
+  },
+  "Table": {
+    "Name": "ಹೆಸರು",
+    "Action": "ಕ್ರಿಯೆ",
+    "Edit": "ಸಂಪಾದಿಸಿ",
+    "Delete": "ಅಳಿಸಿ"
+  },
+  "Placeholders": {
+    "SearchHere": "ಇಲ್ಲಿ ಹುಡುಕಿ...",
+    "SelectTemplate": "ಟೆಂಪ್ಲೇಟ್ ಆಯ್ಕೆಮಾಡಿ",
+    "EnterSessionName": "ಅಧಿವೇಶನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+    "SelectSessionOwners": "ಅಧಿವೇಶನ ಮಾಲೀಕರನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "SelectEmployeeGroup": "ಉದ್ಯೋಗಿ ಗುಂಪನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "Validation": {
+    "FillRequiredFields": "ದಯವಿಟ್ಟು ಅಗತ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  "Messages": {
+    "FailedDelete": "ಅಧಿವೇಶನ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "ErrorDelete": "ಅಧಿವೇಶನ ಅಳಿಸುವಾಗ ದೋಷ ಉಂಟಾಯಿತು",
+    "FailedCreate": "ಅಧಿವೇಶನ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "ErrorCreate": "ಅಧಿವೇಶನ ರಚಿಸುವಾಗ ದೋಷ ಉಂಟಾಯಿತು",
+    "FailedUpdate": "ಅಧಿವೇಶನ ನವೀಕರಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "ErrorUpdate": "ಅಧಿವೇಶನ ನವೀಕರಿಸುವಾಗ ದೋಷ ಉಂಟಾಯಿತು"
+  }
+},
+"GuideLinesTab": {
+  "Instructions": {
+    "SelectDataSource": "ನೀವು ಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡಲು ಬಯಸುವ ಅಂಶಗಳಿಗಾಗಿ ಡೇಟಾ ಮೂಲವನ್ನು ಆಯ್ಕೆಮಾಡಿ:"
+  },
+  "Performance": {
+    "Title": "ಕಾರ್ಯಕ್ಷಮತೆ",
+    "Description": "ಕಾರ್ಯಕ್ಷಮತೆ ಕ್ಯಾಲಿಬ್ರೇಶನ್‌ನಲ್ಲಿ ಕಾರ್ಯಕ್ಷಮತೆ, ಗುರಿಗಳು, ಸಾಮರ್ಥ್ಯ ಅಥವಾ ಇತರ ಗ್ರಾಹಕ-ನಿರ್ವಚಿತ ಅಂಶಗಳ ಮೌಲ್ಯಮಾಪನವನ್ನು ಒಳಗೊಂಡಿದೆ. 1. ನೀವು ಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡಲು ಬಯಸುವ ಅಂಶಗಳನ್ನು ಹೊಂದಿರುವ ಫಾರ್ಮ್ ಟೆಂಪ್ಲೇಟ್(ಗಳು) ಆಯ್ಕೆಮಾಡಿ. ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳು ಅಗತ್ಯವಿದೆ."
+  },
+  "Options": {
+    "Calibration": "ಕ್ಯಾಲಿಬ್ರೇಶನ್",
+    "SelfSubmission": "ಸ್ವಯಂ ಸಲ್ಲಿಕೆ",
+    "ManagerReview": "ಮ್ಯಾನೇಜರ್ ವಿಮರ್ಶೆ",
+    "ManagerSignOff": "ಮ್ಯಾನೇಜರ್ ಸಹಿ",
+    "EmployeeSignOff": "ಉದ್ಯೋಗಿ ಸಹಿ"
+  },
+  "RatingScale": {
+    "Ineffective": "1. ಪರಿಣಾಮಕಾರಿಯಲ್ಲ",
+    "SomewhatAchieved": "2. ಸ್ವಲ್ಪ ಸಾಧಿಸಲಾಗಿದೆ",
+    "Achieved": "3. ಸಾಧಿಸಲಾಗಿದೆ",
+    "Overperformed": "4. ಮೀರಿದ ಪ್ರದರ್ಶನ",
+    "Outstanding": "5. ಅತ್ಯುತ್ತಮ"
+  },
+  "Table": {
+    "Template": "ಟೆಂಪ್ಲೇಟ್",
+    "RouteMap": "ಮಾರ್ಗ ನಕ್ಷೆ",
+    "RoutingStep": "ಯಾವ ಹಂತದಲ್ಲಿ ಡೇಟಾವನ್ನು ಬಳಸಬಹುದು?"
+  },
+  "Placeholders": {
+    "SelectTemplate": "ಟೆಂಪ್ಲೇಟ್ ಆಯ್ಕೆಮಾಡಿ",
+    "SelectStep": "ಹಂತವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "DefaultStep": "PM2 ಕಾರ್ಯಕ್ಷಮತೆ ಮೌಲ್ಯಮಾಪನ"
+},
+
+"CalibrationManagement": {
+  "Options": {
+    "Calibration": "ಕ್ಯಾಲಿಬ್ರೇಷನ್",
+    "SelfSubmission": "ಸ್ವಯಂ ಸಲ್ಲಿಕೆ",
+    "ManagerReview": "ಮ್ಯಾನೇಜರ್ ವಿಮರ್ಶೆ",
+    "ManagerSignOff": "ಮ್ಯಾನೇಜರ್ ಸಹಿ",
+    "EmployeeSignOff": "ಉದ್ಯೋಗಿಯ ಸಹಿ"
+  },
+  "Table": {
+    "SNo": "ಕ್ರಮ ಸಂ.",
+    "Rating": "ಮೌಲ್ಯಮಾಪನ",
+    "RouteMap": "ಮಾರ್ಗ ನಕ್ಷೆ",
+    "Delete": "ಅಳಿಸು"
+  },
+  "Placeholders": {
+    "SelectTemplate": "ದಯವಿಟ್ಟು ಟೆಂಪ್ಲೇಟ್ನ್ನು ಆಯ್ಕೆಮಾಡಿ..."
+  },
+  "Notes": {
+    "Part1": "ಸೂಚನೆ: ಕೆಲವೊಮ್ಮೆ ನಿಮ್ಮ ಕ್ಯಾಲಿಬ್ರೇಷನ್ ಡೇಟಾ ಹಲವಾರು ಟೆಂಪ್ಲೇಟ್ಗಳಿಂದ ಬರಬಹುದು, ಅಂಥ ಸಂದರ್ಭಗಳಲ್ಲಿ ವ್ಯವಸ್ಥೆ ಪ್ರಾಥಮಿಕ ಟೆಂಪ್ಲೇಟ್‌ನಲ್ಲಿ ವ್ಯಾಖ್ಯಾನಿಸಿದ ಅಂಶಗಳನ್ನು ಮಾತ್ರ ಬೆಂಬಲಿಸುತ್ತದೆ (ಇದರೊಂದಿಗೆ ಸೂಚಿಸಲಾಗುತ್ತದೆ ",
+    "Part2": "). ನೀವು ಹಲವಾರು ಪ್ರದರ್ಶನ ಟೆಂಪ್ಲೇಟ್ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿದರೆ, ಆ ಟೆಂಪ್ಲೇಟ್ಗಳಲ್ಲಿ ಅದೇ ರಚನೆ, ಸೂಚ್ಯಂಕಗಳು ಮತ್ತು ಮಾರ್ಗ ನಕ್ಷೆ ಇರಬೇಕೆಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+  },
+  "Instructions": {
+    "SelectElement": "2. ಕ್ಯಾಲಿಬ್ರೇಷನ್‌ಗಾಗಿ ಕನಿಷ್ಠ ಒಂದು ಅಂಶವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ನಂತರ ಅದರ ಹಂಚಿಕೆ ಮಾರ್ಗಸೂಚಿಯನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಿ."
+  },
+  "OverallFormRating": "ಒಟ್ಟು ಫಾರ್ಮ್ ಮೌಲ್ಯಮಾಪನ",
+  "Buttons": {
+    "Add": "ಸೇರಿಸು"
+  }
+},
+
+"IntegrationManagement": {
+  "AdminPortal": "ಆಡ್ಮಿನ್ ಪೋರ್ಟಲ್ - ಇಂಟಿಗ್ರೇಷನ್ ನಿರ್ವಹಣೆ",
+  "BusinessLevelConnectors": "ವ್ಯವಹಾರ ಮಟ್ಟದ ಕನೆಕ್ಟರ್‌ಗಳು",
+  "ActivationDescription": "ಸೇವೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ ಬಳಕೆದಾರರಿಗೆ ಆ ಸೇವೆಗೆ ಸಂಪರ್ಕಿಸಲು, ಕೀ ಫಲಿತಾಂಶದ ಸ್ವಯಂ ನವೀಕರಣಕ್ಕಾಗಿ ಅಥವಾ ಸೇವೆಯಿಂದ ಬಳಕೆದಾರರ ನಿರಂತರ ಸಮನ್ವಯಕ್ಕಾಗಿ ಡೇಟಾವನ್ನು ಪಡೆಯಲು ಅವಕಾಶ ಸಿಗುತ್ತದೆ.",
+  "Manage": "ನಿರ್ವಹಿಸಿ",
+  "ReadMore": "ಇನ್ನಷ್ಟು ಓದಿ"
+},
+
+"TopHeader": {
+  "ManageSalesforceConnection": "Salesforce ಸಂಪರ್ಕವನ್ನು ನಿರ್ವಹಿಸಿ",
+  "Delete": "ಅಳಿಸು"
+},
+
+"PerformanceManagement": {
+  "Title": "ಕಾರ್ಯಕ್ಷಮತೆ ನಿರ್ವಹಣೆ",
+  "Create": "ರಚಿಸಿ",
+  "TypeOfEvaluation": "ಮೌಲ್ಯಮಾಪನದ ಪ್ರಕಾರ",
+  "Select": "ಆಯ್ಕೆಮಾಡಿ...",
+  "FrequencyOfEvaluation": "ಮೌಲ್ಯಮಾಪನದ ಅವಧಿ",
+  "StartDate": "ಆರಂಭ ದಿನಾಂಕ",
+  "EnterStartDate": "ಆರಂಭ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ",
+  "LaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+  "EnterLaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ",
+  "ListGroupName": "ಪಟ್ಟಿ ಗುಂಪಿನ ಹೆಸರು",
+  "Employee": "ಉದ್ಯೋಗಿ",
+  "Manager": "ಮ್ಯಾನೇಜರ್",
+  "Leadership": "ನಾಯಕತ್ವ",
+  "Cancel": "ರದ್ದುಗೊಳಿಸಿ",
+  "Save": "ಉಳಿಸಿ",
+  "OverallRating": "ಒಟ್ಟು ಮೌಲ್ಯಮಾಪನ",
+  "AbsoluteRating": "ಸಂಪೂರ್ಣ ಮೌಲ್ಯಮಾಪನ",
+  "RatingScale": "ಮೌಲ್ಯಮಾಪನ ಮಾನದಂಡ",
+  "OKRWastage": "OKR ವ್ಯರ್ಥತೆ",
+  "CompetencyWeightage": "ದಕ್ಷತೆ ತೂಕ",
+  "Weightage360": "360 ತೂಕ",
+  "IncludeSelfEvaluation": "ಸ್ವಯಂ ಮೌಲ್ಯಮಾಪನವನ್ನು ಸೇರಿಸಿ",
+  "EmployeeAcknowledgement": "ಉದ್ಯೋಗಿಯ ದೃಢೀಕರಣ",
+  "HRBPReview": "HRBP ವಿಮರ್ಶೆ",
+  "ApprovalRequired": "ಅನುಮೋದನೆ ಅಗತ್ಯವಿದೆ",
+  "Monthly": "ತಿಂಗಳವಾರು",
+  "Quarterly": "ತ್ರೈಮಾಸಿಕ",
+  "SemiAnnually": "ಅರ್ಧವಾರ್ಷಿಕ",
+  "Annually": "ವಾರ್ಷಿಕ"
+},
+
+"Templates": {
+  "Title": "ಟೆಂಪ್ಲೇಟ್ಗಳು",
+  "Buttons": {
+    "Create": "ರಚಿಸಿ",
+    "Cancel": "ರದ್ದುಗೊಳಿಸಿ",
+    "Update": "ನವೀಕರಿಸಿ",
+    "Save": "ಉಳಿಸಿ",
+    "SelectAll": "ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ",
+    "UnselectAll": "ಎಲ್ಲಾ ರದ್ದುಮಾಡಿ"
+  },
+  "Table": {
+    "Name": "ಹೆಸರು",
+    "Action": "ಕ್ರಿಯೆ",
+    "Edit": "ತಿದ್ದು",
+    "Delete": "ಅಳಿಸು"
+  },
+  "FormFields": {
+    "TemplatesName": "ಟೆಂಪ್ಲೇಟ್ ಹೆಸರು",
+    "TemplateName": "ಟೆಂಪ್ಲೇಟ್ ಹೆಸರು",
+    "Description": "ವಿವರಣೆ",
+    "PercentageType": "ಶೇಕಡಾ ಪ್ರಕಾರ",
+    "RatingScale": "ಮೌಲ್ಯಮಾಪನ ಮಾನದಂಡ",
+    "GoalPercentage": "ಗುರಿ ಶೇಕಡಾವಾರು",
+    "ObjectivePercentage": "ಉದ್ದೇಶ ಶೇಕಡಾವಾರು",
+    "CompetenciesPercentage": "ದಕ್ಷತೆ ಶೇಕಡಾವಾರು",
+    "Competencies": "ದಕ್ಷತೆಗಳು",
+    "ReviewSteps": "ವಿಮರ್ಶೆ ಹಂತಗಳು",
+    "EmployeeDisplayOptions": "ಉದ್ಯೋಗಿ ಪ್ರದರ್ಶನ ಆಯ್ಕೆಗಳು"
+  },
+  "Placeholders": {
+    "EnterTemplateName": "ಟೆಂಪ್ಲೇಟ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+    "EnterDescription": "ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ",
+    "EnterRatingScale": "ಮೌಲ್ಯಮಾಪನ ಮಾನದಂಡವನ್ನು ನಮೂದಿಸಿ",
+    "EnterGoalPercentage": "ಗುರಿ ಶೇಕಡಾವಾರನ್ನು ನಮೂದಿಸಿ",
+    "EnterObjectivePercentage": "ಉದ್ದೇಶ ಶೇಕಡಾವಾರನ್ನು ನಮೂದಿಸಿ",
+    "EnterCompetenciesPercentage": "ದಕ್ಷತೆ ಶೇಕಡಾವಾರನ್ನು ನಮೂದಿಸಿ",
+    "SelectCompetencies": "ದಕ್ಷತೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "Options": {
+    "Goals": "ಗುರಿಗಳು",
+    "Objectives": "ಉದ್ದೇಶಗಳು",
+    "PerformanceRatingScale": "ಕಾರ್ಯಕ್ಷಮತೆ ಮೌಲ್ಯಮಾಪನ ಮಾನದಂಡ",
+    "AllCompetencies": "ಎಲ್ಲಾ ದಕ್ಷತೆಗಳು"
+  },
+  "DisplayOptions": {
+    "FirstName": "ಮೊದಲ ಹೆಸರು",
+    "LastName": "ಕೊನೆಯ ಹೆಸರು",
+    "Department": "ಕಾರ್ಯ",
+    "Grade": "ಶ್ರೇಣಿ",
+    "Manager": "ಮ್ಯಾನೇಜರ್",
+    "Designation": "ಹುದ್ದೆ"
+  },
+  "DisplaySteps": {
+    "SelfSubmission": "ಸ್ವಯಂ ಸಲ್ಲಿಕೆ",
+    "ManagerReview": "ಮ್ಯಾನೇಜರ್ ವಿಮರ್ಶೆ",
+    "HRReview": "HR ವಿಮರ್ಶೆ",
+    "ManagerSignOff": "ಮ್ಯಾನೇಜರ್ ಸಹಿ",
+    "EmployeeSignOff": "ಉದ್ಯೋಗಿಯ ಸಹಿ",
+    "Completed": "ಪೂರ್ಣಗೊಂಡಿದೆ"
+  },
+  "DisplayStepsText": {
+    "SubmitToManager": "ಮ್ಯಾನೇಜರ್‌ಗೆ ಸಲ್ಲಿಸಿ",
+    "SubmitToHR": "HR ಗೆ ಸಲ್ಲಿಸಿ",
+    "SubmitToManagerSignOff": "ಮ್ಯಾನೇಜರ್ ಸಹಿಗೆ ಸಲ್ಲಿಸಿ",
+    "SubmitToEmployeeSignOff": "ಉದ್ಯೋಗಿಯ ಸಹಿಗೆ ಸಲ್ಲಿಸಿ",
+    "SignOffToComplete": "ಪೂರ್ಣಗೊಳಿಸಲು ಸಹಿ ಮಾಡಿ"
+  },
+  "Messages": {
+    "UnknownError": "ಅಪರಿಚಿತ ದೋಷ ಸಂಭವಿಸಿದೆ"
+  }
+},
+
+ "OKRLibraryTab": {
+  "Fields": {
+    "RewardSchemeName": "ಪ್ರಶಸ್ತಿ ಯೋಜನೆಯ ಹೆಸರು *",
+    "ObjectivesAchievementPercent": "ಉದ್ದೇಶಗಳ ಸಾಧನೆ %",
+    "ObjectivesAchievementPoints": "ಉದ್ದೇಶಗಳ ಸಾಧನೆ ಅಂಕಗಳು",
+    "KrAchievementPercent": "KR ಸಾಧನೆ %",
+    "KrAchievementPoints": "KR ಸಾಧನೆ ಅಂಕಗಳು",
+    "TaskAchievementPercent": "ಕಾರ್ಯ ಸಾಧನೆ %",
+    "TaskAchievementPoints": "ಕಾರ್ಯ ಸಾಧನೆ ಅಂಕಗಳು",
+    "SubTaskAchievementPercent": "ಉಪ ಕಾರ್ಯ ಸಾಧನೆ %",
+    "SubTaskPoints": "ಉಪ ಕಾರ್ಯ ಅಂಕಗಳು",
+    "RewardCategory": "ಪ್ರಶಸ್ತಿ ವರ್ಗ *",
+    "RewardType": "ಪ್ರಶಸ್ತಿ ಪ್ರಕಾರ *",
+    "OKRTemplate": "OKR ಟೆಂಪ್ಲೇಟ್ *",
+    "EligibilityGroup": "ಅರ್ಹತಾ ಗುಂಪು *",
+    "KudosEnabled": "ಶ್ಲಾಘನೆ ಸಕ್ರಿಯಗೊಂಡಿದೆ",
+    "BirthdayWishesEnabled": "ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯಗಳು ಸಕ್ರಿಯಗೊಂಡಿವೆ",
+    "ApprovalRequired": "ಅನುಮೋದನೆ ಅಗತ್ಯ",
+    "AnniversaryWishesEnabled": "ವಾರ್ಷಿಕೋತ್ಸವ ಶುಭಾಶಯಗಳು ಸಕ್ರಿಯಗೊಂಡಿವೆ"
+  },
+  "Sections": {
+    "RewardPoints": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳು",
+    "Achievement": "ಸಾಧನೆ",
+    "Eligibility": "ಅರ್ಹತೆ",
+    "Toggles": "ಟಾಗಲ್‌ಗಳು"
+  },
+  "RewardPoints": {
+    "Bronze": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಬ್ರಾಂಜ್)",
+    "Silver": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಸಿಲ್ವರ್)",
+    "Gold": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಗೋಲ್ಡ್)"
+  },
+  "Buttons": {
+    "Cancel": "ರದ್ದುಗೊಳಿಸು",
+    "Save": "ಉಳಿಸು"
+  },
+  "Validation": {
+    "FieldRequired": "{{field}} ಅಗತ್ಯವಿದೆ",
+    "FillRequiredFields": "ದಯವಿಟ್ಟು ಅಗತ್ಯವಿರುವ ಎಲ್ಲ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  "EmployeesSelected": "ಉದ್ಯೋಗಿಗಳು ಆಯ್ಕೆಯಾದರು",
+  "NotAvailable": "ಲಭ್ಯವಿಲ್ಲ"
+},
+"RewardsManagement": {
+  "TitleHeader": "ನಿರ್ವಹಣಾ ಪೋರ್ಟಲ್ - ಸೌಲಭ್ಯಗಳು",
+  "Title": "ಪ್ರಶಸ್ತಿ ನಿರ್ವಹಣೆ",
+  "Bronze": "ಬ್ರಾಂಜ್",
+  "Silver": "ಸಿಲ್ವರ್",
+  "Gold": "ಗೋಲ್ಡ್",
+  "Yes": "ಹೌದು",
+  "No": "ಇಲ್ಲ",
+  "Buttons": {
+    "Create": "ರಚಿಸು",
+    "CreateRewards": "ಪ್ರಶಸ್ತಿಗಳನ್ನು ರಚಿಸು"
+  },
+  "Table": {
+    "SNo": "ಕ್ರಮ ಸಂಖ್ಯೆ",
+    "Scheme": "ಯೋಜನೆ",
+    "Category": "ವರ್ಗ",
+    "Type": "ಪ್ರಕಾರ",
+    "Points": "ಅಂಕಗಳು",
+    "Kudos": "ಶ್ಲಾಘನೆ",
+    "Birthday": "ಹುಟ್ಟುಹಬ್ಬ",
+    "ApprovalRequired": "ಅನುಮೋದನೆ ಅಗತ್ಯ",
+    "Anniversary": "ವಾರ್ಷಿಕೋತ್ಸವ",
+    "LastModified": "ಕೊನೆಯ ಬದಲಾವಣೆ",
+    "Action": "ಕ್ರಿಯೆ",
+    "Edit": "ತಿದ್ದು",
+    "Delete": "ಅಳಿಸು"
+  },
+  "Export": {
+    "CandidateID": "ಅಭ್ಯರ್ಥಿ ID",
+    "RewardSchemeName": "ಪ್ರಶಸ್ತಿ ಯೋಜನೆಯ ಹೆಸರು",
+    "RewardCategory": "ಪ್ರಶಸ್ತಿ ವರ್ಗ",
+    "RewardType": "ಪ್ರಶಸ್ತಿ ಪ್ರಕಾರ",
+    "RewardPoints": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳು",
+    "KudosEnabled": "ಶ್ಲಾಘನೆ ಸಕ್ರಿಯಗೊಂಡಿದೆ",
+    "BirthdayWishesEnabled": "ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯಗಳು ಸಕ್ರಿಯಗೊಂಡಿವೆ",
+    "ApprovalRequired": "ಅನುಮೋದನೆ ಅಗತ್ಯ",
+    "AnniversaryWishesEnabled": "ವಾರ್ಷಿಕೋತ್ಸವ ಶುಭಾಶಯಗಳು ಸಕ್ರಿಯಗೊಂಡಿವೆ",
+    "UpdatedAt": "ನವೀಕರಿಸಿದ ಸಮಯ"
+  },
+  "Messages": {
+    "NoDataFound": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ!",
+    "SelectRole": "ದಯವಿಟ್ಟು ಪಾತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ...",
+    "NoDataToExport": "ರಫ್ತು ಮಾಡಲು ಯಾವುದೇ ಡೇಟಾ ಇಲ್ಲ"
+  },
+  "Validation": {
+    "OKRRequired": "OKR ಕಾರ್ಯ/OKR ವರ್ಗ ಅಗತ್ಯವಿದೆ!"
+  }
+},
+"common": {
+  "searchHere": "ಇಲ್ಲಿ ಹುಡುಕಿ..",
+  "export": "ರಫ್ತುಮಾಡು",
+  "csv": "CSV",
+  "excel": "Excel",
+  "pdf": "PDF"
+},
+"notification": {
+  "settingsTitle": "ಅಧಿಸೂಚನೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "to": "ಗೆ",
+  "cc": "CC",
+  "subject": "ವಿಷಯ",
+  "message": "ಸಂದೇಶ",
+  "attachment": "ಲಗತ್ತು",
+  "view": "ನೋಡು",
+  "reupload": "ಮರು-ಅಪ್‌ಲೋಡ್",
+  "saveSettings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸು",
+  "updateSettings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ನವೀಕರಿಸು",
+  "select": "--ಆಯ್ಕೆಮಾಡಿ--",
+  "noDataFound": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ!"
+},
+"LaunchForms": {
+  "Title": "ಫಾರ್ಮ್‌ಗಳನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+  "ConfirmDelete": "ನೀವು ಈ ಫಾರ್ಮ್ ಅನ್ನು ಅಳಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+  "Submit": "ಸಲ್ಲಿಸು",
+  "EmployeesSelected": "ಉದ್ಯೋಗಿಗಳು ಆಯ್ಕೆಯಾದರು",
+  "Buttons": {
+    "Create": "ರಚಿಸು",
+    "Cancel": "ರದ್ದುಗೊಳಿಸು",
+    "Update": "ನವೀಕರಿಸು",
+    "Save": "ಉಳಿಸು"
+  },
+  "FormFields": {
+    "LaunchFormName": "ಫಾರ್ಮ್ ಹೆಸರು ಪ್ರಾರಂಭಿಸು",
+    "FormType": "ಫಾರ್ಮ್ ಪ್ರಕಾರ",
+    "FormTemplate": "ಫಾರ್ಮ್ ಟೆಂಪ್ಲೇಟ್",
+    "LaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "ReviewPeriodStartDate": "ಪರಿಶೀಲನೆ ಅವಧಿಯ ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "ReviewPeriodEndDate": "ಪರಿಶೀಲನೆ ಅವಧಿಯ ಅಂತ್ಯ ದಿನಾಂಕ",
+    "Employees": "ಉದ್ಯೋಗಿಗಳು"
+  },
+  "Table": {
+    "Name": "ಹೆಸರು",
+    "LaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "Action": "ಕ್ರಿಯೆ",
+    "Edit": "ತಿದ್ದು",
+    "Delete": "ಅಳಿಸು"
+  },
+  "Placeholders": {
+    "SelectFormType": "ದಯವಿಟ್ಟು ಫಾರ್ಮ್ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ...",
+    "SelectFormTemplate": "ದಯವಿಟ್ಟು ಫಾರ್ಮ್ ಟೆಂಪ್ಲೇಟ್ ಆಯ್ಕೆಮಾಡಿ...",
+    "EnterLaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ ನಮೂದಿಸಿ",
+    "EnterStartDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ ನಮೂದಿಸಿ",
+    "EnterEndDate": "ಅಂತ್ಯ ದಿನಾಂಕ ನಮೂದಿಸಿ"
+  }
+},
+"addRewardPopup": {
+  "titleAdd": "ಹೊಸ ಪ್ರಶಸ್ತಿ ಸೇರಿಸಿ",
+  "titleUpdate": "ಪ್ರಶಸ್ತಿ ನವೀಕರಿಸು",
+  "rewardName": "ಪ್ರಶಸ್ತಿ ಹೆಸರು*",
+  "rewardDescription": "ಪ್ರಶಸ್ತಿ ವಿವರಣೆ*",
+  "rewardType": "ಪ್ರಶಸ್ತಿ ಪ್ರಕಾರ*",
+  "rewardApprover": "ಪ್ರಶಸ್ತಿ ಅನುಮೋದಕ*",
+  "rewardCode": "ಪ್ರಶಸ್ತಿ ಕೋಡ್*",
+  "rewardPoints": "ಪ್ರಶಸ್ತಿ ಅಂಕಗಳು*",
+  "rewardAmount": "ಪ್ರಶಸ್ತಿ ಮೊತ್ತ*",
+  "rewardStatus": "ಪ್ರಶಸ್ತಿ ಸ್ಥಿತಿ*",
+  "rewardIcon": "ಪ್ರಶಸ್ತಿ ಐಕಾನ್*",
+  "viewRewardIcon": "ಪ್ರಶಸ್ತಿ ಐಕಾನ್ ವೀಕ್ಷಿಸು",
+  "reuploadRewardIcon": "ಪ್ರಶಸ್ತಿ ಐಕಾನ್ ಮರುಅಪ್‌ಲೋಡ್ ಮಾಡು",
+  "add": "ಸೇರಿಸು",
+  "update": "ನವೀಕರಿಸು",
+  "clear": "ಸ್ವಚ್ಛಗೊಳಿಸು",
+  "active": "ಸಕ್ರಿಯ",
+  "inactive": "ನಿಷ್ಕ್ರಿಯ"
+},
+"catalogManagement": {
+  "headerTitle": "ನಿರ್ವಹಣಾ ಪೋರ್ಟಲ್ - ಸೌಲಭ್ಯಗಳು",
+  "title": "ಕ್ಯಾಟಲಾಗ್ ನಿರ್ವಹಣೆ",
+  "addNewReward": "ಹೊಸ ಪ್ರಶಸ್ತಿ ಸೇರಿಸಿ",
+  "searchPlaceholder": "ಪ್ರಶಸ್ತಿಗಳನ್ನು ಹುಡುಕಿ...",
+  "validationError": "OKR ಕಾರ್ಯ/OKR ವರ್ಗ ಅಗತ್ಯವಿದೆ!",
+  "noData": "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ!"
+},
+"tabsContainer": {
+  "selectAll": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ",
+  "objectives": "ಉದ್ದೇಶಗಳು",
+  "keyResults": "ಮುಖ್ಯ ಫಲಿತಾಂಶಗಳು",
+  "tasks": "ಕಾರ್ಯಗಳು"
+},
+"AdvancedLaunchForms": {
+  "Title": "ಆಧುನಿಕ ಪ್ರಾರಂಭ ಫಾರ್ಮ್‌ಗಳು",
+  "AdvancedReviewManagement": "ಆಧುನಿಕ ಪರಿಶೀಲನೆ ನಿರ್ವಹಣೆ",
+  "Buttons": {
+    "Create": "ರಚಿಸು",
+    "Cancel": "ರದ್ದುಗೊಳಿಸು",
+    "Update": "ನವೀಕರಿಸು",
+    "Save": "ಉಳಿಸು"
+  },
+  "FormFields": {
+    "LaunchFormName": "ಫಾರ್ಮ್ ಹೆಸರು ಪ್ರಾರಂಭಿಸು",
+    "FormName": "ಫಾರ್ಮ್ ಹೆಸರು",
+    "FormType": "ಫಾರ್ಮ್ ಪ್ರಕಾರ",
+    "FormTemplate": "ಫಾರ್ಮ್ ಟೆಂಪ್ಲೇಟ್",
+    "LaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "ReviewPeriodStartDate": "ಪರಿಶೀಲನೆ ಅವಧಿಯ ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "ReviewPeriodEndDate": "ಪರಿಶೀಲನೆ ಅವಧಿಯ ಅಂತ್ಯ ದಿನಾಂಕ",
+    "ToEmployee": "ಉದ್ಯೋಗಿಗೆ",
+    "SelfAndManager": "ಸ್ವಯಂ ಮತ್ತು ವ್ಯವಸ್ಥಾಪಕ",
+    "Peers": "ಸಹೋದ್ಯೋಗಿಗಳು"
+  },
+  "Table": {
+    "FormName": "ಫಾರ್ಮ್ ಹೆಸರು",
+    "TemplateName": "ಟೆಂಪ್ಲೇಟ್ ಹೆಸರು",
+    "EmployeeName": "ಉದ್ಯೋಗಿಯ ಹೆಸರು",
+    "LaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+    "Action": "ಕ್ರಿಯೆ",
+    "Edit": "ತಿದ್ದು",
+    "Delete": "ಅಳಿಸು"
+  },
+  "Placeholders": {
+    "EnterFormName": "ಫಾರ್ಮ್ ಹೆಸರು ನಮೂದಿಸಿ",
+    "AdvanceReviewManagement": "ಆಧುನಿಕ ಪರಿಶೀಲನೆ ನಿರ್ವಹಣೆ",
+    "SelectFormTemplate": "ದಯವಿಟ್ಟು ಫಾರ್ಮ್ ಟೆಂಪ್ಲೇಟ್ ಆಯ್ಕೆಮಾಡಿ...",
+    "EnterLaunchDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ ನಮೂದಿಸಿ",
+    "EnterStartDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ ನಮೂದಿಸಿ",
+    "EnterEndDate": "ಅಂತ್ಯ ದಿನಾಂಕ ನಮೂದಿಸಿ",
+    "SelectEmployee": "ದಯವಿಟ್ಟು ಉದ್ಯೋಗಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ...",
+    "SelectSelfAndManager": "ಸ್ವಯಂ ಮತ್ತು ವ್ಯವಸ್ಥಾಪಕನನ್ನು ಆಯ್ಕೆಮಾಡಿ...",
+    "SelectPeers": "ಸಹೋದ್ಯೋಗಿಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ..."
+  }
+},
+"FilterComponent": {
+  "Title": "ಫಿಲ್ಟರ್‌ಗಳು",
+  "Buttons": {
+    "Reset": "ಮರುಹೊಂದಿಸು",
+    "Apply": "ಅನ್ವಯಿಸು",
+    "Loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "Fields": {
+    "CandidateId": "ಅಭ್ಯರ್ಥಿ ID",
+    "CandidateName": "ಅಭ್ಯರ್ಥಿಯ ಹೆಸರು",
+    "Department": "ಕಾರ್ಯ",
+    "Designation": "ಪದವಿ",
+    "ApplicationDate": "ಅರ್ಜಿ ದಿನಾಂಕ",
+    "Stage": "ಹಂತ",
+    "To": "ಗೆ"
+  },
+  "Placeholders": {
+    "EnterCandidateId": "ಅಭ್ಯರ್ಥಿ ID ನಮೂದಿಸಿ",
+    "EnterCandidateName": "ಅಭ್ಯರ್ಥಿಯ ಹೆಸರು ನಮೂದಿಸಿ"
+  },
+  "Options": {
+    "NewApplied": "ಹೊಸ ಅರ್ಜಿ",
+    "PsychometricTest": "ಮಾನಸಿಕ ಪರೀಕ್ಷೆ",
+    "Interview1": "ಸಮಾಲೋಚನೆ 1",
+    "Interview2": "ಸಮಾಲೋಚನೆ 2",
+    "DocumentUpload": "ದಾಖಲೆ ಅಪ್‌ಲೋಡ್",
+    "OfferLetter": "ಆಫರ್ ಲೆಟರ್",
+    "Onboarding": "ಆನ್‌ಬೋರ್ಡಿಂಗ್",
+    "Rejected": "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
+    "ConvertToEmployee": "ಉದ್ಯೋಗಿಯಾಗಿ ಪರಿವರ್ತಿಸು"
+  },
+  "Messages": {
+    "NoDepartmentsFound": "ಯಾವುದೇ ಕಾರ್ಯಗಳು ಕಂಡುಬಂದಿಲ್ಲ!",
+    "NoDesignationsFound": "ಯಾವುದೇ ಹುದ್ದೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ!"
+  }
+}
+
+}

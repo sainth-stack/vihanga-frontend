@@ -1,0 +1,1889 @@
+{
+  "AdminPage": {
+    "PageTitle": "Talentspotify Yönetici",
+    "PageSubtitle": "Tüm yönetici araçlarınıza ve özelliklerinize tek bir yerden erişin",
+    "SearchPlaceholder": "Yönetici özelliklerini ara...",
+    "RolesAndPrivileges": {
+      "Title": "Roller ve Yetkiler",
+      "Description": "Çalışma alanı genelinde kullanıcı rollerini, izinleri ve erişimi yönetin"
+    },
+    "RecruitmentManagement": {
+      "Title": "İşe Alım Yönetimi",
+      "Description": "İş açıklarını, işe alım aşamalarını ve aday ilerlemesini takip edin"
+    },
+    "UploadLeaves": {
+      "Title": "İzinleri Yükle",
+      "Description": "Çalışan izin kayıtlarını ve başvurularını yükleyin ve yönetin"
+    },
+    "AttendanceUpload": {
+      "Title": "Devamsızlık Yükleme",
+      "Description": "Çalışan devamsızlık kayıtlarını ve zaman çizelgelerini yükleyin ve inceleyin"
+    },
+    "ApprovalWorkflow": {
+      "Title": "Onay İş Akışı",
+      "Description": "Çok adımlı onayları ve ilgili bildirimleri yapılandırın ve izleyin"
+    },
+    "AssetManagement": {
+      "Title": "Varlık Yönetimi",
+      "Description": "Şirket varlıklarını, atamalarını ve ekipman yaşam döngüsünü yönetin"
+    },
+    "LeaveType": {
+      "Title": "İzin Türü",
+      "Description": "İzin kategorilerini tanımlayın ve onay ve bildirim kurallarını ayarlayın"
+    },
+    "HolidaysCalendar": {
+      "Title": "Tatil Takvimi",
+      "Description": "Şirket tatillerini, etkinliklerini ve takvim programlarını yönetin"
+    },
+    "EligibilityCriteria": {
+      "Title": "Uygunluk Kriterleri",
+      "Description": "Çeşitli süreçler için uygunluk gereksinimlerini tanımlayın ve yönetin"
+    },
+    "PrivilegeGroups": {
+      "Title": "Yetki Grupları",
+      "Description": "Rol tabanlı erişim kontrolü için yetki grupları oluşturun ve yönetin"
+    },
+    "OKRManagement": {
+      "Title": "OKR Yönetimi",
+      "Description": "Performans takibi için Hedefleri ve Ana Sonuçları kurun ve yönetin"
+    },
+    "Lookups": {
+      "Title": "Aramalar",
+      "Description": "Sistem genelinde referans verilerini ve arama değerlerini yönetin"
+    },
+    "RewardManagement": {
+      "Title": "Ödül Yönetimi",
+      "Description": "Çalışan ödüllerini, tanınmalarını ve teşvik programlarını yapılandırın ve yönetin"
+    },
+    "CatalogManagement": {
+      "Title": "Katalog Yönetimi",
+      "Description": "Ürün kataloglarını, kategorilerini ve envanter öğelerini yönetin"
+    },
+    "NotificationManagement": {
+      "Title": "Bildirim Yönetimi",
+      "Description": "Bildirim ayarlarını, şablonlarını ve teslimat tercihlerini yapılandırın"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "Gelişmiş Performans Yönetimi",
+      "Description": "Gelişmiş performans değerlendirme döngülerini, derecelendirmeleri ve değerlendirme kriterlerini yapılandırın"
+    },
+    "IntegrationManagement": {
+      "Title": "Entegrasyon Yönetimi",
+      "Description": "Üçüncü taraf entegrasyonlarını, API'leri ve harici sistem bağlantılarını yönetin"
+    },
+    "QuestionnaireManagement": {
+      "Title": "Anket Yönetimi",
+      "Description": "Anketler, soru formları ve geri bildirim formları oluşturun ve yönetin"
+    },
+    "CompetencyManagement": {
+      "Title": "Yetkinlik Yönetimi",
+      "Description": "Çalışan yetkinliklerini, becerilerini ve gelişim çerçevelerini tanımlayın ve yönetin"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "Performans Yönetimi Şablonları",
+      "Description": "Performans değerlendirme şablonları ve değerlendirme formları oluşturun ve özelleştirin"
+    },
+    "LaunchFormsManagement": {
+      "Title": "Başlatma Formları Yönetimi",
+      "Description": "Performans değerlendirme başlatma formlarını ve iş akışlarını yapılandırın ve yönetin"
+    },
+    "CalibrationManagement": {
+      "Title": "Kalibrasyon Yönetimi",
+      "Description": "Performans kalibrasyon oturumlarını ve derecelendirme tutarlılığını yönetin"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "Gelişmiş Başlatma Formları Yönetimi",
+      "Description": "Performans değerlendirme başlatma formları ve otomasyon için gelişmiş yapılandırma"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "Yönetici Portalı - Yetkiler",
+    "MainHeading": "Roller ve Yetkiler",
+    "RoleName": "Rol Adı",
+    "Description": "Açıklama",
+    "GrantRoleTo": "Bu Rolü Şuna Ver...",
+    "GrantRoleDescription": "Bu rolü vermek istediğiniz bir grup seçin. Belirli bir grup için çalışan kayıtlarını yönetmek üzere bir kullanıcı grubu atayabilirsiniz. Bir yönetici kendi fonksiyonundaki kayıtları düzenlemelidir.",
+    "PermissionGroupsOrUsers": "İzin grupları veya kullanıcılar",
+    "SelectPlaceholder": "--Seç--",
+    "SearchPlaceholder": "Buradan ara..",
+    "AddButton": "EKLE",
+    "CancelButton": "İPTAL",
+    "MakeActiveButton": "Aktif Yap",
+    "MakeInactiveButton": "Pasif Yap",
+    "UpdateButton": "Güncelle",
+    "SaveButton": "Kaydet",
+    "TableHeaders": {
+      "SerialNumber": "S.No",
+      "RoleName": "Rol Adı",
+      "PermissionGroup": "İzin Grubu veya Kullanıcılar",
+      "Active": "Aktif",
+      "Actions": "Eylemler"
+    },
+    "Tabs": {
+      "Employees": "ÇALIŞANLAR",
+      "Goals": "HEDEFLER",
+      "Privileges": "Yetkiler",
+      "Performance": "PERFORMANS",
+      "Rewards": "ÖDÜLLER",
+      "View": "Görüntüle",
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "İzin Kayıtlarını Yükle",
+    "PageDescription": "Lütfen izin kayıtlarınızı sağlanan formatta yükleyin. Aşağıdan bir şablon indirebilirsiniz.",
+    "DownloadTemplate": "Şablonu İndir",
+    "ExportLeaveRecords": "İzin Kayıtlarını Dışa Aktar",
+    "ExportLeaveBalances": "İzin Bakiyelerini Dışa Aktar",
+    "UploadFileLabel": "İzin Kayıtları Dosyasını Yükle",
+    "NoFileUploaded": "Dosya yüklenmedi",
+    "UploadedFile": "Yüklenen dosya:",
+    "Submit": "Gönder",
+    "DateRangeDialog": {
+      "Title": "İzin Kayıtları Dışa Aktarımı için Tarih Aralığı Seçin",
+      "StartDate": "Başlangıç Tarihi",
+      "EndDate": "Bitiş Tarihi",
+      "Cancel": "İptal",
+      "ExportRecords": "Kayıtları Dışa Aktar"
+    },
+    "Instructions": {
+      "Title": "Talimatlar:",
+      "Step1": "Gerekli formatı görmek için şablonu indirin",
+      "Step2": "Her izin türü için Çalışan No ve izin günlerini doldurun",
+      "Step3": "Tamamlanan dosyayı yükleyin",
+      "Step4": "Sistem çalışan kimliklerini doğrulayacak ve izin bakiyelerini azaltacaktır"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "Devamsızlık Yükleme",
+    "PageDescription": "Lütfen devamsızlık çizelgenizi sağlanan formatta yükleyin. Aşağıdan bir şablon indirebilirsiniz.",
+    "DownloadTemplate": "Şablonu İndir",
+    "UploadFileLabel": "Devamsızlık Dosyasını Yükle",
+    "NoFileUploaded": "Dosya yüklenmedi",
+    "UploadedFile": "Yüklenen dosya:",
+    "Submit": "Gönder"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "İzin Türü Geçmişi",
+    "TableHeaders": {
+      "Name": "Ad",
+      "Code": "Kod",
+      "Actions": "Eylemler"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "CSV Olarak Dışa Aktar",
+      "ExportAsExcel": "Excel Olarak Dışa Aktar",
+      "ExportAsPDF": "PDF Olarak Dışa Aktar"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "İzin Türü",
+    "AdvancedConfiguration": "Gelişmiş Yapılandırma",
+    "MaxAdvanceDaysConfiguration": "Maksimum Erken Gün Yapılandırması",
+    "MaxAdvanceDaysDescription": "Çalışanların talep ettikleri gün sayısına göre izin için kaç gün önceden başvurmaları gerektiğini yapılandırın.",
+    "AttachmentsRequiredConfiguration": "Dosya Eki Gereklilik Yapılandırması",
+    "FormFields": {
+      "Name": "Ad",
+      "ImageIcon": "Resim / Simge",
+      "Code": "Kod",
+      "BalanceBasedOn": "Bakiye dayanağı (sabit hak / İzin hakkı)",
+      "Units": "Birimler (Gün / saat)",
+      "Status": "Durum",
+      "Eligibility": "Uygunluk",
+      "CustomName": "Özel Ad"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "Aynı anda alınabilecek maksimum izin sayısı",
+      "MaxHalfDays": "Yıllık maksimum yarım gün izin",
+      "MaxHalfDaysHelper": "Yarım gün izinlerde sınır olmaması için boş bırakın",
+      "AutoAddLeaves": "Otomatik İzin Ekle",
+      "AddType": "Ekleme Türü",
+      "NumberOfDaysToAdd": "Eklenecek gün sayısı"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "Min Gün",
+      "MaxDays": "Maks Gün (sınırsız için boş bırakın)",
+      "MaxAdvanceDays": "Maksimum Erken Gün",
+      "RemoveRule": "Kuralı Kaldır",
+      "AddRule": "Kural Ekle"
+    },
+    "AttachmentFields": {
+      "Operator": "Operatör",
+      "ValueDays": "Değer (gün)"
+    },
+    "Checkboxes": {
+      "Carryover": "Devir",
+      "AttachmentsRequired": "Dosya Eki Gerekli"
+    },
+    "Buttons": {
+      "Cancel": "İptal",
+      "Update": "Güncelle",
+      "Submit": "Gönder",
+      "Submitting": "Gönderiliyor..."
+    },
+    "Options": {
+      "Hours": "saat",
+      "Days": "gün",
+      "Active": "Aktif",
+      "InActive": "Pasif",
+      "Hourly": "Saatlik",
+      "Monthly": "Aylık",
+      "Yearly": "Yıllık",
+      "Is": "eşittir",
+      "LesserOrEqual": "küçük veya eşit (≤)",
+      "GreaterOrEqual": "büyük veya eşit (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "Kazanılmış İzin (EL)",
+      "SickLeave": "Hastalık İzni (SL)",
+      "CasualLeave": "Yıllık İzin (CL)",
+      "MaternityLeave": "Doğum İzni (ML)",
+      "PaternityLeave": "Babalık İzni (PL)",
+      "CompensatoryOff": "Telafi Günü",
+      "BereavementLeave": "Vefat İzni",
+      "MarriageLeave": "Evlilik İzni",
+      "UnpaidLeave": "Ücretsiz İzin (LWP)",
+      "WorkFromHome": "Evden Çalışma (WFH)",
+      "Others": "Diğer"
+    },
+    "FileStatus": {
+      "Selected": "✓ Seçildi:",
+      "Current": "Mevcut:",
+      "NoFileSelected": "Dosya seçilmedi",
+      "LoadingEligibility": "Uygunluk seçenekleri yükleniyor..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "Devir Kuralları",
+    "CarryoverDateQuestion": "Devir tarihi ne olmalı?",
+    "CarryoverDateLabel": "Devir Tarihi",
+    "MaxDaysQuestion": "Kaç gün devredilmeli (maks)?",
+    "MaxDaysLabel": "Maksimum gün sayısını girin"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "Varlık Yönetim Sistemi",
+    "AssetAssignment": "Varlık Atama",
+    "AddAsset": "Varlık Ekle",
+    "AssetType": "Varlık Türü *",
+    "AssetNumber": "Varlık Numarası *",
+    "IssueDate": "Verme Tarihi",
+    "CollectionDate": "Toplama Tarihi",
+    "HandOverDate": "Devir Tarihi",
+    "SelectType": "Tür Seç",
+    "RemoveAsset": "Varlığı Kaldır",
+    "Cancel": "İptal",
+    "UpdateAsset": "Varlığı Güncelle",
+    "CreateAsset": "Varlık Oluştur",
+    "Updating": "Güncelleniyor...",
+    "Submitting": "Gönderiliyor..."
+  },
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "Çalışan Bilgileri",
+    "FullName": "Tam Ad *",
+    "EmployeeID": "Çalışan No *",
+    "Department": "Fonksiyon",
+    "Position": "Pozisyon",
+    "WorkLocation": "Çalışma Yeri",
+    "SelectEmployee": "Çalışan Seç"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "Varlık Yönetimi Geçmişi",
+    "TableHeaders": {
+      "Name": "Ad",
+      "EmployeeID": "Çalışan No",
+      "Department": "Fonksiyon",
+      "AssetType": "Varlık Türü",
+      "AssetNo": "Varlık No",
+      "IssueDate": "Verme Tarihi",
+      "HandOverDate": "Devir Tarihi",
+      "Action": "İşlem"
+    },
+    "Actions": {
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    },
+    "NoDataFound": "Veri bulunamadı",
+    "Error": "Hata"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "Tatil Takvimi",
+    "FormFields": {
+      "HolidayName": "Tatil Adı",
+      "Date": "Tarih",
+      "Type": "Tür",
+      "Description": "Açıklama"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "Resmi Tatil",
+      "CompanyHoliday": "Şirket Tatili",
+      "ReligiousHoliday": "Dini Tatil"
+    },
+    "Buttons": {
+      "Cancel": "İptal",
+      "Update": "Güncelle",
+      "Submit": "Gönder",
+      "Submitting": "Gönderiliyor..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "Tatil Geçmişi",
+    "TableHeaders": {
+      "HolidayName": "Tatil Adı",
+      "Type": "Tür",
+      "Date": "Tarih",
+      "Actions": "Eylemler"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "Yükleniyor...",
+    "FailedToLoad": "Gösterge Panosu Verileri Yüklenemedi",
+    "NoDataAvailable": "Gösterge Panosu Verisi Yok",
+    "NoDataMessage": "Gösterge panosu bilgileri şu anda mevcut değil.",
+    "KpiCards": {
+      "MyActiveTasks": "Aktif Görevlerim",
+      "TeamAttendance": "Takım Devamsızlığı",
+      "PunctualityScore": "Dakiklik Puanı",
+      "MyAchievements": "Başarılarım",
+      "RewardPoints": "Ödül Puanları"
+    },
+    "SubHeadings": {
+      "Urgent": "Acil",
+      "PresentToday": "Bugün mevcut",
+      "Last30Days": "Son 30 gün",
+      "ThisMonth": "Bu Ay",
+      "Available": "Mevcut"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "Eylem Gerekli",
+      "ReviewNow": "Şimdi İncele",
+      "ViewDetails": "Detayları Görüntüle"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "KPI Görevleri",
+    "AdHocTasks": "Geçici Görevler",
+    "Urgent": "Acil"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "Son Görevler Yükleniyor...",
+    "FailedToLoadRecentTasks": "Son Görevler Yüklenemedi",
+    "NoRecentTasksAvailable": "Son Görev Yok",
+    "NoRecentTasksMessage": "Son görev bilgileri şu anda mevcut değil.",
+    "RecentTasks": "Son Görevler",
+    "ViewAll": "Tümünü Görüntüle",
+    "NoRecentTasksFound": "Son görev bulunamadı",
+    "AllRecentTasks": "Tüm Son Görevler",
+    "KpiTask": "KPI Görevi",
+    "NoDueDate": "Bitiş tarihi yok",
+    "UntitledTask": "Başlıksız Görev"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "Liderlik Tablosu Yükleniyor...",
+    "FailedToLoadLeaderboard": "Liderlik Tablosu Yüklenemedi",
+    "NoLeaderboardDataAvailable": "Liderlik Tablosu Verisi Yok",
+    "NoLeaderboardDataMessage": "Ödül puanları liderlik tablosu bilgileri şu anda mevcut değil.",
+    "RewardPointsLeaderboard": "Ödül Puanları - Liderlik Tablosu",
+    "Company": "ŞİRKET",
+    "Top5Employees": "En İyi 5 Çalışan",
+    "ViewAll": "Tümünü Görüntüle",
+    "NoEmployeesFound": "Çalışan bulunamadı",
+    "Unknown": "Bilinmeyen",
+    "EmployeeId": "No: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "Görev Panosu",
+    "FilterOptions": {
+      "ThisWeek": "Bu Hafta",
+      "ThisMonth": "Bu Ay",
+      "ThisYear": "Bu Yıl",
+      "All": "Tümü"
+    },
+    "Buttons": {
+      "View": "Görüntüle",
+      "AddTask": "Görev Ekle"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "OKR İlerlemesi",
+    "AddOKR": "OKR Ekle",
+    "NoOKRData": "OKR Verisi Yok",
+    "StatusLabels": {
+      "OnTrack": "Planlandığı Gibi",
+      "OffTrack": "Planın Dışında",
+      "AtRisk": "Risk Altında"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "MERHABA {{name}}! Hedefleriniz bitiş tarihine kadar tamamlanmak üzere planın dışında!",
+    "GreetingOnTrack": "MERHABA {{name}}! Hedefleriniz planlandığı gibi ilerliyor!",
+    "GreetingAtRisk": "MERHABA {{name}}! Hedeflerinizden bazıları risk altında!",
+    "Loading": "Yükleniyor...",
+    "NoDataAvailable": "Veri Yok"
+  },
+  "ObjectivesTable": {
+    "Actions": {
+      "Edit": "Düzenle",
+      "Delete": "Sil",
+      "Approve": "Onayla",
+      "Reject": "Reddet"
+    },
+    "Columns": {
+      "Objectives": "Hedefler",
+      "Progress": "İlerleme",
+      "Weight": "Ağırlık",
+      "Owner": "Sahip",
+      "DueDate": "Bitiş Tarihi",
+      "ApproveReject": "Onayla/Reddet",
+      "Actions": "Eylemler",
+      "AddKRTask": "KA Ekle / Görev Ekle"
+    },
+    "Status": {
+      "OnTrack": "Planlandığı Gibi",
+      "AtRisk": "Risk Altında",
+      "OffTrack": "Planın Dışında",
+      "NotStarted": "Başlatılmadı",
+      "InProgress": "Devam Ediyor",
+      "Submit": "Gönder",
+      "Draft": "Taslak",
+      "PendingApproval": "Beklemede",
+      "ApprovalRequired": "Onay Gerekli",
+      "Approved": "Onaylandı",
+      "Rejected": "Reddedildi"
+    },
+    "Tooltips": {
+      "AddKeyResult": "Ana Sonuç Ekle",
+      "AddTask": "Görev Ekle",
+      "Add": "Ekle"
+    },
+    "TableHeader": {
+      "DisplayOptions": "Görüntüleme Seçenekleri",
+      "CompanyOKRs": "Şirket OKR'ları",
+      "Cascade": "Kaskat",
+      "Delete": "Sil",
+      "Status": "Durum",
+      "SearchPlaceholder": "Buradan ara..",
+      "Export": "Dışa Aktar",
+      "CreateOKR": "OKR Oluştur",
+      "Library": "Kütüphane",
+      "NonLibrary": "Kütüphane Dışı",
+      "StatusOptions": {
+        "OnTrack": "Planlandığı Gibi",
+        "AtRisk": "Risk Altında",
+        "OffTrack": "Planın Dışında"
+      },
+      "ExportOptions": {
+        "ExportCSV": "CSV Olarak Dışa Aktar",
+        "ExportExcel": "Excel Olarak Dışa Aktar",
+        "ExportPDF": "PDF Olarak Dışa Aktar"
+      },
+      "ExportLabels": {
+        "Type": "Tür",
+        "Title": "Başlık",
+        "Description": "Açıklama",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "İlerleme",
+        "Status": "Durum",
+        "Owner": "Sahip",
+        "Weight": "Ağırlık",
+        "StartDate": "Başlangıç Tarihi",
+        "DueDate": "Bitiş Tarihi",
+        "Alignment": "Hizalama",
+        "CreatedAt": "Oluşturulma Tarihi",
+        "Objective": "Hedef",
+        "KeyResult": "Ana Sonuç",
+        "Task": "Görev",
+        "CompanyOKR": "Şirket OKR'ı",
+        "IndividualOKR": "Bireysel OKR",
+        "ExportedOn": "Dışa aktarma tarihi:",
+        "OKRsExportReport": "OKR'lar Dışa Aktarma Raporu",
+        "NoDataToExport": "Dışa aktarılacak veri yok"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "OKR Yılı",
+    "SelectYear": "Yıl Seç",
+    "Employee": "Çalışan",
+    "SelectEmployee": "Çalışan Seç"
+  },
+  "Tasks": {
+    "Task": "Görev",
+    "Tasks": "Görevler",
+    "Objective": "Hedef",
+    "KR": "KA",
+    "Due Date": "Bitiş Tarihi",
+    "Status": "Durum",
+    "Owner": "Sahip",
+    "Priority": "Öncelik",
+    "Progress": "İlerleme",
+    "Comments": "Yorumlar",
+    "SubTask": "Alt Görev",
+    "Approval": "Onay",
+    "Action": "İşlem",
+    "Approve": "Onayla",
+    "PendingApproval": "Beklemede",
+    "Reject": "Reddet",
+    "Approved": "Onaylandı",
+    "Rejected": "Reddedildi",
+    "ApprovalRequired": "Onay Gerekli",
+    "Edit": "Düzenle",
+    "Delete": "Sil",
+    "Audit History": "Denetim Geçmişi",
+    "HighLevel": "Yüksek Seviye",
+    "MediumLevel": "Orta Seviye",
+    "LowLevel": "Düşük Seviye",
+    "Not Started": "Başlatılmadı",
+    "In Progress": "Devam Ediyor",
+    "OnHold": "Beklemede",
+    "Completed": "Tamamlandı",
+    "Recurrence": "Tekrarlama",
+    "Main Task": "Ana Görev",
+    "Comment": "Yorum",
+    "commentHere": "Buraya yorum yazın...",
+    "AddComment": "Yorum Ekle",
+    "Submit": "Gönder",
+    "Upload Files": "Dosya Yükle",
+    "Uploading": "Yükleniyor...",
+    "File uploaded": "Dosya yüklendi",
+    "Processing": "İşleniyor...",
+    "UpdateTask": "Görevi Güncelle",
+    "SaveAddAnother": "Kaydet ve Başka Ekle",
+    "Finish": "Bitir",
+    "AddTask": "Görev Ekle",
+    "EditTask": "Görevi Düzenle",
+    "Assign To": "Atanacak Kişi",
+    "Loading task data...": "Görev verileri yükleniyor..."
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "Hedef Oluştur",
+    "EditObjective": "Hedefi Düzenle",
+    "ObjectiveSavedSuccess": "✓ Hedef başarıyla kaydedildi! Şimdi Ana Sonuçlar ekleyebilirsiniz.",
+    "EarnedRewardPoints": "{{points}} ödül puanı kazandınız",
+    "FormLabels": {
+      "Objective": "Hedef*",
+      "Weight": "Ağırlık*",
+      "Owner": "Sahip",
+      "DueDate": "Bitiş Tarihi",
+      "Dimension": "Boyut*",
+      "Comment": "Yorum",
+      "UploadFile": "Dosya Yükle",
+      "Progress": "İlerleme"
+    },
+    "Placeholders": {
+      "EnterComment": "Yorumunuzu buraya girin...",
+      "DateFormat": "gg/aa/yyyy"
+    },
+    "Buttons": {
+      "Saving": "Kaydediliyor...",
+      "UpdateObjective": "Hedefi Güncelle",
+      "SaveDetails": "Detayları Kaydet",
+      "AddKeyResults": "Ana Sonuçlar Ekle",
+      "SaveAndAddKR": "Kaydet ve KA Ekle"
+    },
+    "FileUpload": {
+      "Uploading": "(Yükleniyor...)",
+      "FileUploaded": "✓ Dosya yüklendi"
+    },
+    "Stepper": {
+      "Objective": "Hedef",
+      "KR": "KA",
+      "Task": "Görev"
+    },
+    "Progress": {
+      "SelectProgressStatus": "İlerleme Durumunuzu Seçin (Yüzde Olarak)"
+    },
+    "Dimensions": {
+      "People": "İnsanlar",
+      "Financial": "Finansal",
+      "Operations": "Operasyonlar",
+      "Strategy": "Strateji",
+      "ProcessGovernanceSystem": "Süreç/Yönetişim/Sistem"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "Ana Sonuç Ekle",
+    "EditKeyResult": "Ana Sonucu Düzenle",
+    "OKRName": "OKR Adı",
+    "AlignedToCompanyObjective": "Şirket hedefiyle hizalanmış",
+    "FormLabels": {
+      "KeyResultName": "Ana Sonuç Adı*",
+      "Source": "Kaynak",
+      "KPIs": "KPI'lar*",
+      "Status": "Durum*",
+      "UnitOfMeasurement": "Ölçüm Birimi",
+      "Polarity": "Polarite",
+      "TargetResult": "Hedef Sonuç*",
+      "ActualResult": "Gerçek Sonuç",
+      "TargetDate": "Hedef Tarih*",
+      "CompletionDate": "Tamamlanma Tarihi",
+      "Comment": "yorum",
+      "UploadFile": "Dosya Yükle"
+    },
+    "Buttons": {
+      "Saving": "Kaydediliyor...",
+      "UpdateDetails": "Detayları Güncelle",
+      "SaveAndAddAnother": "Kaydet ve Başka Ekle",
+      "NextAddTask": "Sonraki: Görev Ekle"
+    },
+    "FileUpload": {
+      "Uploading": "(Yükleniyor...)",
+      "FileUploaded": "✓ Dosya yüklendi"
+    },
+    "Polarity": {
+      "Positive": "Pozitif",
+      "Negative": "Negatif"
+    },
+    "StatusOptions": {
+      "NotStarted": "Başlatılmadı",
+      "InProgress": "Devam Ediyor",
+      "OnHold": "Beklemede",
+      "Completed": "Tamamlandı"
+    },
+    "KPIOptions": {
+      "Revenue": "Gelir",
+      "UserGrowth": "Kullanıcı Büyümesi",
+      "ConversionRate": "Dönüşüm Oranı"
+    },
+    "UnitOptions": {
+      "Number": "Sayı",
+      "Percentage": "Yüzde (%)",
+      "INR": "INR",
+      "USD": "USD",
+      "AED": "AED"
+    },
+    "SourceOptions": {
+      "SelectSource": "--Kaynak Seç--",
+      "Salesforce": "Salesforce"
+    },
+    "BellCurveChart": {
+      "Loading": "Yükleniyor...",
+      "Error": "Hata:",
+      "UnknownError": "Bilinmeyen hata",
+      "Value": "Değer:",
+      "NoCurveData": "Eğri verisi mevcut değil",
+      "AtLower": "Alt Seviyede",
+      "AtAverage": "Ortalamada",
+      "AtUpper": "Üst Seviyede",
+      "Point": "Puan"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "Toplam Ağırlık Başarımı",
+    "TotalWeight": "Toplam Ağırlık",
+    "Q1": "Ç1",
+    "Q2": "Ç2",
+    "Q3": "Ç3",
+    "Q4": "Ç4"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "Bugünün Devamsızlığı",
+    "Present": "Mevcut",
+    "OnLeave": "İzinde",
+    "LateArrivals": "Geç Gelenler",
+    "TotalEmployees": "Toplam Çalışan",
+    "NextHoliday": "Sonraki Tatil",
+    "NoUpcomingHolidays": "Yaklaşan tatil yok"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "Performans Eğilimi",
+    "CurrentPerformance": "Mevcut Performans",
+    "UnknownPeriod": "Bilinmeyen Dönem"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "Mevcut Ödüller",
+    "Pts": "Puan",
+    "NoRewardsAvailable": "Şu anda mevcut ödül yok",
+    "KeepEarningPoints": "Daha fazla ödül için puan kazanmaya devam edin",
+    "ComingSoonTitle": "Yakında Ödüller Geliyor",
+    "ComingSoonDescription": "Sizin için heyecan verici ödüller hazırlıyoruz! Yakında başarılarınıza ve katkılarınıza dayalı olarak ödülleri talep edebileceksiniz.",
+    "Rewards": {
+      "ExpertBadge": "Uzman Rozeti",
+      "Achievement": "Başarı",
+      "TeamPlayerAward": "Takım Oyuncusu Ödülü",
+      "Recognition": "Takdir",
+      "Claim": "Talep Et"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "Son Güncellemeler",
+    "NoRecentUpdates": "Son güncelleme yok",
+    "ComingSoonTitle": "Güncelleme Akışı Yakında",
+    "ComingSoonDescription": "Sizi önemli bildirimler, başarılar ve sistem güncellemeleri hakkında bilgilendirmek için kapsamlı bir güncelleme akışı geliştiriyoruz.",
+    "Updates": {
+      "UrgentTasksAlert": "Acil Görev Uyarısı",
+      "TaskOverview": "Görev Genel Bakış",
+      "OKRAlert": "OKR Uyarısı",
+      "OKRProgress": "OKR İlerlemesi",
+      "GreatAttendance": "Harika Devamsızlık",
+      "AchievementUnlocked": "Başarı Açıldı",
+      "PerformanceReviewReminder": "Performans Değerlendirme Hatırlatıcısı",
+      "GreatJob": "Harika İş"
+    },
+    "TimeLabels": {
+      "Today": "Bugün",
+      "ThisMonth": "Bu ay",
+      "OneDayAgo": "1 gün önce",
+      "ThreeDaysAgo": "3 gün önce"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "Doğum Günü Listesi",
+    "ViewAll": "Tümünü Görüntüle",
+    "NoBirthdaysThisMonth": "Bu ay doğum günü yok",
+    "AllUpcomingBirthdays": "Tüm Yaklaşan Doğum Günleri",
+    "LoadingTitle": "Doğum Günü Listesi Yükleniyor...",
+    "FailedToLoadTitle": "Doğum Günü Listesi Yüklenemedi",
+    "NoDataTitle": "Bu Ay Doğum Günü Yok",
+    "NoDataMessage": "Mevcut ayda doğum günü olan çalışan yok.",
+    "DateFormats": {
+      "Today": "Bugün",
+      "Tomorrow": "Yarın",
+      "Days": "gün"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "Yıldönümü Listesi",
+    "ViewAll": "Tümünü Görüntüle",
+    "NoAnniversariesThisMonth": "Bu ay yıldönümü yok",
+    "AllUpcomingAnniversaries": "Tüm Yaklaşan Yıldönümleri",
+    "DateFormats": {
+      "Today": "Bugün",
+      "Tomorrow": "Yarın",
+      "Days": "gün",
+      "Year": "Yıl",
+      "Years": "Yıl"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "Doğum Günü Mesajı Gönder",
+    "SendPersonalizedMessage": "Kişiselleştirilmiş bir doğum günü mesajı gönder",
+    "HappyBirthdayPlaceholder": "Doğum Günün Kutlu Olsun",
+    "Cancel": "İptal",
+    "SendWish": "Mesajı Gönder",
+    "YearsOfService": "yıl hizmet",
+    "YearsOfServicePlural": "yıl hizmet"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "Yıldönümü Mesajı Gönder",
+    "SendPersonalizedMessage": "Kişiselleştirilmiş bir yıldönümü mesajı gönder",
+    "CongratulationsPlaceholder": "Tebrikler",
+    "Cancel": "İptal",
+    "SendWish": "Mesajı Gönder",
+    "YearsOfService": "yıl hizmet",
+    "YearsOfServicePlural": "yıl hizmet"
+  },
+  "EligibilityCriteria": {
+    "Title": "Uygunluk Kriterleri",
+    "FormFields": {
+      "EligibilityName": "Uygunluk Adı",
+      "Age": "Yaş (örn., >30, =27)",
+      "LengthOfService": "Hizmet Süresi (örn., >1, >2)",
+      "JobCategory": "İş Kategorisi",
+      "Gender": "Cinsiyet",
+      "Grade": "Derece",
+      "MaritalStatus": "Medeni Durum",
+      "Location": "Konum",
+      "ProbationPeriod": "Staj Süresi",
+      "NoticePeriod": "İhbar Süresi",
+      "PersonType": "Kişi Türü",
+      "Religion": "Din",
+      "Position": "Pozisyon",
+      "HireDate": "İşe Alım Tarihi",
+      "Department": "Fonksiyon",
+      "WorkType": "Çalışma Türü",
+      "ExcludeByDefaultIncludesAll": "Hariç Tut (Varsayılan olarak tümünü içerir)",
+      "PublicHolidays": "Resmi Tatiller",
+      "Leaves": "İzinler",
+      "Weekends": "Hafta Sonları"
+    },
+    "Options": {
+      "All": "Tümü",
+      "Operations": "Operasyonlar",
+      "Supervisor": "Amir",
+      "Managerial": "Yönetici",
+      "ExecutiveLeadership": "Yönetici Liderliği",
+      "Director": "Direktör",
+      "Location": {
+        "USA": "ABD",
+        "India": "Hindistan",
+        "UK": "İngiltere"
+      },
+      "PersonType": {
+        "EMP": "Çalışan",
+        "Contractor": "Yüklenici",
+        "Intern": "Stajyer"
+      },
+      "Religion": {
+        "Hindu": "Hindu",
+        "Muslim": "Müslüman",
+        "Christian": "Hristiyan",
+        "Sikh": "Sih",
+        "Buddhist": "Budist",
+        "Jain": "Jain",
+        "Other": "Diğer"
+      },
+      "Gender": {
+        "Male": "Erkek",
+        "Female": "Kadın"
+      },
+      "MaritalStatus": {
+        "Married": "Evli",
+        "Unmarried": "Bekar"
+      },
+      "Yes": "Evet",
+      "No": "Hayır",
+      "WorkType": {
+        "FullTime": "Tam Zamanlı",
+        "PartTime": "Yarı Zamanlı"
+      }
+    },
+    "Buttons": {
+      "Cancel": "İptal",
+      "Submit": "Gönder",
+      "Update": "Güncelle"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "Aday seçenekleri alınamadı",
+      "NoDataFound": "Veri Bulunamadı!",
+      "SuccessCreate": "Uygunluk başarıyla oluşturuldu",
+      "SuccessUpdate": "Uygunluk başarıyla güncellendi",
+      "ErrorSubmit": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "Validation": {
+      "Required": "{{field}} gerekli ve boş olamaz",
+      "CannotBeEmpty": "{{field}} boş olamaz",
+      "InvalidSymbols": "{{field}} şu sembollerden birini içermeli: >, <, =",
+      "FillDetails": "Lütfen göndermeden önce detayları doldurun..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "Geçmiş",
+    "TableHeaders": {
+      "EligibilityName": "Uygunluk Adı",
+      "Department": "Fonksiyon",
+      "Actions": "Eylemler"
+    },
+    "Buttons": {
+      "Edit": "Düzenle",
+      "Delete": "Sil",
+      "ExportCSV": "CSV Olarak Dışa Aktar",
+      "ExportExcel": "Excel Olarak Dışa Aktar",
+      "ExportPDF": "PDF Olarak Dışa Aktar"
+    },
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "Yeni Başvuru",
+        "PsychometricTest": "Psikometrik Test"
+      },
+      "ExportOptions": {
+        "CSV": "CSV Olarak Dışa Aktar",
+        "Excel": "Excel Olarak Dışa Aktar",
+        "PDF": "PDF Olarak Dışa Aktar"
+      }
+    },
+    "Messages": {
+      "FetchError": "Veri alınamadı",
+      "DeleteSuccess": "Kayıt başarıyla silindi",
+      "DeleteError": "Kayıt silinemedi",
+      "ExportSuccess": "Başarıyla dışa aktarıldı",
+      "ExportError": "Veri dışa aktarılamadı",
+      "NoData": "Veri yok"
+    },
+    "Placeholders": {
+      "Search": "Ara...",
+      "Select": "--Seç--"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "Onay İş Akışı",
+    "Description": "Farklı işlem türleri için onay zincirini yapılandırın ve yönetin",
+    "NewWorkflowButton": "Yeni İş Akışı"
+  },
+  "WorkflowType": {
+    "TitleCreate": "Yeni İş Akışı Oluştur",
+    "TitleEdit": "İş Akışını Düzenle",
+    "SubtitleCreate": "Kuruluşunuz için yeni bir onay iş akışı oluşturun",
+    "SubtitleEdit": "Kuruluşunuz için onay iş akışını değiştirin",
+    "SelectTransactionTitle": "İşlem Türünü Seçin",
+    "SelectTransactionDescription": "Bu onay iş akışını takip edecek işlem türünü seçin",
+    "Steps": {
+      "TransactionType": "İşlem Türü",
+      "WorkflowDetails": "İş Akışı Detayları",
+      "ApprovalChain": "Onay Zinciri"
+    },
+    "Buttons": {
+      "Previous": "Önceki",
+      "Cancel": "İptal",
+      "Next": "Sonraki",
+      "Submitting": "Gönderiliyor...",
+      "CreateWorkflow": "İş Akışı Oluştur",
+      "UpdateWorkflow": "İş Akışını Güncelle"
+    },
+    "Messages": {
+      "CreateSuccess": "İş akışı başarıyla oluşturuldu.",
+      "UpdateSuccess": "İş akışı başarıyla güncellendi.",
+      "CreateError": "İş akışı oluşturulamadı. Lütfen tekrar deneyin.",
+      "UpdateError": "İş akışı güncellenemedi. Lütfen tekrar deneyin."
+    },
+    "UnknownStep": "Bilinmeyen Adım"
+  },
+  "TransactionCard": {
+    "Recruitment": "İşe Alım",
+    "RecruitmentDescription": "İşe alma ve onay süreci için iş akışı",
+    "ExpenseApproval": "Gider Onayı",
+    "ExpenseApprovalDescription": "Çalışan giderleri için onay akışı",
+    "LeaveRequest": "İzin Talebi",
+    "LeaveRequestDescription": "Çalışan izin talepleri için onay zinciri",
+    "PurchaseOrder": "Satın Alma Siparişi",
+    "PurchaseOrderDescription": "Satın alma siparişlerini yönetmek için iş akışı",
+    "BudgetApproval": "Bütçe Onayı",
+    "BudgetApprovalDescription": "Finansal bütçeler için onay süreci"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "İş Akışı Detayları",
+    "ProvideNameDescription": "Bu onay iş akışı için bir ad ve açıklama sağlayın",
+    "WorkflowName": "İş Akışı Adı",
+    "WorkflowNamePlaceholder": "örn., Standart İzin Onayı",
+    "Description": "Açıklama",
+    "DescriptionPlaceholder": "Bu iş akışının amacını ve kullanım durumlarını açıklayın",
+    "Condition": "Koşul",
+    "ConditionPlaceholder": "İş akışı için isteğe bağlı koşul",
+    "ConditionLeaveRequest": "Koşul (İzin Talepleri İçin)",
+    "SetRules": "İzin talebindeki gün sayısına göre kurallar belirleyin",
+    "Attribute": "Özellik",
+    "SelectAttribute": "Özellik seç",
+    "Operator": "Operatör",
+    "SelectOperator": "Operatör seç",
+    "Value": "Değer",
+    "EnterNumber": "Sayı girin",
+    "Days": "Gün",
+    "is": "eşittir",
+    "lesserOrEqual": "küçük veya eşit (≤)",
+    "greaterOrEqual": "büyük veya eşit (≥)"
+  },
+  "workflowFilter": {
+    "searchPlaceholder": "İş Akışını Ara",
+    "filterButton": "Filtrele",
+    "allTypes": "Tüm Türler",
+    "workflow": "İş Akışı",
+    "task": "Görev"
+  },
+  "workflowChain": {
+    "configureApprovalChain": "Onay Zincirini Yapılandır",
+    "defineSequence": "Bu iş akışı için onaylayıcıların sırasını tanımlayın",
+    "currentApprovalChain": "Mevcut Onay Zinciri",
+    "noStepsDefined": "Henüz Onay Adımı Tanımlanmadı",
+    "addStep": "Adım Ekle",
+    "completeDetailsError": "Lütfen önce işlem türünü ve iş akışı detaylarını tamamlayın"
+  },
+  "addApprovalHeader": {
+    "title": "Onay Adımı Ekle",
+    "rolesTab": "Roller",
+    "individualUserTab": "Bireysel Kullanıcı",
+    "searchPlaceholder": "İş Akışını Ara"
+  },
+  "formNavigation": {
+    "previous": "Önceki",
+    "cancel": "İptal",
+    "createWorkflow": "İş Akışı Oluştur"
+  },
+  "selectedApprovers": {
+    "title": "Seçilen Onaylayıcılar:",
+    "noApprovers": "Henüz Onaylayıcı Seçilmedi",
+    "saveStep": "Adımı Kaydet",
+    "cancel": "İptal"
+  },
+  "approval": {
+    "saveApprovers": "Onaylayıcıları Kaydet"
+  },
+  "approval2": {
+    "card1Title": "Hat Yöneticisi",
+    "card1Description": "Çalışanın Doğrudan Amir",
+    "select": "Seç",
+    "remove": "Kaldır",
+    "selected": "Seçildi",
+    "removed": "Kaldırıldı"
+  },
+  "approval3": {
+    "card2Title": "İK Yöneticisi",
+    "card2Description": "İnsan Kaynakları Departman Başkanı",
+    "select": "Seç",
+    "remove": "Kaldır",
+    "selected": "Seçildi",
+    "removed": "Kaldırıldı"
+  },
+  "approval4": {
+    "card3Title": "Fonksiyonel Başkan",
+    "card3Description": "Departman Başkanı",
+    "select": "Seç",
+    "remove": "Kaldır",
+    "selected": "Seçildi",
+    "removed": "Kaldırıldı"
+  },
+  "approval5": {
+    "card4Title": "CEO",
+    "card4Description": "Genel Müdür",
+    "select": "Seç",
+    "remove": "Kaldır",
+    "selected": "Seçildi",
+    "removed": "Kaldırıldı"
+  },
+  "approval6": {
+    "card5Title": "Finans Direktörü",
+    "card5Description": "Belirli Projeyi Yöneten Müdür",
+    "select": "Seç",
+    "remove": "Kaldır",
+    "selected": "Seçildi",
+    "removed": "Kaldırıldı"
+  },
+  "approval7": {
+    "card6Title": "Proje Yöneticisi",
+    "card6Description": "Çalışanın Doğrudan Amir",
+    "select": "Seç",
+    "remove": "Kaldır",
+    "selected": "Seçildi",
+    "removed": "Kaldırıldı"
+  },
+  "transactions": {
+    "leaveRequestTitle": "İzin Talebi",
+    "leaveRequestDescription": "Çalışan izin talepleri için onay akışı",
+    "timesheetTitle": "Zaman Çizelgesi",
+    "timesheetDescription": "Çalışan zaman çizelgeleri için onay akışı",
+    "resignationRequestTitle": "İstifa Talebi",
+    "resignationRequestDescription": "Çalışan istifa talepleri için onay akışı"
+  },
+  "workflow": {
+    "selectTransactionType": "İşlem Türünü Seçin",
+    "chooseTransactionType": "Bu onay iş akışını takip edecek işlem türünü seçin",
+    "editWorkflow": "İş Akışını Düzenle",
+    "createNewWorkflow": "Yeni İş Akışı Oluştur",
+    "modifyWorkflow": "Kuruluşunuz için onay iş akışını değiştirin",
+    "setupNewWorkflow": "Kuruluşunuz için yeni bir onay iş akışı oluşturun",
+    "previous": "Önceki",
+    "cancel": "İptal",
+    "next": "Sonraki",
+    "submitting": "Gönderiliyor...",
+    "updateWorkflow": "İş Akışını Güncelle",
+    "createWorkflow": "İş Akışı Oluştur",
+    "updatedSuccess": "İş akışı başarıyla güncellendi",
+    "createdSuccess": "İş akışı başarıyla oluşturuldu",
+    "failed": "İş akışı {{action}} başarısız oldu. Lütfen tekrar deneyin.",
+    "create": "oluşturma",
+    "update": "güncelleme",
+    "unknownStep": "Bilinmeyen Adım",
+    "Transaction Type": "İşlem Türü",
+    "Workflow Details": "İş Akışı Detayları",
+    "Approval Chain": "Onay Zinciri"
+  },
+  "LookUpScreen": {
+    "CreateLookUp": "Arama Oluştur",
+    "LookupType": "Arama Türü",
+    "Meaning": "Anlam",
+    "Add": "Ekle",
+    "Code": "Kod",
+    "Delete": "Sil",
+    "Submit": "Gönder",
+    "DateStart": "Başlangıç Tarihi",
+    "DateEnd": "Bitiş Tarihi",
+    "Enabled": "Etkin",
+    "Actions": "Eylemler",
+    "Type": "Tür",
+    "EditLookUp": "Aramayı Düzenle",
+    "Update": "Güncelle",
+    "Cancel": "İptal",
+    "PerformanceRatingScale": "Performans Değerlendirme Ölçeği"
+  },
+  "CompetencyManagement": {
+    "CompetencyManagement": "Yetkinlik Yönetimi",
+    "Name": "Ad",
+    "PositionLevel": "Pozisyon Seviyesi",
+    "Action": "İşlem",
+    "Create": "Oluştur",
+    "CreateNewCompetency": "Yeni Yetkinlik Oluştur",
+    "EditCompetency": "Yetkinliği Düzenle",
+    "CompetencyName": "Yetkinlik Adı",
+    "Description": "Açıklama",
+    "StartDate": "Başlangıç Tarihi",
+    "EndDate": "Bitiş Tarihi",
+    "CompetencyType": "Yetkinlik Türü",
+    "DevelopmentActivities": "Gelişim Aktiviteleri",
+    "CoachingActivities": "Koçluk Aktiviteleri",
+    "CategoryActivities": "Kategori Aktiviteleri",
+    "PositionLevelField": "Pozisyon Seviyesi",
+    "Cancel": "İptal",
+    "Save": "Kaydet",
+    "Update": "Güncelle"
+  },
+  "OKRManagement": {
+    "OKRManagement": "OKR Yönetimi",
+    "OkrLibrary": "OKR KÜTÜPHANESİ",
+    "Okr": "OKR",
+    "Transfer": "TRANSFER",
+    "Create": "Oluştur",
+    "BulkUpload": "Toplu Yükleme",
+    "Industry": "Endüstri",
+    "IsActive": "Aktif Mi",
+    "LastModified": "Son Değiştirilme",
+    "Action": "İşlem",
+    "OkrTemplateName": "OKR Şablon Adı",
+    "StartDate": "Başlangıç Tarihi",
+    "EndDate": "Bitiş Tarihi",
+    "EligibilityGroup": "Uygunluk Grubu",
+    "TransferFromEmployee": "Transfer Edilen Çalışan:",
+    "TransferToEmployee": "Transfer Edilecek Çalışan:",
+    "FindOkr": "OKR Bul",
+    "InstructionsToUsers": "Kullanıcılara Talimatlar",
+    "LowValueRange": "Düşük Değer Aralığı",
+    "MidValueRange": "Orta Değer Aralığı",
+    "HighValueRange": "Yüksek Değer Aralığı",
+    "Min": "Min",
+    "Max": "Maks",
+    "IncludingKeyResults": "Ana Sonuçlar Dahil",
+    "ImportOkrLibrary": "OKR Kütüphanesini İçe Aktar",
+    "Export": "Dışa Aktar",
+    "DownloadTemplate": "Şablonu İndir",
+    "Cancel": "İptal",
+    "Save": "Kaydet",
+    "IncludeOkr": "OKR Dahil Et",
+    "Edit": "Düzenle",
+    "Delete": "Sil"
+  },
+  "TimeLogin": {
+    "title": "Coğrafi Konum Zaman Girişi",
+    "discription-title": "Fiziksel konumunuza göre giriş çıkış yapın",
+    "buttonLables": {
+      "bio": "Manuel / Biyometrik",
+      "geo": "Coğrafi"
+    },
+    "refreshing": " Yenileniyor...",
+    "refreshLocation": "Konumu Yenile",
+    "LocationService": "Konum Hizmetleri",
+    "message": "Lütfen istendiğinde konum erişimine izin verin. Konumunuz yalnızca iş yerinde bulunduğunuzu doğrulamak için kullanılır.",
+    "getting": "Konumunuz alınıyor....",
+    "RetryLocation": "Konumu Tekrar Dene",
+    "ManualLocation": "Manuel Konum",
+    "time": "Mevcut sistem zamanı",
+    "clockOut": "Çıkış Yap",
+    "clockin": "Giriş Yap",
+    "manuallyLocation": "Konumu Manuel Gir",
+    "textLabel": {
+      "Latitude": "Enlem",
+      "Logitude": "Boylam"
+    },
+    "Cancel": "İptal",
+    "setLocation": "Konumu Ayarla",
+    "waitingError": "Konum erişimi bekleniyor...",
+    "TimeSheetHistory": {
+      "history": "Zaman Çizelgesi Geçmişi",
+      "totalTime": "Toplam Zaman",
+      "week": "Hafta"
+    },
+    "TableColumn": {
+      "Employee": "Çalışan",
+      "day": "gün",
+      "Date": "Tarih",
+      "timein": "Giriş Zamanı",
+      "timeOut": "Çıkış Zamanı",
+      "hours": "Saat",
+      "method": "Yöntem",
+      "position": "Pozisyon",
+      "remarks": "Açıklamalar",
+      "status": "Durum",
+      "actions": "Eylemler"
+    },
+    "actionButton": {
+      "approve": "Onayla",
+      "reject": "Reddet"
+    },
+    "DialogBox": {
+      "title": "Zaman Girişi Detayları",
+      "ApprovalHistory": "Onay Geçmişi",
+      "Nodetailsavailable": "Detay mevcut değil",
+      "CurrentLocationMap": "Mevcut Konum Haritası"
+    },
+    "exportOptions": {
+      "export": "Dışa Aktar",
+      "exportExcel": "Excel Olarak Dışa Aktar",
+      "exportCSV": "CSV Olarak Dışa Aktar",
+      "exportPDF": "PDF Olarak Dışa Aktar"
+    }
+  },
+  "AbsenceTime": {
+    "LeavePolicy": "İzin Politikası",
+    "applyForLeave": "İzin başvurusu yap",
+    "teamLeave": "Takım İzni",
+    "LoadingLeaves": "İzin türleri yükleniyor...",
+    "formLabel": {
+      "absenceType": "Devamsızlık türü / Kategori",
+      "halfDay": "Yarım gün",
+      "form": "Başlangıç",
+      "to": "Bitiş",
+      "durationAbsence": "Devamsızlık süresi",
+      "note": "not"
+    },
+    "Uplode": "Dosya eklerini yükle",
+    "sumbitting": "Gönderiliyor...",
+    "buttonConfg": {
+      "cancel": "İptal",
+      "update": "Güncelle",
+      "submit": "Gönder"
+    },
+    "leavesAvailable": "Başka izin mevcut değil.",
+    "close": "Kapat",
+    "tableColumn": {
+      "date": "Tarih",
+      "employee": "Çalışan",
+      "type": "Tür",
+      "duration": "Süre",
+      "status": "Durum",
+      "action": "İşlem"
+    },
+    "editRequest": "Talebi Düzenle",
+    "deleteRequest": "Talebi Sil",
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "leaveDetailsView": {
+      "leaveType": "İzin Türü",
+      "duration": "Süre",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi",
+      "applicationOn": "başvuru tarihi"
+    },
+    "reasons": {
+      "reason": "Sebep",
+      "rejectionReason": "Reddetme Sebebi:"
+    },
+    "approvalStatus": "Mevcut Onay Durumu",
+    "noDetails": "Detay mevcut değil",
+    "requests": {
+      "approveLeave": "İzin Talebini Onayla",
+      "rejectLeave": "İzin Talebini Reddet",
+      "details": "Talep Detayları"
+    },
+    "period": "Dönem",
+    "Comments(Optional)": "Yorumlar (İsteğe Bağlı)",
+    "RejectionReason": "Reddetme Sebebi *",
+    "approveRequest": "Talebi Onayla",
+    "rejectRequest": "Talebi Reddet",
+    "DialogBox": {
+      "title": "İzin Talep Detayları",
+      "alert": "İzin talep detayları yüklenemedi"
+    },
+    "searchHear": "Buradan ara..",
+    "TeamLeave": {
+      "teamLeave": "Takım İzni",
+      "managerBoard": "Yönetici Panosu:",
+      "all": "Tümü",
+      "teamA": "Takım A",
+      "teamB": "Takım B"
+    },
+    "tableHeader": {
+      "displayOptions": "Görüntüleme Seçenekleri",
+      "priority": "Öncelik",
+      "status": "Durum"
+    },
+    "filters": {
+      "high": "Yüksek",
+      "medium": "Orta",
+      "low": "Düşük"
+    },
+    "EventCalender": {
+      "filter": "Filtre:"
+    }
+  },
+  "FileUploadFile": {
+    "chooseAFile": "Bir dosya seçin veya buraya sürükleyip bırakın",
+    "uploading": "Yükleniyor...",
+    "fileTypes": "JPEG, PNG, PDF, CSV, Excel, 50MB'a kadar",
+    "browseFile": "Dosya Seç",
+    "selectedFile": "Seçilen Dosya",
+    "clickhere": "Buraya Tıklayın"
+  },
+  "RecruitmentManagement": {
+    "WelcomeBack": "Tekrar Hoş Geldiniz",
+    "NewCandidate": "Yeni Aday",
+    "ID": "No",
+    "Name": "Ad",
+    "Email": "E-posta",
+    "AppliedOn": "Başvuru Tarihi",
+    "Stages": "Aşamalar",
+    "Actions": "Eylemler",
+    "InProgress": "Devam Ediyor",
+    "WaitingForFeedback": "Geri Bildirim Bekleniyor",
+    "OfferReleased": "Teklif Verildi",
+    "CandidatesList": "Aday Listesi",
+    "AddNewCandidate": "Yeni Aday Ekle",
+    "CandidateDetails": "Aday Detayları",
+    "PsychometricAssessment": "Psikometrik Değerlendirme",
+    "Interview1": "Mülakat 1",
+    "Interview2": "Mülakat 2",
+    "DocumentVerification": "Belge Doğrulama",
+    "Offer": "Teklif",
+    "OfferLetter": "Teklif Mektubu",
+    "Onboarding": "İşe Alıştırma",
+    "CandidateName": "Aday Adı",
+    "EmailAddress": "E-posta Adresi",
+    "AddPhoto": "Fotoğraf Ekle",
+    "PhoneNo": "Telefon No",
+    "ExperienceInYears": "Deneyim (Yıl Olarak)",
+    "EducationQualification": "Eğitim Niteliği",
+    "DateOfBirth": "Doğum Tarihi",
+    "Gender": "Cinsiyet",
+    "Location": "Konum",
+    "Source": "Kaynak",
+    "Department": "Fonksiyon",
+    "Designation": "Pozisyon",
+    "LegalEntity": "Yasal Kuruluş",
+    "ProjectName": "Proje Adı",
+    "ReportingManager": "Amir",
+    "Status": "Durum",
+    "Resume": "Özgeçmiş",
+    "Cancel": "İptal",
+    "Submit": "Gönder",
+    "Edit": "Düzenle",
+    "Delete": "Sil",
+    "EditCandidate": "Adayı Düzenle",
+    "ClickHere": "Buraya Tıklayın",
+    "Update": "Güncelle",
+    "MoveToTalentPool": "Yetenek Havuzuna Taşınsın Mı?",
+    "Male": "Erkek",
+    "Female": "Kadın",
+    "Other": "Diğer",
+    "Yes": "Evet",
+    "No": "Hayır",
+    "SuitableDesignation": "Uygun Pozisyon",
+    "NoticePeriodDays": "İhbar Süresi (gün)",
+    "DateOfJoining": "İşe Başlama Tarihi",
+    "ProbationPeriodDays": "Staj Süresi (gün)",
+    "PsychometricReviewReport": "Psikometrik İnceleme Raporu",
+    "DocumentsUploadOverview": "Belge Yükleme Genel Bakışı",
+    "SaveAsDraft": "Taslak olarak kaydet",
+    "DraftLoaded": "Taslak verileri yüklendi",
+    "GrossSalary": "Brüt Maaş",
+    "Interviewer1": "Görüşmeci 1",
+    "Interviewer2": "Görüşmeci 2"
+  },
+  "PrivilegeGroups": {
+    "PrivilegeGroups": "Yetki Grupları",
+    "CreateNewGroup": "Yeni Grup Oluştur",
+    "GroupName": "Grup Adı",
+    "UserType": "Kullanıcı Türü",
+    "SonicOfDynamic": "Dinamik Ses",
+    "ActiveMembership": "Aktif Üyelik",
+    "LastModified": "Son Değiştirilme",
+    "Action": "İşlem",
+    "ActiveGroupMembership": "Aktif Grup Üyeliği",
+    "ChooseGroupMembers": "Grup Üyelerini Seçin",
+    "PeoplePool": "İnsan Havuzu",
+    "PickACategory": "Bir Kategori Seçin",
+    "ExcludeThesePeopleGroupName": "Bu İnsanları Hariç Tut Grup Adı",
+    "Select": "Seç",
+    "Cancel": "İptal",
+    "Finished": "Tamamlandı",
+    "Edit": "Düzenle",
+    "Delete": "Sil",
+    "AddPrivilegeGroup": "Yetki Grubu Ekle",
+    "UpdatePrivilegeGroup": "Yetki Grubunu Güncelle",
+    "GroupCreatedSuccessfully": "Grup başarıyla oluşturuldu!",
+    "GroupUpdatedSuccessfully": "Grup başarıyla güncellendi!",
+    "GroupDeletedSuccessfully": "Grup başarıyla silindi!",
+    "AreYouSureDelete": "Bu grubu silmek istediğinizden emin misiniz?",
+    "NoDataFound": "Veri Bulunamadı",
+    "Loading": "Yükleniyor...",
+    "SearchGroups": "Grupları Ara",
+    "ViewDetails": "Detayları Görüntüle",
+    "SaveChanges": "Değişiklikleri Kaydet",
+    "Confirm": "Onayla",
+    "Yes": "Evet",
+    "No": "Hayır",
+    "Active": "Aktif",
+    "Inactive": "Pasif",
+    "Members": "Üyeler",
+    "Status": "Durum",
+    "CreatedBy": "Oluşturan",
+    "ModifiedBy": "Değiştiren",
+    "GroupNameIsRequired": "Grup Adı gerekli",
+    "ErrorFetchingData": "Veri alınırken hata!",
+    "SomethingWentWrong": "Bir şeyler yanlış gitti!",
+    "PleaseEnterGroupName": "Lütfen grup adını girin",
+    "PleaseSelectUserType": "Lütfen kullanıcı türünü seçin",
+    "PleaseSelectMembers": "Lütfen grup üyelerini seçin"
+  },
+  "SessionTab": {
+    "Title": "Oturumlar",
+    "FormTitle": "Oturum Detaylarını Tanımlayın",
+    "Buttons": {
+      "Create": "Oluştur",
+      "Cancel": "İptal",
+      "Update": "Güncelle",
+      "Save": "Kaydet"
+    },
+    "FormFields": {
+      "SessionName": "Oturum Adı",
+      "Template": "Şablon",
+      "SessionStartDate": "Oturum Başlangıç Tarihi",
+      "SessionEndDate": "Oturum Bitiş Tarihi",
+      "SessionOwners": "Oturum Sahipleri",
+      "EmployeeGroup": "Çalışan Grubu"
+    },
+    "Table": {
+      "Name": "AD",
+      "Action": "İŞLEM",
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    },
+    "Placeholders": {
+      "SearchHere": "Burada ara...",
+      "SelectTemplate": "Şablon seç",
+      "EnterSessionName": "Oturum adını girin",
+      "SelectSessionOwners": "Oturum sahiplerini seçin",
+      "SelectEmployeeGroup": "Çalışan grubunu seçin"
+    },
+    "Validation": {
+      "FillRequiredFields": "Lütfen tüm gerekli alanları doldurun"
+    },
+    "Messages": {
+      "FailedDelete": "Oturum silinemedi",
+      "ErrorDelete": "Oturum silinirken bir hata oluştu",
+      "FailedCreate": "Oturum oluşturulamadı",
+      "ErrorCreate": "Oturum oluşturulurken bir hata oluştu",
+      "FailedUpdate": "Oturum güncellenemedi",
+      "ErrorUpdate": "Oturum güncellenirken bir hata oluştu"
+    }
+  },
+  "GuideLinesTab": {
+    "Instructions": {
+      "SelectDataSource": "Kalibre etmek istediğiniz öğeler için veri kaynağını seçin:"
+    },
+    "Performance": {
+      "Title": "Performans",
+      "Description": "Performans kalibrasyonu, performans, hedefler, potansiyel veya diğer müşteri tanımlı öğelerin değerlendirmesini içerir. 1. Kalibre etmek istediğiniz öğeler için form şablon(lar)ını seçin. Tüm alanlar gereklidir."
+    },
+    "Options": {
+      "Calibration": "Kalibrasyon",
+      "SelfSubmission": "Kendi Gönderimi",
+      "ManagerReview": "Yönetici İncelemesi",
+      "ManagerSignOff": "Yönetici Onayı",
+      "EmployeeSignOff": "Çalışan Onayı"
+    },
+    "RatingScale": {
+      "Ineffective": "1. Etkisiz",
+      "SomewhatAchieved": "2. Kısmen Başarıldı",
+      "Achieved": "3. Başarıldı",
+      "Overperformed": "4. Beklentinin Üzerinde",
+      "Outstanding": "5. Olağanüstü"
+    },
+    "Table": {
+      "Template": "Şablon",
+      "RouteMap": "Rota Haritası",
+      "RoutingStep": "Rota Adımında Veri Kullanılabilir Mi?"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Şablon seç",
+      "SelectStep": "Adım seç"
+    },
+    "DefaultStep": "PM2 Performans Değerlendirmesi"
+  },
+  "CalibrationManagement": {
+    "Options": {
+      "Calibration": "Kalibrasyon",
+      "SelfSubmission": "Kendi Gönderimi",
+      "ManagerReview": "Yönetici İncelemesi",
+      "ManagerSignOff": "Yönetici Onayı",
+      "EmployeeSignOff": "Çalışan Onayı"
+    },
+    "Table": {
+      "SNo": "s.no",
+      "Rating": "derecelendirme",
+      "RouteMap": "Rota Haritası",
+      "Delete": "Sil"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Lütfen bir şablon seçin..."
+    },
+    "Notes": {
+      "Part1": "Not: bazen kalibrasyon verileriniz birden fazla şablondan gelebilir, bu durumda sistem yalnızca birincil şablonda tanımlanan öğeleri destekler (",
+      "Part2": " ile gösterilir). Birden fazla Performans şablonu seçerseniz, bu şablonların aynı yapıya, indekslere ve rota haritasına sahip olduğundan emin olun."
+    },
+    "Instructions": {
+      "SelectElement": "2. Kalibrasyon için en az bir öğe seçin. Ardından dağıtım kılavuzunu tanımlayın."
+    },
+    "OverallFormRating": "Genel Form Derecelendirmesi",
+    "Buttons": {
+      "Add": "Ekle"
+    }
+  },
+  "IntegrationManagement": {
+    "AdminPortal": "Yönetici Portalı - Entegrasyon Yönetimi",
+    "BusinessLevelConnectors": "İş Seviyesi Bağlayıcılar",
+    "ActivationDescription": "Bir hizmetin etkinleştirilmesi, kullanıcılara ana sonucun otomatik güncellenmesi için veri alımını veya bir hizmettten kullanıcıların sorunsuz senkronizasyonunu kolaylaştıran hizmete bağlanma yeteneği sağlar",
+    "Manage": "Yönet",
+    "ReadMore": "Daha fazla oku"
+  },
+  "TopHeader": {
+    "ManageSalesforceConnection": "Salesforce Bağlantısını Yönet",
+    "Delete": "Sil"
+  },
+  "PerformanceManagement": {
+    "Title": "Performans Yönetimi",
+    "Create": "Oluştur",
+    "TypeOfEvaluation": "Değerlendirme türü",
+    "Select": "Seç...",
+    "FrequencyOfEvaluation": "Değerlendirme sıklığı",
+    "StartDate": "Başlangıç Tarihi",
+    "EnterStartDate": "Başlangıç Tarihini Girin",
+    "LaunchDate": "Başlatma Tarihi",
+    "EnterLaunchDate": "Başlatma Tarihini Girin",
+    "ListGroupName": "Liste Grubu Adı",
+    "Employee": "Çalışan",
+    "Manager": "Yönetici",
+    "Leadership": "Liderlik",
+    "Cancel": "İptal",
+    "Save": "Kaydet",
+    "OverallRating": "Genel Derecelendirme",
+    "AbsoluteRating": "Mutlak Derecelendirme",
+    "RatingScale": "Derecelendirme Ölçeği",
+    "OKRWastage": "OKR İsrafı",
+    "CompetencyWeightage": "Yetkinlik Ağırlığı",
+    "Weightage360": "360 Ağırlık",
+    "IncludeSelfEvaluation": "Kendi Değerlendirmesini Dahil Et",
+    "EmployeeAcknowledgement": "Çalışan Onayı",
+    "HRBPReview": "İKBP İncelemesi",
+    "ApprovalRequired": "Onay Gerekli",
+    "Monthly": "Aylık",
+    "Quarterly": "Üç Aylık",
+    "SemiAnnually": "Yarı Yıllık",
+    "Annually": "Yıllık"
+  },
+  "Templates": {
+    "Title": "Şablonlar",
+    "Buttons": {
+      "Create": "Oluştur",
+      "Cancel": "İptal",
+      "Update": "Güncelle",
+      "Save": "Kaydet",
+      "SelectAll": "Tümünü Seç",
+      "UnselectAll": "Tümünü Kaldır"
+    },
+    "Table": {
+      "Name": "Ad",
+      "Action": "İşlem",
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    },
+    "FormFields": {
+      "TemplatesName": "Şablon Adı",
+      "TemplateName": "Şablon Adı",
+      "Description": "Açıklama",
+      "PercentageType": "Yüzde Türü",
+      "RatingScale": "Derecelendirme Ölçeği",
+      "GoalPercentage": "Hedef Yüzdesi",
+      "ObjectivePercentage": "Hedef Yüzdesi",
+      "CompetenciesPercentage": "Yetkinlik Yüzdesi",
+      "Competencies": "Yetkinlikler",
+      "ReviewSteps": "İnceleme Adımları",
+      "EmployeeDisplayOptions": "Çalışan Görüntüleme Seçenekleri"
+    },
+    "Placeholders": {
+      "EnterTemplateName": "Şablon Adını Girin",
+      "EnterDescription": "Açıklama Girin",
+      "EnterRatingScale": "Derecelendirme Ölçeğini Girin",
+      "EnterGoalPercentage": "Hedef Yüzdesini Girin",
+      "EnterObjectivePercentage": "Hedef Yüzdesini Girin",
+      "EnterCompetenciesPercentage": "Yetkinlik Yüzdesini Girin",
+      "SelectCompetencies": "Yetkinlikleri Seçin"
+    },
+    "Options": {
+      "Goals": "Hedefler",
+      "Objectives": "Hedefler",
+      "PerformanceRatingScale": "Performans Değerlendirme Ölçeği",
+      "AllCompetencies": "Tüm Yetkinlikler"
+    },
+    "DisplayOptions": {
+      "FirstName": "Ad",
+      "LastName": "Soyad",
+      "Department": "Fonksiyon",
+      "Grade": "Derece",
+      "Manager": "Yönetici",
+      "Designation": "Pozisyon"
+    },
+    "DisplaySteps": {
+      "SelfSubmission": "Kendi Gönderimi",
+      "ManagerReview": "Yönetici İncelemesi",
+      "HRReview": "İK İncelemesi",
+      "ManagerSignOff": "Yönetici Onayı",
+      "EmployeeSignOff": "Çalışan Onayı",
+      "Completed": "Tamamlandı"
+    },
+    "DisplayStepsText": {
+      "SubmitToManager": "Yöneticiye Gönder",
+      "SubmitToHR": "İK'ya Gönder",
+      "SubmitToManagerSignOff": "Yönetici Onayı İçin Gönder",
+      "SubmitToEmployeeSignOff": "Çalışan Onayı İçin Gönder",
+      "SignOffToComplete": "Tamamlamak İçin Onayla"
+    },
+    "Messages": {
+      "UnknownError": "Bilinmeyen bir hata oluştu"
+    }
+  },
+  "OKRLibraryTab": {
+    "Fields": {
+      "RewardSchemeName": "Ödül Planı Adı *",
+      "ObjectivesAchievementPercent": "Hedef Başarım %",
+      "ObjectivesAchievementPoints": "Hedef Başarım Puanları",
+      "KrAchievementPercent": "KA Başarım %",
+      "KrAchievementPoints": "KA Başarım Puanları",
+      "TaskAchievementPercent": "Görev Başarım %",
+      "TaskAchievementPoints": "Görev Başarım Puanları",
+      "SubTaskAchievementPercent": "Alt Görev Başarım %",
+      "SubTaskPoints": "Alt Görev Puanları",
+      "RewardCategory": "Ödül Kategorisi*",
+      "RewardType": "Ödül Türü*",
+      "OKRTemplate": "OKR Şablonu*",
+      "EligibilityGroup": "Uygunluk Grubu*",
+      "KudosEnabled": "Takdir Etkin",
+      "BirthdayWishesEnabled": "Doğum Günü Mesajları Etkin",
+      "ApprovalRequired": "Onay Gerekli",
+      "AnniversaryWishesEnabled": "Yıldönümü Mesajları Etkin"
+    },
+    "Sections": {
+      "RewardPoints": "Ödül Puanları",
+      "Achievement": "Başarım",
+      "Eligibility": "Uygunluk",
+      "Toggles": "Anahtarlar"
+    },
+    "RewardPoints": {
+      "Bronze": "Ödül Puanlarını Seç (Bronz)",
+      "Silver": "Ödül Puanlarını Seç (Gümüş)",
+      "Gold": "Ödül Puanlarını Seç (Altın)"
+    },
+    "Buttons": {
+      "Cancel": "İptal",
+      "Save": "Kaydet"
+    },
+    "Validation": {
+      "FieldRequired": "{{field}} gerekli",
+      "FillRequiredFields": "Lütfen tüm gerekli alanları doldurun"
+    },
+    "EmployeesSelected": "çalışan seçildi",
+    "NotAvailable": "M/U"
+  },
+  "RewardsManagement": {
+    "TitleHeader": "Yönetici Portalı - Yetkiler",
+    "Title": "Ödül Yönetimi",
+    "Bronze": "Bronz",
+    "Silver": "Gümüş",
+    "Gold": "Altın",
+    "Yes": "Evet",
+    "No": "Hayır",
+    "Buttons": {
+      "Create": "Oluştur",
+      "CreateRewards": "Ödül Oluştur"
+    },
+    "Table": {
+      "SNo": "S.No",
+      "Scheme": "Plan",
+      "Category": "Kategori",
+      "Type": "Tür",
+      "Points": "Puanlar",
+      "Kudos": "Takdir",
+      "Birthday": "Doğum Günü",
+      "ApprovalRequired": "Onay Gerekli",
+      "Anniversary": "Yıldönümü",
+      "LastModified": "Son Değiştirilme",
+      "Action": "İşlem",
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    },
+    "Export": {
+      "CandidateID": "AdayNo",
+      "RewardSchemeName": "Ödül Planı Adı",
+      "RewardCategory": "Ödül Kategorisi",
+      "RewardType": "Ödül Türü",
+      "RewardPoints": "Ödül Puanları",
+      "KudosEnabled": "Takdir Etkin",
+      "BirthdayWishesEnabled": "Doğum Günü Mesajları Etkin",
+      "ApprovalRequired": "Onay Gerekli",
+      "AnniversaryWishesEnabled": "Yıldönümü Mesajları Etkin",
+      "UpdatedAt": "Güncellenme Tarihi"
+    },
+    "Messages": {
+      "NoDataFound": "Veri Bulunamadı!",
+      "SelectRole": "Lütfen rol seçin...",
+      "NoDataToExport": "Dışa aktarılacak veri yok"
+    },
+    "Validation": {
+      "OKRRequired": "OKR Fonksiyonu/OKR Kategorisi gerekli!"
+    }
+  },
+  "common": {
+    "searchHere": "Buradan ara..",
+    "export": "Dışa Aktar",
+    "csv": "CSV",
+    "excel": "Excel",
+    "pdf": "PDF"
+  },
+  "notification": {
+    "settingsTitle": "Bildirim Ayarları",
+    "to": "Kime",
+    "cc": "Bilgi",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "attachment": "Dosya Eki",
+    "view": "Görüntüle",
+    "reupload": "Yeniden Yükle",
+    "saveSettings": "Ayarları Kaydet",
+    "updateSettings": "Ayarları Güncelle",
+    "select": "--Seç--",
+    "noDataFound": "Veri Bulunamadı!"
+  },
+  "LaunchForms": {
+    "Title": "Başlatma Formları",
+    "ConfirmDelete": "Bu formu silmek istediğinizden emin misiniz?",
+    "Submit": "Gönder",
+    "EmployeesSelected": "çalışan seçildi",
+    "Buttons": {
+      "Create": "Oluştur",
+      "Cancel": "İptal",
+      "Update": "Güncelle",
+      "Save": "Kaydet"
+    },
+    "FormFields": {
+      "LaunchFormName": "Başlatma Formu Adı",
+      "FormType": "Form Türü",
+      "FormTemplate": "Form Şablonu",
+      "LaunchDate": "Başlatma Tarihi",
+      "ReviewPeriodStartDate": "İnceleme Dönemi Başlangıç Tarihi",
+      "ReviewPeriodEndDate": "İnceleme Dönemi Bitiş Tarihi",
+      "Employees": "Çalışanlar"
+    },
+    "Table": {
+      "Name": "Ad",
+      "LaunchDate": "Başlatma Tarihi",
+      "Action": "İşlem",
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    },
+    "Placeholders": {
+      "SelectFormType": "Lütfen bir form türü seçin...",
+      "SelectFormTemplate": "Lütfen bir form şablonu seçin...",
+      "EnterLaunchDate": "Bir Başlatma Tarihi Girin",
+      "EnterStartDate": "Başlangıç Tarihini Girin",
+      "EnterEndDate": "Bitiş Tarihini Girin"
+    }
+  },
+  "addRewardPopup": {
+    "titleAdd": "Yeni Ödül Ekle",
+    "titleUpdate": "Ödülü Güncelle",
+    "rewardName": "Ödül Adı*",
+    "rewardDescription": "Ödül Açıklaması*",
+    "rewardType": "Ödül Türü*",
+    "rewardApprover": "Ödül Onaylayıcı*",
+    "rewardCode": "Ödül Kodu*",
+    "rewardPoints": "Ödül Puanları*",
+    "rewardAmount": "Ödül Tutarı*",
+    "rewardStatus": "Ödül Durumu*",
+    "rewardIcon": "Ödül Simgesi*",
+    "viewRewardIcon": "Ödül Simgesini Görüntüle",
+    "reuploadRewardIcon": "Ödül Simgesini Yeniden Yükle",
+    "add": "Ekle",
+    "update": "Güncelle",
+    "clear": "Temizle",
+    "active": "Aktif",
+    "inactive": "Pasif"
+  },
+  "catalogManagement": {
+    "headerTitle": "Yönetici Portalı - Yetkiler",
+    "title": "Katalog Yönetimi",
+    "addNewReward": "Yeni Ödül Ekle",
+    "searchPlaceholder": "Ödülleri ara...",
+    "validationError": "OKR Fonksiyonu/OKR Kategorisi gerekli!",
+    "noData": "Veri Bulunamadı!"
+  },
+  "tabsContainer": {
+    "selectAll": "Tümünü Seç",
+    "objectives": "Hedefler",
+    "keyResults": "Ana Sonuçlar",
+    "tasks": "Görevler"
+  },
+  "AdvancedLaunchForms": {
+    "Title": "Gelişmiş Başlatma Formları",
+    "AdvancedReviewManagement": "Gelişmiş İnceleme Yönetimi",
+    "Buttons": {
+      "Create": "Oluştur",
+      "Cancel": "İptal",
+      "Update": "Güncelle",
+      "Save": "Kaydet"
+    },
+    "FormFields": {
+      "LaunchFormName": "Başlatma Formu Adı",
+      "FormName": "Form Adı",
+      "FormType": "Form Türü",
+      "FormTemplate": "Form Şablonu",
+      "LaunchDate": "Başlatma Tarihi",
+      "ReviewPeriodStartDate": "İnceleme Dönemi Başlangıç Tarihi",
+      "ReviewPeriodEndDate": "İnceleme Dönemi Bitiş Tarihi",
+      "ToEmployee": "Çalışana",
+      "SelfAndManager": "Kendisi ve Yönetici",
+      "Peers": "Akranlar"
+    },
+    "Table": {
+      "FormName": "Form Adı",
+      "TemplateName": "Şablon Adı",
+      "EmployeeName": "Çalışan Adı",
+      "LaunchDate": "Başlatma Tarihi",
+      "Action": "İşlem",
+      "Edit": "Düzenle",
+      "Delete": "Sil"
+    },
+    "Placeholders": {
+      "EnterFormName": "Form Adını Girin",
+      "AdvanceReviewManagement": "Gelişmiş İnceleme Yönetimi",
+      "SelectFormTemplate": "Lütfen bir form şablonu seçin...",
+      "EnterLaunchDate": "Başlatma Tarihini Girin",
+      "EnterStartDate": "Başlangıç Tarihini Girin",
+      "EnterEndDate": "Bitiş Tarihini Girin",
+      "SelectEmployee": "Lütfen bir çalışan seçin...",
+      "SelectSelfAndManager": "Kendisi ve yöneticiyi seçin...",
+      "SelectPeers": "Akranları seçin..."
+    }
+  },
+  "FilterComponent": {
+    "Title": "Filtreler",
+    "Buttons": {
+      "Reset": "Sıfırla",
+      "Apply": "Uygula",
+      "Loading": "Yükleniyor..."
+    },
+    "Fields": {
+      "CandidateId": "Aday No",
+      "CandidateName": "Aday Adı",
+      "Department": "Fonksiyon",
+      "Designation": "Pozisyon",
+      "ApplicationDate": "Başvuru Tarihi",
+      "Stage": "Aşama",
+      "To": "ile"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "Aday no girin",
+      "EnterCandidateName": "Aday adı girin"
+    },
+    "Options": {
+      "NewApplied": "Yeni Başvuru",
+      "PsychometricTest": "Psikometrik Test",
+      "Interview1": "Mülakat 1",
+      "Interview2": "Mülakat 2",
+      "DocumentUpload": "Belge Yükleme",
+      "OfferLetter": "Teklif Mektubu",
+      "Onboarding": "İşe Alıştırma",
+      "Rejected": "Reddedildi",
+      "ConvertToEmployee": "Çalışana Dönüştür"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "Fonksiyon Bulunamadı!",
+      "NoDesignationsFound": "Pozisyon Bulunamadı!"
+    }
+  }
+}

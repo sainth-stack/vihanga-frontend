@@ -1,0 +1,60 @@
+@import '../../../assets/scss/abstracts/abstracts';
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+  word-break: break-all;
+  font-size:12px;
+}
+.react-bootstrap-table thead{
+  background-color: rgba(42, 137, 129, 0.17);
+}
+
+.company-form{
+  background-color: #FCFCFC;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  padding:56px 52px;
+}
+.green-heading{
+  color:#2A8981;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom:22px!important;
+}
+.pb20{
+  padding-bottom:20px!important;
+}
+.upArrow{
+  position: relative;
+  top:-3px;
+  left:7px;
+}
+
+.downArrow{
+  position: relative;
+  top:4px;
+}
+.arrowActive{
+  color:#000000;
+}
+.arrowInActive{
+  color:rgba(0, 0, 0, 0.3);
+}
+.bg-green{
+  background-color: #837F39;
+}
+.mh-100{
+  min-height: 100vh;
+}
+.location{
+  margin-right: 235px;
+}
+.save-add{
+  margin-right: 60px;
+}
+.react-bootstrap-table{
+  margin-top: 30px;
+}
+.custom-no-margin {
+  margin-inline: 0 !important; 
+  padding-inline: 0 !important; 
+}

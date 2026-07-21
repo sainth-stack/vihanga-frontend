@@ -1,0 +1,72 @@
+/**
+ * Accessibility: keyboard focus and contrast
+ * Adds visible focus indicators and high-contrast focus ring only.
+ * No changes to existing logic or visual styles; additive only.
+ */
+
+/* High-contrast focus ring (WCAG 2.1 AA): visible on light and dark backgrounds */
+:root {
+  --ts-focus-ring-color: #b2ccf2;
+  --ts-focus-ring-color-inverse: #64b5f6;
+  --ts-focus-ring-width: 2px;
+  --ts-focus-ring-offset: 2px;
+}
+
+/* Keyboard-focusable: visible focus ring for all focusable elements (additive only) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible,
+[role="button"]:focus-visible,
+[role="link"]:focus-visible,
+[role="menuitem"]:focus-visible,
+[role="tab"]:focus-visible,
+[role="option"]:focus-visible,
+[contenteditable="true"]:focus-visible,
+summary:focus-visible {
+  outline: var(--ts-focus-ring-width) solid var(--ts-focus-ring-color);
+  outline-offset: var(--ts-focus-ring-offset);
+}
+
+/* MUI / Bootstrap: ensure focus-visible uses our high-contrast ring when they use :focus */
+.MuiButton-root:focus-visible,
+.MuiIconButton-root:focus-visible,
+.MuiTab-root:focus-visible,
+.MuiListItem-button:focus-visible,
+.MuiMenuItem-root:focus-visible,
+.btn:focus-visible,
+.form-control:focus-visible,
+.form-select:focus-visible,
+.input-group .form-control:focus-visible,
+.dropdown-toggle:focus-visible {
+  outline: var(--ts-focus-ring-width) solid var(--ts-focus-ring-color);
+  outline-offset: var(--ts-focus-ring-offset);
+}
+
+/* Clickable icons and controls: export, language selector, help, table actions, dropdown items */
+.cursor-pointer:focus-visible,
+.dropdown-item:focus-visible,
+.language-selector-wrapper label:focus-visible,
+.notifications-pic:focus-visible,
+.profile-pic:focus-visible,
+.action-icon-button:focus-visible,
+.nav-link:focus-visible,
+[class*="IconButton"]:focus-visible {
+  outline: var(--ts-focus-ring-width) solid var(--ts-focus-ring-color);
+  outline-offset: var(--ts-focus-ring-offset);
+}
+
+/* Dark backgrounds: use lighter focus ring for contrast (optional, additive) */
+@media (prefers-color-scheme: dark) {
+  .bg-dark:focus-visible,
+  [data-theme="dark"] a:focus-visible,
+  [data-theme="dark"] button:focus-visible,
+  [data-theme="dark"] input:focus-visible,
+  [data-theme="dark"] select:focus-visible,
+  [data-theme="dark"] textarea:focus-visible,
+  [data-theme="dark"] [tabindex]:not([tabindex="-1"]):focus-visible {
+    outline-color: var(--ts-focus-ring-color-inverse);
+  }
+}

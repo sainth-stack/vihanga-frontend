@@ -1,0 +1,440 @@
+@import "../scss/abstracts/abstracts";
+
+.heading-20 {
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+button {
+  &.btn {
+    border-radius: 4px;
+    font-family: Poppins;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    &.mainbg-btn {
+      background: $green-18;
+      border: 1px solid $green-18;
+      color: $white;
+    }
+    &.btn-dark-primary-border {
+      background-color: $white;
+      color: $primary-bg;
+      font-weight: bold;
+      border: 1px solid $primary-bg !important;
+    }
+    &.btn-dark-primary-border:hover {
+      background: $primary-bg;
+      border: 1px solid $primary-bg;
+      color: $white;
+    }
+    &.btn-dark-primary-outline {
+      background-color: $white;
+      color: $primary-bg;
+      font-weight: bold;
+    }
+    &.mainbg-btn:hover {
+      background: transparent;
+      border: 1px solid $green-18;
+      transition: 0.3s ease-in;
+      color: $green-18;
+    }
+    &.outline-btn {
+      background: transparent;
+      border: 1px solid $green-18;
+      transition: 0.3s ease-in;
+      color: $green-18;
+    }
+    &.outline-btn:hover {
+      background: $green-18;
+      border: 1px solid $green-18;
+      color: $white;
+    }
+    &.outline-btn.border-none {
+      background: transparent;
+      border: 1px solid transparent;
+      transition: 0.3s ease-in;
+      color: $green-18;
+    }
+    &.outline-btn.border-none:hover {
+      background: transparent;
+      border: 1px solid $green-18;
+      color: $green-18;
+    }
+    &.danger-btn {
+      background: transparent;
+      border: 1px solid $orange;
+      transition: 0.3s ease-in;
+      color: $orange;
+    }
+    &.danger-btn:hover {
+      background: $orange;
+      border: 1px solid $orange;
+      color: $white;
+    }
+    &.btn-dark-primary {
+      background-color: $primary-bg;
+      color: $white;
+      padding: 0.7rem 2rem;
+      font-weight: bold;
+    }
+    &.btn-dark-primary:hover {
+      background: $primary-bg;
+      border: 1px solid $black;
+      color: $white;
+    }
+    &.btn-grey {
+      background-color: $ash-gray;
+      color: $black;
+      padding: 0.5rem 2rem;
+      font-weight: bold;
+    }
+    &.btn-grey:hover {
+      background: $ash-gray;
+      border: 1px solid $black;
+      color: $black;
+    }
+    &.btn-blue-primary {
+      background-color: $blue-btn;
+      color: $violet;
+    }
+    &.btn-blue-primary:hover {
+      background: $blue-btn;
+      border: 1px solid $blue-btn;
+      color: $violet;
+    }
+    &.btn-blue-outline {
+      background-color: transparent;
+      color: $violet;
+      border: 1px solid $violet;
+    }
+    &.btn-blue-outline:hover {
+      background: transparent;
+      border: 1px solid $violet;
+      color: $violet;
+    }
+  }
+}
+
+.btn:focus,
+.btn.focus,
+input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+  background: none;
+}
+.form-control-multiselect {
+  div:first-child {
+    // height: 57px;
+    border-radius: 0;
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-bottom-c4 {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.white-bg {
+  background-color: $white;
+  padding: 24px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+//Hide Arrows in input
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+//Hide Arrows in input
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+//Edit Input
+.cke_inner {
+  .cke_editable {
+    p {
+      font-family: Poppins;
+      font-size: 14px !important;
+      line-height: 17px;
+      color: #787878 !important;
+      opacity: 0.5;
+    }
+  }
+}
+
+.add-course {
+  //stepper flow
+  .stepper-horizontal {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .stepper-horizontal .step {
+    position: relative;
+    width: 30%;
+    padding: 24px;
+    &:first-child {
+      width: 20%;
+    }
+  }
+  .stepper-horizontal .step:first-child .step-bar-left,
+  .stepper-horizontal .step:last-child .step-bar-right {
+    display: none;
+  }
+  .stepper-horizontal .step .step-circle {
+    width: 31px;
+    height: 31px;
+    margin: 0 auto;
+    background: $white;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #929292;
+  }
+  .stepper-horizontal.green .step.active .step-circle {
+    border: 8px solid #189c5c;
+  }
+  .stepper-horizontal .step .step-title {
+    margin-top: 18px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4f4f4f;
+  }
+  .stepper-horizontal .step .step-sub-title {
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #505050;
+  }
+  .stepper-horizontal .step.active {
+    .step-bar-left.completed {
+      border-top: 1px solid #189c5c;
+    }
+    .step-sub-title {
+      font-family: Poppins;
+      font-size: 13px;
+      line-height: 15px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #189c5c;
+    }
+  }
+  .stepper-horizontal .step.completed {
+    .step-circle {
+      border: 8px solid #189c5c;
+    }
+    .step-bar-left,
+    .step-bar-right {
+      border-top: 1px solid #189c5c;
+    }
+  }
+
+  .stepper-horizontal .step .step-bar-left,
+  .stepper-horizontal .step .step-bar-right {
+    position: absolute;
+    top: 36px;
+    height: 1px;
+    border-top: 1px solid #c4c4c4;
+  }
+  .stepper-horizontal .step .step-bar-right {
+    right: 0;
+    left: 50%;
+    margin-left: 15px;
+  }
+  .stepper-horizontal .step .step-bar-left {
+    left: 0;
+    right: 50%;
+    margin-right: 15px;
+  }
+}
+
+//Nav- tabs
+
+.common-navlink {
+  .nav-tabs {
+    border-bottom: 1px solid #d7d7d7 !important;
+    width: 100%;
+    .nav-link {
+      border-bottom: 2px solid $primary-color;
+      cursor: pointer;
+      border: 0;
+      padding: 10px;
+    }
+  }
+  .filled-tabs {
+    a {
+      cursor: pointer;
+      &.active.nav-link {
+        color: $primary-color;
+        border-radius: 0px;
+        border-bottom: 4px solid $primary-color;
+      }
+      &.nav-link {
+        background: transparent;
+        font-family: Poppins;
+        border-bottom: 4px solid transparent;
+        width: 185px;
+        height: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #777777;
+        font-size: fontSize(18px);
+        line-height: 21px;
+      }
+      &.nav-link:hover {
+        color: $primary-color;
+        border-radius: 0px;
+        border-bottom: 4px solid $primary-color;
+      }
+    }
+  }
+}
+
+.input-group {
+  .mailIcon {
+    height: 13px;
+    width: 13px;
+  }
+}
+.border-dashed {
+  border-style: dashed;
+  border-width: thin;
+  border-color: #ddd;
+}
+
+//common-color-classes
+.text-black {
+  color: $black;
+}
+.text-black-50 {
+  color: $black-50;
+}
+.text-black-30 {
+  color: #303030;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-grey-span {
+  color: $gray-span;
+}
+
+.text-black-4D {
+  color: $black-4D;
+}
+
+.text-grey-65 {
+  color: $grey-65;
+}
+
+.text-green-18 {
+  color: $green-18;
+}
+
+.bg-green {
+  background-color: $green-18;
+}
+
+.bg-black50 {
+  background-color: $black-50;
+}
+
+.bg-ash-gray {
+  background-color: $ash-gray;
+}
+
+.bg-ash {
+  background-color: $ash;
+}
+
+.text-black-ash {
+  color: $primary-bg;
+}
+.text-blue-info {
+  color: #3fc1e8;
+}
+
+.bg-violet {
+  background-color: $violet;
+  color: $white;
+}
+
+.form-btn {
+  background-color: $violet;
+  color: $white;
+}
+.text-decoration-underline {
+  text-decoration: underline;
+}
+.bg-violet-lite {
+  color: $white;
+  background-color: $light-violet;
+}
+.bg-violet-border {
+  color: #7466a3;
+  background-color: $white;
+  border: 2px solid #7466a3;
+}
+.bg-blue-lite {
+  background-color: $light-blue;
+}
+
+.text-primarybg {
+  color: $primary-bg;
+}
+.border-primary-bg {
+  border: 1px solid $primary-bg;
+}
+.title-text {
+  color: $violet;
+  font-size: fontSize(24px);
+  font-weight: 600;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+.bg-light-primary{
+  background-color: #EDF8F7;
+}
+.srv-validation-message{
+  font-size:12px;
+}
+input[type=checkbox] {
+    accent-color:#2A7A7B;
+}
+.text-green{
+  color: #2A7A7B;
+}
+.css-bfrw9z{
+  z-index:0;
+}
+.month_default_event *{
+  color:white!important;
+}

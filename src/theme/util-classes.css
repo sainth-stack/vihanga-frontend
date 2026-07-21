@@ -1,0 +1,15 @@
+.bg-green { background-color: var(--ts-primary) !important; }
+.text-green { color: var(--ts-primary) !important; }
+.border-green { border-color: var(--ts-primary) !important; }
+.border-golden { border-color: var(--ts-primary) !important; }
+.border-grey { border-color: var(--ts-grey) !important; }
+.text-grey { color: var(--ts-grey) !important; }
+.bg-grey { background-color: var(--ts-grey) !important; }
+.text-red { color: var(--ts-red) !important; }
+.bg-red { background-color: var(--ts-red) !important; }
+.text-black { color: var(--ts-black) !important; }
+.text-white { color: var(--ts-white) !important; }
+
+/* Ensure Bootstrap white/primary shades align with theme variables */
+.bg-white { background-color: var(--ts-white) !important; }
+

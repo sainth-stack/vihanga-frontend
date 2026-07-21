@@ -1,0 +1,94 @@
+.messageBox {
+  background: #F3F3F3;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: white;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 13px;
+  word-wrap: break-word;
+  padding: 8px 8px 0px 8px !important;
+}
+.date1{
+  color:green;
+  font-size: 10px !important;
+}
+.date2{
+  width:90%;
+  color:azure;
+  font-size: 10px !important;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3px;
+}
+
+.centerlines {
+  margin-left: 110px !important;
+}
+
+.msgbox1 {
+  border-radius: 4px;
+  color: black;
+  max-width: 80%;
+}
+
+.messageText2 {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: #353535;
+}
+
+.colorDark {
+  color: white;
+}
+
+.backgroundBlue {
+  background: #F3F3F3;
+}
+
+.backgroundLight {
+  background: #6C5B7B;
+}

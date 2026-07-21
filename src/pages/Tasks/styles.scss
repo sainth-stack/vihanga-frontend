@@ -1,0 +1,279 @@
+@import '../../assets/scss/abstracts/abstracts';
+
+  .react-bootstrap-table table{
+    table-layout: inherit;
+    background-color: white;
+  }
+.react-bootstrap-table td{
+  //word-break: break-all;
+  font-size:12px;
+}
+.react-bootstrap-table td, .react-bootstrap-table th {
+  // font-size: 10px;
+  padding: 10px;
+}
+.react-bootstrap-table th {
+  //word-break: break-all;
+  font-size:10px;
+  width: 110px;
+}
+.react-bootstrap-table thead{
+  background-color: rgba(42, 137, 129, 0.17);
+}
+
+.react-bootstrap-table-pagination-total{
+  margin-top:-28px!important;
+}
+
+.head {
+
+  background-color: #f0f5f5;
+
+}
+
+.form-control {
+  border-radius: 0.5cm;
+}
+
+.popup {
+  height: 100px !important;
+
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 23px;
+  color: #25363F;
+}
+
+.buttons {
+  float: right;
+  // padding-bottom: 500px;
+}
+
+.searchBox {
+  border-radius: 10px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.task-card {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.badg {
+  // font-family: 'Sarala';
+  border-radius: 43px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.date2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #A3A3B8;
+}
+
+.task-title {
+  font-size: 15.5px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: #3C4858;
+}
+
+.plus-icon {
+  position: relative;
+  right: 22px;
+}
+
+// .parentCard{
+//   background: #F6F8FC;
+//   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+//   border-radius: 5px;
+// }
+.line {
+  // background: #FA5453;
+  height: 3.5px;
+  position: relative;
+}
+
+.p-title {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 17px;
+  color: #000000;
+}
+
+.title {
+  font-size: 16px !important;
+}
+
+.border-seperate {
+  border: 0.5px solid lightgray;
+  height: 25px;
+  width: 1px;
+}
+
+.addTask {
+  color: #3C4858;
+  font-weight: 600;
+  font-size: 15.5px;
+  margin-top: 25px;
+}
+
+// .p-card{
+//   height: 700px;
+//   overflow: auto;
+// }
+.searchInput2 {
+  padding-left: 25px !important;
+  border: none !important;
+  padding: 10px;
+  border-radius: 100px !important;
+  width: 80%;
+}
+.dropt{
+  width: 400px;
+  z-index: 99!important;
+}
+
+.searchInput2-icon {
+  position: relative;
+  top: 7px;
+  left: 15px;
+  z-index: 999;
+  background-color: transparent !important;
+  //padding:10px;
+}
+
+.search-bar2 {
+  width: 120% !important;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid lightgray !important;
+}
+
+.bg-green {
+  background-color: #837F39 !important;
+}
+
+.create-btn {
+  width: 150px !important;
+  padding: 5px !important;
+}
+
+.fixed-task {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  left: 0;
+  padding: 10px;
+}
+
+.p11 {
+  position: absolute;
+  left: 50% !important;
+  top: 10% !important;
+}
+
+.p12 {
+  position: absolute;
+  top: 30% !important;
+  left: 36% !important;
+}
+
+.p13 {
+  position: absolute;
+  top: 30% !important;
+  left: 80% !important;
+}
+
+.p14 {
+  position: absolute;
+  top: 40% !important;
+  left: 80% !important;
+}
+
+.p15 {
+  position: absolute;
+  top: 45% !important;
+  left: 36% !important;
+}
+.p16 {
+  position: absolute;
+  top: 45% !important;
+  left: 76% !important;
+}
+.listicon2{
+  padding-top: 1px !important;
+}
+
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printonly * {
+    visibility: visible;
+  }
+
+  .printonly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.searchIconMobile2 {
+  margin-top: 3px !important;
+}
+
+.task-checkbox {
+  position: absolute;
+  display: none;
+  //top:10px;
+}
+
+.task-card:hover .task-checkbox {
+  display: block;
+}
+
+.profile-pic2 {
+  width: 40px;
+  height: 34px;
+  border-radius: 100px;
+}
+
+.gif {
+  position: fixed;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+  background-color: white;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // height: 100vh;
+  opacity: 0.8;
+}
+
+.lottie-img {
+  width: auto;
+  height: auto;
+  opacity: 1;
+}
+
+.dgif {
+  display: none;
+}

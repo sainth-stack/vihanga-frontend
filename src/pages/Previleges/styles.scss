@@ -1,0 +1,13 @@
+@import '../../assets/scss/abstracts/abstracts';
+
+.bg-green{
+    background-color: #837F39;
+    border:1px solid #837F39;
+}
+
+
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+  //word-break: break-all;
+  font-size: 12px;
+}

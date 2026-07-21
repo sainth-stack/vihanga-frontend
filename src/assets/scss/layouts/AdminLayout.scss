@@ -1,0 +1,27 @@
+@import "../abstracts/abstracts";
+
+#main-content {
+  .content-wrapper {
+    height: calc(100vh);
+    display: flex;
+    .scrollbar-container {
+      width: 100%;
+      height: calc(100vh - 64px);
+      margin-top: -30px;
+    }
+    .scrollbar-container::-webkit-scrollbar {
+      display: none !important;
+    }
+    .content {
+      padding: 2rem;
+      width: 100%;
+      overflow-y: scroll;
+      background-color: $white;
+      margin-top: 64px;
+      height: calc(100vh - 64px);
+    }
+    .content::-webkit-scrollbar {
+      display: none !important;
+    }
+  }
+}

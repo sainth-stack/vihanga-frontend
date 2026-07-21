@@ -1,0 +1,424 @@
+//@import '../../assets/scss/abstracts/abstracts';
+
+// Tutorial highlight styles
+.tutorial-highlight {
+    position: relative;
+    z-index: 9999 !important;
+   
+    border-radius: 4px !important;
+    animation: pulse-border 2s infinite;
+}
+
+
+
+
+// Fix broken cancel icon in react-user-onboarding
+:global {
+    // Hide broken cancel image
+    img[alt="cancel"],
+    img[alt="close"] {
+        display: none !important;
+    }
+    
+    // Style the cancel button container
+    [class*="cancel"] {
+        position: relative !important;
+        cursor: pointer !important;
+        min-width: 30px !important;
+        min-height: 30px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        &::after {
+            content: '✕' !important;
+            font-size: 24px !important;
+            color: #666 !important;
+            cursor: pointer !important;
+            font-weight: 300 !important;
+            line-height: 1 !important;
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+        
+        &:hover::after {
+            color: #333 !important;
+        }
+    }
+}
+
+
+
+.type{
+    font-family: Poppins;
+font-size: 8px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 30px;
+
+}
+.nav{
+    display: inline;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.activeLink{
+    color:teal;
+    border-bottom: 3px solid teal;
+  }
+.nav:hover {
+    border-bottom: 3px solid #2A8981;
+    border-radius: 1px;
+    color: #2A8981;
+}
+.employee{
+    margin-left: -13px!important;
+}
+.file{
+    margin-left: -13px!important;
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 3rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+// .file{
+//     margin-right: 30px!important;
+// }
+.buttons{
+    float: right;
+    position: relative;
+}
+.import{
+    margin-left:320px!important ;
+    margin-top: 20px!important;
+}
+.check{
+    margin-left:-70px!important ;
+    display: none;
+}
+.public{
+    margin-left:10px;
+}
+.private{
+    margin-left: -620px;
+}
+.pl{
+    padding-bottom: 40px;
+    padding-right: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 24px;
+}
+.pic{
+    position: relative;
+    width: 150px!important;
+    left: 0px;
+}
+.head{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+}
+.board{
+    margin-left: 780px;
+}
+.head2{
+    position: relative;
+    margin-left: 175px;
+    margin-top: -110px;
+}
+.for{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 24px;
+}
+.nandhi{
+    font-family: 'Poppins';
+    margin-left: 25px;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+}
+.min{
+    font-family: 'Poppins';
+    position:relative;
+    margin-left: 148px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.create{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 24px;
+margin-left: 175px;
+}
+.created{
+    margin-left: 258px;
+}
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 175px;
+    margin-top: -20px;
+}
+.date{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+margin-left: 185px;
+margin-top: -20px;
+
+}
+.redeem{
+    min-width: 8px;
+    height: 25px;
+    border-radius:  1px solid rgba(42, 137, 129, 0.28);
+    margin-left:5px;
+    margin-top: 10px;
+    font-size: 10px;
+    text-decoration-color: #2A8981;
+
+
+}
+.post{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.lastpost{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 193px;
+    margin-top: 20px;
+}
+.max{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 175px;
+}
+.time{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 232px;
+}
+.line{
+    margin-top: 100px!important;
+}
+
+.charts-card{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.custom-legend-reward{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.dot{
+    width:15px;
+    height:15px;
+    border-radius: 100px;
+    border:none;
+}
+
+.custom-legend-div{
+    padding-right: 30px;
+}
+
+.giveAway{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    // text-transform: uppercase;
+    color: #2A8981;
+    display: flex;
+    align-items: center;
+    height: 236px;
+    padding-left: 10px;
+}
+
+.progressBar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+    position: relative;
+    bottom: 30px;
+}
+
+.pie{
+    position: relative;
+    bottom: 30px;
+}
+
+.pieChart{
+    width: 236px;
+}
+
+.points-required{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.bronze{
+    position: relative;
+    left: 80px;
+    top: 72px;
+}
+
+.gold{
+    position: relative;
+    right: 63px;
+    top: 76px;
+}
+
+.dis-points{
+    position: relative;
+    left: 205px;
+    bottom: -40px;
+}
+
+.points-block{
+    background: #FFFFFF;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+//Tool card
+.card2{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .card2:hover{
+    background: #D1EDDE;
+  }
+  
+  .rewardlogo{
+    width: 150px;
+    height:150px;
+    margin-top:27px;
+  }
+  .rewardtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+  }
+  .rewardcode{
+    padding-top:20px;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2B8981;
+  text-align: center;
+  }
+  .rewardDiscount{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  .rewarddelivery{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.4;
+    padding-bottom: 25px;
+  }
+  .parentReward{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .tippy-box::after{
+    content:"";
+  width:15px;
+  height:15px;
+  top: 7.5em;
+  left:-7px;
+  position: absolute;
+  border-top:5px solid transparent;
+  border-bottom:5px solid white;
+  border-right:5px solid white;
+  border-left:5px solid transparent;
+  transform: rotate(45deg);
+  background-color: white;
+  }

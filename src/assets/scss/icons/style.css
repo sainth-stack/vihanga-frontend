@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?a77w7v');
+  src:  url('fonts/icomoon.eot?a77w7v#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?a77w7v') format('truetype'),
+    url('fonts/icomoon.woff?a77w7v') format('woff'),
+    url('fonts/icomoon.svg?a77w7v#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Delete:before {
+  content: "\e914";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-page-right:before {
+  content: "\e912";
+}
+.icon-page-left:before {
+  content: "\e913";
+}
+.icon-plus:before {
+  content: "\e910";
+  color: #797575;
+}
+.icon-close:before {
+  content: "\e911";
+  color: #4d4d4d;
+}
+.icon-tick-transparent:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-down:before {
+  content: "\e90d";
+  color: #948a8a;
+}
+.icon-edit:before {
+  content: "\e90a";
+}
+.icon-eye:before {
+  content: "\e90b";
+}
+.icon-question-menu:before {
+  content: "\e90f";
+  color: #189c5c;
+}
+.icon-arrow-left:before {
+  content: "\e90c";
+}
+.icon-bell:before {
+  content: "\e908";
+}
+.icon-search:before {
+  content: "\e909";
+}
+.icon-thumbs-up:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-message:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-mail:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-layout:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-user-check:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-users:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-book-open:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-menu:before {
+  content: "\e907";
+  color: #fff;
+}

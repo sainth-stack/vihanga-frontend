@@ -1,0 +1,63 @@
+.audit-modal {
+ position: fixed;
+ z-index: 900;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    max-width: 80%;
+}
+
+.audit-content {
+  text-align: center;
+}
+
+.audit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.audit-table th, .audit-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.audit-table th {
+  background: #f4f4f4;
+}
+
+.close-btn {
+  background: #ff4d4d; /* Softer red */
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.close-btn:hover {
+  background: #cc0000; /* Darker red on hover */
+  transform: scale(1.1);
+}
+
+.close-btn:active {
+  transform: scale(0.95);
+}
+
+
+.audit_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

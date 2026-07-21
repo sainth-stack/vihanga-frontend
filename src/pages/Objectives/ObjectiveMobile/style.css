@@ -1,0 +1,32 @@
+.green-line{
+  border:1px solid #2A89814F;
+}
+.br-left-green{
+  border-left:4px solid #3FC429;
+  border-radius: 3px 0px 0px 3px;
+}
+.objectives .col-4,.objectives .col-8,.text-12{
+  font-size:12px!important;
+}
+.progress1{
+  width:100%!important;
+}
+.mtminus-10{
+  margin-top: -15px;
+}
+.bg-pagination{
+  background-color: #2A8981;
+  color:white;
+  border-radius: 0 0 10px 10px;
+  padding:5px;
+  margin-top: 10px;
+}
+.bg-teal{
+  background-color: #2A8981;
+}
+.rounded-15{
+  border-radius: 15px;
+}
+.text-gray{
+  color:rgba(0, 0, 0, 0.3);
+}

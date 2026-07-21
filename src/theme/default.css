@@ -1,0 +1,10 @@
+:root {
+  --ts-primary: #BEA781;
+  --ts-black: #000000;
+  --ts-grey: #7B7B7B;
+  --ts-white: #FFFFFF;
+  --ts-red: #E8502F;
+  --ts-green: #9DAA45;
+  /* App background surface (light) */
+  --ts-app-bg: #FBFDFC;
+}

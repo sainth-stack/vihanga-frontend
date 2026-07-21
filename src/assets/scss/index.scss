@@ -1,0 +1,155 @@
+@import "./default/default.scss";
+@import "./default/utility.scss";
+@import "./vendors/vendors-dir.scss";
+@import "./auth/login.scss";
+@import "./icons/style.css";
+@import "./common.scss";
+@import "./layouts/mobile.scss";
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-regular;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-heavy;
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+.srv-validation-message {
+  color: black;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.chatbotIcon {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #2A7A7B;
+  cursor: pointer;
+}
+
+.chatbotCloseContainer {
+  position: relative
+}
+
+.chatbotClose {
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  z-index: 999;
+  border-radius: 100px;
+  //width:40px;
+  //height:40px;
+  border: 0;
+  background-color: tomato;
+  color: white;
+}
+
+.react-chatbot-kit-chat-container {
+  width: 400px !important;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 0px !important;
+}
+
+.chatbotApp {
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  display: none;
+  animation: chatbotAppAnim 0.5s 1;
+  z-index: 9;
+}
+
+@keyframes chatbotAppAnim {
+  from {
+    height: 0px;
+  }
+
+  to {
+    height: 600px;
+  }
+}
+
+.rotateIcon {
+  animation: rotateIconAnim 0.2s 1;
+}
+
+@keyframes rotateIconAnim {
+  from {
+    transform: rotate(360deg);
+    background-color: black;
+  }
+
+  to {
+    transform: rotate(0deg)
+  }
+}
+
+.appLogo2 {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 100px;
+  margin: 5px;
+}
+
+@media screen and (max-width:480px) {
+  .react-chatbot-kit-chat-container {
+    width: 340px !important;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.badge-primary,
+dropdown-item:active,
+.dropdown-item:focus,
+.btn-default:focus {
+  background-color: #2A7A7B !important;
+  color: white;
+}
+
+.link-text:hover,
+.sidebar-list-item:hover {
+  color: #2A7A7B !important;
+}
+
+.dropdown-menu.show {
+  z-index: 1;
+}
+
+//@media screen and (min-width:820px) {
+//  .chatbotApp {
+//    bottom: 0px;
+//    right: 10px;
+//  }
+//}

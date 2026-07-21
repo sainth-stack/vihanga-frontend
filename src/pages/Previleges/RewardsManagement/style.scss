@@ -1,0 +1,176 @@
+@import '../../../assets/scss/abstracts/abstracts';
+
+.count-style {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: #3FC429;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.count-number {
+  text-align: center;
+  line-height: 70px;
+  color: white;
+}
+
+.bg-gray {
+  background-color: #F1F6F6;
+}
+
+.text-teal {
+  color: #2A8981;
+}
+
+.h43 {
+  height: 43px;
+}
+
+.react-bootstrap-table table {
+  table-layout: inherit;
+}
+
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+  //word-break: break-all;
+  font-size: 12px;
+}
+
+.react-bootstrap-table thead {
+  // background-color: rgba(42, 137, 129, 0.17);
+}
+
+.circle {
+  border-radius: 100px;
+}
+
+// .flex-container{
+//   display: flex;
+//   justify-items: baseline;
+// }
+.company-form {
+  background-color: #FCFCFC;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  padding: 56px 52px;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.rewardlogo {
+  width: 150px;
+  height: 150px;
+  margin-top: 27px;
+}
+
+.rewardtitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 650;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+}
+
+.rewardcode {
+  padding-top: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2B8981;
+  text-align: center;
+}
+
+.rewarddiscount {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.rewarddelivery {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.4;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+.anchorlink {
+  color: #007bff,
+}
+
+.anchorlink:hover {
+  color: #3783f5,
+}
+
+.card1 {
+  position: relative;
+  width: 200px;
+  //height: 320px;
+  background: #378E86;
+  border-radius: 10px;
+}
+
+.plus {
+  padding-top: 100px;
+}
+
+.newreward {
+  position: relative;
+  top: -5px;
+  left: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+
+  color: #FCFCFC;
+}
+
+//.hover:hover {
+//  background-color: #121413;
+//}
+
+.tippy-box::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  top: 7.5em;
+  left: -7px;
+  position: absolute;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid transparent;
+  transform: rotate(45deg);
+  background-color: white;
+}

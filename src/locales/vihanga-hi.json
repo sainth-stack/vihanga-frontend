@@ -1,0 +1,1901 @@
+{
+  "AdminPage": {
+    "PageTitle": "टैलेंटस्पॉटिफाई प्रशासक",
+    "PageSubtitle": "अपने सभी प्रशासक उपकरण और सुविधाओं को एक ही स्थान से एक्सेस करें",
+    "SearchPlaceholder": "प्रशासक सुविधाओं की खोज करें...",
+    "RolesAndPrivileges": {
+      "Title": "भूमिकाएँ और विशेषाधिकार",
+      "Description": "कार्यक्षेत्र में उपयोगकर्ता भूमिकाओं, अनुमतियों और पहुंच को प्रबंधित करें"
+    },
+    "RecruitmentManagement": {
+      "Title": "भर्ती प्रबंधन",
+      "Description": "नौकरी के अवसर, भर्ती चरण और उम्मीदवार की प्रगति को ट्रैक करें"
+    },
+    "UploadLeaves": {
+      "Title": "छुट्टियाँ अपलोड करें",
+      "Description": "कर्मचारी छुट्टी रिकॉर्ड और आवेदन अपलोड और प्रबंधित करें"
+    },
+    "AttendanceUpload": {
+      "Title": "उपस्थिति अपलोड",
+      "Description": "कर्मचारी उपस्थिति रिकॉर्ड और टाइमशीट अपलोड और समीक्षा करें"
+    },
+    "ApprovalWorkflow": {
+      "Title": "अनुमोदन वर्कफ़्लो",
+      "Description": "बहु-चरण अनुमोदन और संबंधित सूचनाओं को कॉन्फ़िगर और मॉनिटर करें"
+    },
+    "AssetManagement": {
+      "Title": "संपत्ति प्रबंधन",
+      "Description": "कंपनी की संपत्ति, असाइनमेंट और उपकरण जीवनचक्र का प्रबंधन करें"
+    },
+    "LeaveType": {
+      "Title": "छुट्टी का प्रकार",
+      "Description": "छुट्टी श्रेणियों को परिभाषित करें और अनुमोदन और सूचना नियम सेट करें"
+    },
+    "HolidaysCalendar": {
+      "Title": "छुट्टियों का कैलेंडर",
+      "Description": "कंपनी की छुट्टियों, आयोजनों और कैलेंडर शेड्यूल का प्रबंधन करें"
+    },
+    "EligibilityCriteria": {
+      "Title": "पात्रता मानदंड",
+      "Description": "विभिन्न प्रक्रियाओं के लिए पात्रता आवश्यकताओं को परिभाषित और प्रबंधित करें"
+    },
+    "PrivilegeGroups": {
+      "Title": "विशेषाधिकार समूह",
+      "Description": "भूमिका-आधारित पहुंच नियंत्रण के लिए विशेषाधिकार समूह बनाएँ और प्रबंधित करें"
+    },
+    "OKRManagement": {
+      "Title": "OKR प्रबंधन",
+      "Description": "प्रदर्शन ट्रैकिंग के लिए उद्देश्य और प्रमुख परिणाम सेट अप और प्रबंधित करें"
+    },
+    "Lookups": {
+      "Title": "लुकअप",
+      "Description": "सिस्टम में संदर्भ डेटा और लुकअप मान प्रबंधित करें"
+    },
+    "RewardManagement": {
+      "Title": "पुरस्कार प्रबंधन",
+      "Description": "कर्मचारी पुरस्कार, मान्यता और प्रोत्साहन कार्यक्रमों को कॉन्फ़िगर और प्रबंधित करें"
+    },
+    "CatalogManagement": {
+      "Title": "कैटलॉग प्रबंधन",
+      "Description": "उत्पाद कैटलॉग, श्रेणियाँ और इन्वेंटरी आइटम प्रबंधित करें"
+    },
+    "NotificationManagement": {
+      "Title": "सूचना प्रबंधन",
+      "Description": "सूचना सेटिंग्स, टेम्पलेट और वितरण प्राथमिकताएँ कॉन्फ़िगर करें"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "उन्नत प्रदर्शन प्रबंधन",
+      "Description": "उन्नत प्रदर्शन समीक्षा चक्र, रेटिंग और मूल्यांकन मानदंड कॉन्फ़िगर करें"
+    },
+    "IntegrationManagement": {
+      "Title": "एकीकरण प्रबंधन",
+      "Description": "तृतीय-पक्ष एकीकरण, API और बाहरी सिस्टम कनेक्शन प्रबंधित करें"
+    },
+    "QuestionnaireManagement": {
+      "Title": "प्रश्नावली प्रबंधन",
+      "Description": "सर्वेक्षण, प्रश्नावली और फीडबैक फॉर्म बनाएँ और प्रबंधित करें"
+    },
+    "CompetencyManagement": {
+      "Title": "दक्षता प्रबंधन",
+      "Description": "कर्मचारी दक्षताओं, कौशल और विकास ढांचे को परिभाषित और प्रबंधित करें"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "प्रदर्शन प्रबंधन टेम्पलेट",
+      "Description": "प्रदर्शन समीक्षा टेम्पलेट और मूल्यांकन फॉर्म बनाएँ और अनुकूलित करें"
+    },
+    "LaunchFormsManagement": {
+      "Title": "लॉन्च फॉर्म प्रबंधन",
+      "Description": "प्रदर्शन समीक्षा लॉन्च फॉर्म और वर्कफ़्लो कॉन्फ़िगर और प्रबंधित करें"
+    },
+    "CalibrationManagement": {
+      "Title": "कैलिब्रेशन प्रबंधन",
+      "Description": "प्रदर्शन कैलिब्रेशन सत्रों और रेटिंग स्थिरता का प्रबंधन करें"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "उन्नत लॉन्च फॉर्म प्रबंधन",
+      "Description": "प्रदर्शन समीक्षा लॉन्च फॉर्म और ऑटोमेशन के लिए उन्नत कॉन्फ़िगरेशन"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "प्रशासक पोर्टल - विशेषाधिकार",
+    "MainHeading": "भूमिकाएँ और विशेषाधिकार",
+    "RoleName": "भूमिका नाम",
+    "Description": "विवरण",
+    "GrantRoleTo": "यह भूमिका प्रदान करें...",
+    "GrantRoleDescription": "वह समूह चुनें जिसे आप यह भूमिका देना चाहते हैं। आप किसी निश्चित समूह के लिए कर्मचारी रिकॉर्ड प्रबंधित करने के लिए उपयोगकर्ताओं का एक समूह असाइन कर सकते हैं। एक प्रबंधक को अपने कार्य के भीतर रिकॉर्ड संपादित करना चाहिए।",
+    "PermissionGroupsOrUsers": "अनुमति समूह या उपयोगकर्ता",
+    "SelectPlaceholder": "--चुनें--",
+    "SearchPlaceholder": "यहाँ खोजें..",
+    "AddButton": "जोड़ें",
+    "CancelButton": "रद्द करें",
+    "MakeActiveButton": "सक्रिय करें",
+    "MakeInactiveButton": "निष्क्रिय करें",
+    "UpdateButton": "अपडेट करें",
+    "SaveButton": "सहेजें",
+    "TableHeaders": {
+      "SerialNumber": "क्र.सं",
+      "RoleName": "भूमिका नाम",
+      "PermissionGroup": "अनुमति समूह या उपयोगकर्ता",
+      "Active": "सक्रिय",
+      "Actions": "कार्रवाई"
+    },
+    "Tabs": {
+      "Employees": "कर्मचारी",
+      "Goals": "लक्ष्य",
+      "Privileges": "विशेषाधिकार",
+      "Performance": "प्रदर्शन",
+      "Rewards": "पुरस्कार",
+      "View": "देखें",
+      "Edit": "संपादित करें",
+      "Delete": "हटाएं"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "छुट्टी रिकॉर्ड अपलोड करें",
+    "PageDescription": "कृपया अपने छुट्टी रिकॉर्ड प्रदान किए गए प्रारूप में अपलोड करें। आप नीचे एक टेम्पलेट डाउनलोड कर सकते हैं।",
+    "DownloadTemplate": "टेम्पलेट डाउनलोड करें",
+    "ExportLeaveRecords": "छुट्टी रिकॉर्ड निर्यात करें",
+    "ExportLeaveBalances": "छुट्टी शेष निर्यात करें",
+    "UploadFileLabel": "छुट्टी रिकॉर्ड फ़ाइल अपलोड करें",
+    "NoFileUploaded": "कोई फ़ाइल अपलोड नहीं की गई",
+    "UploadedFile": "अपलोड की गई फ़ाइल:",
+    "Submit": "जमा करें",
+    "DateRangeDialog": {
+      "Title": "छुट्टी रिकॉर्ड निर्यात के लिए तिथि सीमा चुनें",
+      "StartDate": "प्रारंभ तिथि",
+      "EndDate": "समाप्ति तिथि",
+      "Cancel": "रद्द करें",
+      "ExportRecords": "रिकॉर्ड निर्यात करें"
+    },
+    "Instructions": {
+      "Title": "निर्देश:",
+      "Step1": "आवश्यक प्रारूप देखने के लिए टेम्पलेट डाउनलोड करें",
+      "Step2": "प्रत्येक छुट्टी प्रकार के लिए EmpId (कर्मचारी संख्या) और छुट्टी के दिन भरें",
+      "Step3": "पूर्ण की गई फ़ाइल अपलोड करें",
+      "Step4": "सिस्टम कर्मचारी ID को मान्य करेगा और छुट्टी शेष को कम करेगा"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "उपस्थिति अपलोड",
+    "PageDescription": "कृपया अपनी उपस्थिति शीट प्रदान किए गए प्रारूप में अपलोड करें। आप नीचे एक टेम्पलेट डाउनलोड कर सकते हैं।",
+    "DownloadTemplate": "टेम्पलेट डाउनलोड करें",
+    "UploadFileLabel": "उपस्थिति फ़ाइल अपलोड करें",
+    "NoFileUploaded": "कोई फ़ाइल अपलोड नहीं की गई",
+    "UploadedFile": "अपलोड की गई फ़ाइल:",
+    "Submit": "जमा करें"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "छुट्टी प्रकार इतिहास",
+    "TableHeaders": {
+      "Name": "नाम",
+      "Code": "कोड",
+      "Actions": "कार्रवाई"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "CSV के रूप में निर्यात करें",
+      "ExportAsExcel": "Excel के रूप में निर्यात करें",
+      "ExportAsPDF": "PDF के रूप में निर्यात करें"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "छुट्टी का प्रकार",
+    "AdvancedConfiguration": "उन्नत कॉन्फ़िगरेशन",
+    "MaxAdvanceDaysConfiguration": "अधिकतम अग्रिम दिन कॉन्फ़िगरेशन",
+    "MaxAdvanceDaysDescription": "कर्मचारियों को कितने दिन पहले छुट्टी के लिए आवेदन करने की आवश्यकता है, यह उनके द्वारा अनुरोधित दिनों की संख्या के आधार पर कॉन्फ़िगर करें।",
+    "AttachmentsRequiredConfiguration": "संलग्नक आवश्यक कॉन्फ़िगरेशन",
+    "FormFields": {
+      "Name": "नाम",
+      "ImageIcon": "चित्र / आइकन",
+      "Code": "कोड",
+      "BalanceBasedOn": "शेष आधारित (निश्चित पात्रता / छुट्टी अनुदान)",
+      "Units": "इकाइयाँ (दिन / घंटे)",
+      "Status": "स्थिति",
+      "Eligibility": "पात्रता",
+      "CustomName": "कस्टम नाम"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "एक बार में ली जा सकने वाली अधिकतम छुट्टियों की संख्या",
+      "MaxHalfDays": "प्रति वर्ष अधिकतम आधे दिन की छुट्टियाँ",
+      "MaxHalfDaysHelper": "आधे दिन की छुट्टियों पर कोई सीमा न हो तो खाली छोड़ें",
+      "AutoAddLeaves": "स्वचालित रूप से छुट्टियाँ जोड़ें",
+      "AddType": "प्रकार जोड़ें",
+      "NumberOfDaysToAdd": "जोड़ने के लिए दिनों की संख्या"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "न्यूनतम दिन",
+      "MaxDays": "अधिकतम दिन (कोई सीमा न हो तो खाली छोड़ें)",
+      "MaxAdvanceDays": "अधिकतम अग्रिम दिन",
+      "RemoveRule": "नियम हटाएँ",
+      "AddRule": "नियम जोड़ें"
+    },
+    "AttachmentFields": {
+      "Operator": "ऑपरेटर",
+      "ValueDays": "मान (दिन)"
+    },
+    "Checkboxes": {
+      "Carryover": "अग्रेषित",
+      "AttachmentsRequired": "संलग्नक आवश्यक"
+    },
+    "Buttons": {
+      "Cancel": "रद्द करें",
+      "Update": "अपडेट करें",
+      "Submit": "जमा करें",
+      "Submitting": "जमा किया जा रहा है..."
+    },
+    "Options": {
+      "Hours": "घंटे",
+      "Days": "दिन",
+      "Active": "सक्रिय",
+      "InActive": "निष्क्रिय",
+      "Hourly": "प्रति घंटा",
+      "Monthly": "मासिक",
+      "Yearly": "वार्षिक",
+      "Is": "है",
+      "LesserOrEqual": "से कम या बराबर (≤)",
+      "GreaterOrEqual": "से अधिक या बराबर (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "अर्जित छुट्टी (EL)",
+      "SickLeave": "बीमारी की छुट्टी (SL)",
+      "CasualLeave": "आकस्मिक छुट्टी (CL)",
+      "MaternityLeave": "मातृत्व अवकाश (ML)",
+      "PaternityLeave": "पितृत्व अवकाश (PL)",
+      "CompensatoryOff": "प्रतिपूरक अवकाश",
+      "BereavementLeave": "शोक अवकाश",
+      "MarriageLeave": "विवाह अवकाश",
+      "UnpaidLeave": "अवैतनिक अवकाश (LWP)",
+      "WorkFromHome": "घर से कार्य (WFH)",
+      "Others": "अन्य"
+    },
+    "FileStatus": {
+      "Selected": "✓ चयनित:",
+      "Current": "वर्तमान:",
+      "NoFileSelected": "कोई फ़ाइल नहीं चुनी गई",
+      "LoadingEligibility": "पात्रता विकल्प लोड हो रहे हैं..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "अग्रेषण नियम",
+    "CarryoverDateQuestion": "अग्रेषण तिथि क्या होनी चाहिए?",
+    "CarryoverDateLabel": "अग्रेषण तिथि",
+    "MaxDaysQuestion": "कितने दिन आगे ले जाने चाहिए (अधिकतम)?",
+    "MaxDaysLabel": "अधिकतम दिन दर्ज करें"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "संपत्ति प्रबंधन प्रणाली",
+    "AssetAssignment": "संपत्ति असाइनमेंट",
+    "AddAsset": "संपत्ति जोड़ें",
+    "AssetType": "संपत्ति प्रकार *",
+    "AssetNumber": "संपत्ति संख्या *",
+    "IssueDate": "जारी करने की तिथि",
+    "CollectionDate": "संग्रह तिथि",
+    "HandOverDate": "सौंपने की तिथि",
+    "SelectType": "प्रकार चुनें",
+    "RemoveAsset": "संपत्ति हटाएँ",
+    "Cancel": "रद्द करें",
+    "UpdateAsset": "संपत्ति अपडेट करें",
+    "CreateAsset": "संपत्ति बनाएँ",
+    "Updating": "अपडेट हो रहा है...",
+    "Submitting": "जमा किया जा रहा है..."
+  },
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "कर्मचारी जानकारी",
+    "FullName": "पूरा नाम *",
+    "EmployeeID": "कर्मचारी ID *",
+    "Department": "कार्य",
+    "Position": "पद",
+    "WorkLocation": "कार्य स्थान",
+    "SelectEmployee": "कर्मचारी चुनें"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "संपत्ति प्रबंधन इतिहास",
+    "TableHeaders": {
+      "Name": "नाम",
+      "EmployeeID": "कर्मचारी ID",
+      "Department": "कार्य",
+      "AssetType": "संपत्ति प्रकार",
+      "AssetNo": "संपत्ति संख्या",
+      "IssueDate": "जारी करने की तिथि",
+      "HandOverDate": "सौंपने की तिथि",
+      "Action": "कार्रवाई"
+    },
+    "Actions": {
+      "Edit": "संपादित करें",
+      "Delete": "हटाएं"
+    },
+    "NoDataFound": "कोई डेटा नहीं मिला",
+    "Error": "त्रुटि"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "छुट्टियों का कैलेंडर",
+    "FormFields": {
+      "HolidayName": "छुट्टी का नाम",
+      "Date": "तिथि",
+      "Type": "प्रकार",
+      "Description": "विवरण"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "सार्वजनिक अवकाश",
+      "CompanyHoliday": "कंपनी अवकाश",
+      "ReligiousHoliday": "धार्मिक अवकाश"
+    },
+    "Buttons": {
+      "Cancel": "रद्द करें",
+      "Update": "अपडेट करें",
+      "Submit": "जमा करें",
+      "Submitting": "जमा किया जा रहा है..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "छुट्टियों का इतिहास",
+    "TableHeaders": {
+      "HolidayName": "छुट्टी का नाम",
+      "Type": "प्रकार",
+      "Date": "तिथि",
+      "Actions": "कार्रवाई"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "लोड हो रहा है...",
+    "FailedToLoad": "डैशबोर्ड डेटा लोड करने में विफल",
+    "NoDataAvailable": "कोई डैशबोर्ड डेटा उपलब्ध नहीं",
+    "NoDataMessage": "डैशबोर्ड जानकारी इस समय उपलब्ध नहीं है।",
+    "KpiCards": {
+      "MyActiveTasks": "मेरे सक्रिय कार्य",
+      "TeamAttendance": "टीम उपस्थिति",
+      "PunctualityScore": "समयनिष्ठता स्कोर",
+      "MyAchievements": "मेरी उपलब्धियाँ",
+      "RewardPoints": "पुरस्कार अंक"
+    },
+    "SubHeadings": {
+      "Urgent": "तत्काल",
+      "PresentToday": "आज उपस्थित",
+      "Last30Days": "पिछले 30 दिन",
+      "ThisMonth": "इस महीने",
+      "Available": "उपलब्ध"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "कार्रवाई आवश्यक",
+      "ReviewNow": "अभी समीक्षा करें",
+      "ViewDetails": "विवरण देखें"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "KPI कार्य",
+    "AdHocTasks": "तदर्थ कार्य",
+    "Urgent": "तत्काल"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "हाल के कार्य लोड हो रहे हैं...",
+    "FailedToLoadRecentTasks": "हाल के कार्य लोड करने में विफल",
+    "NoRecentTasksAvailable": "कोई हाल के कार्य उपलब्ध नहीं",
+    "NoRecentTasksMessage": "हाल के कार्यों की जानकारी इस समय उपलब्ध नहीं है।",
+    "RecentTasks": "हाल के कार्य",
+    "ViewAll": "सभी देखें",
+    "NoRecentTasksFound": "कोई हाल का कार्य नहीं मिला",
+    "AllRecentTasks": "सभी हाल के कार्य",
+    "KpiTask": "KPI कार्य",
+    "NoDueDate": "कोई नियत तारीख नहीं",
+    "UntitledTask": "शीर्षकहीन कार्य"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "लीडरबोर्ड लोड हो रहा है...",
+    "FailedToLoadLeaderboard": "लीडरबोर्ड लोड करने में विफल",
+    "NoLeaderboardDataAvailable": "कोई लीडरबोर्ड डेटा उपलब्ध नहीं",
+    "NoLeaderboardDataMessage": "पुरस्कार अंक लीडरबोर्ड जानकारी इस समय उपलब्ध नहीं है।",
+    "RewardPointsLeaderboard": "पुरस्कार अंक - लीडरबोर्ड",
+    "Company": "कंपनी",
+    "Top5Employees": "शीर्ष 5 कर्मचारी",
+    "ViewAll": "सभी देखें",
+    "NoEmployeesFound": "कोई कर्मचारी नहीं मिला",
+    "Unknown": "अज्ञात",
+    "EmployeeId": "ID: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "कार्य डैशबोर्ड",
+    "FilterOptions": {
+      "ThisWeek": "इस सप्ताह",
+      "ThisMonth": "इस महीने",
+      "ThisYear": "इस वर्ष",
+      "All": "सभी"
+    },
+    "Buttons": {
+      "View": "देखें",
+      "AddTask": "कार्य जोड़ें"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "OKR प्रगति",
+    "AddOKR": "OKR जोड़ें",
+    "NoOKRData": "कोई OKR डेटा नहीं",
+    "StatusLabels": {
+      "OnTrack": "पथ पर",
+      "OffTrack": "पथ से बाहर",
+      "AtRisk": "जोखिम में"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "नमस्ते {{name}}! आपके उद्देश्य नियत तारीख तक पूरे होने की राह से भटक गए हैं!",
+    "GreetingOnTrack": "नमस्ते {{name}}! आपके उद्देश्य पथ पर हैं!",
+    "GreetingAtRisk": "नमस्ते {{name}}! आपके कुछ उद्देश्य जोखिम में हैं!",
+    "Loading": "लोड हो रहा है...",
+    "NoDataAvailable": "कोई डेटा उपलब्ध नहीं"
+  },
+  "ObjectivesTable": {
+    "Actions": {
+      "Edit": "संपादित करें",
+      "Delete": "हटाएं",
+      "Approve": "स्वीकृत करें",
+      "Reject": "अस्वीकृत करें"
+    },
+    "Columns": {
+      "Objectives": "उद्देश्य",
+      "Progress": "प्रगति",
+      "Weight": "वजन",
+      "Owner": "स्वामी",
+      "DueDate": "नियत तारीख",
+      "ApproveReject": "स्वीकृत/अस्वीकृत करें",
+      "Actions": "कार्रवाई",
+      "AddKRTask": "KR जोड़ें / कार्य जोड़ें"
+    },
+    "Status": {
+      "OnTrack": "पथ पर",
+      "AtRisk": "जोखिम में",
+      "OffTrack": "पथ से बाहर",
+      "NotStarted": "शुरू नहीं हुआ",
+      "InProgress": "प्रगति में",
+      "Submit": "जमा करें",
+      "Draft": "मसौदा",
+      "PendingApproval": "लंबित",
+      "ApprovalRequired": "अनुमोदन आवश्यक",
+      "Approved": "स्वीकृत",
+      "Rejected": "अस्वीकृत"
+    },
+    "Tooltips": {
+      "AddKeyResult": "प्रमुख परिणाम जोड़ें",
+      "AddTask": "कार्य जोड़ें",
+      "Add": "जोड़ें"
+    },
+    "TableHeader": {
+      "DisplayOptions": "प्रदर्शन विकल्प",
+      "CompanyOKRs": "कंपनी OKRs",
+      "Cascade": "कैस्केड",
+      "Delete": "हटाएं",
+      "Status": "स्थिति",
+      "SearchPlaceholder": "यहाँ खोजें..",
+      "Export": "निर्यात करें",
+      "CreateOKR": "OKR बनाएँ",
+      "Library": "लाइब्रेरी",
+      "NonLibrary": "गैर-लाइब्रेरी",
+      "StatusOptions": {
+        "OnTrack": "पथ पर",
+        "AtRisk": "जोखिम में",
+        "OffTrack": "पथ से बाहर"
+      },
+      "ExportOptions": {
+        "ExportCSV": "CSV के रूप में निर्यात करें",
+        "ExportExcel": "Excel के रूप में निर्यात करें",
+        "ExportPDF": "PDF के रूप में निर्यात करें"
+      },
+      "ExportLabels": {
+        "Type": "प्रकार",
+        "Title": "शीर्षक",
+        "Description": "विवरण",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "प्रगति",
+        "Status": "स्थिति",
+        "Owner": "स्वामी",
+        "Weight": "वजन",
+        "StartDate": "प्रारंभ तिथि",
+        "DueDate": "नियत तारीख",
+        "Alignment": "Alignment",
+        "CreatedAt": "Created At",
+        "Objective": "उद्देश्य",
+        "KeyResult": "प्रमुख परिणाम",
+        "Task": "कार्य",
+        "CompanyOKR": "कंपनी OKR",
+        "IndividualOKR": "व्यक्तिगत OKR",
+        "ExportedOn": "निर्यात की तिथि:",
+        "OKRsExportReport": "OKRs निर्यात रिपोर्ट",
+        "NoDataToExport": "निर्यात करने के लिए कोई डेटा नहीं"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "OKR वर्ष",
+    "SelectYear": "वर्ष चुनें",
+    "Employee": "कर्मचारी",
+    "SelectEmployee": "कर्मचारी चुनें"
+  },
+  "Tasks": {
+    "Task": "कार्य",
+    "Tasks": "कार्य",
+    "Objective": "उद्देश्य",
+    "KR": "KR",
+    "Due Date": "नियत तारीख",
+    "Status": "स्थिति",
+    "Owner": "स्वामी",
+    "Priority": "प्राथमिकता",
+    "Progress": "प्रगति",
+    "Comments": "टिप्पणियाँ",
+    "SubTask": "उप कार्य",
+    "Approval": "अनुमोदन",
+    "Action": "कार्रवाई",
+    "Approve": "स्वीकृत करें",
+    "PendingApproval": "लंबित",
+    "Reject": "अस्वीकृत करें",
+    "Approved": "स्वीकृत",
+    "Rejected": "अस्वीकृत",
+    "ApprovalRequired": "अनुमोदन आवश्यक",
+    "Edit": "संपादित करें",
+    "Delete": "हटाएं",
+    "Audit History": "लेखापरीक्षा इतिहास",
+    "HighLevel": "उच्च स्तर",
+    "MediumLevel": "मध्यम स्तर",
+    "LowLevel": "निम्न स्तर",
+    "Not Started": "शुरू नहीं हुआ",
+    "In Progress": "प्रगति में",
+    "OnHold": "On Hold",
+    "Completed": "पूर्ण",
+    "Recurrence": "पुनरावृत्ति",
+    "Main Task": "मुख्य कार्य",
+    "Comment": "टिप्पणी",
+    "commentHere": "यहाँ टिप्पणी करें...",
+    "AddComment": "टिप्पणी जोड़ें",
+    "Submit": "जमा करें",
+    "Upload Files": "फ़ाइलें अपलोड करें",
+    "Uploading": "अपलोड हो रहा है...",
+    "File uploaded": "फ़ाइल अपलोड हो गई",
+    "Processing": "प्रक्रिया हो रही है...",
+    "UpdateTask": "कार्य अपडेट करें",
+    "SaveAddAnother": "सहेजें और एक और जोड़ें",
+    "Finish": "समाप्त",
+    "AddTask": "कार्य जोड़ें",
+    "EditTask": "कार्य संपादित करें",
+    "Assign To": "असाइन करें",
+    "Loading task data...": "कार्य डेटा लोड हो रहा है..."
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "उद्देश्य बनाएँ",
+    "EditObjective": "उद्देश्य संपादित करें",
+    "ObjectiveSavedSuccess": "✓ उद्देश्य सफलतापूर्वक सहेजा गया! अब आप प्रमुख परिणाम जोड़ सकते हैं।",
+    "EarnedRewardPoints": "आपने {{points}} पुरस्कार अंक अर्जित किए हैं",
+    "FormLabels": {
+      "Objective": "उद्देश्य*",
+      "Weight": "वजन*",
+      "Owner": "स्वामी",
+      "DueDate": "नियत तारीख",
+      "Dimension": "आयाम*",
+      "Comment": "टिप्पणी",
+      "UploadFile": "फ़ाइल अपलोड करें",
+      "Progress": "प्रगति"
+    },
+    "Placeholders": {
+      "EnterComment": "अपनी टिप्पणी यहाँ दर्ज करें...",
+      "DateFormat": "दद/मम/वववव"
+    },
+    "Buttons": {
+      "Saving": "सहेजा जा रहा है...",
+      "UpdateObjective": "उद्देश्य अपडेट करें",
+      "SaveDetails": "विवरण सहेजें",
+      "AddKeyResults": "प्रमुख परिणाम जोड़ें",
+      "SaveAndAddKR": "सहेजें और KR जोड़ें"
+    },
+    "FileUpload": {
+      "Uploading": "(अपलोड हो रहा है...)",
+      "FileUploaded": "✓ फ़ाइल अपलोड हो गई"
+    },
+    "Stepper": {
+      "Objective": "उद्देश्य",
+      "KR": "KR",
+      "Task": "कार्य"
+    },
+    "Progress": {
+      "SelectProgressStatus": "अपनी प्रगति स्थिति चुनें (प्रतिशत में)"
+    },
+    "Dimensions": {
+      "People": "लोग",
+      "Financial": "वित्तीय",
+      "Operations": "संचालन",
+      "Strategy": "रणनीति",
+      "ProcessGovernanceSystem": "प्रक्रिया/शासन/प्रणाली"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "प्रमुख परिणाम जोड़ें",
+    "EditKeyResult": "Edit Key Result",
+    "OKRName": "OKR नाम",
+    "AlignedToCompanyObjective": "कंपनी उद्देश्य से संरेखित",
+    "FormLabels": {
+      "KeyResultName": "प्रमुख परिणाम नाम*",
+      "Source": "स्रोत",
+      "KPIs": "KPIs*",
+      "Status": "स्थिति*",
+      "UnitOfMeasurement": "माप की इकाई",
+      "Polarity": "ध्रुवता",
+      "TargetResult": "लक्ष्य परिणाम*",
+      "ActualResult": "वास्तविक परिणाम",
+      "TargetDate": "लक्ष्य तिथि*",
+      "CompletionDate": "पूर्णता तिथि",
+      "Comment": "टिप्पणी",
+      "UploadFile": "फ़ाइल अपलोड करें"
+    },
+    "Buttons": {
+      "Saving": "सहेजा जा रहा है...",
+      "UpdateDetails": "विवरण अपडेट करें",
+      "SaveAndAddAnother": "सहेजें और एक और जोड़ें",
+      "NextAddTask": "अगला: कार्य जोड़ें"
+    },
+    "FileUpload": {
+      "Uploading": "(अपलोड हो रहा है...)",
+      "FileUploaded": "✓ फ़ाइल अपलोड हो गई"
+    },
+    "Polarity": {
+      "Positive": "सकारात्मक",
+      "Negative": "नकारात्मक"
+    },
+    "StatusOptions": {
+      "NotStarted": "शुरू नहीं हुआ",
+      "InProgress": "प्रगति में",
+      "OnHold": "On Hold",
+      "Completed": "पूर्ण"
+    },
+    "KPIOptions": {
+      "Revenue": "राजस्व",
+      "UserGrowth": "उपयोगकर्ता वृद्धि",
+      "ConversionRate": "रूपांतरण दर"
+    },
+    "UnitOptions": {
+      "Number": "संख्या",
+      "Percentage": "प्रतिशत (%)",
+      "INR": "INR",
+      "USD": "USD",
+      "AED": "AED"
+    },
+    "SourceOptions": {
+      "SelectSource": "--स्रोत चुनें--",
+      "Salesforce": "सेल्सफोर्स"
+    },
+    "BellCurveChart": {
+      "Loading": "लोड हो रहा है...",
+      "Error": "Error:",
+      "UnknownError": "Unknown error",
+      "Value": "मान:",
+      "NoCurveData": "कोई वक्र डेटा उपलब्ध नहीं",
+      "AtLower": "निचले स्तर पर",
+      "AtAverage": "औसत पर",
+      "AtUpper": "ऊपरी स्तर पर",
+      "Point": "बिंदु"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "कुल वजन उपलब्धि",
+    "TotalWeight": "कुल वजन",
+    "Q1": "त्रैमासिक 1",
+    "Q2": "त्रैमासिक 2",
+    "Q3": "त्रैमासिक 3",
+    "Q4": "त्रैमासिक 4"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "आज की उपस्थिति",
+    "Present": "उपस्थित",
+    "OnLeave": "छुट्टी पर",
+    "LateArrivals": "देर से आगमन",
+    "TotalEmployees": "कुल कर्मचारी",
+    "NextHoliday": "अगली छुट्टी",
+    "NoUpcomingHolidays": "कोई आगामी छुट्टियाँ नहीं"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "प्रदर्शन रुझान",
+    "CurrentPerformance": "वर्तमान प्रदर्शन",
+    "UnknownPeriod": "अज्ञात अवधि"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "उपलब्ध पुरस्कार",
+    "Pts": "अंक",
+    "NoRewardsAvailable": "इस समय कोई पुरस्कार उपलब्ध नहीं",
+    "KeepEarningPoints": "अधिक पुरस्कारों के लिए अंक अर्जित करते रहें",
+    "ComingSoonTitle": "पुरस्कार जल्द आ रहे हैं",
+    "ComingSoonDescription": "हम आपके लिए रोमांचक पुरस्कार तैयार कर रहे हैं! जल्द ही आप अपनी उपलब्धियों और योगदान के आधार पर पुरस्कार का दावा कर सकेंगे।",
+    "Rewards": {
+      "ExpertBadge": "विशेषज्ञ बैज",
+      "Achievement": "उपलब्धि",
+      "TeamPlayerAward": "टीम प्लेयर पुरस्कार",
+      "Recognition": "मान्यता",
+      "Claim": "दावा करें"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "हाल के अपडेट",
+    "NoRecentUpdates": "कोई हाल का अपडेट नहीं",
+    "ComingSoonTitle": "अपडेट फ़ीड जल्द आ रहा है",
+    "ComingSoonDescription": "हम आपको महत्वपूर्ण सूचनाओं, उपलब्धियों और सिस्टम अपडेट के बारे में सूचित रखने के लिए एक व्यापक अपडेट फ़ीड विकसित कर रहे हैं।",
+    "Updates": {
+      "UrgentTasksAlert": "तत्काल कार्य अलर्ट",
+      "TaskOverview": "कार्य अवलोकन",
+      "OKRAlert": "OKR अलर्ट",
+      "OKRProgress": "OKR प्रगति",
+      "GreatAttendance": "उत्कृष्ट उपस्थिति",
+      "AchievementUnlocked": "उपलब्धि अनलॉक हुई",
+      "PerformanceReviewReminder": "प्रदर्शन समीक्षा अनुस्मारक",
+      "GreatJob": "बढ़िया काम"
+    },
+    "TimeLabels": {
+      "Today": "आज",
+      "ThisMonth": "इस महीने",
+      "OneDayAgo": "1 दिन पहले",
+      "ThreeDaysAgo": "3 दिन पहले"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "जन्मदिन सूची",
+    "ViewAll": "सभी देखें",
+    "NoBirthdaysThisMonth": "इस महीने कोई जन्मदिन नहीं",
+    "AllUpcomingBirthdays": "सभी आगामी जन्मदिन",
+    "LoadingTitle": "जन्मदिन सूची लोड हो रही है...",
+    "FailedToLoadTitle": "जन्मदिन सूची लोड करने में विफल",
+    "NoDataTitle": "इस महीने कोई जन्मदिन नहीं",
+    "NoDataMessage": "वर्तमान महीने में किसी कर्मचारी का जन्मदिन नहीं है।",
+    "DateFormats": {
+      "Today": "आज",
+      "Tomorrow": "कल",
+      "Days": "दिन"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "वर्षगांठ सूची",
+    "ViewAll": "सभी देखें",
+    "NoAnniversariesThisMonth": "इस महीने कोई वर्षगांठ नहीं",
+    "AllUpcomingAnniversaries": "सभी आगामी वर्षगांठ",
+    "DateFormats": {
+      "Today": "आज",
+      "Tomorrow": "कल",
+      "Days": "दिन",
+      "Year": "वर्ष",
+      "Years": "वर्ष"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "जन्मदिन की शुभकामना भेजें",
+    "SendPersonalizedMessage": "को व्यक्तिगत जन्मदिन संदेश भेजें",
+    "HappyBirthdayPlaceholder": "जन्मदिन मुबारक",
+    "Cancel": "रद्द करें",
+    "SendWish": "शुभकामना भेजें",
+    "YearsOfService": "सेवा का वर्ष",
+    "YearsOfServicePlural": "सेवा के वर्ष"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "वर्षगांठ की शुभकामना भेजें",
+    "SendPersonalizedMessage": "को व्यक्तिगत वर्षगांठ संदेश भेजें",
+    "CongratulationsPlaceholder": "बधाई हो",
+    "Cancel": "रद्द करें",
+    "SendWish": "शुभकामना भेजें",
+    "YearsOfService": "सेवा का वर्ष",
+    "YearsOfServicePlural": "सेवा के वर्ष"
+  },
+  "EligibilityCriteria": {
+    "Title": "पात्रता मानदंड",
+    "FormFields": {
+      "EligibilityName": "पात्रता नाम",
+      "Age": "आयु (उदा., >30, =27)",
+      "LengthOfService": "सेवा की अवधि (उदा., >1, >2)",
+      "JobCategory": "नौकरी श्रेणी",
+      "Gender": "लिंग",
+      "Grade": "ग्रेड",
+      "MaritalStatus": "वैवाहिक स्थिति",
+      "Location": "स्थान",
+      "ProbationPeriod": "परिवीक्षा अवधि",
+      "NoticePeriod": "नोटिस अवधि",
+      "PersonType": "व्यक्ति प्रकार",
+      "Religion": "धर्म",
+      "Position": "पद",
+      "HireDate": "भर्ती तिथि",
+      "Department": "कार्य",
+      "WorkType": "कार्य प्रकार",
+      "ExcludeByDefaultIncludesAll": "बाहर करें (डिफ़ॉल्ट रूप से सभी शामिल हैं)",
+      "PublicHolidays": "सार्वजनिक अवकाश",
+      "Leaves": "छुट्टियाँ",
+      "Weekends": "सप्ताहांत"
+    },
+    "Options": {
+      "All": "सभी",
+      "Operations": "संचालन",
+      "Supervisor": "पर्यवेक्षक",
+      "Managerial": "प्रबंधकीय",
+      "ExecutiveLeadership": "कार्यकारी नेतृत्व",
+      "Director": "निदेशक",
+      "Location": {
+        "USA": "अमेरिका",
+        "India": "भारत",
+        "UK": "यूके"
+      },
+      "PersonType": {
+        "EMP": "कर्मचारी",
+        "Contractor": "ठेकेदार",
+        "Intern": "प्रशिक्षु"
+      },
+      "Religion": {
+        "Hindu": "हिन्दू",
+        "Muslim": "मुस्लिम",
+        "Christian": "ईसाई",
+        "Sikh": "सिख",
+        "Buddhist": "बौद्ध",
+        "Jain": "जैन",
+        "Other": "अन्य"
+      },
+      "Gender": {
+        "Male": "पुरुष",
+        "Female": "महिला"
+      },
+      "MaritalStatus": {
+        "Married": "विवाहित",
+        "Unmarried": "अविवाहित"
+      },
+      "Yes": "हाँ",
+      "No": "नहीं",
+      "WorkType": {
+        "FullTime": "पूर्णकालिक",
+        "PartTime": "अंशकालिक"
+      }
+    },
+    "Buttons": {
+      "Cancel": "रद्द करें",
+      "Submit": "जमा करें",
+      "Update": "अपडेट करें"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "उम्मीदवार विकल्प लाने में विफल",
+      "NoDataFound": "कोई डेटा नहीं मिला!",
+      "SuccessCreate": "पात्रता सफलतापूर्वक बनाई गई",
+      "SuccessUpdate": "पात्रता सफलतापूर्वक अपडेट की गई",
+      "ErrorSubmit": "फॉर्म जमा करते समय एक त्रुटि हुई। कृपया पुनः प्रयास करें।"
+    },
+    "Validation": {
+      "Required": "{{field}} आवश्यक है और खाली नहीं हो सकता",
+      "CannotBeEmpty": "{{field}} खाली नहीं हो सकता",
+      "InvalidSymbols": "{{field}} में इनमें से एक चिह्न होना चाहिए: >, <, =",
+      "FillDetails": "कृपया जमा करने से पहले विवरण भरें..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "History",
+    "TableHeaders": {
+      "EligibilityName": "पात्रता नाम",
+      "Department": "कार्य",
+      "Actions": "कार्रवाई"
+    },
+    "Buttons": {
+      "Edit": "संपादित करें",
+      "Delete": "हटाएं",
+      "ExportCSV": "CSV के रूप में निर्यात करें",
+      "ExportExcel": "Excel के रूप में निर्यात करें",
+      "ExportPDF": "PDF के रूप में निर्यात करें"
+    },
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "New Applied",
+        "PsychometricTest": "मनोवैज्ञानिक परीक्षण"
+      },
+      "ExportOptions": {
+        "CSV": "CSV के रूप में निर्यात करें",
+        "Excel": "Excel के रूप में निर्यात करें",
+        "PDF": "PDF के रूप में निर्यात करें"
+      }
+    },
+    "Messages": {
+"FetchError": "डेटा प्राप्त करने में विफल",
+"DeleteSuccess": "रिकॉर्ड सफलतापूर्वक हटाया गया",
+"DeleteError": "रिकॉर्ड हटाने में विफल",
+"ExportSuccess": "सफलतापूर्वक निर्यात किया गया",
+"ExportError": "डेटा निर्यात करने में विफल",
+"NoData": "कोई डेटा उपलब्ध नहीं"
+    },
+    "Placeholders": {
+    "Search": "खोजें...",
+      "Select": "--चुनें--"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "अनुमोदन वर्कफ़्लो",
+"Description": "विभिन्न लेनदेन प्रकारों के लिए अनुमोदन श्रृंखला को कॉन्फ़िगर और प्रबंधित करें",
+"NewWorkflowButton": "नया वर्कफ़्लो"
+
+  },
+  "WorkflowType": {
+    "TitleCreate": "नया वर्कफ़्लो बनाएँ",
+    "TitleEdit": "वर्कफ़्लो संपादित करें",
+    "SubtitleCreate": "अपने संगठन के लिए एक नया अनुमोदन वर्कफ़्लो सेट अप करें",
+    "SubtitleEdit": "अपने संगठन के लिए अनुमोदन वर्कफ़्लो को संशोधित करें",
+    "SelectTransactionTitle": "लेनदेन प्रकार चुनें",
+    "SelectTransactionDescription": "इस अनुमोदन वर्कफ़्लो का पालन करने वाले लेनदेन का प्रकार चुनें",
+    "Steps": {
+      "TransactionType": "लेनदेन प्रकार",
+      "WorkflowDetails": "वर्कफ़्लो विवरण",
+      "ApprovalChain": "अनुमोदन श्रृंखला"
+    },
+    "Buttons": {
+      "Previous": "पिछला",
+      "Cancel": "रद्द करें",
+      "Next": "अगला",
+      "Submitting": "जमा किया जा रहा है...",
+     "CreateWorkflow": "वर्कफ़्लो बनाएँ",
+    "UpdateWorkflow": "वर्कफ़्लो अपडेट करें"
+    },
+    "Messages": {
+"CreateSuccess": "वर्कफ़्लो सफलतापूर्वक बनाया गया।",
+"UpdateSuccess": "वर्कफ़्लो सफलतापूर्वक अपडेट किया गया।",
+"CreateError": "वर्कफ़्लो बनाने में विफल। कृपया पुनः प्रयास करें।",
+"UpdateError": "वर्कफ़्लो अपडेट करने में विफल। कृपया पुनः प्रयास करें।"
+    },
+    "UnknownStep": "अज्ञात चरण"
+  },
+  "TransactionCard": {
+   "Recruitment": "भर्ती",
+"RecruitmentDescription": "भर्ती और अनुमोदन प्रक्रिया के लिए वर्कफ़्लो",
+"ExpenseApproval": "व्यय अनुमोदन",
+"ExpenseApprovalDescription": "कर्मचारी खर्चों के लिए अनुमोदन प्रवाह",
+"LeaveRequest": "अवकाश अनुरोध",
+"LeaveRequestDescription": "कर्मचारी अवकाश अनुरोधों के लिए अनुमोदन श्रृंखला",
+"PurchaseOrder": "क्रय आदेश",
+"PurchaseOrderDescription": "क्रय आदेशों के प्रबंधन के लिए वर्कफ़्लो",
+"BudgetApproval": "बजट अनुमोदन",
+"BudgetApprovalDescription": "वित्तीय बजट के लिए अनुमोदन प्रक्रिया"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "वर्कफ़्लो विवरण",
+   "ProvideNameDescription": "इस अनुमोदन वर्कफ़्लो के लिए एक नाम और विवरण प्रदान करें",
+"WorkflowName": "वर्कफ़्लो नाम",
+"WorkflowNamePlaceholder": "जैसे, मानक अवकाश अनुमोदन",
+    "Description": "विवरण",
+   "DescriptionPlaceholder": "इस वर्कफ़्लो के उद्देश्य और उपयोग मामलों का विवरण दें",
+"Condition": "शर्त",
+"ConditionPlaceholder": "वर्कफ़्लो के लिए वैकल्पिक शर्त",
+"ConditionLeaveRequest": "शर्त (अवकाश अनुरोधों के लिए)",
+"SetRules": "अवकाश अनुरोध में दिनों की संख्या के आधार पर नियम निर्धारित करें",
+"Attribute": "विशेषता",
+"SelectAttribute": "विशेषता चुनें",
+"Operator": "ऑपरेटर",
+"SelectOperator": "ऑपरेटर चुनें",
+"Value": "मान",
+"EnterNumber": "संख्या दर्ज करें",
+"Days": "दिन",
+    "is": "है",
+    "lesserOrEqual": "से कम या बराबर (≤)",
+    "greaterOrEqual": "से अधिक या बराबर (≥)"
+  },
+  "workflowFilter": {
+   "searchPlaceholder": "वर्कफ़्लो खोजें",
+"filterButton": "फ़िल्टर",
+"allTypes": "सभी प्रकार",
+  "workflow": "वर्कफ़्लो",
+    "task": "कार्य"
+  },
+ "workflowChain": {
+  "configureApprovalChain": "अनुमोदन श्रृंखला कॉन्फ़िगर करें",
+  "defineSequence": "इस वर्कफ़्लो के लिए अनुमोदकों का क्रम निर्धारित करें",
+  "currentApprovalChain": "वर्तमान अनुमोदन श्रृंखला",
+  "noStepsDefined": "अभी तक कोई अनुमोदन चरण परिभाषित नहीं किया गया है",
+  "addStep": "चरण जोड़ें",
+  "completeDetailsError": "कृपया पहले लेनदेन प्रकार और वर्कफ़्लो विवरण पूरा करें"
+},
+"addApprovalHeader": {
+  "title": "अनुमोदन चरण जोड़ें",
+  "rolesTab": "भूमिकाएँ",
+  "individualUserTab": "व्यक्तिगत उपयोगकर्ता",
+  "searchPlaceholder": "वर्कफ़्लो खोजें"
+},
+"formNavigation": {
+  "previous": "पिछला",
+  "cancel": "रद्द करें",
+  "createWorkflow": "वर्कफ़्लो बनाएँ"
+},
+"selectedApprovers": {
+  "title": "चयनित अनुमोदक:",
+  "noApprovers": "अभी तक कोई अनुमोदक चयनित नहीं किया गया है",
+  "saveStep": "चरण सहेजें",
+  "cancel": "रद्द करें"
+},
+"approval": {
+  "saveApprovers": "अनुमोदक सहेजें"
+},
+"approval2": {
+  "card1Title": "लाइन मैनेजर",
+  "card1Description": "कर्मचारी का प्रत्यक्ष पर्यवेक्षक",
+  "select": "चयन करें",
+  "remove": "हटाएँ",
+  "selected": "चयनित",
+  "removed": "हटाया गया"
+},
+"approval3": {
+  "card2Title": "एचआर मैनेजर",
+  "card2Description": "मानव संसाधन विभाग प्रमुख",
+  "select": "चयन करें",
+  "remove": "हटाएँ",
+  "selected": "चयनित",
+  "removed": "हटाया गया"
+},
+"approval4": {
+  "card3Title": "कार्यात्मक प्रमुख",
+  "card3Description": "विभाग प्रमुख",
+  "select": "चयन करें",
+  "remove": "हटाएँ",
+  "selected": "चयनित",
+  "removed": "हटाया गया"
+},
+"approval5": {
+  "card4Title": "मुख्य कार्यकारी अधिकारी (CEO)",
+  "card4Description": "मुख्य कार्यकारी अधिकारी",
+  "select": "चयन करें",
+  "remove": "हटाएँ",
+  "selected": "चयनित",
+  "removed": "हटाया गया"
+},
+"approval6": {
+  "card5Title": "वित्त निदेशक",
+  "card5Description": "विशिष्ट परियोजना की देखरेख करने वाला प्रबंधक",
+  "select": "चयन करें",
+  "remove": "हटाएँ",
+  "selected": "चयनित",
+  "removed": "हटाया गया"
+},
+"approval7": {
+  "card6Title": "परियोजना प्रबंधक",
+  "card6Description": "कर्मचारी का प्रत्यक्ष पर्यवेक्षक",
+  "select": "चयन करें",
+  "remove": "हटाएँ",
+  "selected": "चयनित",
+  "removed": "हटाया गया"
+},
+"transactions": {
+  "leaveRequestTitle": "अवकाश अनुरोध",
+  "leaveRequestDescription": "कर्मचारी अवकाश अनुरोधों के लिए अनुमोदन प्रवाह",
+  "timesheetTitle": "टाइमशीट",
+  "timesheetDescription": "कर्मचारी टाइमशीट के लिए अनुमोदन प्रवाह",
+  "resignationRequestTitle": "त्यागपत्र अनुरोध",
+  "resignationRequestDescription": "कर्मचारी त्यागपत्र अनुरोधों के लिए अनुमोदन प्रवाह"
+},
+  "workflow": {
+    "selectTransactionType": "लेनदेन प्रकार चुनें",
+    "chooseTransactionType": "इस अनुमोदन वर्कफ़्लो का पालन करने वाले लेनदेन का प्रकार चुनें",
+    "editWorkflow": "वर्कफ़्लो संपादित करें",
+    "createNewWorkflow": "नया वर्कफ़्लो बनाएँ",
+    "modifyWorkflow": "अपने संगठन के लिए अनुमोदन वर्कफ़्लो को संशोधित करें",
+    "setupNewWorkflow": "अपने संगठन के लिए एक नया अनुमोदन वर्कफ़्लो सेट अप करें",
+    "previous": "पिछला",
+    "cancel": "रद्द करें",
+    "next": "अगला",
+    "submitting": "जमा किया जा रहा है...",
+    "updateWorkflow": "Update Workflow",
+    "createWorkflow": "Create Workflow",
+    "updatedSuccess": "वर्कफ़्लो सफलतापूर्वक अपडेट किया गया",
+    "createdSuccess": "वर्कफ़्लो सफलतापूर्वक बनाया गया",
+    "failed": "वर्कफ़्लो {{action}} करने में विफल। कृपया पुनः प्रयास करें।",
+    "create": "बनाएँ",
+    "update": "अपडेट करें",
+    "unknownStep": "अज्ञात चरण",
+    "Transaction Type": "लेनदेन प्रकार",
+    "Workflow Details": "वर्कफ़्लो विवरण",
+    "Approval Chain": "अनुमोदन श्रृंखला"
+  },
+ "LookUpScreen": {
+  "CreateLookUp": "लुकअप बनाएँ",
+  "LookupType": "लुकअप प्रकार",
+  "Meaning": "अर्थ",
+  "Add": "जोड़ें",
+  "Code": "कोड",
+  "Delete": "हटाएँ",
+  "Submit": "जमा करें",
+  "DateStart": "प्रारंभ तिथि",
+  "DateEnd": "समाप्ति तिथि",
+  "Enabled": "सक्रिय",
+  "Actions": "कार्रवाई",
+  "Type": "प्रकार",
+  "EditLookUp": "लुकअप संपादित करें",
+  "Update": "अपडेट करें",
+  "Cancel": "रद्द करें",
+  "PerformanceRatingScale": "प्रदर्शन रेटिंग पैमाना"
+},
+"CompetencyManagement": {
+  "CompetencyManagement": "कौशल प्रबंधन",
+  "Name": "नाम",
+  "PositionLevel": "पद स्तर",
+  "Action": "कार्रवाई",
+  "Create": "बनाएँ",
+  "CreateNewCompetency": "नया कौशल बनाएँ",
+  "EditCompetency": "कौशल संपादित करें",
+  "CompetencyName": "कौशल का नाम",
+  "Description": "विवरण",
+  "StartDate": "प्रारंभ तिथि",
+  "EndDate": "समाप्ति तिथि",
+  "CompetencyType": "कौशल प्रकार",
+  "DevelopmentActivities": "विकास गतिविधियाँ",
+  "CoachingActivities": "कोचिंग गतिविधियाँ",
+  "CategoryActivities": "श्रेणीगत गतिविधियाँ",
+  "PositionLevelField": "पद स्तर",
+  "Cancel": "रद्द करें",
+  "Save": "सहेजें",
+  "Update": "अपडेट करें"
+},
+"OKRManagement": {
+  "OKRManagement": "OKR प्रबंधन",
+  "OkrLibrary": "OKR पुस्तकालय",
+  "Okr": "OKR",
+  "Transfer": "स्थानांतरण",
+  "Create": "बनाएँ",
+  "BulkUpload": "बल्क अपलोड",
+  "Industry": "उद्योग",
+  "IsActive": "सक्रिय है",
+  "LastModified": "अंतिम संशोधित",
+  "Action": "कार्रवाई",
+  "OkrTemplateName": "OKR टेम्पलेट नाम",
+  "StartDate": "प्रारंभ तिथि",
+  "EndDate": "समाप्ति तिथि",
+  "EligibilityGroup": "पात्रता समूह",
+  "TransferFromEmployee": "कर्मचारी से स्थानांतरण:",
+  "TransferToEmployee": "कर्मचारी को स्थानांतरण:",
+  "FindOkr": "OKR खोजें",
+  "InstructionsToUsers": "उपयोगकर्ताओं के लिए निर्देश",
+  "LowValueRange": "निम्न मान सीमा",
+  "MidValueRange": "मध्यम मान सीमा",
+  "HighValueRange": "उच्च मान सीमा",
+  "Min": "न्यूनतम",
+  "Max": "अधिकतम",
+  "IncludingKeyResults": "मुख्य परिणाम सहित",
+  "ImportOkrLibrary": "OKR पुस्तकालय आयात करें",
+  "Export": "निर्यात करें",
+  "DownloadTemplate": "टेम्पलेट डाउनलोड करें",
+  "Cancel": "रद्द करें",
+  "Save": "सहेजें",
+  "IncludeOkr": "OKR शामिल करें",
+  "Edit": "संपादित करें",
+  "Delete": "हटाएँ"
+},
+"TimeLogin": {
+  "title": "भौगोलिक स्थान समय प्रविष्टि",
+  "discription-title": "आपके भौतिक स्थान के आधार पर क्लॉक इन/आउट करें",
+  "buttonLables": {
+    "bio": "मैनुअल / बायो",
+    "geo": "जियो"
+  },
+  "refreshing": "रीफ़्रेश किया जा रहा है...",
+  "refreshLocation": "स्थान रीफ़्रेश करें",
+  "LocationService": "स्थान सेवाएँ",
+  "message": "कृपया जब अनुरोध किया जाए तो स्थान एक्सेस की अनुमति दें। आपका स्थान केवल कार्यस्थल पर उपस्थिति सत्यापित करने के लिए उपयोग किया जाता है।",
+  "getting": "आपका स्थान प्राप्त किया जा रहा है....",
+  "RetryLocation": "स्थान पुनः प्रयास करें",
+  "ManualLocation": "मैनुअल स्थान",
+  "time": "वर्तमान सिस्टम समय",
+  "clockOut": "क्लॉक आउट",
+  "clockin": "क्लॉक इन",
+  "manuallyLocation": "स्थान मैन्युअल रूप से दर्ज करें",
+  "textLabel": {
+    "Latitude": "अक्षांश",
+    "Logitude": "देशांतर"
+  },
+  "Cancel": "रद्द करें",
+  "setLocation": "स्थान सेट करें",
+  "waitingError": "स्थान एक्सेस की प्रतीक्षा कर रहे हैं...",
+  "TimeSheetHistory": {
+    "history": "टाइमशीट इतिहास",
+    "totalTime": "कुल समय",
+    "week": "सप्ताह"
+  },
+  "TableColumn": {
+    "Employee": "कर्मचारी",
+    "day": "दिन",
+    "Date": "तिथि",
+    "timein": "समय प्रवेश",
+    "timeOut": "समय निकास",
+    "hours": "घंटे",
+    "method": "विधि",
+    "position": "पद",
+    "remarks": "टिप्पणियाँ",
+    "status": "स्थिति",
+    "actions": "कार्रवाई"
+  },
+  "actionButton": {
+    "approve": "स्वीकृत करें",
+    "reject": "अस्वीकृत करें"
+  },
+  "DialogBox": {
+    "title": "समय प्रविष्टि विवरण",
+    "ApprovalHistory": "अनुमोदन इतिहास",
+    "Nodetailsavailable": "कोई विवरण उपलब्ध नहीं",
+    "CurrentLocationMap": "वर्तमान स्थान मानचित्र"
+  },
+  "exportOptions": {
+    "export": "निर्यात करें",
+    "exportExcel": "Excel के रूप में निर्यात करें",
+    "exportCSV": "CSV के रूप में निर्यात करें",
+    "exportPDF": "PDF के रूप में निर्यात करें"
+  }
+},
+"AbsenceTime": {
+  "LeavePolicy": "छुट्टी नीति",
+  "applyForLeave": "छुट्टी के लिए आवेदन करें",
+  "teamLeave": "टीम छुट्टी",
+  "LoadingLeaves": "छुट्टी प्रकार लोड किए जा रहे हैं...",
+  "formLabel": {
+    "absenceType": "अनुपस्थिति प्रकार / श्रेणी",
+    "halfDay": "आधा दिन",
+    "form": "से",
+    "to": "तक",
+    "durationAbsence": "अनुपस्थिति की अवधि",
+    "note": "टिप्पणी"
+  },
+  "Uplode": "संलग्नक अपलोड करें",
+  "sumbitting": "जमा किया जा रहा है...",
+  "buttonConfg": {
+    "cancel": "रद्द करें",
+    "update": "अपडेट करें",
+    "submit": "जमा करें"
+  },
+  "leavesAvailable": "कोई अन्य छुट्टी उपलब्ध नहीं है।",
+  "close": "बंद करें",
+  "tableColumn": {
+    "date": "तिथि",
+    "employee": "कर्मचारी",
+    "type": "प्रकार",
+    "duration": "अवधि",
+    "status": "स्थिति",
+    "action": "कार्रवाई"
+  },
+  "editRequest": "अनुरोध संपादित करें",
+  "deleteRequest": "अनुरोध हटाएँ",
+  "approve": "स्वीकृत करें",
+  "reject": "अस्वीकृत करें",
+  "leaveDetailsView": {
+    "leaveType": "छुट्टी का प्रकार",
+    "duration": "अवधि",
+    "startDate": "प्रारंभ तिथि",
+    "endDate": "समाप्ति तिथि",
+    "applicationOn": "आवेदन तिथि"
+  },
+  "reasons": {
+    "reason": "कारण",
+    "rejectionReason": "अस्वीकृति का कारण:"
+  },
+  "approvalStatus": "वर्तमान अनुमोदन स्थिति",
+  "noDetails": "कोई विवरण उपलब्ध नहीं",
+  "requests": {
+    "approveLeave": "छुट्टी अनुरोध स्वीकृत करें",
+    "rejectLeave": "छुट्टी अनुरोध अस्वीकृत करें",
+    "details": "अनुरोध विवरण"
+  },
+  "period": "अवधि",
+  "Comments(Optional)": "टिप्पणियाँ (वैकल्पिक)",
+  "RejectionReason": "अस्वीकृति का कारण *",
+  "approveRequest": "अनुरोध स्वीकृत करें",
+  "rejectRequest": "अनुरोध अस्वीकृत करें",
+  "DialogBox": {
+    "title": "छुट्टी अनुरोध विवरण",
+    "alert": "छुट्टी अनुरोध विवरण लोड करने में विफल"
+  },
+  "searchHear": "यहाँ खोजें...",
+  "TeamLeave": {
+    "teamLeave": "टीम छुट्टी",
+    "managerBoard": "प्रबंधक बोर्ड:",
+    "all": "सभी",
+    "teamA": "टीम A",
+    "teamB": "टीम B"
+  },
+
+
+    "tableHeader": {
+      "displayOptions": "प्रदर्शन विकल्प",
+      "priority": "प्राथमिकता",
+      "status": "स्थिति"
+    },
+    "filters": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "EventCalender": {
+      "filter": "Filter:"
+    }
+  },
+ "FileUploadFile": {
+  "chooseAFile": "एक फ़ाइल चुनें या इसे यहाँ खींचें और छोड़ें",
+  "uploading": "अपलोड हो रहा है...",
+  "fileTypes": "JPEG, PNG, PDF, CSV, Excel, अधिकतम 50MB तक",
+  "browseFile": "फ़ाइल ब्राउज़ करें",
+  "selectedFile": "चयनित फ़ाइल",
+  "clickhere": "यहाँ क्लिक करें"
+},
+"RecruitmentManagement": {
+  "WelcomeBack": "वापसी पर स्वागत है",
+  "NewCandidate": "नया उम्मीदवार",
+  "ID": "आईडी",
+  "Name": "नाम",
+  "Email": "ई-मेल",
+  "AppliedOn": "आवेदन की तिथि",
+  "Stages": "चरण",
+  "Actions": "कार्रवाई",
+  "InProgress": "प्रगति में",
+  "WaitingForFeedback": "प्रतिक्रिया की प्रतीक्षा में",
+  "OfferReleased": "ऑफ़र जारी किया गया",
+  "CandidatesList": "उम्मीदवारों की सूची",
+  "AddNewCandidate": "नया उम्मीदवार जोड़ें",
+  "CandidateDetails": "उम्मीदवार विवरण",
+  "PsychometricAssessment": "मनोवैज्ञानिक मूल्यांकन",
+  "Interview1": "साक्षात्कार 1",
+  "Interview2": "साक्षात्कार 2",
+  "DocumentVerification": "दस्तावेज़ सत्यापन",
+  "Offer": "ऑफ़र",
+  "OfferLetter": "ऑफ़र पत्र",
+  "Onboarding": "ऑनबोर्डिंग",
+  "CandidateName": "उम्मीदवार का नाम",
+  "EmailAddress": "ईमेल पता",
+  "AddPhoto": "फोटो जोड़ें",
+  "PhoneNo": "फ़ोन नंबर",
+  "ExperienceInYears": "अनुभव (वर्षों में)",
+  "EducationQualification": "शैक्षणिक योग्यता",
+  "DateOfBirth": "जन्म तिथि",
+  "Gender": "लिंग",
+  "Location": "स्थान",
+  "Source": "स्रोत",
+  "Department": "कार्य",
+  "Designation": "पदनाम",
+  "LegalEntity": "कानूनी इकाई",
+  "ProjectName": "परियोजना का नाम",
+  "ReportingManager": "रिपोर्टिंग प्रबंधक",
+  "Status": "स्थिति",
+  "Resume": "बायोडाटा",
+  "Cancel": "रद्द करें",
+  "Submit": "जमा करें",
+  "Edit": "संपादित करें",
+  "Delete": "हटाएं",
+  "EditCandidate": "उम्मीदवार संपादित करें",
+  "ClickHere": "यहाँ क्लिक करें",
+  "Update": "अपडेट करें",
+  "MoveToTalentPool": "टैलेंट पूल में स्थानांतरित करें?",
+  "Male": "पुरुष",
+  "Female": "महिला",
+  "Other": "अन्य",
+  "Yes": "हाँ",
+  "No": "नहीं",
+  "SuitableDesignation": "उपयुक्त पदनाम",
+  "NoticePeriodDays": "नोटिस अवधि (दिनों में)",
+  "DateOfJoining": "कार्यग्रहण तिथि",
+  "ProbationPeriodDays": "परिवीक्षा अवधि (दिनों में)",
+  "PsychometricReviewReport": "मनोवैज्ञानिक समीक्षा रिपोर्ट",
+  "DocumentsUploadOverview": "दस्तावेज़ अपलोड अवलोकन",
+  "SaveAsDraft": "ड्राफ्ट के रूप में सहेजें",
+  "DraftLoaded": "ड्राफ्ट डेटा लोड किया गया",
+  "GrossSalary": "सकल वेतन",
+  "Interviewer1": "साक्षात्कारकर्ता 1",
+  "Interviewer2": "साक्षात्कारकर्ता 2"
+},
+"PrivilegeGroups": {
+  "PrivilegeGroups": "विशेषाधिकार समूह",
+  "CreateNewGroup": "नया समूह बनाएँ",
+  "GroupName": "समूह का नाम",
+  "UserType": "उपयोगकर्ता प्रकार",
+  "SonicOfDynamic": "गतिशील का सोनिक",
+  "ActiveMembership": "सक्रिय सदस्यता",
+  "LastModified": "अंतिम संशोधित",
+  "Action": "कार्रवाई",
+  "ActiveGroupMembership": "सक्रिय समूह सदस्यता",
+  "ChooseGroupMembers": "समूह सदस्यों का चयन करें",
+  "PeoplePool": "लोगों का पूल",
+  "PickACategory": "एक श्रेणी चुनें",
+  "ExcludeThesePeopleGroupName": "इन लोगों को समूह से बाहर करें",
+  "Select": "चयन करें",
+  "Cancel": "रद्द करें",
+  "Finished": "पूर्ण हुआ",
+  "Edit": "संपादित करें",
+  "Delete": "हटाएं",
+  "AddPrivilegeGroup": "विशेषाधिकार समूह जोड़ें",
+  "UpdatePrivilegeGroup": "विशेषाधिकार समूह अपडेट करें",
+  "GroupCreatedSuccessfully": "समूह सफलतापूर्वक बनाया गया!",
+  "GroupUpdatedSuccessfully": "समूह सफलतापूर्वक अपडेट किया गया!",
+  "GroupDeletedSuccessfully": "समूह सफलतापूर्वक हटाया गया!",
+  "AreYouSureDelete": "क्या आप वाकई इस समूह को हटाना चाहते हैं?",
+  "NoDataFound": "कोई डेटा नहीं मिला",
+  "Loading": "लोड हो रहा है...",
+  "SearchGroups": "समूह खोजें",
+  "ViewDetails": "विवरण देखें",
+  "SaveChanges": "परिवर्तन सहेजें",
+  "Confirm": "पुष्टि करें",
+  "Yes": "हाँ",
+  "No": "नहीं",
+  "Active": "सक्रिय",
+  "Inactive": "निष्क्रिय",
+  "Members": "सदस्य",
+  "Status": "स्थिति",
+  "CreatedBy": "द्वारा बनाया गया",
+  "ModifiedBy": "द्वारा संशोधित",
+  "GroupNameIsRequired": "समूह नाम आवश्यक है",
+  "ErrorFetchingData": "डेटा प्राप्त करने में त्रुटि!",
+  "SomethingWentWrong": "कुछ गलत हो गया!",
+  "PleaseEnterGroupName": "कृपया समूह का नाम दर्ज करें",
+  "PleaseSelectUserType": "कृपया उपयोगकर्ता प्रकार चुनें",
+  "PleaseSelectMembers": "कृपया समूह सदस्यों का चयन करें"
+},
+
+ "SessionTab": {
+  "Title": "सत्र",
+  "FormTitle": "सत्र विवरण परिभाषित करें",
+  "Buttons": {
+    "Create": "बनाएँ",
+    "Cancel": "रद्द करें",
+    "Update": "अपडेट करें",
+    "Save": "सहेजें"
+  },
+  "FormFields": {
+    "SessionName": "सत्र का नाम",
+    "Template": "टेम्पलेट",
+    "SessionStartDate": "सत्र प्रारंभ तिथि",
+    "SessionEndDate": "सत्र समाप्ति तिथि",
+    "SessionOwners": "सत्र स्वामी",
+    "EmployeeGroup": "कर्मचारी समूह"
+  },
+  "Table": {
+    "Name": "नाम",
+    "Action": "कार्रवाई",
+    "Edit": "संपादित करें",
+    "Delete": "हटाएं"
+  },
+  "Placeholders": {
+    "SearchHere": "यहाँ खोजें...",
+    "SelectTemplate": "टेम्पलेट चुनें",
+    "EnterSessionName": "सत्र का नाम दर्ज करें",
+    "SelectSessionOwners": "सत्र स्वामियों का चयन करें",
+    "SelectEmployeeGroup": "कर्मचारी समूह चुनें"
+  },
+  "Validation": {
+    "FillRequiredFields": "कृपया सभी आवश्यक फ़ील्ड भरें"
+  },
+  "Messages": {
+    "FailedDelete": "सत्र हटाने में विफल",
+    "ErrorDelete": "सत्र हटाते समय त्रुटि हुई",
+    "FailedCreate": "सत्र बनाने में विफल",
+    "ErrorCreate": "सत्र बनाते समय त्रुटि हुई",
+    "FailedUpdate": "सत्र अपडेट करने में विफल",
+    "ErrorUpdate": "सत्र अपडेट करते समय त्रुटि हुई"
+  }
+},
+
+"GuideLinesTab": {
+  "Instructions": {
+    "SelectDataSource": "उन तत्वों के लिए डेटा स्रोत चुनें जिन्हें आप कैलिब्रेट करना चाहते हैं:"
+  },
+  "Performance": {
+    "Title": "प्रदर्शन",
+    "Description": "प्रदर्शन कैलिब्रेशन में प्रदर्शन, लक्ष्य, क्षमता या अन्य ग्राहक-परिभाषित तत्वों का मूल्यांकन शामिल है। 1. उस फ़ॉर्म टेम्पलेट(टेम्पलेट्स) का चयन करें जिसके तत्वों को आप कैलिब्रेट करना चाहते हैं। सभी फ़ील्ड अनिवार्य हैं।"
+  },
+  "Options": {
+    "Calibration": "कैलिब्रेशन",
+    "SelfSubmission": "स्वयं सबमिशन",
+    "ManagerReview": "प्रबंधक समीक्षा",
+    "ManagerSignOff": "प्रबंधक हस्ताक्षर",
+    "EmployeeSignOff": "कर्मचारी हस्ताक्षर"
+  },
+  "RatingScale": {
+    "Ineffective": "1. अप्रभावी",
+    "SomewhatAchieved": "2. आंशिक रूप से प्राप्त",
+    "Achieved": "3. प्राप्त",
+    "Overperformed": "4. अपेक्षा से अधिक प्रदर्शन",
+    "Outstanding": "5. उत्कृष्ट"
+  },
+  "Table": {
+    "Template": "टेम्पलेट",
+    "RouteMap": "रूट मैप",
+    "RoutingStep": "क्या इस रूटिंग चरण पर डेटा का उपयोग किया जा सकता है?"
+  },
+  "Placeholders": {
+    "SelectTemplate": "टेम्पलेट चुनें",
+    "SelectStep": "चरण चुनें"
+  },
+  "DefaultStep": "PM2 प्रदर्शन मूल्यांकन"
+},
+
+"CalibrationManagement": {
+  "Options": {
+    "Calibration": "कैलिब्रेशन",
+    "SelfSubmission": "स्वयं सबमिशन",
+    "ManagerReview": "प्रबंधक समीक्षा",
+    "ManagerSignOff": "प्रबंधक हस्ताक्षर",
+    "EmployeeSignOff": "कर्मचारी हस्ताक्षर"
+  },
+  "Table": {
+    "SNo": "क्रम संख्या",
+    "Rating": "रेटिंग",
+    "RouteMap": "रूट मैप",
+    "Delete": "हटाएं"
+  },
+  "Placeholders": {
+    "SelectTemplate": "कृपया एक टेम्पलेट चुनें..."
+  },
+  "Notes": {
+    "Part1": "नोट: कभी-कभी आपका कैलिब्रेशन डेटा कई टेम्पलेट्स से आ सकता है। ऐसे मामलों में, सिस्टम केवल प्राथमिक टेम्पलेट (जिसे ",
+    "Part2": ") से परिभाषित तत्वों का समर्थन करता है। यदि आप कई प्रदर्शन टेम्पलेट्स चुनते हैं, तो सुनिश्चित करें कि इन टेम्पलेट्स की संरचना, अनुक्रमांक और रूट मैप समान हैं।"
+  },
+  "Instructions": {
+    "SelectElement": "2. कैलिब्रेशन के लिए कम से कम एक तत्व चुनें। फिर उसका वितरण दिशानिर्देश परिभाषित करें।"
+  },
+  "OverallFormRating": "समग्र फ़ॉर्म रेटिंग",
+  "Buttons": {
+    "Add": "जोड़ें"
+  }
+},
+
+"IntegrationManagement": {
+  "AdminPortal": "एडमिन पोर्टल - इंटीग्रेशन प्रबंधन",
+  "BusinessLevelConnectors": "व्यावसायिक स्तर कनेक्टर्स",
+  "ActivationDescription": "किसी सेवा को सक्रिय करने से उपयोगकर्ताओं को उस सेवा से कनेक्ट होने की क्षमता मिलती है, जिससे प्रमुख परिणामों के स्वचालित अपडेट या उपयोगकर्ताओं के सहज समन्वयन के लिए डेटा पुनर्प्राप्त किया जा सकता है।",
+  "Manage": "प्रबंधित करें",
+  "ReadMore": "अधिक पढ़ें"
+},
+
+"TopHeader": {
+  "ManageSalesforceConnection": "Salesforce कनेक्शन प्रबंधित करें",
+  "Delete": "हटाएं"
+},
+
+"PerformanceManagement": {
+  "Title": "प्रदर्शन प्रबंधन",
+  "Create": "बनाएँ",
+  "TypeOfEvaluation": "मूल्यांकन का प्रकार",
+  "Select": "चुनें...",
+  "FrequencyOfEvaluation": "मूल्यांकन की आवृत्ति",
+  "StartDate": "प्रारंभ तिथि",
+  "EnterStartDate": "प्रारंभ तिथि दर्ज करें",
+  "LaunchDate": "लॉन्च तिथि",
+  "EnterLaunchDate": "लॉन्च तिथि दर्ज करें",
+  "ListGroupName": "सूची समूह नाम",
+  "Employee": "कर्मचारी",
+  "Manager": "प्रबंधक",
+  "Leadership": "नेतृत्व",
+  "Cancel": "रद्द करें",
+  "Save": "सहेजें",
+  "OverallRating": "समग्र रेटिंग",
+  "AbsoluteRating": "पूर्ण रेटिंग",
+  "RatingScale": "रेटिंग स्केल",
+  "OKRWastage": "OKR अपव्यय",
+  "CompetencyWeightage": "कौशल भार",
+  "Weightage360": "360 भार",
+  "IncludeSelfEvaluation": "स्वयं मूल्यांकन शामिल करें",
+  "EmployeeAcknowledgement": "कर्मचारी की स्वीकृति",
+  "HRBPReview": "HRBP समीक्षा",
+  "ApprovalRequired": "अनुमोदन आवश्यक",
+  "Monthly": "मासिक",
+  "Quarterly": "त्रैमासिक",
+  "SemiAnnually": "अर्धवार्षिक",
+  "Annually": "वार्षिक"
+},
+"Templates": {
+  "Title": "टेम्पलेट्स",
+  "Buttons": {
+    "Create": "बनाएँ",
+    "Cancel": "रद्द करें",
+    "Update": "अपडेट करें",
+    "Save": "सहेजें",
+    "SelectAll": "सभी चुनें",
+    "UnselectAll": "सभी अचयनित करें"
+  },
+  "Table": {
+    "Name": "नाम",
+    "Action": "कार्रवाई",
+    "Edit": "संपादित करें",
+    "Delete": "हटाएं"
+  },
+  "FormFields": {
+    "TemplatesName": "टेम्पलेट्स का नाम",
+    "TemplateName": "टेम्पलेट नाम",
+    "Description": "विवरण",
+    "PercentageType": "प्रतिशत प्रकार",
+    "RatingScale": "रेटिंग स्केल",
+    "GoalPercentage": "लक्ष्य प्रतिशत",
+    "ObjectivePercentage": "उद्देश्य प्रतिशत",
+    "CompetenciesPercentage": "कौशल प्रतिशत",
+    "Competencies": "कौशल",
+    "ReviewSteps": "समीक्षा चरण",
+    "EmployeeDisplayOptions": "कर्मचारी प्रदर्शन विकल्प"
+  },
+  "Placeholders": {
+    "EnterTemplateName": "टेम्पलेट नाम दर्ज करें",
+    "EnterDescription": "विवरण दर्ज करें",
+    "EnterRatingScale": "रेटिंग स्केल दर्ज करें",
+    "EnterGoalPercentage": "लक्ष्य प्रतिशत दर्ज करें",
+    "EnterObjectivePercentage": "उद्देश्य प्रतिशत दर्ज करें",
+    "EnterCompetenciesPercentage": "कौशल प्रतिशत दर्ज करें",
+    "SelectCompetencies": "कौशल चुनें"
+  },
+  "Options": {
+    "Goals": "लक्ष्य",
+    "Objectives": "उद्देश्य",
+    "PerformanceRatingScale": "प्रदर्शन रेटिंग स्केल",
+    "AllCompetencies": "सभी कौशल"
+  },
+  "DisplayOptions": {
+    "FirstName": "प्रथम नाम",
+    "LastName": "अंतिम नाम",
+    "Department": "कार्य",
+    "Grade": "ग्रेड",
+    "Manager": "प्रबंधक",
+    "Designation": "पदनाम"
+  },
+  "DisplaySteps": {
+    "SelfSubmission": "स्वयं प्रस्तुतिकरण",
+    "ManagerReview": "प्रबंधक समीक्षा",
+    "HRReview": "HR समीक्षा",
+    "ManagerSignOff": "प्रबंधक हस्ताक्षर",
+    "EmployeeSignOff": "कर्मचारी हस्ताक्षर",
+    "Completed": "पूर्ण"
+  },
+  "DisplayStepsText": {
+    "SubmitToManager": "प्रबंधक को सबमिट करें",
+    "SubmitToHR": "HR को सबमिट करें",
+    "SubmitToManagerSignOff": "प्रबंधक हस्ताक्षर के लिए सबमिट करें",
+    "SubmitToEmployeeSignOff": "कर्मचारी हस्ताक्षर के लिए सबमिट करें",
+    "SignOffToComplete": "पूरा करने के लिए साइन ऑफ करें"
+  },
+  "Messages": {
+    "UnknownError": "अज्ञात त्रुटि उत्पन्न हुई"
+  }
+},
+"OKRLibraryTab": {
+  "Fields": {
+    "RewardSchemeName": "पुरस्कार योजना का नाम *",
+    "ObjectivesAchievementPercent": "उद्देश्यों की प्राप्ति %",
+    "ObjectivesAchievementPoints": "उद्देश्यों की प्राप्ति अंक",
+    "KrAchievementPercent": "KR प्राप्ति %",
+    "KrAchievementPoints": "KR प्राप्ति अंक",
+    "TaskAchievementPercent": "कार्य प्राप्ति %",
+    "TaskAchievementPoints": "कार्य प्राप्ति अंक",
+    "SubTaskAchievementPercent": "उपकार्य प्राप्ति %",
+    "SubTaskPoints": "उपकार्य अंक",
+    "RewardCategory": "पुरस्कार श्रेणी*",
+    "RewardType": "पुरस्कार प्रकार*",
+    "OKRTemplate": "OKR टेम्पलेट*",
+    "EligibilityGroup": "पात्रता समूह*",
+    "KudosEnabled": "कुडोस सक्षम",
+    "BirthdayWishesEnabled": "जन्मदिन की शुभकामनाएँ सक्षम",
+    "ApprovalRequired": "अनुमोदन आवश्यक",
+    "AnniversaryWishesEnabled": "वर्षगांठ शुभकामनाएँ सक्षम"
+  },
+  "Sections": {
+    "RewardPoints": "पुरस्कार अंक",
+    "Achievement": "उपलब्धि",
+    "Eligibility": "पात्रता",
+    "Toggles": "टॉगल्स"
+  },
+  "RewardPoints": {
+    "Bronze": "पुरस्कार अंक चुनें (कांस्य)",
+    "Silver": "पुरस्कार अंक चुनें (रजत)",
+    "Gold": "पुरस्कार अंक चुनें (स्वर्ण)"
+  },
+  "Buttons": {
+    "Cancel": "रद्द करें",
+    "Save": "सहेजें"
+  },
+  "Validation": {
+    "FieldRequired": "{{field}} आवश्यक है",
+    "FillRequiredFields": "कृपया सभी आवश्यक फ़ील्ड भरें"
+  },
+  "EmployeesSelected": "कर्मचारी चयनित",
+  "NotAvailable": "उपलब्ध नहीं"
+},
+
+"RewardsManagement": {
+  "TitleHeader": "प्रशासक पोर्टल - विशेषाधिकार",
+  "Title": "पुरस्कार प्रबंधन",
+  "Bronze": "कांस्य",
+  "Silver": "रजत",
+  "Gold": "स्वर्ण",
+  "Yes": "हाँ",
+  "No": "नहीं",
+  "Buttons": {
+    "Create": "बनाएँ",
+    "CreateRewards": "पुरस्कार बनाएँ"
+  },
+  "Table": {
+    "SNo": "क्रम संख्या",
+    "Scheme": "योजना",
+    "Category": "श्रेणी",
+    "Type": "प्रकार",
+    "Points": "अंक",
+    "Kudos": "कुडोस",
+    "Birthday": "जन्मदिन",
+    "ApprovalRequired": "अनुमोदन आवश्यक",
+    "Anniversary": "वर्षगांठ",
+    "LastModified": "अंतिम संशोधित",
+    "Action": "कार्रवाई",
+    "Edit": "संपादित करें",
+    "Delete": "हटाएं"
+  },
+  "Export": {
+    "CandidateID": "उम्मीदवार आईडी",
+    "RewardSchemeName": "पुरस्कार योजना का नाम",
+    "RewardCategory": "पुरस्कार श्रेणी",
+    "RewardType": "पुरस्कार प्रकार",
+    "RewardPoints": "पुरस्कार अंक",
+    "KudosEnabled": "कुडोस सक्षम",
+    "BirthdayWishesEnabled": "जन्मदिन शुभकामनाएँ सक्षम",
+    "ApprovalRequired": "अनुमोदन आवश्यक",
+    "AnniversaryWishesEnabled": "वर्षगांठ शुभकामनाएँ सक्षम",
+    "UpdatedAt": "अद्यतन तिथि"
+  },
+  "Messages": {
+    "NoDataFound": "कोई डेटा नहीं मिला!",
+    "SelectRole": "कृपया भूमिका चुनें...",
+    "NoDataToExport": "निर्यात करने के लिए कोई डेटा नहीं है"
+  },
+  "Validation": {
+    "OKRRequired": "OKR फ़ंक्शन/OKR श्रेणी आवश्यक है!"
+  }
+},
+"common": {
+  "searchHere": "यहाँ खोजें...",
+  "export": "निर्यात करें",
+  "csv": "CSV",
+  "excel": "Excel",
+  "pdf": "PDF"
+},
+"notification": {
+  "settingsTitle": "सूचना सेटिंग्स",
+  "to": "प्रति",
+  "cc": "सीसी",
+  "subject": "विषय",
+  "message": "संदेश",
+  "attachment": "संलग्नक",
+  "view": "देखें",
+  "reupload": "पुनः अपलोड करें",
+  "saveSettings": "सेटिंग्स सहेजें",
+  "updateSettings": "सेटिंग्स अपडेट करें",
+  "select": "--चुनें--",
+  "noDataFound": "कोई डेटा नहीं मिला!"
+},
+"LaunchForms": {
+  "Title": "फॉर्म लॉन्च करें",
+  "ConfirmDelete": "क्या आप वाकई इस फॉर्म को हटाना चाहते हैं?",
+  "Submit": "जमा करें",
+  "EmployeesSelected": "कर्मचारी चयनित",
+  "Buttons": {
+    "Create": "बनाएँ",
+    "Cancel": "रद्द करें",
+    "Update": "अपडेट करें",
+    "Save": "सहेजें"
+  },
+  "FormFields": {
+    "LaunchFormName": "लॉन्च फॉर्म का नाम",
+    "FormType": "फॉर्म प्रकार",
+    "FormTemplate": "फॉर्म टेम्पलेट",
+    "LaunchDate": "लॉन्च तिथि",
+    "ReviewPeriodStartDate": "समीक्षा अवधि प्रारंभ तिथि",
+    "ReviewPeriodEndDate": "समीक्षा अवधि समाप्ति तिथि",
+    "Employees": "कर्मचारी"
+  },
+  "Table": {
+    "Name": "नाम",
+    "LaunchDate": "लॉन्च तिथि",
+    "Action": "कार्रवाई",
+    "Edit": "संपादित करें",
+    "Delete": "हटाएं"
+  },
+  "Placeholders": {
+    "SelectFormType": "कृपया एक फॉर्म प्रकार चुनें...",
+    "SelectFormTemplate": "कृपया एक फॉर्म टेम्पलेट चुनें...",
+    "EnterLaunchDate": "लॉन्च तिथि दर्ज करें",
+    "EnterStartDate": "प्रारंभ तिथि दर्ज करें",
+    "EnterEndDate": "समाप्ति तिथि दर्ज करें"
+  }
+},
+"addRewardPopup": {
+  "titleAdd": "नया पुरस्कार जोड़ें",
+  "titleUpdate": "पुरस्कार अपडेट करें",
+  "rewardName": "पुरस्कार नाम*",
+  "rewardDescription": "पुरस्कार विवरण*",
+  "rewardType": "पुरस्कार प्रकार*",
+  "rewardApprover": "पुरस्कार अनुमोदक*",
+  "rewardCode": "पुरस्कार कोड*",
+  "rewardPoints": "पुरस्कार अंक*",
+  "rewardAmount": "पुरस्कार राशि*",
+  "rewardStatus": "पुरस्कार स्थिति*",
+  "rewardIcon": "पुरस्कार आइकन*",
+  "viewRewardIcon": "पुरस्कार आइकन देखें",
+  "reuploadRewardIcon": "पुरस्कार आइकन पुनः अपलोड करें",
+  "add": "जोड़ें",
+  "update": "अपडेट करें",
+  "clear": "साफ़ करें",
+  "active": "सक्रिय",
+  "inactive": "निष्क्रिय"
+},
+
+
+  "catalogManagement": {
+    "headerTitle": "प्रशासक पोर्टल - विशेषाधिकार",
+    "title": "कैटलॉग प्रबंधन",
+    "addNewReward": "नया इनाम जोड़ें",
+    "searchPlaceholder": "इनाम खोजें...",
+    "validationError": "OKR फ़ंक्शन/OKR श्रेणी आवश्यक है!",
+    "noData": "कोई डेटा नहीं मिला!"
+  },
+  "tabsContainer": {
+    "selectAll": "सभी चुनें",
+    "objectives": "उद्देश्य",
+    "keyResults": "मुख्य परिणाम",
+    "tasks": "कार्य"
+  },
+  "AdvancedLaunchForms": {
+    "Title": "उन्नत लॉन्च फ़ॉर्म",
+    "AdvancedReviewManagement": "उन्नत समीक्षा प्रबंधन",
+    "Buttons": {
+      "Create": "बनाएं",
+      "Cancel": "रद्द करें",
+      "Update": "अपडेट करें",
+      "Save": "सहेजें"
+    },
+    "FormFields": {
+      "LaunchFormName": "लॉन्च फ़ॉर्म नाम",
+      "FormName": "फ़ॉर्म नाम",
+      "FormType": "फ़ॉर्म प्रकार",
+      "FormTemplate": "फ़ॉर्म टेम्पलेट",
+      "LaunchDate": "लॉन्च तिथि",
+      "ReviewPeriodStartDate": "समीक्षा अवधि प्रारंभ तिथि",
+      "ReviewPeriodEndDate": "समीक्षा अवधि समाप्ति तिथि",
+      "ToEmployee": "कर्मचारी को",
+      "SelfAndManager": "स्वयं और प्रबंधक",
+      "Peers": "सहकर्मी"
+    },
+    "Table": {
+      "FormName": "फ़ॉर्म नाम",
+      "TemplateName": "टेम्पलेट नाम",
+      "EmployeeName": "कर्मचारी का नाम",
+      "LaunchDate": "लॉन्च तिथि",
+      "Action": "कार्रवाई",
+      "Edit": "संपादित करें",
+      "Delete": "हटाएं"
+    },
+    "Placeholders": {
+      "EnterFormName": "फ़ॉर्म नाम दर्ज करें",
+      "AdvanceReviewManagement": "उन्नत समीक्षा प्रबंधन",
+      "SelectFormTemplate": "कृपया एक फ़ॉर्म टेम्पलेट चुनें...",
+      "EnterLaunchDate": "लॉन्च तिथि दर्ज करें",
+      "EnterStartDate": "प्रारंभ तिथि दर्ज करें",
+      "EnterEndDate": "समाप्ति तिथि दर्ज करें",
+      "SelectEmployee": "कृपया एक कर्मचारी चुनें...",
+      "SelectSelfAndManager": "स्वयं और प्रबंधक चुनें...",
+      "SelectPeers": "सहकर्मियों का चयन करें..."
+    }
+  },
+  "FilterComponent": {
+    "Title": "फ़िल्टर",
+    "Buttons": {
+      "Reset": "रीसेट करें",
+      "Apply": "लागू करें",
+      "Loading": "लोड हो रहा है..."
+    },
+    "Fields": {
+      "CandidateId": "उम्मीदवार आईडी",
+      "CandidateName": "उम्मीदवार का नाम",
+      "Department": "कार्य",
+      "Designation": "पदनाम",
+      "ApplicationDate": "आवेदन तिथि",
+      "Stage": "चरण",
+      "To": "तक"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "उम्मीदवार आईडी दर्ज करें",
+      "EnterCandidateName": "उम्मीदवार का नाम दर्ज करें"
+    },
+    "Options": {
+      "NewApplied": "नया आवेदन किया गया",
+      "PsychometricTest": "मनोमितीय परीक्षण",
+      "Interview1": "साक्षात्कार 1",
+      "Interview2": "साक्षात्कार 2",
+      "DocumentUpload": "दस्तावेज़ अपलोड",
+      "OfferLetter": "ऑफर लेटर",
+      "Onboarding": "ऑनबोर्डिंग",
+      "Rejected": "अस्वीकृत",
+      "ConvertToEmployee": "कर्मचारी में परिवर्तित करें"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "कोई कार्य नहीं मिला!",
+      "NoDesignationsFound": "कोई पदनाम नहीं मिला!"
+    }
+  }
+}

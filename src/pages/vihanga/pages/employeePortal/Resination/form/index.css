@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+  .resignation-form-buttons {
+    margin-top: 50px !important;
+  }
+  .resignation-form-uploadButton {
+    
+  }
+}

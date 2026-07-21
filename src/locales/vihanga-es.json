@@ -1,0 +1,1890 @@
+
+{
+  "AdminPage": {
+    "PageTitle": "Talentspotify Admin",
+    "PageSubtitle": "Accede a todas tus herramientas y funciones de administración desde un solo lugar",
+    "SearchPlaceholder": "Buscar funciones de administración...",
+    "RolesAndPrivileges": {
+      "Title": "Roles y Privilegios",
+      "Description": "Gestiona roles de usuario, permisos y acceso en el espacio de trabajo"
+    },
+    "RecruitmentManagement": {
+      "Title": "Gestión de Reclutamiento",
+      "Description": "Seguimiento de vacantes, etapas de contratación y progreso de candidatos"
+    },
+    "UploadLeaves": {
+      "Title": "Cargar Ausencias",
+      "Description": "Carga y gestiona registros de ausencias y solicitudes de empleados"
+    },
+    "AttendanceUpload": {
+      "Title": "Carga de Asistencia",
+      "Description": "Carga y revisa registros de asistencia y hojas de tiempo de empleados"
+    },
+    "ApprovalWorkflow": {
+      "Title": "Flujo de Aprobación",
+      "Description": "Configura y monitorea aprobaciones multi-etapa y notificaciones relacionadas"
+    },
+    "AssetManagement": {
+      "Title": "Gestión de Activos",
+      "Description": "Gestiona activos de la empresa, asignaciones y ciclo de vida de equipos"
+    },
+    "LeaveType": {
+      "Title": "Tipo de Ausencia",
+      "Description": "Define categorías de ausencia y establece reglas de aprobación y notificación"
+    },
+    "HolidaysCalendar": {
+      "Title": "Calendario de Festivos",
+      "Description": "Gestiona festivos de la empresa, eventos y programaciones del calendario"
+    },
+    "EligibilityCriteria": {
+      "Title": "Criterios de Elegibilidad",
+      "Description": "Define y gestiona requisitos de elegibilidad para varios procesos"
+    },
+    "PrivilegeGroups": {
+      "Title": "Grupos de Privilegios",
+      "Description": "Crea y gestiona grupos de privilegios para control de acceso basado en roles"
+    },
+    "OKRManagement": {
+      "Title": "Gestión de OKR",
+      "Description": "Configura y gestiona Objetivos y Resultados Clave para seguimiento del desempeño"
+    },
+    "Lookups": {
+      "Title": "Valores de Referencia",
+      "Description": "Gestiona datos de referencia y valores de búsqueda en todo el sistema"
+    },
+    "RewardManagement": {
+      "Title": "Gestión de Recompensas",
+      "Description": "Configura y gestiona recompensas, reconocimientos y programas de incentivos"
+    },
+    "CatalogManagement": {
+      "Title": "Gestión de Catálogo",
+      "Description": "Gestiona catálogos de productos, categorías y artículos de inventario"
+    },
+    "NotificationManagement": {
+      "Title": "Gestión de Notificaciones",
+      "Description": "Configura ajustes de notificación, plantillas y preferencias de entrega"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "Gestión Avanzada de Desempeño",
+      "Description": "Configura ciclos avanzados de revisión de desempeño, calificaciones y criterios de evaluación"
+    },
+    "IntegrationManagement": {
+      "Title": "Gestión de Integraciones",
+      "Description": "Gestiona integraciones de terceros, APIs y conexiones con sistemas externos"
+    },
+    "QuestionnaireManagement": {
+      "Title": "Gestión de Cuestionarios",
+      "Description": "Crea y gestiona encuestas, cuestionarios y formularios de feedback"
+    },
+    "CompetencyManagement": {
+      "Title": "Gestión de Competencias",
+      "Description": "Define y gestiona competencias, habilidades y marcos de desarrollo de empleados"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "Plantillas de Gestión de Desempeño",
+      "Description": "Crea y personaliza plantillas de revisión de desempeño y formularios de evaluación"
+    },
+    "LaunchFormsManagement": {
+      "Title": "Gestión de Formularios de Lanzamiento",
+      "Description": "Configura y gestiona formularios de lanzamiento de revisiones de desempeño y flujos de trabajo"
+    },
+    "CalibrationManagement": {
+      "Title": "Gestión de Calibración",
+      "Description": "Gestiona sesiones de calibración de desempeño y consistencia de calificaciones"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "Gestión Avanzada de Formularios de Lanzamiento",
+      "Description": "Configuración avanzada para formularios de lanzamiento de revisiones y automatización"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "Portal Admin - Privilegios",
+    "MainHeading": "Roles y Privilegios",
+    "RoleName": "Nombre del Rol",
+    "Description": "Descripción",
+    "GrantRoleTo": "Otorgar Este Rol A...",
+    "GrantRoleDescription": "Selecciona un grupo al que deseas otorgar este rol. Puedes asignar un grupo de usuarios para gestionar registros de empleados para cierto grupo. Un gerente debe editar registros dentro de su propia función.",
+    "PermissionGroupsOrUsers": "Grupos de permisos o usuarios",
+    "SelectPlaceholder": "--Seleccionar--",
+    "SearchPlaceholder": "Buscar aquí..",
+    "AddButton": "AGREGAR",
+    "CancelButton": "CANCELAR",
+    "MakeActiveButton": "Hacer Activo",
+    "MakeInactiveButton": "Hacer Inactivo",
+    "UpdateButton": "Actualizar",
+    "SaveButton": "Guardar",
+    "TableHeaders": {
+      "SerialNumber": "Nº Serie",
+      "RoleName": "Nombre del Rol",
+      "PermissionGroup": "Grupo de Permisos o Usuarios",
+      "Active": "Activo",
+      "Actions": "Acciones"
+    },
+    "Tabs": {
+      "Employees": "EMPLEADOS",
+      "Goals": "OBJETIVOS",
+      "Privileges": "Privilegios",
+      "Performance": "DESEMPEÑO",
+      "Rewards": "RECOMPENSAS",
+      "View": "Ver",
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "Cargar Registros de Ausencias",
+    "PageDescription": "Por favor carga tus registros de ausencias en el formato proporcionado. Puedes descargar una plantilla abajo.",
+    "DownloadTemplate": "Descargar Plantilla",
+    "ExportLeaveRecords": "Exportar Registros de Ausencias",
+    "ExportLeaveBalances": "Exportar Saldos de Ausencias",
+    "UploadFileLabel": "Cargar Archivo de Registros de Ausencias",
+    "NoFileUploaded": "Ningún archivo cargado",
+    "UploadedFile": "Archivo cargado:",
+    "Submit": "Enviar",
+    "DateRangeDialog": {
+      "Title": "Seleccionar Rango de Fechas para Exportar Registros de Ausencias",
+      "StartDate": "Fecha de Inicio",
+      "EndDate": "Fecha de Fin",
+      "Cancel": "Cancelar",
+      "ExportRecords": "Exportar Registros"
+    },
+    "Instructions": {
+      "Title": "Instrucciones:",
+      "Step1": "Descarga la plantilla para ver el formato requerido",
+      "Step2": "Completa el EmpId (Número de Empleado) y días de ausencia para cada tipo",
+      "Step3": "Carga el archivo completado",
+      "Step4": "El sistema validará IDs de empleados y reducirá saldos de ausencias"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "Carga de Asistencia",
+    "PageDescription": "Por favor carga tu hoja de asistencia en el formato proporcionado. Puedes descargar una plantilla abajo.",
+    "DownloadTemplate": "Descargar Plantilla",
+    "UploadFileLabel": "Cargar Archivo de Asistencia",
+    "NoFileUploaded": "Ningún archivo cargado",
+    "UploadedFile": "Archivo cargado:",
+    "Submit": "Enviar"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "Historial de Tipos de Ausencia",
+    "TableHeaders": {
+      "Name": "Nombre",
+      "Code": "Código",
+      "Actions": "Acciones"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "Exportar como CSV",
+      "ExportAsExcel": "Exportar como Excel",
+      "ExportAsPDF": "Exportar como PDF"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "Tipo de Ausencia",
+    "AdvancedConfiguration": "Configuración Avanzada",
+    "MaxAdvanceDaysConfiguration": "Configuración de Días Máximos de Anticipación",
+    "MaxAdvanceDaysDescription": "Configura cuántos días de anticipación necesitan los empleados para solicitar ausencia basado en el número de días que solicitan.",
+    "AttachmentsRequiredConfiguration": "Configuración de Adjuntos Requeridos",
+    "FormFields": {
+      "Name": "Nombre",
+      "ImageIcon": "Imagen / Icono",
+      "Code": "Código",
+      "BalanceBasedOn": "Saldo basado en (derecho fijo / concesión de ausencia)",
+      "Units": "Unidades (Días / horas)",
+      "Status": "Estado",
+      "Eligibility": "Elegibilidad",
+      "CustomName": "Nombre Personalizado"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "Número máximo de ausencias que se pueden tomar a la vez",
+      "MaxHalfDays": "Máximo de medias jornadas por año",
+      "MaxHalfDaysHelper": "Dejar vacío para límite ilimitado en medias jornadas",
+      "AutoAddLeaves": "Añadir Ausencias Automáticamente",
+      "AddType": "Tipo de Adición",
+      "NumberOfDaysToAdd": "Número de días a añadir"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "Días Mín",
+      "MaxDays": "Días Máx (dejar vacío para límite ilimitado)",
+      "MaxAdvanceDays": "Días Máximos de Anticipación",
+      "RemoveRule": "Eliminar Regla",
+      "AddRule": "Añadir Regla"
+    },
+    "AttachmentFields": {
+      "Operator": "Operador",
+      "ValueDays": "Valor (días)"
+    },
+    "Checkboxes": {
+      "Carryover": "Traspaso",
+      "AttachmentsRequired": "Adjuntos Requeridos"
+    },
+    "Buttons": {
+      "Cancel": "Cancelar",
+      "Update": "Actualizar",
+      "Submit": "Enviar",
+      "Submitting": "Enviando..."
+    },
+    "Options": {
+      "Hours": "horas",
+      "Days": "días",
+      "Active": "Activo",
+      "InActive": "Inactivo",
+      "Hourly": "Por Hora",
+      "Monthly": "Mensual",
+      "Yearly": "Anual",
+      "Is": "es",
+      "LesserOrEqual": "menor o igual a (≤)",
+      "GreaterOrEqual": "mayor o igual a (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "Ausencia por Antigüedad (EL)",
+      "SickLeave": "Ausencia por Enfermedad (SL)",
+      "CasualLeave": "Ausencia Casual (CL)",
+      "MaternityLeave": "Ausencia por Maternidad (ML)",
+      "PaternityLeave": "Ausencia por Paternidad (PL)",
+      "CompensatoryOff": "Día Compensatorio",
+      "BereavementLeave": "Ausencia por Duelo",
+      "MarriageLeave": "Ausencia por Matrimonio",
+      "UnpaidLeave": "Ausencia No Remunerada (LWP)",
+      "WorkFromHome": "Teletrabajo (WFH)",
+      "Others": "Otros"
+    },
+    "FileStatus": {
+      "Selected": "✓ Seleccionado:",
+      "Current": "Actual:",
+      "NoFileSelected": "Ningún archivo seleccionado",
+      "LoadingEligibility": "Cargando opciones de elegibilidad..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "Reglas de Traspaso",
+    "CarryoverDateQuestion": "¿Cuál debería ser la fecha de traspaso?",
+    "CarryoverDateLabel": "Fecha de Traspaso",
+    "MaxDaysQuestion": "¿Cuántos días deberían trasladarse (máx)?",
+    "MaxDaysLabel": "Introduce días máximos"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "Sistema de Gestión de Activos",
+    "AssetAssignment": "Asignación de Activos",
+    "AddAsset": "Añadir Activo",
+    "AssetType": "Tipo de Activo *",
+    "AssetNumber": "Número de Activo *",
+    "IssueDate": "Fecha de Emisión",
+    "CollectionDate": "Fecha de Recolección",
+    "HandOverDate": "Fecha de Entrega",
+    "SelectType": "Seleccionar Tipo",
+    "RemoveAsset": "Eliminar Activo",
+    "Cancel": "Cancelar",
+    "UpdateAsset": "Actualizar Activo",
+    "CreateAsset": "Crear Activo",
+    "Updating": "Actualizando...",
+    "Submitting": "Enviando..."
+  },
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "Información del Empleado",
+    "FullName": "Nombre Completo *",
+    "EmployeeID": "ID de Empleado *",
+    "Department": "Función",
+    "Position": "Cargo",
+    "WorkLocation": "Ubicación de Trabajo",
+    "SelectEmployee": "Seleccionar Empleado"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "Historial de Gestión de Activos",
+    "TableHeaders": {
+      "Name": "Nombre",
+      "EmployeeID": "ID de Empleado",
+      "Department": "Función",
+      "AssetType": "Tipo de Activo",
+      "AssetNo": "Nº de Activo",
+      "IssueDate": "Fecha de Emisión",
+      "HandOverDate": "Fecha de Entrega",
+      "Action": "Acción"
+    },
+    "Actions": {
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    },
+    "NoDataFound": "No se encontraron datos",
+    "Error": "Error"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "Calendario de Festivos",
+    "FormFields": {
+      "HolidayName": "Nombre del Festivo",
+      "Date": "Fecha",
+      "Type": "Tipo",
+      "Description": "Descripción"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "Festivo Público",
+      "CompanyHoliday": "Festivo de Empresa",
+      "ReligiousHoliday": "Festivo Religioso"
+    },
+    "Buttons": {
+      "Cancel": "Cancelar",
+      "Update": "Actualizar",
+      "Submit": "Enviar",
+      "Submitting": "Enviando..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "Historial de Festivos",
+    "TableHeaders": {
+      "HolidayName": "Nombre del Festivo",
+      "Type": "Tipo",
+      "Date": "Fecha",
+      "Actions": "Acciones"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "Cargando...",
+    "FailedToLoad": "Error al Cargar Datos del Panel",
+    "NoDataAvailable": "No Hay Datos del Panel Disponibles",
+    "NoDataMessage": "La información del panel no está disponible en este momento.",
+    "KpiCards": {
+      "MyActiveTasks": "Mis Tareas Activas",
+      "TeamAttendance": "Asistencia del equipo",
+      "PunctualityScore": "Puntuación de Puntualidad",
+      "MyAchievements": "Mis Logros",
+      "RewardPoints": "Puntos de Recompensa"
+    },
+    "SubHeadings": {
+      "Urgent": "Urgente",
+      "PresentToday": "Presentes hoy",
+      "Last30Days": "Últimos 30 días",
+      "ThisMonth": "Este Mes",
+      "Available": "Disponible"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "Acción Requerida",
+      "ReviewNow": "Revisar Ahora",
+      "ViewDetails": "Ver Detalles"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "Tareas KPI",
+    "AdHocTasks": "Tareas Ad Hoc",
+    "Urgent": "Urgente"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "Cargando Tareas Recientes...",
+    "FailedToLoadRecentTasks": "Error al Cargar Tareas Recientes",
+    "NoRecentTasksAvailable": "No Hay Tareas Recientes Disponibles",
+    "NoRecentTasksMessage": "La información de tareas recientes no está disponible en este momento.",
+    "RecentTasks": "Tareas Recientes",
+    "ViewAll": "Ver todo",
+    "NoRecentTasksFound": "No se encontraron tareas recientes",
+    "AllRecentTasks": "Todas las Tareas Recientes",
+    "KpiTask": "Tarea KPI",
+    "NoDueDate": "Sin fecha de vencimiento",
+    "UntitledTask": "Tarea Sin Título"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "Cargando Tabla de Clasificación...",
+    "FailedToLoadLeaderboard": "Error al Cargar la Tabla de Clasificación",
+    "NoLeaderboardDataAvailable": "No Hay Datos de Tabla de Clasificación Disponibles",
+    "NoLeaderboardDataMessage": "La información de la tabla de clasificación de puntos de recompensa no está disponible en este momento.",
+    "RewardPointsLeaderboard": "Puntos de Recompensa - Tabla de Clasificación",
+    "Company": "EMPRESA",
+    "Top5Employees": "Top 5 Empleados",
+    "ViewAll": "Ver Todos",
+    "NoEmployeesFound": "No se encontraron empleados",
+    "Unknown": "Desconocido",
+    "EmployeeId": "ID: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "Panel de Tareas",
+    "FilterOptions": {
+      "ThisWeek": "Esta Semana",
+      "ThisMonth": "Este Mes",
+      "ThisYear": "Este Año",
+      "All": "Todos"
+    },
+    "Buttons": {
+      "View": "Ver",
+      "AddTask": "Añadir Tarea"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "Progreso de OKR",
+    "AddOKR": "Añadir OKR",
+    "NoOKRData": "Sin Datos de OKR",
+    "StatusLabels": {
+      "OnTrack": "En Camino",
+      "OffTrack": "Fuera de Camino",
+      "AtRisk": "En Riesgo"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "¡HOLA {{name}}! Tus Objetivos están fuera de camino para completarse para la fecha de vencimiento!",
+    "GreetingOnTrack": "¡HOLA {{name}}! Tus Objetivos están en camino!",
+    "GreetingAtRisk": "¡HOLA {{name}}! Algunos de tus Objetivos están en riesgo!",
+    "Loading": "Cargando...",
+    "NoDataAvailable": "No Hay Datos Disponibles"
+  },
+  "ObjectivesTable": {
+    "Actions": {
+      "Edit": "Editar",
+      "Delete": "Eliminar",
+      "Approve": "Aprobar",
+      "Reject": "Rechazar"
+    },
+    "Columns": {
+      "Objectives": "Objetivos",
+      "Progress": "Progreso",
+      "Weight": "Peso",
+      "Owner": "Propietario",
+      "DueDate": "Fecha de Vencimiento",
+      "ApproveReject": "Aprobar/Rechazar",
+      "Actions": "Acciones",
+      "AddKRTask": "Añadir KR / Añadir Tarea"
+    },
+    "Status": {
+      "OnTrack": "EnCamino",
+      "AtRisk": "EnRiesgo",
+      "OffTrack": "FueraDeCamino",
+      "NotStarted": "No Iniciado",
+      "InProgress": "En Progreso",
+      "Submit": "Enviar",
+      "Draft": "Borrador",
+      "PendingApproval": "Pendiente",
+      "ApprovalRequired": "Aprobación Requerida",
+      "Approved": "Aprobado",
+      "Rejected": "Rechazado"
+    },
+    "Tooltips": {
+      "AddKeyResult": "Añadir Resultado Clave",
+      "AddTask": "Añadir Tarea",
+      "Add": "Añadir"
+    },
+    "TableHeader": {
+      "DisplayOptions": "Opciones de Visualización",
+      "CompanyOKRs": "OKRs de la Empresa",
+      "Cascade": "Cascada",
+      "Delete": "Eliminar",
+      "Status": "Estado",
+      "SearchPlaceholder": "Buscar aquí..",
+      "Export": "Exportar",
+      "CreateOKR": "Crear OKR",
+      "Library": "Biblioteca",
+      "NonLibrary": "No Biblioteca",
+      "StatusOptions": {
+        "OnTrack": "En Camino",
+        "AtRisk": "En Riesgo",
+        "OffTrack": "Fuera de Camino"
+      },
+      "ExportOptions": {
+        "ExportCSV": "Exportar como CSV",
+        "ExportExcel": "Exportar como Excel",
+        "ExportPDF": "Exportar como PDF"
+      },
+      "ExportLabels": {
+        "Type": "Tipo",
+        "Title": "Título",
+        "Description": "Descripción",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "Progreso",
+        "Status": "Estado",
+        "Owner": "Propietario",
+        "Weight": "Peso",
+        "StartDate": "Fecha de Inicio",
+        "DueDate": "Fecha de Vencimiento",
+        "Alignment": "Alineación",
+        "CreatedAt": "Creado En",
+        "Objective": "Objetivo",
+        "KeyResult": "Resultado Clave",
+        "Task": "Tarea",
+        "CompanyOKR": "OKR de Empresa",
+        "IndividualOKR": "OKR Individual",
+        "ExportedOn": "Exportado el:",
+        "OKRsExportReport": "Reporte de Exportación de OKRs",
+        "NoDataToExport": "No hay datos para exportar"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "Año de OKR",
+    "SelectYear": "Seleccionar Año",
+    "Employee": "Empleado",
+    "SelectEmployee": "Seleccionar Empleado"
+  },
+  "Tasks": {
+    "Task": "Tarea",
+    "Tasks": "Tareas",
+    "Objective": "Objetivo",
+    "KR": "KR",
+    "Due Date": "Fecha de Vencimiento",
+    "Status": "Estado",
+    "Owner": "Propietario",
+    "Priority": "Prioridad",
+    "Progress": "Progreso",
+    "Comments": "Comentarios",
+    "SubTask": "Subtarea",
+    "Approval": "Aprobación",
+    "Action": "Acción",
+    "Approve": "Aprobar",
+    "PendingApproval": "Pendiente",
+    "Reject": "Rechazar",
+    "Approved": "Aprobado",
+    "Rejected": "Rechazado",
+    "ApprovalRequired": "Aprobación Requerida",
+    "Edit": "Editar",
+    "Delete": "Eliminar",
+    "Audit History": "Historial de Auditoría",
+    "HighLevel": "Alto Nivel",
+    "MediumLevel": "Nivel Medio",
+    "LowLevel": "Nivel Bajo",
+    "Not Started": "No Iniciado",
+    "In Progress": "En Progreso",
+    "OnHold": "En Espera",
+    "Completed": "Completado",
+    "Recurrence": "Recurrencia",
+    "Main Task": "Tarea Principal",
+    "Comment": "Comentario",
+    "commentHere": "Comentar aquí...",
+    "AddComment": "Agregar Comentario",
+    "Submit": "Enviar",
+    "Upload Files": "Cargar Archivos",
+    "Uploading": "Cargando...",
+    "File uploaded": "Archivo cargado",
+    "Processing": "Procesando...",
+    "UpdateTask": "Actualizar Tarea",
+    "SaveAddAnother": "Guardar y Añadir Otra",
+    "Finish": "Finalizar",
+    "AddTask": "Añadir Tarea",
+    "EditTask": "Editar Tarea",
+    "Assign To": "Asignar A",
+    "Loading task data...": "Cargando datos de la tarea..."
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "Crear Objetivo",
+    "EditObjective": "Editar Objetivo",
+    "ObjectiveSavedSuccess": "✓ ¡Objetivo guardado exitosamente! Ahora puedes añadir Resultados Clave.",
+    "EarnedRewardPoints": "Has ganado {{points}} puntos de recompensa",
+    "FormLabels": {
+      "Objective": "Objetivo*",
+      "Weight": "Peso*",
+      "Owner": "Propietario",
+      "DueDate": "Fecha de Vencimiento",
+      "Dimension": "Dimensión*",
+      "Comment": "Comentario",
+      "UploadFile": "Cargar Archivo",
+      "Progress": "Progreso"
+    },
+    "Placeholders": {
+      "EnterComment": "Introduce tu comentario aquí...",
+      "DateFormat": "dd/mm/aaaa"
+    },
+    "Buttons": {
+      "Saving": "Guardando...",
+      "UpdateObjective": "Actualizar Objetivo",
+      "SaveDetails": "Guardar Detalles",
+      "AddKeyResults": "Añadir Resultados Clave",
+      "SaveAndAddKR": "Guardar y Añadir KR"
+    },
+    "FileUpload": {
+      "Uploading": "(Cargando...)",
+      "FileUploaded": "✓ Archivo cargado"
+    },
+    "Stepper": {
+      "Objective": "Objetivo",
+      "KR": "KR",
+      "Task": "Tarea"
+    },
+    "Progress": {
+      "SelectProgressStatus": "Seleccionar Tu Estado de Progreso (En Porcentaje)"
+    },
+    "Dimensions": {
+      "People": "Personas",
+      "Financial": "Financiero",
+      "Operations": "Operaciones",
+      "Strategy": "Estrategia",
+      "ProcessGovernanceSystem": "Proceso/Gobernanza/Sistema"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "Añadir Resultado Clave",
+    "EditKeyResult": "Editar Resultado Clave",
+    "OKRName": "Nombre de OKR",
+    "AlignedToCompanyObjective": "Alineado al objetivo de la empresa",
+    "FormLabels": {
+      "KeyResultName": "Nombre del Resultado Clave*",
+      "Source": "Fuente",
+      "KPIs": "KPIs*",
+      "Status": "Estado*",
+      "UnitOfMeasurement": "Unidad de Medida",
+      "Polarity": "Polaridad",
+      "TargetResult": "Resultado Objetivo*",
+      "ActualResult": "Resultado Real",
+      "TargetDate": "Fecha Objetivo*",
+      "CompletionDate": "Fecha de Finalización",
+      "Comment": "comentario",
+      "UploadFile": "Cargar Archivo"
+    },
+    "Buttons": {
+      "Saving": "Guardando...",
+      "UpdateDetails": "Actualizar Detalles",
+      "SaveAndAddAnother": "Guardar y Añadir Otro",
+      "NextAddTask": "Siguiente: Añadir Tarea"
+    },
+    "FileUpload": {
+      "Uploading": "(Cargando...)",
+      "FileUploaded": "✓ Archivo cargado"
+    },
+    "Polarity": {
+      "Positive": "Positiva",
+      "Negative": "Negativa"
+    },
+    "StatusOptions": {
+      "NotStarted": "No Iniciado",
+      "InProgress": "En Progreso",
+      "OnHold": "En Espera",
+      "Completed": "Completado"
+    },
+    "KPIOptions": {
+      "Revenue": "Ingresos",
+      "UserGrowth": "Crecimiento de Usuarios",
+      "ConversionRate": "Tasa de Conversión"
+    },
+    "UnitOptions": {
+      "Number": "Número",
+      "Percentage": "Porcentaje (%)",
+      "INR": "INR",
+      "USD": "USD",
+      "AED": "AED"
+    },
+    "SourceOptions": {
+      "SelectSource": "--Seleccionar Fuente--",
+      "Salesforce": "Salesforce"
+    },
+    "BellCurveChart": {
+      "Loading": "Cargando...",
+      "Error": "Error:",
+      "UnknownError": "Error desconocido",
+      "Value": "Valor:",
+      "NoCurveData": "No hay datos de curva disponibles",
+      "AtLower": "En Inferior",
+      "AtAverage": "En Promedio",
+      "AtUpper": "En Superior",
+      "Point": "Punto"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "Logro de Peso Total",
+    "TotalWeight": "Peso Total",
+    "Q1": "Q1",
+    "Q2": "Q2",
+    "Q3": "Q3",
+    "Q4": "Q4"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "Asistencia de Hoy",
+    "Present": "Presente",
+    "OnLeave": "De Ausencia",
+    "LateArrivals": "Llegadas Tardías",
+    "TotalEmployees": "Total de Empleados",
+    "NextHoliday": "Próximo Festivo",
+    "NoUpcomingHolidays": "No hay festivos próximos"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "Tendencia de Desempeño",
+    "CurrentPerformance": "Desempeño Actual",
+    "UnknownPeriod": "Período Desconocido"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "Recompensas Disponibles",
+    "Pts": "Pts",
+    "NoRewardsAvailable": "No hay recompensas disponibles en este momento",
+    "KeepEarningPoints": "Sigue ganando puntos para más recompensas",
+    "ComingSoonTitle": "Recompensas Próximamente",
+    "ComingSoonDescription": "¡Estamos preparando recompensas emocionantes para ti! Pronto podrás reclamar recompensas basadas en tus logros y contribuciones.",
+    "Rewards": {
+      "ExpertBadge": "Insignia de Experto",
+      "Achievement": "Logro",
+      "TeamPlayerAward": "Premio Jugador de Equipo",
+      "Recognition": "Reconocimiento",
+      "Claim": "Reclamar"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "Actualizaciones Recientes",
+    "NoRecentUpdates": "No hay actualizaciones recientes",
+    "ComingSoonTitle": "Feed de Actualizaciones Próximamente",
+    "ComingSoonDescription": "Estamos desarrollando un feed de actualizaciones integral para mantenerte informado sobre notificaciones importantes, logros y actualizaciones del sistema.",
+    "Updates": {
+      "UrgentTasksAlert": "Alerta de Tareas Urgentes",
+      "TaskOverview": "Resumen de Tareas",
+      "OKRAlert": "Alerta de OKR",
+      "OKRProgress": "Progreso de OKR",
+      "GreatAttendance": "Excelente Asistencia",
+      "AchievementUnlocked": "Logro Desbloqueado",
+      "PerformanceReviewReminder": "Recordatorio de Revisión de Desempeño",
+      "GreatJob": "Buen Trabajo"
+    },
+    "TimeLabels": {
+      "Today": "Hoy",
+      "ThisMonth": "Este mes",
+      "OneDayAgo": "Hace 1 día",
+      "ThreeDaysAgo": "Hace 3 días"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "Lista de Cumpleaños",
+    "ViewAll": "Ver todo",
+    "NoBirthdaysThisMonth": "No hay cumpleaños este mes",
+    "AllUpcomingBirthdays": "Todos los Cumpleaños Próximos",
+    "LoadingTitle": "Cargando Lista de Cumpleaños...",
+    "FailedToLoadTitle": "Error al Cargar la Lista de Cumpleaños",
+    "NoDataTitle": "No Hay Cumpleaños Este Mes",
+    "NoDataMessage": "Ningún empleado cumple años en el mes actual.",
+    "DateFormats": {
+      "Today": "Hoy",
+      "Tomorrow": "Mañana",
+      "Days": "días"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "Lista de Aniversarios",
+    "ViewAll": "Ver todo",
+    "NoAnniversariesThisMonth": "No hay aniversarios este mes",
+    "AllUpcomingAnniversaries": "Todos los Aniversarios Próximos",
+    "DateFormats": {
+      "Today": "Hoy",
+      "Tomorrow": "Mañana",
+      "Days": "días",
+      "Year": "Año",
+      "Years": "Años"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "Enviar Deseo de Cumpleaños",
+    "SendPersonalizedMessage": "Envía un mensaje de cumpleaños personalizado a",
+    "HappyBirthdayPlaceholder": "Feliz Cumpleaños",
+    "Cancel": "Cancelar",
+    "SendWish": "Enviar Deseo",
+    "YearsOfService": "año de servicio",
+    "YearsOfServicePlural": "años de servicio"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "Enviar Deseo de Aniversario",
+    "SendPersonalizedMessage": "Envía un mensaje de aniversario personalizado a",
+    "CongratulationsPlaceholder": "Felicidades por",
+    "Cancel": "Cancelar",
+    "SendWish": "Enviar Deseo",
+    "YearsOfService": "año de servicio",
+    "YearsOfServicePlural": "años de servicio"
+  },
+  "EligibilityCriteria": {
+    "Title": "Criterios de Elegibilidad",
+    "FormFields": {
+      "EligibilityName": "Nombre de Elegibilidad",
+      "Age": "Edad (ej., >30, =27)",
+      "LengthOfService": "Tiempo de Servicio (ej., >1, >2)",
+      "JobCategory": "Categoría Laboral",
+      "Gender": "Género",
+      "Grade": "Grado",
+      "MaritalStatus": "Estado Civil",
+      "Location": "Ubicación",
+      "ProbationPeriod": "Período de Prueba",
+      "NoticePeriod": "Período de Preaviso",
+      "PersonType": "Tipo de Persona",
+      "Religion": "Religión",
+      "Position": "Cargo",
+      "HireDate": "Fecha de Contratación",
+      "Department": "Función",
+      "WorkType": "Tipo de Trabajo",
+      "ExcludeByDefaultIncludesAll": "Excluir (Por defecto incluye todos)",
+      "PublicHolidays": "Festivos Públicos",
+      "Leaves": "Ausencias",
+      "Weekends": "Fines de Semana"
+    },
+    "Options": {
+      "All": "Todos",
+      "Operations": "Operaciones",
+      "Supervisor": "Supervisor",
+      "Managerial": "Gerencial",
+      "ExecutiveLeadership": "Liderazgo Ejecutivo",
+      "Director": "Director",
+      "Location": {
+        "USA": "EE. UU.",
+        "India": "India",
+        "UK": "Reino Unido"
+      },
+      "PersonType": {
+        "EMP": "EMP",
+        "Contractor": "Contratista",
+        "Intern": "Becario"
+      },
+      "Religion": {
+        "Hindu": "Hindú",
+        "Muslim": "Musulmán",
+        "Christian": "Cristiano",
+        "Sikh": "Sij",
+        "Buddhist": "Budista",
+        "Jain": "Jainista",
+        "Other": "Otro"
+      },
+      "Gender": {
+        "Male": "Masculino",
+        "Female": "Femenino"
+      },
+      "MaritalStatus": {
+        "Married": "Casado",
+        "Unmarried": "Soltero"
+      },
+      "Yes": "Sí",
+      "No": "No",
+      "WorkType": {
+        "FullTime": "Tiempo Completo",
+        "PartTime": "Tiempo Parcial"
+      }
+    },
+    "Buttons": {
+      "Cancel": "Cancelar",
+      "Submit": "Enviar",
+      "Update": "Actualizar"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "Error al obtener opciones de candidatos",
+      "NoDataFound": "¡No Se Encontraron Datos!",
+      "SuccessCreate": "Elegibilidad creada exitosamente",
+      "SuccessUpdate": "Elegibilidad actualizada exitosamente",
+      "ErrorSubmit": "Ocurrió un error al enviar el formulario. Por favor, inténtalo de nuevo."
+    },
+    "Validation": {
+      "Required": "{{field}} es requerido y no puede estar vacío",
+      "CannotBeEmpty": "{{field}} no puede estar vacío",
+      "InvalidSymbols": "{{field}} debe contener uno de los símbolos: >, <, =",
+      "FillDetails": "Por favor, completa los detalles antes de enviar..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "Historial",
+    "TableHeaders": {
+      "EligibilityName": "Nombre de Elegibilidad",
+      "Department": "Función",
+      "Actions": "Acciones"
+    },
+    "Buttons": {
+      "Edit": "Editar",
+      "Delete": "Eliminar",
+      "ExportCSV": "Exportar como CSV",
+      "ExportExcel": "Exportar como Excel",
+      "ExportPDF": "Exportar como PDF"
+    },
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "Nueva Solicitud",
+        "PsychometricTest": "Test Psicométrico"
+      },
+      "ExportOptions": {
+        "CSV": "Exportar como CSV",
+        "Excel": "Exportar como Excel",
+        "PDF": "Exportar como PDF"
+      }
+    },
+    "Messages": {
+      "FetchError": "Error al obtener datos",
+      "DeleteSuccess": "Registro eliminado exitosamente",
+      "DeleteError": "Error al eliminar registro",
+      "ExportSuccess": "Exportado exitosamente",
+      "ExportError": "Error al exportar datos",
+      "NoData": "No hay datos disponibles"
+    },
+    "Placeholders": {
+      "Search": "Buscar...",
+      "Select": "--Seleccionar--"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "Flujo de Aprobación",
+    "Description": "Configura y gestiona la cadena de aprobación para diferentes tipos de transacciones",
+    "NewWorkflowButton": "Nuevo Flujo"
+  },
+  "WorkflowType": {
+    "TitleCreate": "Crear Nuevo Flujo",
+    "TitleEdit": "Editar Flujo",
+    "SubtitleCreate": "Configura un nuevo flujo de aprobación para tu organización",
+    "SubtitleEdit": "Modifica el flujo de aprobación para tu organización",
+    "SelectTransactionTitle": "Seleccionar Tipo de Transacción",
+    "SelectTransactionDescription": "Elige el tipo de transacción que seguirá este flujo de aprobación",
+    "Steps": {
+      "TransactionType": "Tipo de Transacción",
+      "WorkflowDetails": "Detalles del Flujo",
+      "ApprovalChain": "Cadena de Aprobación"
+    },
+    "Buttons": {
+      "Previous": "Anterior",
+      "Cancel": "Cancelar",
+      "Next": "Siguiente",
+      "Submitting": "Enviando...",
+      "CreateWorkflow": "Crear Flujo",
+      "UpdateWorkflow": "Actualizar Flujo"
+    },
+    "Messages": {
+      "CreateSuccess": "Flujo creado exitosamente.",
+      "UpdateSuccess": "Flujo actualizado exitosamente.",
+      "CreateError": "Error al crear el flujo. Por favor, inténtalo de nuevo.",
+      "UpdateError": "Error al actualizar el flujo. Por favor, inténtalo de nuevo."
+    },
+    "UnknownStep": "Paso Desconocido"
+  },
+  "TransactionCard": {
+    "Recruitment": "Reclutamiento",
+    "RecruitmentDescription": "Flujo para proceso de contratación y aprobación",
+    "ExpenseApproval": "Aprobación de Gastos",
+    "ExpenseApprovalDescription": "Flujo de aprobación para gastos de empleados",
+    "LeaveRequest": "Solicitud de Ausencia",
+    "LeaveRequestDescription": "Cadena de aprobación para solicitudes de ausencia",
+    "PurchaseOrder": "Orden de Compra",
+    "PurchaseOrderDescription": "Flujo para gestionar órdenes de compra",
+    "BudgetApproval": "Aprobación de Presupuesto",
+    "BudgetApprovalDescription": "Proceso de aprobación para presupuestos financieros"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "Detalles del Flujo",
+    "ProvideNameDescription": "Proporciona un nombre y descripción para este flujo de aprobación",
+    "WorkflowName": "Nombre del Flujo",
+    "WorkflowNamePlaceholder": "ej., Aprobación Estándar de Ausencias",
+    "Description": "Descripción",
+    "DescriptionPlaceholder": "Describe el propósito y casos de uso para este flujo",
+    "Condition": "Condición",
+    "ConditionPlaceholder": "Condición opcional para el flujo",
+    "ConditionLeaveRequest": "Condición (para Solicitudes de Ausencia)",
+    "SetRules": "Establecer reglas basadas en el número de días en la solicitud de ausencia",
+    "Attribute": "Atributo",
+    "SelectAttribute": "Seleccionar atributo",
+    "Operator": "Operador",
+    "SelectOperator": "Seleccionar operador",
+    "Value": "Valor",
+    "EnterNumber": "Introducir número",
+    "Days": "Días",
+    "is": "es",
+    "lesserOrEqual": "menor o igual a (≤)",
+    "greaterOrEqual": "mayor o igual a (≥)"
+  },
+  "workflowFilter": {
+    "searchPlaceholder": "Buscar Flujo de Trabajo",
+    "filterButton": "Filtrar",
+    "allTypes": "Todos los Tipos",
+    "workflow": "Flujo de Trabajo",
+    "task": "Tarea"
+  },
+  "workflowChain": {
+    "configureApprovalChain": "Configurar Cadena de Aprobación",
+    "defineSequence": "Define la secuencia de aprobadores para este flujo",
+    "currentApprovalChain": "Cadena de Aprobación Actual",
+    "noStepsDefined": "Aún No Hay Pasos de Aprobación Definidos",
+    "addStep": "Añadir Paso",
+    "completeDetailsError": "Por favor, completa primero el tipo de transacción y los detalles del flujo"
+  },
+  "addApprovalHeader": {
+    "title": "Añadir Paso de Aprobación",
+    "rolesTab": "Roles",
+    "individualUserTab": "Usuario Individual",
+    "searchPlaceholder": "Buscar Flujo de Trabajo"
+  },
+  "formNavigation": {
+    "previous": "Anterior",
+    "cancel": "Cancelar",
+    "createWorkflow": "Crear Flujo"
+  },
+  "selectedApprovers": {
+    "title": "Aprobadores Seleccionados:",
+    "noApprovers": "Aún No Hay Aprobadores Seleccionados",
+    "saveStep": "Guardar Paso",
+    "cancel": "Cancelar"
+  },
+  "approval": {
+    "saveApprovers": "Guardar Aprobadores"
+  },
+  "approval2": {
+    "card1Title": "Gerente de Línea",
+    "card1Description": "Supervisor Directo del Empleado",
+    "select": "Seleccionar",
+    "remove": "Eliminar",
+    "selected": "Seleccionado",
+    "removed": "Eliminado"
+  },
+  "approval3": {
+    "card2Title": "Gerente de RH",
+    "card2Description": "Jefe del Departamento de Recursos Humanos",
+    "select": "Seleccionar",
+    "remove": "Eliminar",
+    "selected": "Seleccionado",
+    "removed": "Eliminado"
+  },
+  "approval4": {
+    "card3Title": "Jefe Funcional",
+    "card3Description": "Jefe del Departamento",
+    "select": "Seleccionar",
+    "remove": "Eliminar",
+    "selected": "Seleccionado",
+    "removed": "Eliminado"
+  },
+  "approval5": {
+    "card4Title": "CEO",
+    "card4Description": "Director Ejecutivo",
+    "select": "Seleccionar",
+    "remove": "Eliminar",
+    "selected": "Seleccionado",
+    "removed": "Eliminado"
+  },
+  "approval6": {
+    "card5Title": "Director Financiero",
+    "card5Description": "Gerente que Supervisa Proyecto Específico",
+    "select": "Seleccionar",
+    "remove": "Eliminar",
+    "selected": "Seleccionado",
+    "removed": "Eliminado"
+  },
+  "approval7": {
+    "card6Title": "Gerente de Proyecto",
+    "card6Description": "Supervisor Directo del Empleado",
+    "select": "Seleccionar",
+    "remove": "Eliminar",
+    "selected": "Seleccionado",
+    "removed": "Eliminado"
+  },
+  "transactions": {
+    "leaveRequestTitle": "Solicitud de Ausencia",
+    "leaveRequestDescription": "Flujo de aprobación para solicitudes de ausencia",
+    "timesheetTitle": "Hoja de Tiempo",
+    "timesheetDescription": "Flujo de aprobación para hojas de tiempo",
+    "resignationRequestTitle": "Solicitud de Renuncia",
+    "resignationRequestDescription": "Flujo de aprobación para solicitudes de renuncia"
+  },
+  "workflow": {
+    "selectTransactionType": "Seleccionar Tipo de Transacción",
+    "chooseTransactionType": "Elige el tipo de transacción que seguirá este flujo de aprobación",
+    "editWorkflow": "Editar Flujo",
+    "createNewWorkflow": "Crear Nuevo Flujo",
+    "modifyWorkflow": "Modifica el flujo de aprobación para tu organización",
+    "setupNewWorkflow": "Configura un nuevo flujo de aprobación para tu organización",
+    "previous": "Anterior",
+    "cancel": "Cancelar",
+    "next": "Siguiente",
+    "submitting": "Enviando...",
+    "updateWorkflow": "Actualizar Flujo",
+    "createWorkflow": "Crear Flujo",
+    "updatedSuccess": "Flujo actualizado exitosamente",
+    "createdSuccess": "Flujo creado exitosamente",
+    "failed": "Error al {{action}} el flujo. Por favor, inténtalo de nuevo.",
+    "create": "crear",
+    "update": "actualizar",
+    "unknownStep": "Paso Desconocido",
+    "Transaction Type": "Tipo de Transacción",
+    "Workflow Details": "Detalles del Flujo",
+    "Approval Chain": "Cadena de Aprobación"
+  },
+  "LookUpScreen": {
+    "CreateLookUp": "Crear Valor de Referencia",
+    "LookupType": "Tipo de Búsqueda",
+    "Meaning": "Significado",
+    "Add": "Añadir",
+    "Code": "Código",
+    "Delete": "Eliminar",
+    "Submit": "Enviar",
+    "DateStart": "Fecha de Inicio",
+    "DateEnd": "Fecha de Fin",
+    "Enabled": "Habilitado",
+    "Actions": "Acciones",
+    "Type": "Tipo",
+    "EditLookUp": "Editar Valor de Referencia",
+    "Update": "Actualizar",
+    "Cancel": "Cancelar",
+    "PerformanceRatingScale": "Escala de Calificación de Desempeño"
+  },
+  "CompetencyManagement": {
+    "CompetencyManagement": "Gestión de Competencias",
+    "Name": "Nombre",
+    "PositionLevel": "Nivel de Cargo",
+    "Action": "Acción",
+    "Create": "Crear",
+    "CreateNewCompetency": "Crear Nueva Competencia",
+    "EditCompetency": "Editar Competencia",
+    "CompetencyName": "Nombre de Competencia",
+    "Description": "Descripción",
+    "StartDate": "Fecha de Inicio",
+    "EndDate": "Fecha de Fin",
+    "CompetencyType": "Tipo de Competencia",
+    "DevelopmentActivities": "Actividades de Desarrollo",
+    "CoachingActivities": "Actividades de Coaching",
+    "CategoryActivities": "Actividades de Categoría",
+    "PositionLevelField": "Nivel de Cargo",
+    "Cancel": "Cancelar",
+    "Save": "Guardar",
+    "Update": "Actualizar"
+  },
+  "OKRManagement": {
+    "OKRManagement": "Gestión de OKR",
+    "OkrLibrary": "BIBLIOTECA OKR",
+    "Okr": "OKR",
+    "Transfer": "TRANSFERIR",
+    "Create": "Crear",
+    "BulkUpload": "Carga Masiva",
+    "Industry": "Industria",
+    "IsActive": "Está Activo",
+    "LastModified": "Última Modificación",
+    "Action": "Acción",
+    "OkrTemplateName": "Nombre de Plantilla OKR",
+    "StartDate": "Fecha de Inicio",
+    "EndDate": "Fecha de Fin",
+    "EligibilityGroup": "Grupo de Elegibilidad",
+    "TransferFromEmployee": "Transferir Desde Empleado:",
+    "TransferToEmployee": "Transferir A Empleado:",
+    "FindOkr": "Encontrar OKR",
+    "InstructionsToUsers": "Instrucciones para Usuarios",
+    "LowValueRange": "Rango de Valor Bajo",
+    "MidValueRange": "Rango de Valor Medio",
+    "HighValueRange": "Rango de Valor Alto",
+    "Min": "Mín",
+    "Max": "Máx",
+    "IncludingKeyResults": "Incluyendo Resultados Clave",
+    "ImportOkrLibrary": "Importar Biblioteca OKR",
+    "Export": "Exportar",
+    "DownloadTemplate": "Descargar Plantilla",
+    "Cancel": "Cancelar",
+    "Save": "Guardar",
+    "IncludeOkr": "Incluir OKR",
+    "Edit": "Editar",
+    "Delete": "Eliminar"
+  },
+  "TimeLogin": {
+    "title": "Registro de Tiempo por Geolocalización",
+    "discription-title": "Registro de entrada/salida basado en tu ubicación física",
+    "buttonLables": {
+      "bio": "Manual / Biométrico",
+      "geo": "Geo"
+    },
+    "refreshing": " Actualizando...",
+    "refreshLocation": "Actualizar Ubicación",
+    "LocationService": "Servicios de Ubicación",
+    "message": "Por favor, permite el acceso a la ubicación cuando se solicite. Tu ubicación solo se usa para verificar presencia en el trabajo.",
+    "getting": "Obteniendo tu ubicación....",
+    "RetryLocation": "Reintentar Ubicación",
+    "ManualLocation": "Ubicación Manual",
+    "time": "Hora actual del sistema",
+    "clockOut": "Registrar Salida",
+    "clockin": "Registrar Entrada",
+    "manuallyLocation": "Introducir Ubicación Manualmente",
+    "textLabel": {
+      "Latitude": "Latitud",
+      "Logitude": "Longitud"
+    },
+    "Cancel": "Cancelar",
+    "setLocation": "Establecer Ubicación",
+    "waitingError": "Esperando acceso a la ubicación...",
+    "TimeSheetHistory": {
+      "history": "Historial de Hojas de Tiempo",
+      "totalTime": "Tiempo Total",
+      "week": "Semana"
+    },
+    "TableColumn": {
+      "Employee": "Empleado",
+      "day": "día",
+      "Date": "Fecha",
+      "timein": "Hora de Entrada",
+      "timeOut": "Hora de Salida",
+      "hours": "Horas",
+      "method": "Método",
+      "position": "Posición",
+      "remarks": "Observaciones",
+      "status": "Estado",
+      "actions": "Acciones"
+    },
+    "actionButton": {
+      "approve": "Aprobar",
+      "reject": "Rechazar"
+    },
+    "DialogBox": {
+      "title": "Detalles del Registro de Tiempo",
+      "ApprovalHistory": "Historial de Aprobación",
+      "Nodetailsavailable": "No hay detalles disponibles",
+      "CurrentLocationMap": "Mapa de Ubicación Actual"
+    },
+    "exportOptions": {
+      "export": "Exportar",
+      "exportExcel": "Exportar como Excel",
+      "exportCSV": "Exportar como CSV",
+      "exportPDF": "Exportar como PDF"
+    }
+  },
+  "AbsenceTime": {
+    "LeavePolicy": "Política de Ausencias",
+    "applyForLeave": "Solicitar ausencia",
+    "teamLeave": "Ausencias del Equipo",
+    "LoadingLeaves": "Cargando tipos de ausencia...",
+    "formLabel": {
+      "absenceType": "Tipo de ausencia / Categoría",
+      "halfDay": "Media jornada",
+      "form": "Desde",
+      "to": "Hasta",
+      "durationAbsence": "Duración de la ausencia",
+      "note": "nota"
+    },
+    "Uplode": "Cargar adjuntos",
+    "sumbitting": "Enviando...",
+    "buttonConfg": {
+      "cancel": "Cancelar",
+      "update": "Actualizar",
+      "submit": "Enviar"
+    },
+    "leavesAvailable": "No hay otras ausencias disponibles.",
+    "close": "Cerrar",
+    "tableColumn": {
+      "date": "Fecha",
+      "employee": "Empleado",
+      "type": "Tipo",
+      "duration": "Duración",
+      "status": "Estado",
+      "action": "Acción"
+    },
+    "editRequest": "Editar Solicitud",
+    "deleteRequest": "Eliminar Solicitud",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "leaveDetailsView": {
+      "leaveType": "Tipo de Ausencia",
+      "duration": "Duración",
+      "startDate": "Fecha de Inicio",
+      "endDate": "Fecha de Fin",
+      "applicationOn": "Solicitado El"
+    },
+    "reasons": {
+      "reason": "Motivo",
+      "rejectionReason": "Motivo de Rechazo:"
+    },
+    "approvalStatus": "Estado Actual de Aprobación",
+    "noDetails": "No hay detalles disponibles",
+    "requests": {
+      "approveLeave": "Aprobar Solicitud de Ausencia",
+      "rejectLeave": "Rechazar Solicitud de Ausencia",
+      "details": "Detalles de la Solicitud"
+    },
+    "period": "Período",
+    "Comments(Optional)": "Comentarios (Opcional)",
+    "RejectionReason": "Motivo de Rechazo *",
+    "approveRequest": "Aprobar Solicitud",
+    "rejectRequest": "Rechazar Solicitud",
+    "DialogBox": {
+      "title": "Detalles de Solicitud de Ausencia",
+      "alert": "Error al cargar detalles de la solicitud de ausencia"
+    },
+    "searchHear": "Buscar aquí..",
+    "TeamLeave": {
+      "teamLeave": "Ausencias del Equipo",
+      "managerBoard": "Tablero del Gerente:",
+      "all": "Todos",
+      "teamA": "Equipo A",
+      "teamB": "Equipo B"
+    },
+    "tableHeader": {
+      "displayOptions": "Opciones de Visualización",
+      "priority": "Prioridad",
+      "status": "Estado"
+    },
+    "filters": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "EventCalender": {
+      "filter": "Filtro:"
+    }
+  },
+  "FileUploadFile": {
+    "chooseAFile": "Elige un archivo o arrástralo y suéltalo aquí",
+    "uploading": "Cargando...",
+    "fileTypes": "JPEG, PNG, PDF, CSV, Excel, hasta 50MB",
+    "browseFile": "Examinar Archivo",
+    "selectedFile": "Archivo Seleccionado",
+    "clickhere": "Haz Clic Aquí"
+  },
+  "RecruitmentManagement": {
+    "WelcomeBack": "Bienvenido de Nuevo",
+    "NewCandidate": "Nuevo Candidato",
+    "ID": "ID",
+    "Name": "Nombre",
+    "Email": "Correo Electrónico",
+    "AppliedOn": "Solicitado El",
+    "Stages": "Etapas",
+    "Actions": "Acciones",
+    "InProgress": "En Progreso",
+    "WaitingForFeedback": "Esperando Retroalimentación",
+    "OfferReleased": "Oferta Emitida",
+    "CandidatesList": "Lista de Candidatos",
+    "AddNewCandidate": "Añadir Nuevo Candidato",
+    "CandidateDetails": "Detalles del Candidato",
+    "PsychometricAssessment": "Evaluación Psicométrica",
+    "Interview1": "Entrevista 1",
+    "Interview2": "Entrevista 2",
+    "DocumentVerification": "Verificación de Documentos",
+    "Offer": "Oferta",
+    "OfferLetter": "Carta de Oferta",
+    "Onboarding": "Incorporación",
+    "CandidateName": "Nombre del Candidato",
+    "EmailAddress": "Dirección de Correo",
+    "AddPhoto": "Añadir Foto",
+    "PhoneNo": "Teléfono",
+    "ExperienceInYears": "Experiencia (en Años)",
+    "EducationQualification": "Calificación Educativa",
+    "DateOfBirth": "Fecha de Nacimiento",
+    "Gender": "Género",
+    "Location": "Ubicación",
+    "Source": "Fuente",
+    "Department": "Función",
+    "Designation": "Designación",
+    "LegalEntity": "Entidad Legal",
+    "ProjectName": "Nombre del Proyecto",
+    "ReportingManager": "Gerente Reportante",
+    "Status": "Estado",
+    "Resume": "Currículum",
+    "Cancel": "Cancelar",
+    "Submit": "Enviar",
+    "Edit": "Editar",
+    "Delete": "Eliminar",
+    "EditCandidate": "Editar Candidato",
+    "ClickHere": "Haz Clic Aquí",
+    "Update": "Actualizar",
+    "MoveToTalentPool": "¿Mover al Banco de Talento?",
+    "Male": "Masculino",
+    "Female": "Femenino",
+    "Other": "Otro",
+    "Yes": "Sí",
+    "No": "No",
+    "SuitableDesignation": "Designación Adecuada",
+    "NoticePeriodDays": "Período de Preaviso (días)",
+    "DateOfJoining": "Fecha de Incorporación",
+    "ProbationPeriodDays": "Período de Prueba (días)",
+    "PsychometricReviewReport": "Informe de Revisión Psicométrica",
+    "DocumentsUploadOverview": "Resumen de Carga de Documentos",
+    "SaveAsDraft": "Guardar como Borrador",
+    "DraftLoaded": "Borrador cargado",
+    "GrossSalary": "Salario Bruto",
+    "Interviewer1": "Entrevistador 1",
+    "Interviewer2": "Entrevistador 2"
+  },
+  "PrivilegeGroups": {
+    "PrivilegeGroups": "Grupos de Privilegios",
+    "CreateNewGroup": "Crear Nuevo Grupo",
+    "GroupName": "Nombre del Grupo",
+    "UserType": "Tipo de Usuario",
+    "SonicOfDynamic": "Sónico de Dinámico",
+    "ActiveMembership": "Membresía Activa",
+    "LastModified": "Última Modificación",
+    "Action": "Acción",
+    "ActiveGroupMembership": "Membresía Activa de Grupo",
+    "ChooseGroupMembers": "Elegir Miembros del Grupo",
+    "PeoplePool": "Grupo de Personas",
+    "PickACategory": "Elegir una Categoría",
+    "ExcludeThesePeopleGroupName": "Excluir Este Nombre de Grupo de Personas",
+    "Select": "Seleccionar",
+    "Cancel": "Cancelar",
+    "Finished": "Finalizado",
+    "Edit": "Editar",
+    "Delete": "Eliminar",
+    "AddPrivilegeGroup": "Añadir Grupo de Privilegios",
+    "UpdatePrivilegeGroup": "Actualizar Grupo de Privilegios",
+    "GroupCreatedSuccessfully": "¡Grupo creado exitosamente!",
+    "GroupUpdatedSuccessfully": "¡Grupo actualizado exitosamente!",
+    "GroupDeletedSuccessfully": "¡Grupo eliminado exitosamente!",
+    "AreYouSureDelete": "¿Estás seguro de que quieres eliminar este grupo?",
+    "NoDataFound": "No Se Encontraron Datos",
+    "Loading": "Cargando...",
+    "SearchGroups": "Buscar Grupos",
+    "ViewDetails": "Ver Detalles",
+    "SaveChanges": "Guardar Cambios",
+    "Confirm": "Confirmar",
+    "Yes": "Sí",
+    "No": "No",
+    "Active": "Activo",
+    "Inactive": "Inactivo",
+    "Members": "Miembros",
+    "Status": "Estado",
+    "CreatedBy": "Creado Por",
+    "ModifiedBy": "Modificado Por",
+    "GroupNameIsRequired": "El Nombre del Grupo es requerido",
+    "ErrorFetchingData": "¡Error al obtener datos!",
+    "SomethingWentWrong": "¡Algo salió mal!",
+    "PleaseEnterGroupName": "Por favor, introduce el nombre del grupo",
+    "PleaseSelectUserType": "Por favor, selecciona el tipo de usuario",
+    "PleaseSelectMembers": "Por favor, selecciona los miembros del grupo"
+  },
+  "SessionTab": {
+    "Title": "Sesiones",
+    "FormTitle": "Definir los Detalles de las Sesiones",
+    "Buttons": {
+      "Create": "Crear",
+      "Cancel": "Cancelar",
+      "Update": "Actualizar",
+      "Save": "Guardar"
+    },
+    "FormFields": {
+      "SessionName": "Nombre de la Sesión",
+      "Template": "Plantilla",
+      "SessionStartDate": "Fecha de Inicio de Sesión",
+      "SessionEndDate": "Fecha de Fin de Sesión",
+      "SessionOwners": "Propietarios de Sesión",
+      "EmployeeGroup": "Grupo de Empleados"
+    },
+    "Table": {
+      "Name": "NOMBRE",
+      "Action": "ACCIÓN",
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    },
+    "Placeholders": {
+      "SearchHere": "Buscar aquí...",
+      "SelectTemplate": "Seleccionar plantilla",
+      "EnterSessionName": "Introducir nombre de sesión",
+      "SelectSessionOwners": "Seleccionar propietarios de sesión",
+      "SelectEmployeeGroup": "Seleccionar grupo de empleados"
+    },
+    "Validation": {
+      "FillRequiredFields": "Por favor, completa todos los campos requeridos"
+    },
+    "Messages": {
+      "FailedDelete": "Error al eliminar sesión",
+      "ErrorDelete": "Ocurrió un error al eliminar la sesión",
+      "FailedCreate": "Error al crear sesión",
+      "ErrorCreate": "Ocurrió un error al crear la sesión",
+      "FailedUpdate": "Error al actualizar sesión",
+      "ErrorUpdate": "Ocurrió un error al actualizar la sesión"
+    }
+  },
+  "GuideLinesTab": {
+    "Instructions": {
+      "SelectDataSource": "Selecciona la fuente de datos para los elementos que quieres calibrar:"
+    },
+    "Performance": {
+      "Title": "Desempeño",
+      "Description": "La calibración de desempeño incluye la evaluación de desempeño, objetivos, potencial u otros elementos definidos por el cliente. 1. Selecciona la(s) plantilla(s) de formulario que contienen los elementos que quieres calibrar. Todos los campos son obligatorios."
+    },
+    "Options": {
+      "Calibration": "Calibración",
+      "SelfSubmission": "Auto Envío",
+      "ManagerReview": "Revisión del Gerente",
+      "ManagerSignOff": "Aprobación del Gerente",
+      "EmployeeSignOff": "Aprobación del Empleado"
+    },
+    "RatingScale": {
+      "Ineffective": "1. Inefectivo",
+      "SomewhatAchieved": "2. Algo Logrado",
+      "Achieved": "3. Logrado",
+      "Overperformed": "4. Sobrecumplido",
+      "Outstanding": "5. Sobresaliente"
+    },
+    "Table": {
+      "Template": "Plantilla",
+      "RouteMap": "Mapa de Ruta",
+      "RoutingStep": "¿En Paso de Ruta se Pueden Usar los Datos?"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Seleccionar plantilla",
+      "SelectStep": "Seleccionar paso"
+    },
+    "DefaultStep": "PM2 Evaluación de Desempeño"
+  },
+  "CalibrationManagement": {
+    "Options": {
+      "Calibration": "Calibración",
+      "SelfSubmission": "Auto Envío",
+      "ManagerReview": "Revisión del Gerente",
+      "ManagerSignOff": "Aprobación del Gerente",
+      "EmployeeSignOff": "Aprobación del Empleado"
+    },
+    "Table": {
+      "SNo": "Nº",
+      "Rating": "calificación",
+      "RouteMap": "Mapa de Ruta",
+      "Delete": "Eliminar"
+    },
+    "Placeholders": {
+      "SelectTemplate": "Por favor selecciona una plantilla..."
+    },
+    "Notes": {
+      "Part1": "Nota: a veces tus datos de calibración pueden venir de múltiples plantillas en ese caso, el sistema solo soporta los elementos definidos en la plantilla principal (indicada con el ",
+      "Part2": "). Si seleccionas múltiples plantillas de Desempeño, asegúrate de que estas plantillas tengan la misma estructura, índices y mapa de ruta."
+    },
+    "Instructions": {
+      "SelectElement": "2. Selecciona al menos un elemento para calibración. Luego define su directriz de distribución."
+    },
+    "OverallFormRating": "Calificación General del Formulario",
+    "Buttons": {
+      "Add": "Añadir"
+    }
+  },
+  "IntegrationManagement": {
+    "AdminPortal": "Portal Admin - Gestión de Integraciones",
+    "BusinessLevelConnectors": "Conectores a Nivel de Negocio",
+    "ActivationDescription": "Activar un servicio proporciona a los usuarios la capacidad de conectarse al servicio, facilitando la recuperación de datos para la actualización automática de resultados clave o la sincronización perfecta de usuarios desde un servicio",
+    "Manage": "Gestionar",
+    "ReadMore": "Leer más"
+  },
+  "TopHeader": {
+    "ManageSalesforceConnection": "Gestionar Conexión Salesforce",
+    "Delete": "Eliminar"
+  },
+  "PerformanceManagement": {
+    "Title": "Gestión del Desempeño",
+    "Create": "Crear",
+    "TypeOfEvaluation": "Tipo de evaluación",
+    "Select": "Seleccionar...",
+    "FrequencyOfEvaluation": "Frecuencia de evaluación",
+    "StartDate": "Fecha de Inicio",
+    "EnterStartDate": "Introducir Fecha de Inicio",
+    "LaunchDate": "Fecha de Lanzamiento",
+    "EnterLaunchDate": "Introducir Fecha de Lanzamiento",
+    "ListGroupName": "Listar Nombre de Grupo",
+    "Employee": "Empleado",
+    "Manager": "Gerente",
+    "Leadership": "Liderazgo",
+    "Cancel": "Cancelar",
+    "Save": "Guardar",
+    "OverallRating": "Calificación General",
+    "AbsoluteRating": "Calificación Absoluta",
+    "RatingScale": "Escala de Calificación",
+    "OKRWastage": "Desperdicio de OKR",
+    "CompetencyWeightage": "Ponderación de Competencias",
+    "Weightage360": "Ponderación 360",
+    "IncludeSelfEvaluation": "Incluir Autoevaluación",
+    "EmployeeAcknowledgement": "Reconocimiento del Empleado",
+    "HRBPReview": "Revisión de HRBP",
+    "ApprovalRequired": "Aprobación Requerida",
+    "Monthly": "Mensual",
+    "Quarterly": "Trimestral",
+    "SemiAnnually": "Semestral",
+    "Annually": "Anual"
+  },
+  "Templates": {
+    "Title": "Plantillas",
+    "Buttons": {
+      "Create": "Crear",
+      "Cancel": "Cancelar",
+      "Update": "Actualizar",
+      "Save": "Guardar",
+      "SelectAll": "Seleccionar todo",
+      "UnselectAll": "Deseleccionar todo"
+    },
+    "Table": {
+      "Name": "Nombre",
+      "Action": "Acción",
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    },
+    "FormFields": {
+      "TemplatesName": "Nombre de Plantillas",
+      "TemplateName": "Nombre de Plantilla",
+      "Description": "Descripción",
+      "PercentageType": "Tipo de Porcentaje",
+      "RatingScale": "Escala de Calificación",
+      "GoalPercentage": "Porcentaje de Metas",
+      "ObjectivePercentage": "Porcentaje de Objetivos",
+      "CompetenciesPercentage": "Porcentaje de Competencias",
+      "Competencies": "Competencias",
+      "ReviewSteps": "Pasos de Revisión",
+      "EmployeeDisplayOptions": "Opciones de Visualización del Empleado"
+    },
+    "Placeholders": {
+      "EnterTemplateName": "Introducir Nombre de Plantilla",
+      "EnterDescription": "Introducir Descripción",
+      "EnterRatingScale": "Introducir Escala de Calificación",
+      "EnterGoalPercentage": "Introducir Porcentaje de Metas",
+      "EnterObjectivePercentage": "Introducir Porcentaje de Objetivos",
+      "EnterCompetenciesPercentage": "Introducir Porcentaje de Competencias",
+      "SelectCompetencies": "Seleccionar Competencias"
+    },
+    "Options": {
+      "Goals": "Metas",
+      "Objectives": "Objetivos",
+      "PerformanceRatingScale": "Escala de Calificación de Desempeño",
+      "AllCompetencies": "Todas las competencias"
+    },
+    "DisplayOptions": {
+      "FirstName": "Nombre",
+      "LastName": "Apellido",
+      "Department": "Función",
+      "Grade": "Grado",
+      "Manager": "Gerente",
+      "Designation": "Designación"
+    },
+    "DisplaySteps": {
+      "SelfSubmission": "Auto Envío",
+      "ManagerReview": "Revisión del Gerente",
+      "HRReview": "Revisión de RH",
+      "ManagerSignOff": "Aprobación del Gerente",
+      "EmployeeSignOff": "Aprobación del Empleado",
+      "Completed": "Completado"
+    },
+    "DisplayStepsText": {
+      "SubmitToManager": "Enviar al Gerente",
+      "SubmitToHR": "Enviar a RH",
+      "SubmitToManagerSignOff": "Enviar al Gerente para Aprobación",
+      "SubmitToEmployeeSignOff": "Enviar al Empleado para Aprobación",
+      "SignOffToComplete": "Aprobar para Completar"
+    },
+    "Messages": {
+      "UnknownError": "Ocurrió un error desconocido"
+    }
+  },
+  "OKRLibraryTab": {
+    "Fields": {
+      "RewardSchemeName": "Nombre del Esquema de Recompensa *",
+      "ObjectivesAchievementPercent": "Porcentaje de Logro de Objetivos",
+      "ObjectivesAchievementPoints": "Puntos de Logro de Objetivos",
+      "KrAchievementPercent": "Porcentaje de Logro de KR",
+      "KrAchievementPoints": "Puntos de Logro de KR",
+      "TaskAchievementPercent": "Porcentaje de Logro de Tareas",
+      "TaskAchievementPoints": "Puntos de Logro de Tareas",
+      "SubTaskAchievementPercent": "Porcentaje de Logro de Subtareas",
+      "SubTaskPoints": "Puntos de Subtarea",
+      "RewardCategory": "Categoría de Recompensa*",
+      "RewardType": "Tipo de Recompensa*",
+      "OKRTemplate": "Plantilla OKR*",
+      "EligibilityGroup": "Grupo de Elegibilidad*",
+      "KudosEnabled": "Kudos Habilitado",
+      "BirthdayWishesEnabled": "Deseos de Cumpleaños Habilitado",
+      "ApprovalRequired": "Aprobación Requerida",
+      "AnniversaryWishesEnabled": "Deseos de Aniversario Habilitado"
+    },
+    "Sections": {
+      "RewardPoints": "Puntos de Recompensa",
+      "Achievement": "Logro",
+      "Eligibility": "Elegibilidad",
+      "Toggles": "Interruptores"
+    },
+    "RewardPoints": {
+      "Bronze": "Seleccionar Puntos de Recompensa (Bronce)",
+      "Silver": "Seleccionar Puntos de Recompensa (Plata)",
+      "Gold": "Seleccionar Puntos de Recompensa (Oro)"
+    },
+    "Buttons": {
+      "Cancel": "Cancelar",
+      "Save": "Guardar"
+    },
+    "Validation": {
+      "FieldRequired": "{{field}} es requerido",
+      "FillRequiredFields": "Por favor, completa todos los campos requeridos"
+    },
+    "EmployeesSelected": "empleados seleccionados",
+    "NotAvailable": "N/D"
+  },
+  "RewardsManagement": {
+    "TitleHeader": "Portal Admin - Privilegios",
+    "Title": "Gestión de Recompensas",
+    "Bronze": "Bronce",
+    "Silver": "Plata",
+    "Gold": "Oro",
+    "Yes": "Sí",
+    "No": "No",
+    "Buttons": {
+      "Create": "Crear",
+      "CreateRewards": "Crear Recompensas"
+    },
+    "Table": {
+      "SNo": "Nº",
+      "Scheme": "Esquema",
+      "Category": "Categoría",
+      "Type": "Tipo",
+      "Points": "Puntos",
+      "Kudos": "Kudos",
+      "Birthday": "Cumpleaños",
+      "ApprovalRequired": "Aprobación Requerida",
+      "Anniversary": "Aniversario",
+      "LastModified": "Última Modificación",
+      "Action": "Acción",
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    },
+    "Export": {
+      "CandidateID": "IDCandidato",
+      "RewardSchemeName": "Nombre del Esquema de Recompensa",
+      "RewardCategory": "Categoría de Recompensa",
+      "RewardType": "Tipo de Recompensa",
+      "RewardPoints": "Puntos de Recompensa",
+      "KudosEnabled": "Kudos Habilitado",
+      "BirthdayWishesEnabled": "Deseos de Cumpleaños Habilitado",
+      "ApprovalRequired": "Aprobación Requerida",
+      "AnniversaryWishesEnabled": "Deseos de Aniversario Habilitado",
+      "UpdatedAt": "Actualizado El"
+    },
+    "Messages": {
+      "NoDataFound": "¡No Se Encontraron Datos!",
+      "SelectRole": "Por favor selecciona rol...",
+      "NoDataToExport": "No hay datos para exportar"
+    },
+    "Validation": {
+      "OKRRequired": "¡Se requiere Función OKR/Categoría OKR!"
+    }
+  },
+  "common": {
+    "searchHere": "Buscar aquí..",
+    "export": "Exportar",
+    "csv": "CSV",
+    "excel": "Excel",
+    "pdf": "PDF"
+  },
+  "notification": {
+    "settingsTitle": "Configuración de Notificaciones",
+    "to": "Para",
+    "cc": "CC",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "attachment": "Adjunto",
+    "view": "Ver",
+    "reupload": "Volver a Cargar",
+    "saveSettings": "Guardar Configuración",
+    "updateSettings": "Actualizar Configuración",
+    "select": "--Seleccionar--",
+    "noDataFound": "¡No Se Encontraron Datos!"
+  },
+  "LaunchForms": {
+    "Title": "Formularios de Lanzamiento",
+    "ConfirmDelete": "¿Estás seguro de que quieres eliminar este formulario?",
+    "Submit": "Enviar",
+    "EmployeesSelected": "empleados seleccionados",
+    "Buttons": {
+      "Create": "Crear",
+      "Cancel": "Cancelar",
+      "Update": "Actualizar",
+      "Save": "Guardar"
+    },
+    "FormFields": {
+      "LaunchFormName": "Nombre del Formulario de Lanzamiento",
+      "FormType": "Tipo de Formulario",
+      "FormTemplate": "Plantilla de Formulario",
+      "LaunchDate": "Fecha de Lanzamiento",
+      "ReviewPeriodStartDate": "Fecha de Inicio del Período de Revisión",
+      "ReviewPeriodEndDate": "Fecha de Fin del Período de Revisión",
+      "Employees": "Empleados"
+    },
+    "Table": {
+      "Name": "Nombre",
+      "LaunchDate": "Fecha de Lanzamiento",
+      "Action": "Acción",
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    },
+    "Placeholders": {
+      "SelectFormType": "Por favor selecciona un tipo de formulario...",
+      "SelectFormTemplate": "Por favor selecciona una plantilla de formulario...",
+      "EnterLaunchDate": "Introducir una Fecha de Lanzamiento",
+      "EnterStartDate": "Introducir Fecha de Inicio",
+      "EnterEndDate": "Introducir Fecha de Fin"
+    }
+  },
+  "addRewardPopup": {
+    "titleAdd": "Añadir Nueva Recompensa",
+    "titleUpdate": "Actualizar Recompensa",
+    "rewardName": "Nombre de Recompensa*",
+    "rewardDescription": "Descripción de Recompensa*",
+    "rewardType": "Tipo de Recompensa*",
+    "rewardApprover": "Aprobador de Recompensa*",
+    "rewardCode": "Código de Recompensa*",
+    "rewardPoints": "Puntos de Recompensa*",
+    "rewardAmount": "Monto de Recompensa*",
+    "rewardStatus": "Estado de Recompensa*",
+    "rewardIcon": "Icono de Recompensa*",
+    "viewRewardIcon": "Ver Icono de Recompensa",
+    "reuploadRewardIcon": "Volver a Cargar Icono de Recompensa",
+    "add": "Añadir",
+    "update": "Actualizar",
+    "clear": "Limpiar",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  },
+  "catalogManagement": {
+    "headerTitle": "Portal Admin - Privilegios",
+    "title": "Gestión de Catálogo",
+    "addNewReward": "Añadir Nueva Recompensa",
+    "searchPlaceholder": "Buscar recompensas...",
+    "validationError": "¡Se requiere Función OKR/Categoría OKR!",
+    "noData": "¡No Se Encontraron Datos!"
+  },
+  "tabsContainer": {
+    "selectAll": "Seleccionar Todo",
+    "objectives": "Objetivos",
+    "keyResults": "Resultados Clave",
+    "tasks": "Tareas"
+  },
+  "AdvancedLaunchForms": {
+    "Title": "Formularios de Lanzamiento Avanzados",
+    "AdvancedReviewManagement": "Gestión Avanzada de Revisiones",
+    "Buttons": {
+      "Create": "Crear",
+      "Cancel": "Cancelar",
+      "Update": "Actualizar",
+      "Save": "Guardar"
+    },
+    "FormFields": {
+      "LaunchFormName": "Nombre del Formulario de Lanzamiento",
+      "FormName": "Nombre del Formulario",
+      "FormType": "Tipo de Formulario",
+      "FormTemplate": "Plantilla de Formulario",
+      "LaunchDate": "Fecha de Lanzamiento",
+      "ReviewPeriodStartDate": "Fecha de Inicio del Período de Revisión",
+      "ReviewPeriodEndDate": "Fecha de Fin del Período de Revisión",
+      "ToEmployee": "Al Empleado",
+      "SelfAndManager": "Auto y Gerente",
+      "Peers": "Compañeros"
+    },
+    "Table": {
+      "FormName": "Nombre del Formulario",
+      "TemplateName": "Nombre de Plantilla",
+      "EmployeeName": "Nombre del Empleado",
+      "LaunchDate": "Fecha de Lanzamiento",
+      "Action": "Acción",
+      "Edit": "Editar",
+      "Delete": "Eliminar"
+    },
+    "Placeholders": {
+      "EnterFormName": "Introducir Nombre del Formulario",
+      "AdvanceReviewManagement": "Gestión Avanzada de Revisiones",
+      "SelectFormTemplate": "Por favor selecciona una plantilla de formulario...",
+      "EnterLaunchDate": "Introducir Fecha de Lanzamiento",
+      "EnterStartDate": "Introducir Fecha de Inicio",
+      "EnterEndDate": "Introducir Fecha de Fin",
+      "SelectEmployee": "Por favor selecciona un empleado...",
+      "SelectSelfAndManager": "Seleccionar auto y gerente...",
+      "SelectPeers": "Seleccionar compañeros..."
+    }
+  },
+  "FilterComponent": {
+    "Title": "Filtros",
+    "Buttons": {
+      "Reset": "Restablecer",
+      "Apply": "Aplicar",
+      "Loading": "Cargando..."
+    },
+    "Fields": {
+      "CandidateId": "ID del Candidato",
+      "CandidateName": "Nombre del Candidato",
+      "Department": "Función",
+      "Designation": "Designación",
+      "ApplicationDate": "Fecha de Solicitud",
+      "Stage": "Etapa",
+      "To": "a"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "Introducir ID del candidato",
+      "EnterCandidateName": "Introducir nombre del candidato"
+    },
+    "Options": {
+      "NewApplied": "Nueva Solicitud",
+      "PsychometricTest": "Test Psicométrico",
+      "Interview1": "Entrevista 1",
+      "Interview2": "Entrevista 2",
+      "DocumentUpload": "Carga de Documentos",
+      "OfferLetter": "Carta de Oferta",
+      "Onboarding": "Incorporación",
+      "Rejected": "Rechazado",
+      "ConvertToEmployee": "Convertir a Empleado"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "¡No Se Encontraron Funciones!",
+      "NoDesignationsFound": "¡No Se Encontraron Designaciones!"
+    }
+  }
+}

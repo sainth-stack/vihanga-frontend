@@ -1,0 +1,287 @@
+@import '../../assets/scss/abstracts/abstracts';
+
+.gif {
+  position: fixed;
+  top: 0;
+  bottom: 0%;
+  left: 0;
+  right: 0%;
+  background-color: white;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // height: 100vh;
+  opacity: 0.8;
+}
+
+.lottie-img {
+  width: auto;
+  height: auto;
+  opacity: 1;
+}
+
+.dgif {
+  display: none;
+}
+
+.sidebar-list-item2 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+
+}
+
+.react-bootstrap-table table {
+  table-layout: inherit;
+}
+
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+  //word-break: break-all;
+  // font-size:10px;
+  padding: 10px;
+}
+
+.react-bootstrap-table th {
+  //word-break: break-all;
+  font-size: 10px;
+  //width: 110px;
+}
+
+.react-bootstrap-table-pagination-total {
+  margin-top: -28px !important;
+}
+
+.react-bootstrap-table thead {
+  background-color: rgba(42, 137, 129, 0.17);
+}
+
+.company-form {
+  background-color: #FCFCFC;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  padding: 56px 52px;
+}
+
+.company-form-mobile {
+  background-color: #EDF8F7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.green-heading {
+  color: #2A8981;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 22px !important;
+}
+
+.pb20 {
+  padding-bottom: 20px !important;
+}
+
+.upArrow {
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+.downArrow {
+  position: relative;
+  top: 4px;
+  left: 1px;
+}
+
+.arrowActive {
+  color: #000000;
+}
+
+.arrowInActive {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-green {
+  background-color: #837F39;
+}
+
+.mh-100 {
+  min-height: 100vh;
+}
+
+.location {
+  margin-right: 235px;
+}
+
+.save-add {
+  margin-right: 60px;
+}
+
+.react-bootstrap-table {
+  margin-top: 30px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addEmployee {
+  background-color: #2A8981;
+  border-radius: 84px;
+  height: 43px;
+  width: 205px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.search-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box {
+  // width: 240px;
+  height: 40px;
+  background-color: #F5F5F6;
+  border-color: #F5F5F6;
+  border-radius: 120px;
+  margin-left: 0px;
+  width: 200px;
+  margin-right: 200px;
+}
+
+.action {
+  position: relative;
+  left: 15px;
+  top: 38px;
+}
+
+.search-icon-container {
+  position: relative;
+}
+
+.search-icon {
+  position: relative;
+  top: 8px;
+  left: 40px;
+  height: 0px;
+  z-index: 9999;
+}
+
+.dropdown-hide:after {
+  content: none !important
+}
+
+.searchInput {
+  outline: none !important;
+  font: 12px !important;
+  width: 90%;
+}
+
+.circle {
+  border-radius: 100px !important;
+}
+
+.selection-cell {
+  width: 10px;
+}
+
+input[type=range].range-slider.range-slider--lg {
+  height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.create-btn {
+  width: 100px;
+}
+
+.userPic {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+.w-35 {
+  width: 38px;
+}
+
+.label {
+  margin-left: 0;
+}
+
+.h200 {
+  height: 135px !important;
+}
+
+.searchIconMobile {
+  margin-top: 12px !important;
+}
+
+.border-seperate {
+  border: 0.5px solid lightgray;
+  height: 25px;
+  width: 1px;
+}
+
+.expandTree {
+  height: 400px;
+  overflow: auto;
+}
+
+.questionsModel {
+  height: 1000px !important;
+}
+
+._2hASn {
+  z-index: 10 !important;
+  top:110% !important;
+}
+
+._3t0Wm {
+  text-transform: capitalize;
+}
+
+.arrows-table {
+  position: relative;
+}
+
+.p1 {
+  position: relative;
+  top: 10% !important;
+}
+
+.p2 {
+  position: relative;
+  top: 18% !important;
+}
+.p3 {
+  position: relative;
+  top: 120% !important;
+  left: 70% !important;
+}
+.p4 {
+  position: relative;
+  top: 41% !important;
+}
+.p5 {
+  position: relative;
+  top: 97% !important;
+  left: 70% !important;
+}
+.p6 {
+  position: relative;
+  top: 97% !important;
+  left: 90% !important;
+}
+
+@media screen and (max-width:420px) {
+  .company-form {
+    padding: 20px 0px !important;
+  }
+}

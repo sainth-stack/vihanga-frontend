@@ -1,0 +1,110 @@
+@import "../abstracts/abstracts";
+.primary-color {
+  color: $primary-color;
+  &-dark {
+    color: $primary-color-dark;
+  }
+}
+.text-gold {
+  color: $gold;
+}
+.hover-primary-dark {
+  &:hover {
+    color: $primary-color-dark;
+    cursor: pointer;
+  }
+}
+.container-80 {
+  width: 90%;
+}
+.container-60 {
+  width: 60%;
+}
+.container-40 {
+  width: 48%;
+}
+.container-height-80 {
+  height: 400px;
+}
+
+.svg-hover {
+  &:hover {
+    background-color: white;
+  }
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: $primary-color;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: $primary-color;
+}
+
+.container-sa {
+  max-width: 1340px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.btn {
+  background: #e2f9ec;
+  border: 1px solid #f5f6f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: 500;
+  // min-width: 210px;
+  padding: 0.9rem 0;
+
+  &.active {
+    background: #189c5c;
+    border: 1px solid #f5f6f7;
+    color: #ffffff;
+  }
+}
+
+.tab-sammunaty {
+  &.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+    .nav-link {
+      margin-left: 0;
+      border: 0px;
+      min-width: 170px;
+      text-align: center;
+      padding: 0.7rem 0rem;
+      color: #189c5c;
+      font-size: 1.1rem;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      cursor: pointer;
+
+      img {
+        height: 28px;
+        margin-right: 10px;
+      }
+      &.active {
+        background: #deecd2;
+        border-color: transparent;
+        color: #189c5c;
+      }
+    }
+  }
+}
+
+.ck.ck-content {
+  border: 1px solid #bababa;
+  border-top: 0;
+}

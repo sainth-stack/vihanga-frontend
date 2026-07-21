@@ -1,0 +1,353 @@
+@import '../../../../assets/scss/abstracts/abstracts';
+
+.react-bootstrap-table table {
+  table-layout: inherit;
+  background-color: white;
+}
+
+.react-bootstrap-table td {
+  //word-break: break-all;
+  font-size: 12px;
+}
+
+.react-bootstrap-table td,
+.react-bootstrap-table th {
+  // font-size: 10px;
+  padding: 10px;
+}
+
+.react-bootstrap-table th {
+  //word-break: break-all;
+  font-size: 10px;
+  width: 110px;
+}
+
+.react-bootstrap-table thead {
+  background-color: rgba(131, 127, 57, 0.17);
+}
+
+.react-bootstrap-table-pagination-total {
+  margin-top: 0px !important;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  float: left !important;
+}
+
+.bg-light-primary {
+  background-color: #fff !important;
+}
+
+.react-bootstrap-table-pagination {
+  background-color: #837F39 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.head {
+  position: relative;
+  //width: 94px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.nav {
+  display: inline;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.activeLink {
+  color: #837F39 !important;
+  border-bottom: 3px solid #837F39 !important;
+}
+
+.container-review {
+  background: #C4C4C4;
+  // padding: 56px 52px;
+  text-transform: capitalize;
+
+  color: #3C4858;
+}
+
+
+.react-bootstrap-table table {
+  table-layout: inherit;
+  background-color: white;
+}
+
+
+.search-re {
+  padding-left: 25px !important;
+  border: none !important;
+  border-radius: 100px !important;
+  height: 60px;
+}
+
+.date {
+  border-radius: 40px;
+  border: 1px solid rgba(60, 71, 88, 0.28);
+  color: gray;
+
+}
+
+.statusfil {
+  font-size: "10px" !important;
+}
+
+.dispopt {
+  & button {
+    color: #000000 !important;
+    font-weight: "10px";
+    background-color: #FFFF;
+
+  }
+
+}
+
+.statusfil {
+  & button {
+    color: #000000 !important;
+    font-weight: "10px";
+    background-color: #FFFF;
+
+  }
+
+}
+
+//   .border-green{
+//     // background: #FFFFFF;
+// border: 1px solid rgba(60, 71, 88, 0.38);
+// border-radius: 70px;
+// width: "30px"!important;
+//   }
+.searchIcon {
+  position: relative;
+  left: 10%;
+  top: 25%
+}
+
+.inputsearch {
+  padding: 0;
+  margin: 0;
+}
+
+.step-arrows-even {}
+
+.step-arrows-odd {
+  position: relative;
+  bottom: -56px;
+}
+
+.form-control {
+  border-radius: 1cm;
+  //padding: 0 !important;
+  //margin: 0 !important
+}
+
+.feedback {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+
+  color: #3C4858;
+}
+
+.taskdesc {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-transform: capitalize;
+
+
+  color: #3C4858;
+}
+
+.midcon {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+
+  color: #3C4858;
+}
+
+.card1 {
+  background: #fefefd;
+  border: 1px solid #e0ddc9;
+  border-radius: 20px;
+}
+
+.top1 {
+  background: #837F39;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.imagepro {
+  position: relative;
+  top: 35px;
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  color: #25363F;
+}
+
+.e1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #25363F;
+}
+
+.e2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 120% */
+
+  text-align: center;
+
+  color: #25363F;
+}
+
+.card2 {
+  background: #fefefd;
+  border: 1px solid #e0ddc9;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.card3 {
+  background: #fefefd;
+  border: 1px solid #e0ddc9;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+
+.largecon {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 243% */
+
+
+  color: #25363F;
+}
+
+.larghead {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #25363F;
+}
+
+.tweight {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.or {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height */
+
+
+  color: #25363F;
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+  background: url('../../../../assets/svg/newdate.svg') no-repeat;
+  background-size: contain;
+  opacity: 1;
+  cursor: pointer;
+  order: 1;
+
+}
+
+
+
+.date-input::-moz-calendar-picker-indicator {
+  background: url('../../../../assets/svg/newdate.svg') no-repeat;
+  background-size: contain;
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 1px solid rgba(60, 71, 88, 0.28);
+  color: gray;
+}
+
+.arrowd {
+  position: relative;
+  top: -35%;
+  left: 77%;
+  cursor: pointer;
+}
+
+.bg-brown {
+  background: #837F39;
+  border: 1px solid #837F39;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.user-pic2 {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+.boxHeight {
+  height: 350px;
+  overflow: auto;
+}
+
+.boxWidth {
+  width: 195px;
+}
+
+@media screen and (min-width:820px) {
+  .review-dropdown .dropdown-menu.show {
+    left: -60px;
+  }
+}

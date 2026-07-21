@@ -1,0 +1,1910 @@
+{
+  "AdminPage": {
+    "PageTitle": "టాలెంట్ స్పాటిఫై నిర్వాహకుడు",
+    "PageSubtitle": "అన్ని మీ నిర్వాహక సాధనాలు మరియు లక్షణాలను ఒకే చోట నుండి యాక్సెస్ చేయండి",
+    "SearchPlaceholder": "నిర్వాహక లక్షణాలను శోధించండి...",
+    "RolesAndPrivileges": {
+      "Title": "పాత్రలు & అధికారాలు",
+      "Description": "వర్క్‌స్పేస్ అంతటా వినియోగదారు పాత్రలు, అనుమతులు మరియు యాక్సెస్‌ను నిర్వహించండి"
+    },
+    "RecruitmentManagement": {
+      "Title": "నియామక నిర్వహణ",
+      "Description": "ఉద్యోగ ఖాళీలు, నియామక దశలు మరియు అభ్యర్థి పురోగతిని ట్రాక్ చేయండి"
+    },
+    "UploadLeaves": {
+      "Title": "లీవ్‌లను అప్‌లోడ్ చేయండి",
+      "Description": "ఉద్యోగి లీవ్ రికార్డ్‌లు మరియు అప్లికేషన్‌లను అప్‌లోడ్ చేయండి మరియు నిర్వహించండి"
+    },
+    "AttendanceUpload": {
+      "Title": "హాజరు అప్‌లోడ్",
+      "Description": "ఉద్యోగి హాజరు రికార్డ్‌లు మరియు టైమ్‌షీట్‌లను అప్‌లోడ్ చేయండి మరియు సమీక్షించండి"
+    },
+    "ApprovalWorkflow": {
+      "Title": "ఆమోదన వర్క్‌ఫ్లో",
+      "Description": "మల్టీ-స్టెప్ ఆమోదనలు మరియు సంబంధిత నోటిఫికేషన్‌లను కాన్ఫిగర్ చేయండి మరియు పర్యవేక్షించండి"
+    },
+    "AssetManagement": {
+      "Title": "ఆస్తి నిర్వహణ",
+      "Description": "కంపెనీ ఆస్తులు, కేటాయింపులు మరియు పరికరాల జీవిత చక్రాన్ని నిర్వహించండి"
+    },
+    "LeaveType": {
+      "Title": "లీవ్ రకం",
+      "Description": "లీవ్ వర్గాలను నిర్వచించండి మరియు ఆమోదన మరియు నోటిఫికేషన్ నియమాలను సెట్ చేయండి"
+    },
+    "HolidaysCalendar": {
+      "Title": "సెలవుల క్యాలెండర్",
+      "Description": "కంపెనీ సెలవులు, ఈవెంట్‌లు మరియు క్యాలెండర్ షెడ్యూల్‌లను నిర్వహించండి"
+    },
+    "EligibilityCriteria": {
+      "Title": "అర్హత ప్రమాణాలు",
+      "Description": "వివిధ ప్రక్రియలకు అర్హత అవసరాలను నిర్వచించండి మరియు నిర్వహించండి"
+    },
+    "PrivilegeGroups": {
+      "Title": "అధికార సమూహాలు",
+      "Description": "పాత్ర-ఆధారిత యాక్సెస్ కంట్రోల్ కోసం అధికార సమూహాలను సృష్టించండి మరియు నిర్వహించండి"
+    },
+    "OKRManagement": {
+      "Title": "OKR నిర్వహణ",
+      "Description": "పనితీరు ట్రాకింగ్ కోసం లక్ష్యాలు మరియు ముఖ్య ఫలితాలను సెట్ అప్ చేయండి మరియు నిర్వహించండి"
+    },
+    "Lookups": {
+      "Title": "లుకప్‌లు",
+      "Description": "సిస్టమ్ అంతటా రిఫరెన్స్ డేటా మరియు లుకప్ విలువలను నిర్వహించండి"
+    },
+    "RewardManagement": {
+      "Title": "రివార్డ్ నిర్వహణ",
+      "Description": "ఉద్యోగి రివార్డ్‌లు, గుర్తింపు మరియు ప్రోత్సాహక ప్రోగ్రామ్‌లను కాన్ఫిగర్ చేయండి మరియు నిర్వహించండి"
+    },
+    "CatalogManagement": {
+      "Title": "కేటలాగ్ నిర్వహణ",
+      "Description": "ఉత్పత్తి కేటలాగ్‌లు, వర్గాలు మరియు ఇన్వెంటరీ అంశాలను నిర్వహించండి"
+    },
+    "NotificationManagement": {
+      "Title": "నోటిఫికేషన్ నిర్వహణ",
+      "Description": "నోటిఫికేషన్ సెట్టింగ్‌లు, టెంప్లేట్‌లు మరియు డెలివరీ ప్రాధాన్యతలను కాన్ఫిగర్ చేయండి"
+    },
+    "AdvancedPerformanceManagement": {
+      "Title": "అధునాతన పనితీరు నిర్వహణ",
+      "Description": "అధునాతన పనితీరు సమీక్ష చక్రాలు, రేటింగ్‌లు మరియు మూల్యాంకన ప్రమాణాలను కాన్ఫిగర్ చేయండి"
+    },
+    "IntegrationManagement": {
+      "Title": "ఇంటిగ్రేషన్ నిర్వహణ",
+      "Description": "మూడవ పక్ష ఇంటిగ్రేషన్‌లు, APIలు మరియు బాహ్య సిస్టమ్ కనెక్షన్‌లను నిర్వహించండి"
+    },
+    "QuestionnaireManagement": {
+      "Title": "ప్రశ్నావళి నిర్వహణ",
+      "Description": "సర్వేలు, ప్రశ్నావళులు మరియు ఫీడ్‌బ్యాక్ ఫారమ్‌లను సృష్టించండి మరియు నిర్వహించండి"
+    },
+    "CompetencyManagement": {
+      "Title": "సామర్థ్య నిర్వహణ",
+      "Description": "ఉద్యోగి సామర్థ్యాలు, నైపుణ్యాలు మరియు అభివృద్ధి ఫ్రేమ్‌వర్క్‌లను నిర్వచించండి మరియు నిర్వహించండి"
+    },
+    "PerformanceManagementTemplates": {
+      "Title": "పనితీరు నిర్వహణ టెంప్లేట్‌లు",
+      "Description": "పనితీరు సమీక్ష టెంప్లేట్‌లు మరియు మూల్యాంకన ఫారమ్‌లను సృష్టించండి మరియు కస్టమైజ్ చేయండి"
+    },
+    "LaunchFormsManagement": {
+      "Title": "ప్రారంభ ఫారమ్‌ల నిర్వహణ",
+      "Description": "పనితీరు సమీక్ష ప్రారంభ ఫారమ్‌లు మరియు వర్క్‌ఫ్లో‌లను కాన్ఫిగర్ చేయండి మరియు నిర్వహించండి"
+    },
+    "CalibrationManagement": {
+      "Title": "క్యాలిబ్రేషన్ నిర్వహణ",
+      "Description": "పనితీరు క్యాలిబ్రేషన్ సెషన్‌లు మరియు రేటింగ్ స్థిరత్వాన్ని నిర్వహించండి"
+    },
+    "AdvancedLaunchFormsManagement": {
+      "Title": "అధునాతన ప్రారంభ ఫారమ్‌ల నిర్వహణ",
+      "Description": "పనితీరు సమీక్ష ప్రారంభ ఫారమ్‌లు మరియు ఆటోమేషన్ కోసం అధునాతన కాన్ఫిగరేషన్"
+    }
+  },
+  "RolesAndPrivileges": {
+    "PageTitle": "నిర్వాహక పోర్టల్ - అధికారాలు",
+    "MainHeading": "పాత్రలు & అధికారాలు",
+    "RoleName": "పాత్ర పేరు",
+    "Description": "వివరణ",
+    "GrantRoleTo": "ఈ పాత్రను ఇవ్వండి...",
+    "GrantRoleDescription": "మీరు ఈ పాత్రను ఇవ్వాలనుకునే సమూహాన్ని ఎంచుకోండి. మీరు నిర్దిష్ట సమూహం కోసం ఉద్యోగి రికార్డ్‌లను నిర్వహించడానికి వినియోగదారుల సమూహాన్ని కేటాయించవచ్చు. మేనేజర్ తమ స్వంత కార్యంలోని రికార్డ్‌లను సవరించాలి.",
+    "PermissionGroupsOrUsers": "అనుమతి సమూహాలు లేదా వినియోగదారులు",
+    "SelectPlaceholder": "--ఎంచుకోండి--",
+    "SearchPlaceholder": "ఇక్కడ శోధించండి..",
+    "AddButton": "జోడించు",
+    "CancelButton": "రద్దు చేయి",
+    "MakeActiveButton": "క్రియాశీలం చేయి",
+    "MakeInactiveButton": "నిష్క్రియం చేయి",
+    "UpdateButton": "నవీకరించు",
+    "SaveButton": "సేవ్ చేయి",
+    "TableHeaders": {
+      "SerialNumber": "క్రమ సంఖ్య",
+      "RoleName": "పాత్ర పేరు",
+      "PermissionGroup": "అనుమతి సమూహం లేదా వినియోగదారులు",
+      "Active": "క్రియాశీలం",
+      "Actions": "చర్యలు"
+    },
+    "Tabs": {
+      "Employees": "ఉద్యోగులు",
+      "Goals": "లక్ష్యాలు",
+      "Privileges": "అధికారాలు",
+      "Performance": "పనితీరు",
+      "Rewards": "రివార్డ్‌లు",
+      "View": "చూడండి",
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    }
+  },
+  "UploadLeaves": {
+    "PageTitle": "లీవ్ రికార్డ్‌లను అప్‌లోడ్ చేయండి",
+    "PageDescription": "దయచేసి మీ లీవ్ రికార్డ్‌లను అందించిన ఫార్మాట్‌లో అప్‌లోడ్ చేయండి. మీరు క్రింద టెంప్లేట్‌ను డౌన్‌లోడ్ చేయవచ్చు.",
+    "DownloadTemplate": "టెంప్లేట్‌ను డౌన్‌లోడ్ చేయండి",
+    "ExportLeaveRecords": "లీవ్ రికార్డ్‌లను ఎగుమతి చేయండి",
+    "ExportLeaveBalances": "లీవ్ బ్యాలెన్స్‌లను ఎగుమతి చేయండి",
+    "UploadFileLabel": "లీవ్ రికార్డ్‌ల ఫైల్‌ను అప్‌లోడ్ చేయండి",
+    "NoFileUploaded": "ఫైల్ అప్‌లోడ్ చేయబడలేదు",
+    "UploadedFile": "అప్‌లోడ్ చేయబడిన ఫైల్:",
+    "Submit": "సమర్పించు",
+    "DateRangeDialog": {
+      "Title": "లీవ్ రికార్డ్‌ల ఎగుమతి కోసం తేదీ పరిధిని ఎంచుకోండి",
+      "StartDate": "ప్రారంభ తేదీ",
+      "EndDate": "ముగింపు తేదీ",
+      "Cancel": "రద్దు చేయి",
+      "ExportRecords": "రికార్డ్‌లను ఎగుమతి చేయండి"
+    },
+    "Instructions": {
+      "Title": "సూచనలు:",
+      "Step1": "అవసరమైన ఫార్మాట్‌ను చూడటానికి టెంప్లేట్‌ను డౌన్‌లోడ్ చేయండి",
+      "Step2": "EmpId (ఉద్యోగి సంఖ్య) మరియు ప్రతి లీవ్ రకానికి లీవ్ రోజులను నింపండి",
+      "Step3": "పూర్తి చేసిన ఫైల్‌ను అప్‌లోడ్ చేయండి",
+      "Step4": "సిస్టమ్ ఉద్యోగి IDలను ధృవీకరిస్తుంది మరియు లీవ్ బ్యాలెన్స్‌లను తగ్గిస్తుంది"
+    }
+  },
+  "AttendanceUpload": {
+    "PageTitle": "హాజరు అప్‌లోడ్",
+    "PageDescription": "దయచేసి మీ హాజరు షీట్‌ను అందించిన ఫార్మాట్‌లో అప్‌లోడ్ చేయండి. మీరు క్రింద టెంప్లేట్‌ను డౌన్‌లోడ్ చేయవచ్చు.",
+    "DownloadTemplate": "టెంప్లేట్‌ను డౌన్‌లోడ్ చేయండి",
+    "UploadFileLabel": "హాజరు ఫైల్‌ను అప్‌లోడ్ చేయండి",
+    "NoFileUploaded": "ఫైల్ అప్‌లోడ్ చేయబడలేదు",
+    "UploadedFile": "అప్‌లోడ్ చేయబడిన ఫైల్:",
+    "Submit": "సమర్పించు"
+  },
+  "LeaveTypeTable": {
+    "PageTitle": "లీవ్ రకం చరిత్ర",
+    "TableHeaders": {
+      "Name": "పేరు",
+      "Code": "కోడ్",
+      "Actions": "చర్యలు"
+    },
+    "ExportOptions": {
+      "ExportAsCSV": "CSVగా ఎగుమతి చేయండి",
+      "ExportAsExcel": "Excelగా ఎగుమతి చేయండి",
+      "ExportAsPDF": "PDFగా ఎగుమతి చేయండి"
+    }
+  },
+  "LeaveType": {
+    "PageTitle": "లీవ్ రకం",
+    "AdvancedConfiguration": "అధునాతన కాన్ఫిగరేషన్",
+    "MaxAdvanceDaysConfiguration": "గరిష్ట ముందస్తు రోజుల కాన్ఫిగరేషన్",
+    "MaxAdvanceDaysDescription": "వారు అభ్యర్థించే రోజుల సంఖ్య ఆధారంగా ఉద్యోగులు లీవ్ కోసం దరఖాస్తు చేయడానికి ఎన్ని రోజుల ముందుగా అవసరమో కాన్ఫిగర్ చేయండి.",
+    "AttachmentsRequiredConfiguration": "అటాచ్‌మెంట్‌లు అవసరమైన కాన్ఫిగరేషన్",
+    "FormFields": {
+      "Name": "పేరు",
+      "ImageIcon": "చిత్రం / చిహ్నం",
+      "Code": "కోడ్",
+      "BalanceBasedOn": "బ్యాలెన్స్ ఆధారంగా (స్థిర హక్కు / లీవ్ గ్రాంట్)",
+      "Units": "యూనిట్‌లు (రోజులు / గంటలు)",
+      "Status": "స్థితి",
+      "Eligibility": "అర్హత",
+      "CustomName": "కస్టమ్ పేరు"
+    },
+    "AdvancedFields": {
+      "MaxLeavesAtOnce": "ఒకేసారి తీసుకోగల గరిష్ట లీవ్‌ల సంఖ్య",
+      "MaxHalfDays": "సంవత్సరానికి గరిష్ట అర్ధ-రోజు లీవ్‌లు",
+      "MaxHalfDaysHelper": "అర్ధ-రోజు లీవ్‌లపై పరిమితి లేకుండా ఖాళీగా వదిలేయండి",
+      "AutoAddLeaves": "ఆటో లీవ్‌లను జోడించు",
+      "AddType": "రకాన్ని జోడించు",
+      "NumberOfDaysToAdd": "జోడించాల్సిన రోజుల సంఖ్య"
+    },
+    "MaxAdvanceFields": {
+      "MinDays": "కనీస రోజులు",
+      "MaxDays": "గరిష్ట రోజులు (పరిమితి లేకుండా ఖాళీగా వదిలేయండి)",
+      "MaxAdvanceDays": "గరిష్ట ముందస్తు రోజులు",
+      "RemoveRule": "నియమాన్ని తొలగించు",
+      "AddRule": "నియమాన్ని జోడించు"
+    },
+    "AttachmentFields": {
+      "Operator": "ఆపరేటర్",
+      "ValueDays": "విలువ (రోజులు)"
+    },
+    "Checkboxes": {
+      "Carryover": "క్యారీఓవర్",
+      "AttachmentsRequired": "అటాచ్‌మెంట్‌లు అవసరం"
+    },
+    "Buttons": {
+      "Cancel": "రద్దు చేయి",
+      "Update": "నవీకరించు",
+      "Submit": "సమర్పించు",
+      "Submitting": "సమర్పిస్తున్నారు..."
+    },
+    "Options": {
+      "Hours": "గంటలు",
+      "Days": "రోజులు",
+      "Active": "క్రియాశీలం",
+      "InActive": "నిష్క్రియం",
+      "Hourly": "గంటవారీ",
+      "Monthly": "నెలవారీ",
+      "Yearly": "సంవత్సరవారీ",
+      "Is": "ఉంది",
+      "LesserOrEqual": "తక్కువ లేదా సమానం (≤)",
+      "GreaterOrEqual": "ఎక్కువ లేదా సమానం (≥)"
+    },
+    "LeaveNames": {
+      "EarnedLeave": "సంపాదించిన లీవ్ (EL)",
+      "SickLeave": "అనారోగ్య లీవ్ (SL)",
+      "CasualLeave": "కేజువల్ లీవ్ (CL)",
+      "MaternityLeave": "మాతృత్వ లీవ్ (ML)",
+      "PaternityLeave": "పితృత్వ లీవ్ (PL)",
+      "CompensatoryOff": "కంపెన్సేటరీ ఆఫ్",
+      "BereavementLeave": "శోక లీవ్",
+      "MarriageLeave": "వివాహ లీవ్",
+      "UnpaidLeave": "అవేతన లీవ్ (LWP)",
+      "WorkFromHome": "ఇంటి నుండి పని (WFH)",
+      "Others": "ఇతరులు"
+    },
+    "FileStatus": {
+      "Selected": "✓ ఎంచుకోబడింది:",
+      "Current": "ప్రస్తుత:",
+      "NoFileSelected": "ఫైల్ ఎంచుకోబడలేదు",
+      "LoadingEligibility": "అర్హత ఎంపికలను లోడ్ చేస్తున్నారు..."
+    }
+  },
+  "CarryoverRulesPopup": {
+    "Title": "క్యారీఓవర్ నియమాలు",
+    "CarryoverDateQuestion": "క్యారీఓవర్ తేదీ ఏమి ఉండాలి?",
+    "CarryoverDateLabel": "క్యారీఓవర్ తేదీ",
+    "MaxDaysQuestion": "ఎన్ని రోజులు ముందుకు తీసుకువెళ్లాలి (గరిష్టం)?",
+    "MaxDaysLabel": "గరిష్ట రోజులను నమోదు చేయండి"
+  },
+  "AssetsManagementSystem": {
+    "PageTitle": "ఆసెట్ మేనేజ్‌మెంట్ సిస్టమ్",
+    "AssetAssignment": "ఆసెట్ అసైన్‌మెంట్",
+    "AddAsset": "ఆసెట్‌ను జోడించు",
+    "AssetType": "ఆసెట్ రకం *",
+    "AssetNumber": "ఆసెట్ నంబర్ *",
+    "IssueDate": "ఇష్యూ తేదీ",
+    "CollectionDate": "కలెక్షన్ తేదీ",
+    "HandOverDate": "హ్యాండ్‌ఓవర్ తేదీ",
+    "SelectType": "రకాన్ని ఎంచుకోండి",
+    "RemoveAsset": "ఆసెట్‌ను తొలగించు",
+    "Cancel": "రద్దు చేయి",
+    "UpdateAsset": "ఆసెట్‌ను నవీకరించు",
+    "CreateAsset": "ఆసెట్‌ను సృష్టించు",
+    "Updating": "నవీకరిస్తున్నారు...",
+    "Submitting": "సమర్పిస్తున్నారు..."
+  },
+  "workflow": {
+    "selectTransactionType": "లావాదేవీ రకం ఎంచుకోండి",
+    "chooseTransactionType": "ఈ ఆమోద వర్క్‌ఫ్లో తరువాత వచ్చే లావాదేవీ రకాన్ని ఎంచుకోండి",
+    "editWorkflow": "వర్క్‌ఫ్లో సవరించండి",
+    "createNewWorkflow": "కొత్త వర్క్‌ఫ్లో సృష్టించండి",
+    "modifyWorkflow": "మీ సంస్థ కోసం ఆమోద వర్క్‌ఫ్లోను సవరించండి",
+    "setupNewWorkflow": "మీ సంస్థ కోసం కొత్త ఆమోద వర్క్‌ఫ్లోను సెట్ చేయండి",
+    "previous": "మునుపటి",
+    "cancel": "రద్దు చేయండి",
+    "next": "తదుపరి",
+    "submitting": "సమర్పిస్తోంది...",
+    "updateWorkflow": "వర్క్‌ఫ్లోను నవీకరించండి",
+    "createWorkflow": "వర్క్‌ఫ్లో సృష్టించండి",
+    "updatedSuccess": "వర్క్‌ఫ్లో విజయవంతంగా నవీకరించబడింది",
+    "createdSuccess": "వర్క్‌ఫ్లో విజయవంతంగా సృష్టించబడింది",
+    "failed": "{{action}} వర్క్‌ఫ్లో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    "create": "సృష్టించు",
+    "update": "నవీకరించు",
+    "unknownStep": "తెలియని దశ",
+    "Transaction Type": "లావాదేవీ రకం",
+    "Workflow Details": "వర్క్‌ఫ్లో వివరాలు",
+    "Approval Chain": "ఆమోద శ్రేణి"
+  },
+
+  "EmployeeDetailsForm": {
+    "EmployeeInformation": "ఉద్యోగి సమాచారం",
+    "FullName": "పూర్తి పేరు *",
+    "EmployeeID": "ఉద్యోగి ID *",
+    "Department": "కార్య",
+    "Position": "స్థానం",
+    "WorkLocation": "పని స్థలం",
+    "SelectEmployee": "ఉద్యోగిని ఎంచుకోండి"
+  },
+  "AssetsManagementTable": {
+    "AssetManagementHistory": "ఆసెట్ మేనేజ్‌మెంట్ చరిత్ర",
+    "TableHeaders": {
+      "Name": "పేరు",
+      "EmployeeID": "ఉద్యోగి ID",
+      "Department": "కార్య",
+      "AssetType": "ఆసెట్ రకం",
+      "AssetNo": "ఆసెట్ నం",
+      "IssueDate": "ఇష్యూ తేదీ",
+      "HandOverDate": "హ్యాండ్‌ఓవర్ తేదీ",
+      "Action": "చర్య"
+    },
+    "Actions": {
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    },
+    "NoDataFound": "డేటా కనుగొనబడలేదు",
+    "Error": "లోపం"
+  },
+  "HolidaysCalendar": {
+    "PageTitle": "సెలవుల క్యాలెండర్",
+    "FormFields": {
+      "HolidayName": "సెలవు పేరు",
+      "Date": "తేదీ",
+      "Type": "రకం",
+      "Description": "వివరణ"
+    },
+    "TypeOptions": {
+      "PublicHoliday": "ప్రజా సెలవు",
+      "CompanyHoliday": "కంపెనీ సెలవు",
+      "ReligiousHoliday": "మత సెలవు"
+    },
+    "Buttons": {
+      "Cancel": "రద్దు చేయి",
+      "Update": "నవీకరించు",
+      "Submit": "సమర్పించు",
+      "Submitting": "సమర్పిస్తున్నారు..."
+    }
+  },
+  "HolidayTable": {
+    "HolidaysHistory": "సెలవుల చరిత్ర",
+    "TableHeaders": {
+      "HolidayName": "సెలవు పేరు",
+      "Type": "రకం",
+      "Date": "తేదీ",
+      "Actions": "చర్యలు"
+    }
+  },
+  "TopKpiCards": {
+    "Loading": "లోడ్ అవుతున్నది...",
+    "FailedToLoad": "డ్యాష్‌బోర్డ్ డేటాను లోడ్ చేయడంలో విఫలమైంది",
+    "NoDataAvailable": "డ్యాష్‌బోర్డ్ డేటా అందుబాటులో లేదు",
+    "NoDataMessage": "డ్యాష్‌బోర్డ్ సమాచారం ప్రస్తుతం అందుబాటులో లేదు.",
+    "KpiCards": {
+      "MyActiveTasks": "నా క్రియాశీల పనులు",
+      "TeamAttendance": "టీమ్ హాజరు",
+      "PunctualityScore": "సమయపాలన స్కోర్",
+      "MyAchievements": "నా విజయాలు",
+      "RewardPoints": "రివార్డ్ పాయింట్‌లు"
+    },
+    "SubHeadings": {
+      "Urgent": "అత్యవసరం",
+      "PresentToday": "ఈరోజు హాజరు",
+      "Last30Days": "గత 30 రోజులు",
+      "ThisMonth": "ఈ నెల",
+      "Available": "అందుబాటులో"
+    },
+    "ActionLabels": {
+      "ActionNeeded": "చర్య అవసరం",
+      "ReviewNow": "ఇప్పుడు సమీక్షించండి",
+      "ViewDetails": "వివరాలను చూడండి"
+    }
+  },
+  "TopCards": {
+    "KpiTasks": "KPI పనులు",
+    "AdHocTasks": "అడ్ హాక్ పనులు",
+    "Urgent": "అత్యవసరం"
+  },
+  "TaskProgress": {
+    "LoadingRecentTasks": "ఇటీవలి పనులను లోడ్ చేస్తున్నారు...",
+    "FailedToLoadRecentTasks": "ఇటీవలి పనులను లోడ్ చేయడంలో విఫలమైంది",
+    "NoRecentTasksAvailable": "ఇటీవలి పనులు అందుబాటులో లేవు",
+    "NoRecentTasksMessage": "ఇటీవలి పనుల సమాచారం ప్రస్తుతం అందుబాటులో లేదు.",
+    "RecentTasks": "ఇటీవలి పనులు",
+    "ViewAll": "అన్నీ చూడండి",
+    "NoRecentTasksFound": "ఇటీవలి పనులు కనుగొనబడలేదు",
+    "AllRecentTasks": "అన్ని ఇటీవలి పనులు",
+    "KpiTask": "KPI పని",
+    "NoDueDate": "గడువు తేదీ లేదు",
+    "UntitledTask": "పేరులేని పని"
+  },
+  "DashboardRewardLeaderboard": {
+    "LoadingLeaderboard": "లీడర్‌బోర్డ్ లోడ్ అవుతున్నది...",
+    "FailedToLoadLeaderboard": "లీడర్‌బోర్డ్ లోడ్ చేయడంలో విఫలమైంది",
+    "NoLeaderboardDataAvailable": "లీడర్‌బోర్డ్ డేటా అందుబాటులో లేదు",
+    "NoLeaderboardDataMessage": "రివార్డ్ పాయింట్‌ల లీడర్‌బోర్డ్ సమాచారం ప్రస్తుతం అందుబాటులో లేదు.",
+    "RewardPointsLeaderboard": "రివార్డ్ పాయింట్‌లు - లీడర్‌బోర్డ్",
+    "Company": "కంపెనీ",
+    "Top5Employees": "టాప్ 5 ఉద్యోగులు",
+    "ViewAll": "అన్నీ చూడండి",
+    "NoEmployeesFound": "ఉద్యోగులు కనుగొనబడలేదు",
+    "Unknown": "తెలియని",
+    "EmployeeId": "ID: #"
+  },
+  "TaskDashboardHeader": {
+    "TaskDashboard": "పని డ్యాష్‌బోర్డ్",
+    "FilterOptions": {
+      "ThisWeek": "ఈ వారం",
+      "ThisMonth": "ఈ నెల",
+      "ThisYear": "ఈ సంవత్సరం",
+      "All": "అన్ని"
+    },
+    "Buttons": {
+      "View": "చూడండి",
+      "AddTask": "పని జోడించు"
+    }
+  },
+  "OKRProgress": {
+    "OKRProgress": "OKR పురోగతి",
+    "AddOKR": "OKR జోడించు",
+    "NoOKRData": "OKR డేటా లేదు",
+    "StatusLabels": {
+      "OnTrack": "ట్రాక్‌లో",
+      "OffTrack": "ట్రాక్‌కు దూరంగా",
+      "AtRisk": "అపాయంలో"
+    }
+  },
+  "ObjectivesDashboard": {
+    "GreetingOffTrack": "హాయ్ {{name}}! మీ లక్ష్యాలు గడువు తేదీ నాటికి పూర్తి కాకపోవచ్చు!",
+    "GreetingOnTrack": "హాయ్ {{name}}! మీ లక్ష్యాలు ట్రాక్‌లో ఉన్నాయి!",
+    "GreetingAtRisk": "హాయ్ {{name}}! మీ కొన్ని లక్ష్యాలు ప్రమాదంలో ఉన్నాయి!",
+    "Loading": "లోడ్ అవుతోంది...",
+    "NoDataAvailable": "డేటా అందుబాటులో లేదు"
+  },
+  "ObjectivesTable": {
+    "Actions": {
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు",
+      "Approve": "ఆమోదించు",
+      "Reject": "తిరస్కరించు"
+    },
+    "Columns": {
+      "Objectives": "లక్ష్యాలు",
+      "Progress": "పురోగతి",
+      "Weight": "బరువు",
+      "Owner": "యజమాని",
+      "DueDate": "గడువు తేదీ",
+      "ApproveReject": "ఆమోదించు/తిరస్కరించు",
+      "Actions": "చర్యలు",
+      "AddKRTask": "KR జోడించు / టాస్క్ జోడించు"
+    },
+    "Status": {
+      "OnTrack": "ట్రాక్‌లో",
+      "AtRisk": "ప్రమాదంలో",
+      "OffTrack": "ట్రాక్ నుండి బయట",
+      "NotStarted": "ప్రారంభించలేదు",
+      "InProgress": "పురోగతిలో ఉంది",
+      "Submit": "సమర్పించు",
+      "Draft": "ముసాయిదా",
+      "PendingApproval": "ఆమోదం పెండింగ్‌లో",
+      "ApprovalRequired": "ఆమోదం అవసరం",
+      "Approved": "ఆమోదించబడింది",
+      "Rejected": "తిరస్కరించబడింది"
+    },
+    "Tooltips": {
+      "AddKeyResult": "కీ రిజల్ట్ జోడించు",
+      "AddTask": "టాస్క్ జోడించు",
+      "Add": "జోడించు"
+    },
+    "TableHeader": {
+      "DisplayOptions": "ప్రదర్శన ఎంపికలు",
+      "CompanyOKRs": "కంపెనీ OKRలు",
+      "Cascade": "క్యాస్కేడ్",
+      "Delete": "తొలగించు",
+      "Status": "స్థితి",
+      "SearchPlaceholder": "ఇక్కడ శోధించండి..",
+      "Export": "ఎగుమతి",
+      "CreateOKR": "OKR సృష్టించు",
+      "Library": "లైబ్రరీ",
+      "NonLibrary": "నాన్ లైబ్రరీ",
+      "StatusOptions": {
+        "OnTrack": "ట్రాక్‌లో",
+        "AtRisk": "ప్రమాదంలో",
+        "OffTrack": "ట్రాక్ నుండి బయట"
+      },
+      "ExportOptions": {
+        "ExportCSV": "CSVగా ఎగుమతి చేయండి",
+        "ExportExcel": "Excelగా ఎగుమతి చేయండి",
+        "ExportPDF": "PDFగా ఎగుమతి చేయండి"
+      },
+      "ExportLabels": {
+        "Type": "రకం",
+        "Title": "శీర్షిక",
+        "Description": "వివరణ",
+        "TargetResult": "Target Result",
+        "ActualResult": "Actual Result",
+        "Progress": "పురోగతి",
+        "Status": "స్థితి",
+        "Owner": "యజమాని",
+        "Weight": "బరువు",
+        "StartDate": "ప్రారంభ తేదీ",
+        "DueDate": "గడువు తేదీ",
+        "Alignment": "అమరిక",
+        "CreatedAt": "సృష్టించిన తేదీ",
+        "Objective": "లక్ష్యం",
+        "KeyResult": "కీ ఫలితం",
+        "Task": "పని",
+        "CompanyOKR": "కంపెనీ OKR",
+        "IndividualOKR": "వ్యక్తిగత OKR",
+        "ExportedOn": "ఎగుమతి చేసిన తేదీ:",
+        "OKRsExportReport": "OKRలు ఎగుమతి నివేదిక",
+        "NoDataToExport": "ఎగుమతి చేయడానికి డేటా లేదు"
+      }
+    }
+  },
+  "OKRCard": {
+    "OKRYear": "OKR సంవత్సరం",
+    "SelectYear": "సంవత్సరాన్ని ఎంచుకోండి",
+    "Employee": "ఉద్యోగి",
+    "SelectEmployee": "ఉద్యోగిని ఎంచుకోండి"
+  },
+  "Tasks": {
+    "Task": "పని",
+    "Tasks": "పనులు",
+    "Objective": "లక్ష్యం",
+    "KR": "కెఆర్",
+    "Due Date": "గడువు తేదీ",
+    "Status": "స్థితి",
+    "Owner": "యజమాని",
+  "Priority": "ప్రాధాన్యత",
+  "Progress": "ప్రగతి",
+    "Comments": "వ్యాఖ్యలు",
+    "SubTask": "ఉప పని",
+    "Approval": "ఆమోదం",
+    "PendingApproval": "ఆమోదం పెండింగ్‌లో",
+    "Action": "చర్య",
+    "Approve": "ఆమోదించు",
+    "Reject": "తిరస్కరించు",
+    "Approved": "ఆమోదించబడింది",
+    "Rejected": "తిరస్కరించబడింది",
+    "ApprovalRequired": "ఆమోదం అవసరం",
+    "Edit": "సవరించు",
+    "Delete": "తొలగించు",
+    "Audit History": "ఆడిట్ చరిత్ర",
+    "HighLevel": "అధిక స్థాయి",
+    "MediumLevel": "మధ్యస్థ స్థాయి",
+    "LowLevel": "తక్కువ స్థాయి",
+    "Not Started": "ప్రారంభించలేదు",
+    "In Progress": "పురోగతిలో ఉంది",
+    "OnHold": "హోల్డ్‌లో ఉంది",
+    "Completed": "పూర్తయింది",
+    "Recurrence": "పునరావృతం",
+    "Main Task": "ప్రధాన పని",
+    "Comment": "వ్యాఖ్య",
+    "commentHere": "ఇక్కడ వ్యాఖ్య చేయండి...",
+    "Upload Files": "ఫైళ్లను అప్‌లోడ్ చేయండి",
+    "Uploading": "అప్‌లోడ్ అవుతోంది...",
+    "File uploaded": "ఫైల్ అప్‌లోడ్ చేయబడింది",
+    "Processing": "ప్రాసెస్ చేస్తోంది...",
+    "UpdateTask": "పనిని నవీకరించు",
+    "SaveAddAnother": "సేవ్ చేసి మరొకటి జోడించు",
+    "Finish": "ముగించు",
+    "AddTask": "పనిని జోడించు",
+    "EditTask": "పనిని సవరించు",
+    "Assign To": "కు కేటాయించు",
+    "Loading task data...": "పని డేటా లోడ్ అవుతోంది..."
+  },
+  "ObjectiveForm": {
+    "CreateObjective": "లక్ష్యాన్ని సృష్టించండి",
+    "EditObjective": "లక్ష్యాన్ని సవరించండి",
+    "ObjectiveSavedSuccess": "✓ లక్ష్యం విజయవంతంగా సేవ్ చేయబడింది! మీరు ఇప్పుడు కీ రిజల్ట్‌లను జోడించవచ్చు.",
+    "EarnedRewardPoints": "మీరు {{points}} రివార్డ్ పాయింట్‌లను సంపాదించారు",
+    "FormLabels": {
+      "Objective": "లక్ష్యం*",
+      "Weight": "బరువు*",
+      "Owner": "యజమాని",
+      "DueDate": "గడువు తేదీ",
+      "Dimension": "పరిమాణం*",
+      "Comment": "వ్యాఖ్య",
+      "UploadFile": "ఫైల్ అప్‌లోడ్ చేయండి",
+      "Progress": "పురోగతి"
+    },
+    "Placeholders": {
+      "EnterComment": "మీ వ్యాఖ్యను ఇక్కడ నమోదు చేయండి...",
+      "DateFormat": "రో/నె/సం"
+    },
+    "Buttons": {
+      "Saving": "సేవ్ చేస్తోంది...",
+      "UpdateObjective": "లక్ష్యాన్ని నవీకరించండి",
+      "SaveDetails": "వివరాలను సేవ్ చేయండి",
+      "AddKeyResults": "కీ రిజల్ట్‌లను జోడించండి",
+      "SaveAndAddKR": "సేవ్ చేసి KR జోడించండి"
+    },
+    "FileUpload": {
+      "Uploading": "(అప్‌లోడ్ అవుతోంది...)",
+      "FileUploaded": "✓ ఫైల్ అప్‌లోడ్ చేయబడింది"
+    },
+    "Stepper": {
+      "Objective": "లక్ష్యం",
+      "KR": "కెఆర్",
+      "Task": "పని"
+    },
+    "Progress": {
+      "SelectProgressStatus": "మీ పురోగతి స్థితిని ఎంచుకోండి (శాతంలో)"
+    },
+    "Dimensions": {
+      "People": "ప్రజలు",
+      "Financial": "ఆర్థిక",
+      "Operations": "కార్యకలాపాలు",
+      "Strategy": "వ్యూహం",
+      "ProcessGovernanceSystem": "ప్రక్రియ/పాలన/వ్యవస్థ"
+    }
+  },
+  "KeyResultForm": {
+    "AddKeyResult": "కీ రిజల్ట్ జోడించు",
+    "EditKeyResult": "కీ రిజల్ట్ సవరించు",
+    "OKRName": "OKR పేరు",
+    "AlignedToCompanyObjective": "కంపెనీ లక్ష్యంతో అమర్చబడింది",
+    "FormLabels": {
+      "KeyResultName": "కీ రిజల్ట్ పేరు*",
+      "Source": "మూలం",
+      "KPIs": "KPIలు*",
+      "Status": "స్థితి*",
+      "UnitOfMeasurement": "కొలత యూనిట్",
+      "Polarity": "ధ్రువణత",
+      "TargetResult": "లక్ష్య ఫలితం*",
+      "ActualResult": "వాస్తవ ఫలితం",
+      "TargetDate": "లక్ష్య తేదీ*",
+      "CompletionDate": "పూర్తి తేదీ",
+      "Comment": "వ్యాఖ్య",
+      "UploadFile": "ఫైల్ అప్‌లోడ్ చేయండి"
+    },
+    "Buttons": {
+      "Saving": "సేవ్ చేస్తోంది...",
+      "UpdateDetails": "వివరాలను నవీకరించండి",
+      "SaveAndAddAnother": "సేవ్ చేసి మరొకటి జోడించండి",
+      "NextAddTask": "తదుపరి: టాస్క్ జోడించండి"
+    },
+    "FileUpload": {
+      "Uploading": "(అప్‌లోడ్ అవుతోంది...)",
+      "FileUploaded": "✓ ఫైల్ అప్‌లోడ్ చేయబడింది"
+    },
+    "Polarity": {
+      "Positive": "సానుకూల",
+      "Negative": "ప్రతికూల"
+    },
+    "StatusOptions": {
+      "NotStarted": "ప్రారంభించలేదు",
+      "InProgress": "పురోగతిలో ఉంది",
+      "OnHold": "హోల్డ్‌లో ఉంది",
+      "Completed": "పూర్తయింది"
+    },
+    "KPIOptions": {
+      "Revenue": "ఆదాయం",
+      "UserGrowth": "వినియోగదారు వృద్ధి",
+      "ConversionRate": "మార్పిడి రేటు"
+    },
+    "UnitOptions": {
+      "Number": "సంఖ్య",
+      "Percentage": "శాతం (%)",
+      "INR": "INR",
+      "USD": "USD",
+      "AED": "AED"
+    },
+    "SourceOptions": {
+      "SelectSource": "--మూలాన్ని ఎంచుకోండి--",
+      "Salesforce": "సేల్స్‌ఫోర్స్"
+    },
+    "BellCurveChart": {
+      "Loading": "లోడ్ అవుతోంది...",
+      "Error": "లోపం:",
+      "UnknownError": "తెలియని లోపం",
+      "Value": "విలువ:",
+      "NoCurveData": "వక్ర డేటా అందుబాటులో లేదు",
+      "AtLower": "తక్కువ స్థాయిలో",
+      "AtAverage": "సగటు స్థాయిలో",
+      "AtUpper": "అధిక స్థాయిలో",
+      "Point": "పాయింట్"
+    }
+  },
+  "OKRCharts": {
+    "TotalWeightAchievement": "మొత్తం బరువు సాధన",
+    "TotalWeight": "మొత్తం బరువు",
+    "Q1": "త్రై1",
+    "Q2": "త్రై2",
+    "Q3": "త్రై3",
+    "Q4": "త్రై4"
+  },
+  "TodayAttendance": {
+    "TodaysAttendance": "నేటి హాజరు",
+    "Present": "హాజరు",
+    "OnLeave": "విరామంలో",
+    "LateArrivals": "ఆలస్యం",
+    "TotalEmployees": "మొత్తం ఉద్యోగులు",
+    "NextHoliday": "తదుపరి సెలవు",
+    "NoUpcomingHolidays": "రాబోయే సెలవులు లేవు"
+  },
+  "PerformanceTrendDashboard": {
+    "PerformanceTrend": "పనితీరు ట్రెండ్",
+    "CurrentPerformance": "ప్రస్తుత పనితీరు",
+    "UnknownPeriod": "తెలియని కాలం"
+  },
+  "AvailableRewards": {
+    "AvailableRewards": "అందుబాటులో ఉన్న రివార్డ్‌లు",
+    "Pts": "పాయింట్‌లు",
+    "NoRewardsAvailable": "ప్రస్తుతం రివార్డ్‌లు అందుబాటులో లేవు",
+    "KeepEarningPoints": "మరిన్ని రివార్డ్‌ల కోసం పాయింట్‌లు సంపాదించడం కొనసాగించండి",
+    "ComingSoonTitle": "రివార్డ్‌లు త్వరలో వస్తాయి",
+    "ComingSoonDescription": "మేము మీ కోసం ఉత్తేజకరమైన రివార్డ్‌లను సిద్ధం చేస్తున్నాము! త్వరలో మీరు మీ విజయాలు మరియు సహకారాల ఆధారంగా రివార్డ్‌లను క్లెయిమ్ చేయగలుగుతారు.",
+    "Rewards": {
+      "ExpertBadge": "నిపుణుడు బ్యాడ్జ్",
+      "Achievement": "సాధన",
+      "TeamPlayerAward": "టీమ్ ప్లేయర్ అవార్డ్",
+      "Recognition": "గుర్తింపు",
+      "Claim": "దావా చేయండి"
+    }
+  },
+  "RecentUpdates": {
+    "RecentUpdates": "ఇటీవలి నవీకరణలు",
+    "NoRecentUpdates": "ఇటీవలి నవీకరణలు లేవు",
+    "ComingSoonTitle": "నవీకరణల ఫీడ్ త్వరలో వస్తుంది",
+    "ComingSoonDescription": "ముఖ్యమైన నోటిఫికేషన్‌లు, విజయాలు మరియు సిస్టమ్ నవీకరణల గురించి మీకు తెలియజేయడానికి మేము సమగ్ర నవీకరణల ఫీడ్‌ను అభివృద్ధి చేస్తున్నాము.",
+    "Updates": {
+      "UrgentTasksAlert": "అత్యవసర పనుల హెచ్చరిక",
+      "TaskOverview": "పని అవలోకనం",
+      "OKRAlert": "OKR హెచ్చరిక",
+      "OKRProgress": "OKR పురోగతి",
+      "GreatAttendance": "అద్భుతమైన హాజరు",
+      "AchievementUnlocked": "సాధన అన్‌లాక్ చేయబడింది",
+      "PerformanceReviewReminder": "పనితీరు సమీక్ష గుర్తుచేత",
+      "GreatJob": "అద్భుతమైన పని"
+    },
+    "TimeLabels": {
+      "Today": "ఈరోజు",
+      "ThisMonth": "ఈ నెల",
+      "OneDayAgo": "1 రోజు క్రితం",
+      "ThreeDaysAgo": "3 రోజులు క్రితం"
+    }
+  },
+  "BirthdayList": {
+    "BirthdayList": "జన్మదిన జాబితా",
+    "ViewAll": "అన్నీ చూడండి",
+    "NoBirthdaysThisMonth": "ఈ నెలలో జన్మదినాలు లేవు",
+    "AllUpcomingBirthdays": "రాబోయే అన్ని జన్మదినాలు",
+    "LoadingTitle": "జన్మదిన జాబితా లోడ్ అవుతోంది...",
+    "FailedToLoadTitle": "జన్మదిన జాబితా లోడ్ చేయడంలో విఫలమైంది",
+    "NoDataTitle": "ఈ నెలలో జన్మదినాలు లేవు",
+    "NoDataMessage": "ప్రస్తుత నెలలో ఉద్యోగులకు జన్మదినాలు లేవు.",
+    "DateFormats": {
+      "Today": "ఈరోజు",
+      "Tomorrow": "రేపు",
+      "Days": "రోజులు"
+    }
+  },
+  "AnniversaryList": {
+    "AnniversaryList": "వార్షికోత్సవ జాబితా",
+    "ViewAll": "అన్నీ చూడండి",
+    "NoAnniversariesThisMonth": "ఈ నెలలో వార్షికోత్సవాలు లేవు",
+    "AllUpcomingAnniversaries": "రాబోయే అన్ని వార్షికోత్సవాలు",
+    "DateFormats": {
+      "Today": "ఈరోజు",
+      "Tomorrow": "రేపు",
+      "Days": "రోజులు",
+      "Year": "సంవత్సరం",
+      "Years": "సంవత్సరాలు"
+    }
+  },
+  "BirthdayWishModal": {
+    "SendBirthdayWish": "జన్మదిన శుభాకాంక్షలు పంపండి",
+    "SendPersonalizedMessage": " వ్యక్తిగత జన్మదిన సందేశం పంపండి",
+    "HappyBirthdayPlaceholder": "జన్మదిన శుభాకాంక్షలు",
+    "Cancel": "రద్దు చేయండి",
+    "SendWish": "శుభాకాంక్షలు పంపండి",
+    "YearsOfService": "సేవ సంవత్సరం",
+    "YearsOfServicePlural": "సేవ సంవత్సరాలు"
+  },
+  "AnniversaryWishModal": {
+    "SendAnniversaryWish": "వార్షికోత్సవ శుభాకాంక్షలు పంపండి",
+    "SendPersonalizedMessage": " వ్యక్తిగత వార్షికోత్సవ సందేశం పంపండి",
+    "CongratulationsPlaceholder": "అభినందనలు",
+    "Cancel": "రద్దు చేయండి",
+    "SendWish": "శుభాకాంక్షలు పంపండి",
+    "YearsOfService": "సేవ సంవత్సరం",
+    "YearsOfServicePlural": "సేవ సంవత్సరాలు"
+  },
+  "EligibilityCriteria": {
+    "Title": "అర్హత ప్రమాణాలు",
+    "FormFields": {
+      "EligibilityName": "అర్హత పేరు",
+      "Age": "వయసు (ఉదా., >30, =27)",
+      "LengthOfService": "సేవా కాలం (ఉదా., >1, >2)",
+      "JobCategory": "పని వర్గం",
+      "Gender": "లింగం",
+      "Grade": "గ్రేడ్",
+      "MaritalStatus": "వివాహ స్థితి",
+      "Location": "స్థానం",
+      "ProbationPeriod": "పరిశీలన కాలం",
+      "NoticePeriod": "నోటీస్ పీరియడ్",
+      "PersonType": "వ్యక్తి రకం",
+      "Religion": "మతం",
+      "Position": "పదవి",
+      "HireDate": "నియామక తేది",
+      "Department": "కార్య",
+      "WorkType": "పని రకం",
+       "ExcludeByDefaultIncludesAll": "విలీనం చేయవద్దు (డిఫాల్ట్‌గా అందులో అందుబాటులో ఉన్నవి)",
+  "PublicHolidays": "ప్రభుత్వ సెలవులు",
+  "Leaves": "సెలవులు",
+  "Weekends": "వీక్‌ఎండ్లు"
+    },
+    "Options": {
+      "All": "అన్నీ",
+      "Operations": "ఆపరేషన్స్",
+      "Supervisor": "సూపర్వైజర్",
+      "Managerial": "మేనేజీరియల్",
+      "ExecutiveLeadership": "నిర్వాహక నాయకత్వం",
+      "Director": "డైరెక్టర్",
+      "Location": {
+        "USA": "యుఎస్ఎ",
+        "India": "భారతదేశం",
+        "UK": "యుకె"
+      },
+      "PersonType": {
+        "EMP": "ఉద్యోగి",
+        "Contractor": "కాంట్రాక్టర్",
+        "Intern": "ఇంటర్న్"
+      },
+      "Religion": {
+        "Hindu": "హిందూ",
+        "Muslim": "ముస్లిం",
+        "Christian": "క్రైస్తవ",
+        "Sikh": "సిక్కు",
+        "Buddhist": "బౌద్ధ",
+        "Jain": "జైన్",
+        "Other": "ఇతర"
+      },
+      "Gender": {
+        "Male": "పురుషుడు",
+        "Female": "స్త్రీ"
+      },
+      "MaritalStatus": {
+        "Married": "వివాహితుడు/వివాహిత",
+        "Unmarried": "అవివాహితుడు/అవివాహిత"
+      },
+      "Yes": "అవును",
+      "No": "కాదు",
+      "WorkType": {
+        "FullTime": "పూర్తి సమయం",
+        "PartTime": "భాగ కాలం"
+      }
+    },
+    "Buttons": {
+      "Cancel": "రద్దు చేయండి",
+      "Submit": "సబ్మిట్ చేయండి",
+      "Update": "అప్‌డేట్ చేయండి"
+    },
+    "Messages": {
+      "FailedFetchCandidates": "అభ్యర్థి ఎంపికలను పొందడంలో విఫలమైంది",
+      "NoDataFound": "డేటా లభించలేదు!",
+      "SuccessCreate": "అర్హత విజయవంతంగా సృష్టించబడింది",
+      "SuccessUpdate": "అర్హత విజయవంతంగా అప్‌డేట్ చేయబడింది",
+      "ErrorSubmit": "ఫారం సమర్పించే సమయంలో లోపం జరిగింది. దయచేసి మళ్లీ ప్రయత్నించండి."
+    },
+    "Validation": {
+      "Required": "{{field}} అవసరం, ఖాళీగా ఉండకూడదు",
+      "CannotBeEmpty": "{{field}} ఖాళీగా ఉండకూడదు",
+      "InvalidSymbols": "{{field}} లో ఈ చిహ్నాలలో ఏదో ఉండాలి: >, <, =",
+      "FillDetails": "సమర్పించే ముందు వివరాలను పూరించండి..."
+    }
+  },
+  "EligibilityTable": {
+    "Title": "అర్హత ప్రమాణాల జాబితా",
+
+    "Search": {
+      "Placeholder": "అర్హత ప్రమాణాలను శోధించండి..."
+    },
+
+    "TableHeaders": {
+      "EligibilityName": "అర్హత పేరు",
+      "Department": "కార్య",
+      "Actions": "చర్యలు"
+    },
+
+    "Messages": {
+      "FetchError": "అర్హత ప్రమాణాలను లోడ్ చేయడంలో విఫలమయ్యింది.",
+      "DeleteSuccess": "అర్హత ప్రమాణం విజయవంతంగా తొలగించబడింది.",
+      "DeleteError": "అర్హత ప్రమాణాన్ని తొలగించడంలో విఫలమయ్యింది.",
+      "ExportSuccess": "డేటా విజయవంతంగా ఎగుమతి చేయబడింది —",
+      "ExportError": "డేటాను ఎగుమతి చేయడంలో విఫలమయ్యింది."
+    },
+
+    "MenuItems": {
+      "Stage": {
+        "NewApplied": "కొత్తగా దరఖాస్తు చేసినవి",
+        "PsychometricTest": "మానసిక పరీక్ష"
+      },
+      "ExportOptions": {
+        "Title": "ఎగుమతి ఎంపికలు",
+        "CSV": "CSV గా ఎగుమతి చేయండి",
+        "Excel": "Excel గా ఎగుమతి చేయండి",
+        "PDF": "PDF గా ఎగుమతి చేయండి"
+      }
+    },
+
+    "Buttons": {
+      "Export": "ఎగుమతి చేయండి",
+      "Search": "శోధించండి"
+    }
+  },
+  "ApprovalWorkflowCard": {
+    "Title": "ఆమోద ప్రక్రియ",
+    "Description": "విభిన్న లావాదేవీ రకాల కోసం ఆమోద గొలుసును కాన్ఫిగర్ చేసి నిర్వహించండి",
+    "NewWorkflowButton": "కొత్త వర్క్‌ఫ్లో"
+  },
+
+  "WorkflowType": {
+    "TitleCreate": "కొత్త వర్క్‌ఫ్లో సృష్టించండి",
+    "TitleEdit": "వర్క్‌ఫ్లోని సవరించండి",
+    "SubtitleCreate": "మీ సంస్థ కోసం కొత్త ఆమోద వర్క్‌ఫ్లోని సెట్ చేయండి",
+    "SubtitleEdit": "మీ సంస్థ యొక్క ఆమోద వర్క్‌ఫ్లోను మార్చండి",
+
+    "SelectTransactionTitle": "లావాదేవీ రకాన్ని ఎంచుకోండి",
+    "SelectTransactionDescription": "ఈ ఆమోద వర్క్‌ఫ్లోని అనుసరించే లావాదేవీ రకాన్ని ఎంచుకోండి",
+
+    "Steps": {
+      "TransactionType": "లావాదేవీ రకం",
+      "WorkflowDetails": "వర్క్‌ఫ్లో వివరాలు",
+      "ApprovalChain": "ఆమోద గొలుసు"
+    },
+
+    "Buttons": {
+      "Previous": "మునుపటి",
+      "Cancel": "రద్దు చేయండి",
+      "Next": "తర్వాత",
+      "Submitting": "సమర్పిస్తున్నాం...",
+      "CreateWorkflow": "వర్క్‌ఫ్లో సృష్టించండి",
+      "UpdateWorkflow": "వర్క్‌ఫ్లో నవీకరించండి"
+    },
+
+    "Messages": {
+      "CreateSuccess": "వర్క్‌ఫ్లో విజయవంతంగా సృష్టించబడింది.",
+      "UpdateSuccess": "వర్క్‌ఫ్లో విజయవంతంగా నవీకరించబడింది.",
+      "CreateError": "వర్క్‌ఫ్లో సృష్టించడంలో విఫలమయ్యింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+      "UpdateError": "వర్క్‌ఫ్లో నవీకరించడంలో విఫలమయ్యింది. దయచేసి మళ్లీ ప్రయత్నించండి."
+    },
+
+    "UnknownStep": "తెలియని దశ"
+  },
+  "TransactionCard": {
+    "Recruitment": "భర్తీ",
+    "RecruitmentDescription": "నియామక మరియు అనుమతి ప్రక్రియ కోసం వర్క్‌ఫ్లో",
+    "ExpenseApproval": "ఖర్చు ఆమోదం",
+    "ExpenseApprovalDescription": "ఉద్యోగి ఖర్చుల ఆమోద ప్రవాహం",
+    "LeaveRequest": "సెలవు అభ్యర్థన",
+    "LeaveRequestDescription": "ఉద్యోగి సెలవు అభ్యర్థనల ఆమోద శ్రేణి",
+    "PurchaseOrder": "కొనుగోలు ఆర్డర్",
+    "PurchaseOrderDescription": "కొనుగోలు ఆర్డర్‌లను నిర్వహించే వర్క్‌ఫ్లో",
+    "BudgetApproval": "బడ్జెట్ ఆమోదం",
+    "BudgetApprovalDescription": "ఆర్థిక బడ్జెట్‌ల ఆమోద ప్రక్రియ"
+  },
+  "WorkFlowDetails": {
+    "WorkflowDetails": "వర్క్‌ఫ్లో వివరాలు",
+    "ProvideNameDescription": "ఈ ఆమోద వర్క్‌ఫ్లోకి పేరు మరియు వివరణను ఇవ్వండి",
+    "WorkflowName": "వర్క్‌ఫ్లో పేరు",
+    "WorkflowNamePlaceholder": "ఉదా., ప్రామాణిక సెలవు ఆమోదం",
+    "Description": "వివరణ",
+    "DescriptionPlaceholder": "ఈ వర్క్‌ఫ్లో యొక్క ఉద్దేశ్యం మరియు వినియోగ సందర్భాలను వివరించండి",
+    "Condition": "పరిస్థితి",
+    "ConditionPlaceholder": "వర్క్‌ఫ్లో కోసం ఐచ్చిక పరిస్థితి",
+    "ConditionLeaveRequest": "పరిస్థితి (సెలవు అభ్యర్థనల కోసం)",
+    "SetRules": "సెలవు అభ్యర్థనలోని రోజుల సంఖ్య ఆధారంగా నియమాలను సెట్ చేయండి",
+    "Attribute": "గుణకం",
+    "SelectAttribute": "గుణకాన్ని ఎంచుకోండి",
+    "Operator": "ఆపరేటర్",
+    "SelectOperator": "ఆపరేటర్‌ను ఎంచుకోండి",
+    "Value": "విలువ",
+    "EnterNumber": "సంఖ్యను నమోదు చేయండి",
+    "Days": "రోజులు",
+    "is": "అది",
+    "lesserOrEqual": "తక్కువ లేదా సమానం (≤)",
+    "greaterOrEqual": "ఎక్కువ లేదా సమానం (≥)"
+  },
+  "workflowFilter": {
+    "searchPlaceholder": "వర్క్‌ఫ్లోను శోధించండి",
+    "filterButton": "ఫిల్టర్",
+    "allTypes": "అన్ని రకాలూ",
+    "workflow": "వర్క్‌ఫ్లో",
+    "task": "పని"
+  },
+  
+  "workflowChain": {
+    "configureApprovalChain": "ఆమోద శృంఖలాన్ని కాన్ఫిగర్ చేయండి",
+    "defineSequence": "ఈ వర్క్‌ఫ్లో కోసం ఆమోదదారుల క్రమాన్ని నిర్వచించండి",
+    "currentApprovalChain": "ప్రస్తుత ఆమోద శృంఖల",
+    "noStepsDefined": "ఇంకా ఏ ఆమోద దశలు నిర్వచించబడలేదు",
+    "addStep": "దశను జోడించండి",
+    "completeDetailsError": "దయచేసి లావాదేవీ రకం మరియు వర్క్‌ఫ్లో వివరాలను పూర్తి చేయండి"
+  },
+  
+  "addApprovalHeader": {
+    "title": "ఆమోద దశను జోడించండి",
+    "rolesTab": "పాత్రలు",
+    "individualUserTab": "వ్యక్తిగత వినియోగదారు",
+    "searchPlaceholder": "వర్క్ ఫ్లోని శోధించండి"
+  },
+  
+  "formNavigation": {
+    "previous": "మునుపటి",
+    "cancel": "రద్దు చేయి",
+    "createWorkflow": "వర్క్‌ఫ్లో సృష్టించండి"
+  
+},
+  "selectedApprovers": {
+    "title": "ఎంచుకున్న ఆమోదదారులు:",
+    "noApprovers": "ఇప్పటివరకు ఎవరూ ఎంచుకోలేదు",
+    "saveStep": "దశను సేవ్ చేయండి",
+    "cancel": "రద్దు చేయి"
+  
+},
+"approval": {
+    "saveApprovers": "ఆమోదదారులను సేవ్ చేయండి"
+  
+},
+
+  "approval2": {
+    "card1Title": "లైన్ మేనేజర్",
+    "card1Description": "ఉద్యోగి యొక్క ప్రత్యక్ష పర్యవేక్షకుడు",
+    "select": "ఎంచుకోండి",
+    "remove": "తొలగించండి",
+    "selected": "ఎంచుకోబడింది",
+    "removed": "తొలగించబడింది"
+  },
+  
+  "approval3": {
+    "card2Title": "హెచ్‌ఆర్ మేనేజర్",
+    "card2Description": "మానవ వనరుల విభాగం అధిపతి",
+    "select": "ఎంచుకోండి",
+    "remove": "తొలగించండి",
+    "selected": "ఎంచుకోబడింది",
+    "removed": "తొలగించబడింది"
+  
+},
+
+  "approval4": {
+    "card3Title": "ఫంక్షనల్ హెడ్",
+    "card3Description": "శాఖ అధిపతి",
+    "select": "ఎంచుకోండి",
+    "remove": "తొలగించండి",
+    "selected": "ఎంచుకోబడింది",
+    "removed": "తొలగించబడింది"
+  },
+  
+  "approval5": {
+    "card4Title": "సీఈఓ",
+    "card4Description": "ముఖ్య కార్యనిర్వాహక అధికారి",
+    "select": "ఎంచుకోండి",
+    "remove": "తొలగించండి",
+    "selected": "ఎంచుకోబడింది",
+    "removed": "తొలగించబడింది"
+  },
+  
+  "approval6": {
+    "card5Title": "ఫైనాన్స్ డైరెక్టర్",
+    "card5Description": "స్పెసిఫిక్ ప్రాజెక్ట్ ని చూసే మేనేజర్",
+    "select": "ఎంచుకోండి",
+    "remove": "తొలగించండి",
+    "selected": "ఎంచుకోబడింది",
+    "removed": "తొలగించబడింది"
+  
+},
+
+  "approval7": {
+    "card6Title": "ప్రాజెక్ట్ మేనేజర్",
+    "card6Description": "ఉద్యోగి నేరుగా పర్యవేక్షించే సూపర్వైజర్",
+    "select": "ఎంచుకోండి",
+    "remove": "తొలగించండి",
+    "selected": "ఎంచుకోబడింది",
+    "removed": "తొలగించబడింది"
+  },
+  
+  "transactions": {
+    "leaveRequestTitle": "విదా అభ్యర్థన",
+    "leaveRequestDescription": "ఉద్యోగి విడ్లా అభ్యర్థనలకు అనుమతి ప్రక్రియ",
+    "timesheetTitle": "టైమ్‌షీట్",
+    "timesheetDescription": "ఉద్యోగుల టైమ్‌షీట్‌లకు అనుమతి ప్రక్రియ",
+    "resignationRequestTitle": "రైగ్నేషన్ అభ్యర్థన",
+    "resignationRequestDescription": "ఉద్యోగి రైగ్నేషన్ అభ్యర్థనలకు అనుమతి ప్రక్రియ"
+  },
+  "LookUpScreen": {
+    "CreateLookUp": "లుక్‌అప్ సృష్టించండి",
+    "LookupType": "లుక్‌అప్ రకం",
+    "Meaning": "అర్థం",
+    "Add": "జోడించండి",
+    "Code": "కోడ్",
+    "Delete": "తొలగించండి",
+    "Submit": "సమర్పించండి",
+    "DateStart": "ప్రారంభ తేదీ",
+    "DateEnd": "ముగింపు తేదీ",
+    "Enabled": "ప్రవేశంలో ఉంది",
+    "Actions": "చర్యలు",
+    "Type": "రకం",
+    "EditLookUp": "లుక్‌అప్ సవరించండి",
+    "Update": "నవీకరించండి",
+    "Cancel": "రద్దు చేయండి",
+    "PerformanceRatingScale": "ప్రదర్శన రేటింగ్ స్కేల్"
+  },
+  "CompetencyManagement": {
+    "CompetencyManagement": "సామర్థ్య నిర్వహణ",
+    "Name": "పేరు",
+    "PositionLevel": "స్థాన స్థాయి",
+    "Action": "చర్య",
+    "Create": "సృష్టించండి",
+    "CreateNewCompetency": "కొత్త నైపుణ్యాన్ని సృష్టించండి",
+    "EditCompetency": "నైపుణ్యాన్ని సవరించు",
+    "CompetencyName": "నైపుణ్య పేరు",
+    "Description": "వివరణ",
+    "StartDate": "ప్రారంభ తేదీ",
+    "EndDate": "ముగింపు తేదీ",
+    "CompetencyType": "నైపుణ్య రకం",
+    "DevelopmentActivities": "అభివృద్ధి కార్యకలాపాలు",
+    "CoachingActivities": "శిక్షణ కార్యకలాపాలు",
+    "CategoryActivities": "వర్గం కార్యకలాపాలు",
+    "PositionLevelField": "స్థాన స్థాయి",
+    "Cancel": "రద్దు చేయండి",
+    "Save": "భద్రపరచండి",
+    "Update": "నవీకరించండి"
+  },
+  "OKRManagement": {
+    "OKRManagement": "OKR నిర్వహణ",
+    "OkrLibrary": "OKR లైబ్రరీ",
+    "Okr": "OKR",
+    "Transfer": "బదిలీ",
+    "Create": "సృష్టించు",
+    "BulkUpload": "బల్క్ అప్‌లోడ్",
+    "Industry": "పరిశ్రమ",
+    "IsActive": "సక్రియంగా ఉంది",
+    "LastModified": "చివరిసారిగా మార్చబడింది",
+    "Action": "చర్య",
+    "OkrTemplateName": "OKR టెంప్లేట్ పేరు",
+    "StartDate": "ప్రారంభ తేదీ",
+    "EndDate": "ముగింపు తేదీ",
+    "EligibilityGroup": "అర్హత గల గుంపు",
+    "TransferFromEmployee": "ఉద్యోగి నుండి బదిలీ :",
+    "TransferToEmployee": "ఉద్యోగికి బదిలీ :",
+    "FindOkr": "OKR కనుగొనండి",
+    "InstructionsToUsers": "వినియోగదారులకు సూచనలు",
+    "LowValueRange": "తక్కువ విలువ పరిధి",
+    "MidValueRange": "మధ్యస్థ విలువ పరిధి",
+    "HighValueRange": "అధిక విలువ పరిధి",
+    "Min": "కనిష్ఠం",
+    "Max": "గరిష్ఠం",
+    "IncludingKeyResults": "ప్రధాన ఫలితాలను చేర్చడం",
+    "ImportOkrLibrary": "OKR లైబ్రరీని దిగుమతి చేయండి",
+    "Export": "ఎగుమతి",
+    "DownloadTemplate": "టెంప్లేట్ డౌన్‌లోడ్ చేయండి",
+    "Cancel": "రద్దు",
+    "Save": "సేవ్",
+    "IncludeOkr": "OKR చేర్చు",
+    "Edit": "సవరించు",
+    "Delete": "తొలగించు"
+  },
+  "TimeLogin": {
+    "title": "భౌగోళిక స్థాన సమయ నమోదు",
+    "discription-title": "మీ భౌతిక స్థానం ఆధారంగా Clock In / Out చేయండి",
+    "buttonLables": {
+      "bio": "మాన్యువల్ / బయో",
+      "geo": "భౌగోళికం"
+    },
+    "refreshing": "రిఫ్రెష్ అవుతోంది...",
+    "refreshLocation": "ప్రాంతాన్ని రిఫ్రెష్ చేయండి",
+    "LocationService": "ప్రాంత సేవలు",
+    "message": "దయచేసి కోరినప్పుడు ప్రాంతానికి ప్రాప్యతను అనుమతించండి. మీ స్థానం పని వద్ద మీ హాజరును నిర్ధారించడానికి మాత్రమే ఉపయోగించబడుతుంది.",
+    "getting": "మీ ప్రాంతాన్ని పొందుతోంది....",
+    "RetryLocation": "ప్రాంతాన్ని మళ్లీ ప్రయత్నించండి",
+    "ManualLocation": "మాన్యువల్‌గా ప్రాంతాన్ని ఇవ్వండి",
+    "time": "ప్రస్తుత సిస్టమ్ సమయం",
+    "clockOut": "క్లాక్ అవుట్",
+    "clockin": "క్లాక్ ఇన్",
+    "manuallyLocation": "స్థానాన్ని చేతితో నమోదు చేయండి",
+    "textLabel": {
+      "Latitude": "అక్షాంశం",
+      "Logitude": "రేఖాంశం"
+    },
+    "Cancel": "రద్దు చేయండి",
+    "setLocation": "స్థానాన్ని సెట్ చేయండి",
+    "waitingError": "ప్రాంత ప్రాప్యత కోసం వేచి ఉంది...",
+    "TimeSheetHistory": {
+      "history": "టైమ్‌షీట్ చరిత్ర",
+      "totalTime": "మొత్తం సమయం",
+      "week": "వారం"
+    },
+    "TableColumn": {
+      "Employee": "ఉద్యోగి",
+      "day": "రోజు",
+      "Date": "తేదీ",
+      "timein": "సమయం ప్రారంభం",
+      "timeOut": "సమయం ముగింపు",
+      "hours": "గంటలు",
+      "method": "పద్ధతి",
+      "position": "స్థానం",
+      "remarks": "వ్యాఖ్యలు",
+      "status": "స్థితి",
+      "actions": "చర్యలు"
+    },
+    "actionButton": {
+      "approve": "ఆమోదించండి",
+      "reject": "తిరస్కరించండి"
+    },
+    "DialogBox": {
+      "title": "సమయ నమోదు వివరాలు",
+      "ApprovalHistory": "ఆమోద చరిత్ర",
+      "Nodetailsavailable": "వివరాలు అందుబాటులో లేవు",
+      "CurrentLocationMap": "ప్రస్తుత స్థానం పటం"
+    },
+    "exportOptions": {
+      "export": "ఎగుమతి",
+      "exportExcel": "ఎక్సెల్‌గా ఎగుమతి చేయండి",
+      "exportCSV": "CSVగా ఎగుమతి చేయండి",
+      "exportPDF": "PDFగా ఎగుమతి చేయండి"
+    }
+  },
+  "AbsenceTime": {
+    "LeavePolicy": "సెలవు విధానం",
+    "applyForLeave": "సెలవు కోసం దరఖాస్తు చేయండి",
+    "teamLeave": "బృందం సెలవు",
+    "LoadingLeaves": "సెలవు రకాలను లోడ్ చేస్తోంది...",
+    "formLabel": {
+      "absenceType": "లేమి రకం / వర్గం",
+      "halfDay": "అర రోజు",
+      "form": "నుండి",
+      "to": "వరకు",
+      "durationAbsence": "లేమి వ్యవధి",
+      "note": "గమనిక"
+    },
+    "Uplode": "అటాచ్మెంట్‌లను అప్‌లోడ్ చేయండి",
+    "sumbitting": "సమర్పిస్తోంది...",
+    "buttonConfg": {
+      "cancel": "రద్దు చేయండి",
+      "update": "నవీకరించండి",
+      "submit": "సమర్పించండి"
+    },
+    "leavesAvailable": "ఇతర సెలవులు లేవు.",
+    "close": "మూసివేయండి",
+    "tableColumn": {
+      "date": "తేదీ",
+      "employee": "ఉద్యోగి",
+      "type": "రకం",
+      "duration": "వ్యవధి",
+      "status": "స్థితి",
+      "action": "చర్య"
+    },
+    "editRequest": "అభ్యర్థనను సవరించండి",
+    "deleteRequest": "అభ్యర్థనను తొలగించండి",
+    "approve": "ఆమోదించండి",
+    "reject": "తిరస్కరించండి",
+    "leaveDetailsView": {
+      "leaveType": "సెలవు రకం",
+      "duration": "వ్యవధి",
+      "startDate": "ప్రారంభ తేదీ",
+      "endDate": "ముగింపు తేదీ",
+      "applicationOn": "దరఖాస్తు చేసిన తేదీ"
+    },
+    "reasons": {
+      "reason": "కారణం",
+      "rejectionReason": "తిరస్కరణ కారణం:"
+    },
+    "approvalStatus": "ప్రస్తుత ఆమోద స్థితి",
+    "noDetails": "వివరాలు అందుబాటులో లేవు",
+    "requests": {
+      "approveLeave": "సెలవు అభ్యర్థనను ఆమోదించండి",
+      "rejectLeave": "సెలవు అభ్యర్థనను తిరస్కరించండి",
+      "details": "అభ్యర్థన వివరాలు"
+    },
+    "period": "కాలం",
+    "Comments(Optional)": "వ్యాఖ్యలు (ఐచ్చికం)",
+    "RejectionReason": "తిరస్కరణ కారణం *",
+    "approveRequest": "అభ్యర్థనను ఆమోదించండి",
+    "rejectRequest": "అభ్యర్థనను తిరస్కరించండి",
+    "DialogBox": {
+      "title": "సెలవు అభ్యర్థన వివరాలు",
+      "alert": "సెలవు అభ్యర్థన వివరాలను లోడ్ చేయడంలో విఫలమైంది"
+    },
+    "searchHear": "ఇక్కడ శోధించండి..",
+    "TeamLeave": {
+      "teamLeave": "బృందం సెలవు",
+      "managerBoard": "మేనేజర్ బోర్డ్:",
+      "all": "అన్నీ",
+      "teamA": "బృందం A",
+      "teamB": "బృందం B"
+    },
+    "tableHeader": {
+      "displayOptions": "ప్రదర్శన ఎంపికలు",
+      "priority": "ప్రాధాన్యత",
+      "status": "స్థితి"
+    },
+    "filters": {
+      "high": "అత్యధికం",
+      "medium": "మధ్యస్థం",
+      "low": "తక్కువ"
+    }
+  },
+  "FileUploadFile": {
+    "chooseAFile": "ఒక ఫైల్ను ఎంచుకోండి లేదా ఇక్కడికి లాగి వదలండి",
+    "uploading": "అప్‌లోడ్ అవుతోంది...",
+    "fileTypes": "JPEG, PNG, PDF, CSV, Excel, గరిష్టంగా 50MB వరకు",
+    "browseFile": "ఫైల్ను బ్రౌజ్ చేయండి",
+    "selectedFile": "ఎంచుకున్న ఫైల్",
+    "clickhere": "ఇక్కడ క్లిక్ చేయండి"
+  },
+  "RecruitmentManagement": {
+  "WelcomeBack": "తిరిగి స్వాగతం",
+  "NewCandidate": "కొత్త అభ్యర్థి",
+  "ID": "ఐడి",
+  "Name": "పేరు",
+  "Email": "ఇ-మెయిల్",
+  "AppliedOn": "దరఖాస్తు చేసిన తేదీ",
+  "Stages": "దశలు",
+  "Actions": "చర్యలు",
+  "InProgress": "ప్రగతిలో ఉంది",
+  "WaitingForFeedback": "అభిప్రాయం కోసం వేచి ఉంది",
+  "OfferReleased": "ఆఫర్ విడుదలైంది",
+  "CandidatesList": "అభ్యర్థుల జాబితా",
+  "AddNewCandidate": "కొత్త అభ్యర్థిని జోడించండి",
+  "CandidateDetails": "అభ్యర్థి వివరాలు",
+  "PsychometricAssessment": "మానసిక మూల్యాంకనం",
+  "Interview1": "ఇంటర్వ్యూ 1",
+  "Interview2": "ఇంటర్వ్యూ 2",
+  "DocumentVerification": "పత్రాల ధృవీకరణ",
+  "Offer": "ఆఫర్",
+  "OfferLetter": "ఆఫర్ లెటర్",
+  "Onboarding": "ఆన్‌బోర్డింగ్",
+  "CandidateName": "అభ్యర్థి పేరు",
+  "EmailAddress": "ఇ-మెయిల్ చిరునామా",
+  "AddPhoto": "ఫోటో జోడించండి",
+  "PhoneNo": "ఫోన్ నంబర్",
+  "ExperienceInYears": "అనుభవం (సంవత్సరాలలో)",
+  "EducationQualification": "విద్యార్హత",
+  "DateOfBirth": "పుట్టిన తేదీ",
+  "Gender": "లింగం",
+  "Location": "ప్రాంతం",
+  "Source": "మూలం",
+  "Department": "కార్య",
+  "Designation": "హోదా",
+  "ProjectName": "ప్రాజెక్ట్ పేరు",
+  "ReportingManager": "రిపోర్టింగ్ మేనేజర్",
+  "Status": "స్థితి",
+  "Resume": "రిజ్యూమ్",
+  "Cancel": "రద్దు",
+  "Submit": "సమర్పించు",
+  "Edit": "మార్చు",
+  "EditCandidate": "అభ్యర్థిని సవరించు",
+"Delete": "తొలగించు",
+"ClickHere": "ఇక్కడ క్లిక్ చేయండి",
+"Update": "నవీకరించు",
+"MoveToTalentPool": "టాలెంట్ పూల్‌కి మార్చాలా?",
+  "Male": "పురుషుడు",
+  "Female": "స్త్రీ",
+  "Other": "ఇతర",
+  "Yes": "అవును",
+  "No": "కాదు",
+  "SuitableDesignation": "సరైన హోదా",
+  "NoticePeriodDays": "నోటీసు కాలం (రోజులు)",
+  "DateOfJoining": "చేరిన తేదీ",
+  "ProbationPeriodDays": "ప్రోబేషన్ కాలం (రోజులు)",
+  "PsychometricReviewReport": "సైకోమెట్రిక్ సమీక్ష నివేదిక",
+  "DocumentsUploadOverview": "డాక్యుమెంట్స్ అప్‌లోడ్ అవలోకనం",
+  "SaveAsDraft": "డ్రాఫ్ట్‌గా సేవ్ చేయండి",
+  "DraftLoaded": "డ్రాఫ్ట్ డేటా లోడ్ చేయబడింది",
+  "GrossSalary": "మొత్తం జీతం",
+  "Interviewer1": "ఇంటర్వ్యూయర్ 1",
+  "Interviewer2": "ఇంటర్వ్యూయర్ 2"
+},
+
+  "PrivilegeGroups": {
+    "PrivilegeGroups": "ప్రివిలేజ్ గ్రూపులు",
+    "CreateNewGroup": "క్రొత్త గ్రూప్ సృష్టించండి",
+    "GroupName": "గ్రూప్ పేరు",
+    "UserType": "వినియోగదారు రకం",
+    "SonicOfDynamic": "డైనమిక్ యొక్క సోనిక్",
+    "ActiveMembership": "క్రియాశీల సభ్యత్వం",
+    "LastModified": "చివరిసారిగా మార్చిన తేదీ",
+    "Action": "చర్య",
+    "ActiveGroupMembership": "క్రియాశీల గ్రూప్ సభ్యత్వం",
+    "ChooseGroupMembers": "గ్రూప్ సభ్యులను ఎంచుకోండి",
+    "PeoplePool": "ప్రజల సమూహం",
+    "PickACategory": "వర్గాన్ని ఎంచుకోండి",
+    "ExcludeThesePeopleGroupName": "ఈ వ్యక్తులను గ్రూప్ నుండి వేరు చేయండి",
+    "Select": "ఎంచుకోండి",
+    "Cancel": "రద్దు చేయండి",
+    "Finished": "ముగిసింది",
+    "Edit": "సవరించండి",
+    "Delete": "తొలగించండి",
+    "AddPrivilegeGroup": "ప్రివిలేజ్ గ్రూప్ జోడించండి",
+    "UpdatePrivilegeGroup": "ప్రివిలేజ్ గ్రూప్‌ను నవీకరించండి",
+    "GroupCreatedSuccessfully": "గ్రూప్ విజయవంతంగా సృష్టించబడింది!",
+    "GroupUpdatedSuccessfully": "గ్రూప్ విజయవంతంగా నవీకరించబడింది!",
+    "GroupDeletedSuccessfully": "గ్రూప్ విజయవంతంగా తొలగించబడింది!",
+    "AreYouSureDelete": "మీరు ఈ గ్రూప్‌ను తొలగించాలనుకుంటున్నారా?",
+    "NoDataFound": "డేటా కనుగొనబడలేదు",
+    "Loading": "లోడ్ అవుతోంది...",
+    "SearchGroups": "గ్రూప్‌లను శోధించండి",
+    "ViewDetails": "వివరాలు చూడండి",
+    "SaveChanges": "మార్పులను సేవ్ చేయండి",
+    "Confirm": "నిర్ధారించండి",
+    "Yes": "అవును",
+    "No": "కాదు",
+    "Active": "సక్రియం",
+    "Inactive": "క్రియారహితం",
+    "Members": "సభ్యులు",
+    "Status": "స్థితి",
+    "CreatedBy": "సృష్టించినవారు",
+    "ModifiedBy": "మార్చినవారు",
+    "GroupNameIsRequired": "గ్రూప్ పేరు అవసరం",
+    "ErrorFetchingData": "డేటా తెచ్చే లోపం!",
+    "SomethingWentWrong": "ఏదో తప్పు జరిగింది!",
+    "PleaseEnterGroupName": "దయచేసి గ్రూప్ పేరు నమోదు చేయండి",
+    "PleaseSelectUserType": "దయచేసి వినియోగదారు రకాన్ని ఎంచుకోండి",
+    "PleaseSelectMembers": "దయచేసి గ్రూప్ సభ్యులను ఎంచుకోండి"
+  },
+    "SessionTab": {
+    "Title": "సెషన్లు",
+    "FormTitle": "సెషన్ వివరాలను నిర్వచించండి",
+    "Buttons": {
+      "Create": "సృష్టించు",
+      "Cancel": "రద్దు చేయి",
+      "Update": "నవీకరించు",
+      "Save": "సేవ్ చేయి"
+    },
+    "FormFields": {
+      "SessionName": "సెషన్ పేరు",
+      "Template": "టెంప్లేట్",
+      "SessionStartDate": "సెషన్ ప్రారంభ తేదీ",
+      "SessionEndDate": "సెషన్ ముగింపు తేదీ",
+      "SessionOwners": "సెషన్ యజమానులు",
+      "EmployeeGroup": "ఉద్యోగి గ్రూప్"
+    },
+    "Table": {
+      "Name": "పేరు",
+      "Action": "చర్య",
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    },
+    "Placeholders": {
+      "SearchHere": "ఇక్కడ వెతకండి...",
+      "SelectTemplate": "టెంప్లేట్ ఎంచుకోండి",
+      "EnterSessionName": "సెషన్ పేరు నమోదు చేయండి",
+      "SelectSessionOwners": "సెషన్ యజమానులను ఎంచుకోండి",
+      "SelectEmployeeGroup": "ఉద్యోగి గ్రూప్ ఎంచుకోండి"
+    },
+    "Validation": {
+      "FillRequiredFields": "దయచేసి అన్ని అవసరమైన ఫీల్డ్లను పూరించండి"
+    },
+    "Messages": {
+      "FailedDelete": "సెషన్‌ను తొలగించడంలో విఫలమైంది",
+      "ErrorDelete": "సెషన్‌ను తొలగించడంలో లోపం సంభవించింది",
+      "FailedCreate": "సెషన్‌ను సృష్టించడంలో విఫలమైంది",
+      "ErrorCreate": "సెషన్‌ను సృష్టించడంలో లోపం సంభవించింది",
+      "FailedUpdate": "సెషన్‌ను నవీకరించడంలో విఫలమైంది",
+      "ErrorUpdate": "సెషన్‌ను నవీకరించడంలో లోపం సంభవించింది"
+    }
+    
+   }, 
+    "FilterComponent": {
+    "Title": "ఫిల్టర్లు",
+    "Buttons": {
+      "Reset": "రీసెట్ చేయి",
+      "Apply": "అప్లై చేయి",
+      "Loading": "లోడ్ అవుతోంది..."
+    },
+    "Fields": {
+      "CandidateId": "అభ్యర్థి ఐడి",
+      "CandidateName": "అభ్యర్థి పేరు",
+      "Department": "కార్య",
+      "Designation": "డిజైనేషన్",
+      "ApplicationDate": "అప్లికేషన్ తేదీ",
+      "Stage": "స్టేజ్",
+      "To": "కు"
+    },
+    "Placeholders": {
+      "EnterCandidateId": "అభ్యర్థి ఐడి నమోదు చేయండి",
+      "EnterCandidateName": "అభ్యర్థి పేరు నమోదు చేయండి"
+    },
+    "Options": {
+      "NewApplied": "కొత్తగా అప్లై చేసారు",
+      "PsychometricTest": "సైకోమెట్రిక్ టెస్ట్",
+      "Interview1": "ఇంటర్వ్యూ 1",
+      "Interview2": "ఇంటర్వ్యూ 2",
+      "DocumentUpload": "డాక్యుమెంట్ అప్లోడ్",
+      "OfferLetter": "ఆఫర్ లెటర్",
+      "Onboarding": "ఆన్‌బోర్డింగ్",
+      "Rejected": "తిరస్కరించబడింది",
+      "ConvertToEmployee": "ఉద్యోగిగా మార్చండి"
+    },
+    "Messages": {
+      "NoDepartmentsFound": "కార్యలు కనుగొనబడలేదు!",
+      "NoDesignationsFound": "డిజైనేషన్లు కనుగొనబడలేదు!"
+    }
+  },
+  "GuideLinesTab": {
+    "Instructions": {
+      "SelectDataSource": "మీరు క్యాలిబ్రేట్ చేయాలనుకుంటున్న ఎలిమెంట్ల కోసం డేటా సోర్స్‌ను ఎంచుకోండి:"
+    },
+    "Performance": {
+      "Title": "పెర్ఫార్మెన్స్",
+      "Description": "పెర్ఫార్మెన్స్ క్యాలిబ్రేషన్ పెర్ఫార్మెన్స్, లక్ష్యాలు, సామర్థ్యం లేదా ఇతర కస్టమర్-నిర్వచిత ఎలిమెంట్ల మూల్యాంకనాన్ని కలిగి ఉంటుంది. 1. మీరు క్యాలిబ్రేట్ చేయాలనుకుంటున్న ఎలిమెంట్ల ఫారమ్ టెంప్లేట్(లను) ఎంచుకోండి అన్ని ఫీల్డ్లు అవసరం."
+    },
+    "Options": {
+      "Calibration": "క్యాలిబ్రేషన్",
+      "SelfSubmission": "స్వీయ సమర్పణ",
+      "ManagerReview": "మేనేజర్ రివ్యూ",
+      "ManagerSignOff": "మేనేజర్ సైన్‌ఆఫ్",
+      "EmployeeSignOff": "ఉద్యోగి సైన్‌ఆఫ్"
+    },
+    "RatingScale": {
+      "Ineffective": "1. అసమర్థ",
+      "SomewhatAchieved": "2. కొంతవరకు సాధించబడింది",
+      "Achieved": "3. సాధించబడింది",
+      "Overperformed": "4. అధిక పనితనం",
+      "Outstanding": "5. అద్భుతమైన"
+    },
+    "Table": {
+      "Template": "టెంప్లేట్",
+      "RouteMap": "రూట్ మ్యాప్",
+      "RoutingStep": "రూటింగ్ స్టెప్ వద్ద డేటాను ఉపయోగించవచ్చా?"
+    },
+    "Placeholders": {
+      "SelectTemplate": "టెంప్లేట్ ఎంచుకోండి",
+      "SelectStep": "స్టెప్ ఎంచుకోండి"
+    },
+    "DefaultStep": "PM2 పెర్ఫార్మెన్స్ ఎవాల్యుయేషన్"
+  },
+  "CalibrationManagement": {
+    "Options": {
+      "Calibration": "క్యాలిబ్రేషన్",
+      "SelfSubmission": "స్వీయ సమర్పణ",
+      "ManagerReview": "మేనేజర్ రివ్యూ",
+      "ManagerSignOff": "మేనేజర్ సైన్‌ఆఫ్",
+      "EmployeeSignOff": "ఉద్యోగి సైన్‌ఆఫ్"
+    },
+    "Table": {
+      "SNo": "క్ర.సం",
+      "Rating": "రేటింగ్",
+      "RouteMap": "రూట్ మ్యాప్",
+      "Delete": "తొలగించు"
+    },
+    "Placeholders": {
+      "SelectTemplate": "దయచేసి టెంప్లేట్ ఎంచుకోండి..."
+    },
+    "Notes": {
+      "Part1": "గమనిక: కొన్నిసార్లు మీ క్యాలిబ్రేషన్ డేటా బహుళ టెంప్లేట్ల నుండి వస్తుంది, అలాంటప్పుడు సిస్టమ్ ప్రాధమిక టెంప్లేట్‌లో నిర్వచించబడిన ఎలిమెంట్లను మాత్రమే సపోర్ట్ చేస్తుంది (దీనితో సూచించబడుతుంది ",
+      "Part2": "). మీరు బహుళ పెర్ఫార్మెన్స్ టెంప్లేట్లను ఎంచుకుంటే, ఈ టెంప్లేట్లు ఒకే స్ట్రక్చర్, ఇండెక్స్లు మరియు రూట్ మ్యాప్ కలిగి ఉండేలా చూసుకోండి."
+    },
+    "Instructions": {
+      "SelectElement": "2. క్యాలిబ్రేషన్ కోసం కనీసం ఒక ఎలిమెంట్‌ను ఎంచుకోండి. తర్వాత దాని డిస్ట్రిబ్యూషన్ గైడ్‌లైన్‌ను నిర్వచించండి."
+    },
+    "OverallFormRating": "మొత్తం ఫారమ్ రేటింగ్",
+    "Buttons": {
+      "Add": "జోడించు"
+    }
+  },
+  "IntegrationManagement": {
+    "AdminPortal": "అడ్మిన్ పోర్టల్ - ఇంటిగ్రేషన్ మేనేజ్మెంట్",
+    "BusinessLevelConnectors": "బిజినెస్ లెవల్ కనెక్టర్లు",
+    "ActivationDescription": "సర్వీస్ ను యాక్టివేట్ చేయడం వినియోగదారులకు సర్వీస్ కు కనెక్ట్ చేసుకునే సామర్థ్యాన్ని అందిస్తుంది, కీ రిజల్ట్ యొక్క ఆటో అప్డేషన్ కోసం డేటా తిరిగి పొందడాన్ని సులభతరం చేస్తుంది లేదా సర్వీస్ నుండి వినియోగదారుల సీమ్లెస్ సమకాలీకరణను అనుమతిస్తుంది",
+    "Manage": "నిర్వహించండి",
+    "ReadMore": "మరింత చదవండి"
+  },
+  "TopHeader": {
+    "ManageSalesforceConnection": "Salesforce కనెక్షన్ ను నిర్వహించండి",
+    "Delete": "తొలగించు"
+  },
+
+  "Templates": {
+    "Title": "టెంప్లేట్లు",
+    "Buttons": {
+      "Create": "సృష్టించు",
+      "Cancel": "రద్దు చేయండి",
+      "Update": "నవీకరించు",
+      "Save": "సేవ్ చేయండి",
+      "SelectAll": "అన్నీ ఎంచుకోండి",
+      "UnselectAll": "అన్నీ తొలగించండి"
+    },
+    "Table": {
+      "Name": "పేరు",
+      "Action": "చర్య",
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    },
+    "FormFields": {
+      "TemplatesName": "టెంప్లేట్ల పేరు",
+      "TemplateName": "టెంప్లేట్ పేరు",
+      "Description": "వివరణ",
+      "PercentageType": "శాతం రకం",
+      "RatingScale": "రేటింగ్ స్కేల్",
+      "GoalPercentage": "గోల్ శాతం",
+      "ObjectivePercentage": "ఆబ్జెక్టివ్ శాతం",
+      "CompetenciesPercentage": "కాంపిటెన్సీల శాతం",
+      "Competencies": "కాంపిటెన్సీలు",
+      "ReviewSteps": "రివ్యూ స్టెప్స్",
+      "EmployeeDisplayOptions": "ఉద్యోగి డిస్ప్లే ఎంపికలు"
+    },
+    "Placeholders": {
+      "EnterTemplateName": "టెంప్లేట్ పేరును నమోదు చేయండి",
+      "EnterDescription": "వివరణను నమోదు చేయండి",
+      "EnterRatingScale": "రేటింగ్ స్కేల్ ను నమోదు చేయండి",
+      "EnterGoalPercentage": "గోల్ శాతాన్ని నమోదు చేయండి",
+      "EnterObjectivePercentage": "ఆబ్జెక్టివ్ శాతాన్ని నమోదు చేయండి",
+      "EnterCompetenciesPercentage": "కాంపిటెన్సీల శాతాన్ని నమోదు చేయండి",
+      "SelectCompetencies": "కాంపిటెన్సీలను ఎంచుకోండి"
+    },
+    "Options": {
+      "Goals": "గోల్స్",
+      "Objectives": "ఆబ్జెక్టివ్స్",
+      "PerformanceRatingScale": "పెర్ఫార్మెన్స్ రేటింగ్ స్కేల్",
+      "AllCompetencies": "అన్ని సామర్థ్యాలు"
+    },
+    "DisplayOptions": {
+      "FirstName": "మొదటి పేరు",
+      "LastName": "చివరి పేరు",
+      "Department": "కార్య",
+      "Grade": "గ్రేడ్",
+      "Manager": "మేనేజర్",
+      "Designation": "హోదా"
+    },
+    "DisplaySteps": {
+      "SelfSubmission": "స్వీయ సమర్పణ",
+      "ManagerReview": "మేనేజర్ రివ్యూ",
+      "HRReview": "HR రివ్యూ",
+      "ManagerSignOff": "మేనేజర్ సైన్ ఆఫ్",
+      "EmployeeSignOff": "ఉద్యోగి సైన్ ఆఫ్",
+      "Completed": "పూర్తయింది"
+    },
+    "DisplayStepsText": {
+      "SubmitToManager": "మేనేజర్ కు సమర్పించండి",
+      "SubmitToHR": "HR కు సమర్పించండి",
+      "SubmitToManagerSignOff": "సైన్ ఆఫ్ కోసం మేనేజర్ కు సమర్పించండి",
+      "SubmitToEmployeeSignOff": "సైన్ ఆఫ్ కోసం ఉద్యోగికి సమర్పించండి",
+      "SignOffToComplete": "పూర్తి చేయడానికి సైన్ ఆఫ్ చేయండి"
+    },
+    "Messages": {
+      "UnknownError": "తెలియని లోపం సంభవించింది"
+    }
+  },
+  "PerformanceManagement": {
+    "Title": "పెర్ఫార్మెన్స్ మేనేజ్మెంట్",
+    "Create": "సృష్టించు",
+    "TypeOfEvaluation": "ఎవాల్యుయేషన్ రకం",
+    "Select": "ఎంచుకోండి...",
+    "FrequencyOfEvaluation": "ఎవాల్యుయేషన్ ఫ్రీక్వెన్సీ",
+    "StartDate": "ప్రారంభ తేదీ",
+    "EnterStartDate": "ప్రారంభ తేదీని నమోదు చేయండి",
+    "LaunchDate": "లాంచ్ తేదీ",
+    "EnterLaunchDate": "లాంచ్ తేదీని నమోదు చేయండి",
+    "ListGroupName": "గ్రూప్ పేరును జాబితా చేయండి",
+    "Employee": "ఉద్యోగి",
+    "Manager": "మేనేజర్",
+    "Leadership": "లీడర్షిప్",
+    "Cancel": "రద్దు చేయండి",
+    "Save": "సేవ్ చేయండి",
+    "OverallRating": "మొత్తం రేటింగ్",
+    "AbsoluteRating": "సంపూర్ణ రేటింగ్",
+    "RatingScale": "రేటింగ్ స్కేల్",
+    "OKRWastage": "OKR వేస్టేజ్",
+    "CompetencyWeightage": "కాంపిటెన్సీ వెయిటేజ్",
+    "Weightage360": "360 వెయిటేజ్",
+    "IncludeSelfEvaluation": "స్వీయ మూల్యాంకనాన్ని చేర్చండి",
+    "EmployeeAcknowledgement": "ఉద్యోగి అక్నాలెడ్జ్మెంట్",
+    "HRBPReview": "HRBP రివ్యూ",
+    "ApprovalRequired": "ఆమోదం అవసరం",
+    "Monthly": "నెలవారీ",
+    "Quarterly": "త్రైమాసిక",
+    "SemiAnnually": "సెమీ అన్నువల్",
+    "Annually": "సంవత్సరానికి"
+  },
+  "OKRLibraryTab": {
+    "Fields": {
+      "RewardSchemeName": "రివార్డ్ స్కీమ్ పేరు *",
+      "ObjectivesAchievementPercent": "ఆబ్జెక్టివ్ల సాధన %",
+      "ObjectivesAchievementPoints": "ఆబ్జెక్టివ్ల సాధన పాయింట్లు",
+      "KrAchievementPercent": "KR సాధన %",
+      "KrAchievementPoints": "KR సాధన పాయింట్లు",
+      "TaskAchievementPercent": "టాస్క్ సాధన %",
+      "TaskAchievementPoints": "టాస్క్ సాధన పాయింట్లు",
+      "SubTaskAchievementPercent": "సబ్ టాస్క్ సాధన %",
+      "SubTaskPoints": "సబ్ టాస్క్ పాయింట్లు",
+      "RewardCategory": "రివార్డ్ కేటగిరీ*",
+      "RewardType": "రివార్డ్ రకం*",
+      "OKRTemplate": "OKR టెంప్లేట్*",
+      "EligibilityGroup": "అర్హత గ్రూప్*",
+      "KudosEnabled": "కుడోస్ ఎనేబుల్ చేయబడింది",
+      "BirthdayWishesEnabled": "పుట్టినరోజు శుభాకాంక్షలు ఎనేబుల్ చేయబడ్డాయి",
+      "ApprovalRequired": "ఆమోదం అవసరం",
+      "AnniversaryWishesEnabled": "వార్షికోత్సవ శుభాకాంక్షలు ఎనేబుల్ చేయబడ్డాయి"
+    },
+    "Sections": {
+      "RewardPoints": "రివార్డ్ పాయింట్లు",
+      "Achievement": "సాధన",
+      "Eligibility": "అర్హత",
+      "Toggles": "టోగుల్స్"
+    },
+    "RewardPoints": {
+      "Bronze": "రివార్డ్ పాయింట్లను ఎంచుకోండి (బ్రోంజ్)",
+      "Silver": "రివార్డ్ పాయింట్లను ఎంచుకోండి (సిల్వర్)",
+      "Gold": "రివార్డ్ పాయింట్లను ఎంచుకోండి (గోల్డ్)"
+    },
+    "Buttons": {
+      "Cancel": "రద్దు చేయి",
+      "Save": "సేవ్ చేయి"
+    },
+    "Validation": {
+      "FieldRequired": "{{field}} అవసరం",
+      "FillRequiredFields": "దయచేసి అన్ని అవసరమైన ఫీల్డ్లను పూరించండి"
+    },
+    "EmployeesSelected": "ఉద్యోగులు ఎంచుకోబడ్డారు",
+    "NotAvailable": "N/A"
+  },
+  "RewardsManagement": {
+    "TitleHeader": "అడ్మిన్ పోర్టల్ - ప్రివిలేజీలు",
+    "Title": "రివార్డ్ మేనేజ్మెంట్",
+    "Bronze": "బ్రోంజ్",
+    "Silver": "సిల్వర్",
+    "Gold": "గోల్డ్",
+    "Yes": "అవును",
+    "No": "కాదు",
+    "Buttons": {
+      "Create": "సృష్టించు",
+      "CreateRewards": "రివార్డ్లను సృష్టించండి"
+    },
+    "Table": {
+      "SNo": "క్ర.సం",
+      "Scheme": "స్కీమ్",
+      "Category": "కేటగిరీ",
+      "Type": "రకం",
+      "Points": "పాయింట్లు",
+      "Kudos": "కుడోస్",
+      "Birthday": "పుట్టినరోజు",
+      "ApprovalRequired": "ఆమోదం అవసరం",
+      "Anniversary": "వార్షికోత్సవం",
+      "LastModified": "చివరిగా మార్పు చేయబడింది",
+      "Action": "చర్య",
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    },
+    "Export": {
+      "CandidateID": "అభ్యర్థి ఐడి",
+      "RewardSchemeName": "రివార్డ్ స్కీమ్ పేరు",
+      "RewardCategory": "రివార్డ్ కేటగిరీ",
+      "RewardType": "రివార్డ్ రకం",
+      "RewardPoints": "రివార్డ్ పాయింట్లు",
+      "KudosEnabled": "కుడోస్ ఎనేబుల్ చేయబడింది",
+      "BirthdayWishesEnabled": "పుట్టినరోజు శుభాకాంక్షలు ఎనేబుల్ చేయబడ్డాయి",
+      "ApprovalRequired": "ఆమోదం అవసరం",
+      "AnniversaryWishesEnabled": "వార్షికోత్సవ శుభాకాంక్షలు ఎనేబుల్ చేయబడ్డాయి",
+      "UpdatedAt": "నవీకరించబడిన తేదీ"
+    },
+    "Messages": {
+      "NoDataFound": "డేటా కనుగొనబడలేదు!",
+      "SelectRole": "దయచేసి రోల్ ఎంచుకోండి...",
+      "NoDataToExport": "ఎగుమతి చేయడానికి డేటా లేదు"
+    },
+    "Validation": {
+      "OKRRequired": "OKR ఫంక్షన్/OKR కేటగిరీ అవసరం!"
+    }
+  },
+  "catalogManagement": {
+    "headerTitle": "అడ్మిన్ పోర్టల్ - అనుమతులు",
+    "title": "క్యాటలాగ్ నిర్వహణ",
+    "addNewReward": "కొత్త బహుమతి జోడించు",
+    "searchPlaceholder": "బహుమతులను శోధించండి...",
+    "validationError": "OKR ఫంక్షన్/OKR వర్గం అవసరం!",
+    "noData": "డేటా కనుగొనబడలేదు!"
+  },
+  "addRewardPopup": {
+    "titleAdd": "కొత్త రివార్డ్ జోడించండి",
+    "titleUpdate": "రివార్డ్ నవీకరించండి",
+    "rewardName": "రివార్డ్ పేరు*",
+    "rewardDescription": "రివార్డ్ వివరణ*",
+    "rewardType": "రివార్డ్ రకం*",
+    "rewardApprover": "రివార్డ్ ఆమోదదారు*",
+    "rewardCode": "రివార్డ్ కోడ్*",
+    "rewardPoints": "రివార్డ్ పాయింట్లు*",
+    "rewardAmount": "రివార్డ్ మొత్తం*",
+    "rewardStatus": "రివార్డ్ స్థితి*",
+    "rewardIcon": "రివార్డ్ ఐకాన్*",
+    "viewRewardIcon": "రివార్డ్ ఐకాన్ చూడండి",
+    "reuploadRewardIcon": "రివార్డ్ ఐకాన్ మళ్లీ అప్‌లోడ్ చేయండి",
+    "add": "జోడించండి",
+    "update": "నవీకరించండి",
+    "clear": "తొలగించండి",
+    "active": "క్రియాశీలంగా ఉంది",
+    "inactive": "నిష్క్రియంగా ఉంది"
+  },
+  "tabsContainer": {
+    "selectAll": "అన్నీ ఎంచుకోండి",
+    "objectives": "లక్ష్యాలు",
+    "keyResults": "ప్రధాన ఫలితాలు",
+    "tasks": "పనులు"
+  },
+"notification": {
+    "settingsTitle": "నోటిఫికేషన్ సెట్టింగులు",
+    "to": "కి",
+    "cc": "సీసీ",
+    "subject": "విషయం",
+    "message": "సందేశం",
+    "attachment": "అటాచ్‌మెంట్",
+    "view": "చూడండి",
+    "reupload": "మళ్లీ అప్‌లోడ్ చేయండి",
+    "saveSettings": "సెట్టింగులు సేక్ చేయండి",
+    "updateSettings": "సెట్టింగులు నవీకరించండి",
+    "select": "--ఎంచుకోండి--",
+    "noDataFound": "డేటా కనుగొనబడలేదు!"
+  },
+  
+  "AdvancedLaunchForms": {
+    "Title": "అధునాతన లాంచ్ ఫారమ్లు",
+    "AdvancedReviewManagement": "అధునాతన సమీక్ష నిర్వహణ",
+    "Buttons": {
+      "Create": "సృష్టించు",
+      "Cancel": "రద్దు చేయి",
+      "Update": "నవీకరించు",
+      "Save": "సేవ్ చేయి"
+    },
+    "FormFields": {
+      "LaunchFormName": "లాంచ్ ఫారమ్ పేరు",
+      "FormName": "ఫారమ్ పేరు",
+      "FormType": "ఫారమ్ రకం",
+      "FormTemplate": "ఫారమ్ టెంప్లేట్",
+      "LaunchDate": "లాంచ్ తేదీ",
+      "ReviewPeriodStartDate": "సమీక్షా కాలం ప్రారంభ తేదీ",
+      "ReviewPeriodEndDate": "సమీక్షా కాలం ముగింపు తేదీ",
+      "ToEmployee": "ఉద్యోగికి",
+      "SelfAndManager": "స్వయం మరియు మేనేజర్",
+      "Peers": "సహోద్యోగులు"
+    },
+    "Table": {
+      "FormName": "ఫారమ్ పేరు",
+      "TemplateName": "టెంప్లేట్ పేరు",
+      "EmployeeName": "ఉద్యోగి పేరు",
+      "LaunchDate": "లాంచ్ తేదీ",
+      "Action": "చర్య",
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    },
+    "Placeholders": {
+      "EnterFormName": "ఫారమ్ పేరు నమోదు చేయండి",
+      "AdvanceReviewManagement": "అధునాతన సమీక్ష నిర్వహణ",
+      "SelectFormTemplate": "దయచేసి ఫారమ్ టెంప్లేట్ ఎంచుకోండి...",
+      "EnterLaunchDate": "లాంచ్ తేదీ నమోదు చేయండి",
+      "EnterStartDate": "ప్రారంభ తేదీ నమోదు చేయండి",
+      "EnterEndDate": "ముగింపు తేదీ నమోదు చేయండి",
+      "SelectEmployee": "దయచేసి ఉద్యోగిని ఎంచుకోండి...",
+      "SelectSelfAndManager": "స్వయం మరియు మేనేజర్ ఎంచుకోండి...",
+      "SelectPeers": "సహోద్యోగులను ఎంచుకోండి..."
+    }
+  },  
+  "LaunchForms": {
+    "Title": "లాంచ్ ఫారమ్లు",
+    "ConfirmDelete": "మీరు ఖచ్చితంగా ఈ ఫారమ్‌ను తొలగించాలనుకుంటున్నారా?",
+    "Submit": "సమర్పించండి",
+    "EmployeesSelected": "ఉద్యోగులు ఎంచుకోబడ్డారు",
+    "Buttons": {
+      "Create": "సృష్టించు",
+      "Cancel": "రద్దు చేయి",
+      "Update": "నవీకరించు",
+      "Save": "సేవ్ చేయి"
+    },
+    "FormFields": {
+      "LaunchFormName": "లాంచ్ ఫారమ్ పేరు",
+      "FormType": "ఫారమ్ రకం",
+      "FormTemplate": "ఫారమ్ టెంప్లేట్",
+      "LaunchDate": "లాంచ్ తేదీ",
+      "ReviewPeriodStartDate": "సమీక్షా కాలం ప్రారంభ తేదీ",
+      "ReviewPeriodEndDate": "సమీక్షా కాలం ముగింపు తేదీ",
+      "Employees": "ఉద్యోగులు"
+    },
+    "Table": {
+      "Name": "పేరు",
+      "LaunchDate": "లాంచ్ తేదీ",
+      "Action": "చర్య",
+      "Edit": "సవరించు",
+      "Delete": "తొలగించు"
+    },
+    "Placeholders": {
+      "SelectFormType": "దయచేసి ఫారమ్ రకాన్ని ఎంచుకోండి...",
+      "SelectFormTemplate": "దయచేసి ఫారమ్ టెంప్లేట్ ఎంచుకోండి...",
+      "EnterLaunchDate": "లాంచ్ తేదీని నమోదు చేయండి",
+      "EnterStartDate": "ప్రారంభ తేదీని నమోదు చేయండి",
+      "EnterEndDate": "ముగింపు తేదీని నమోదు చేయండి"
+    }
+  },
+  "common": {
+    "searchHere": "ఇక్కడ శోధించండి..",
+    "export": "ఎక్స్‌పోర్ట్",
+    "csv": "సిఎస్‌వి",
+    "excel": "ఎక్స్ెల్",
+    "pdf": "పీడీఎఫ్"
+  }
+}
