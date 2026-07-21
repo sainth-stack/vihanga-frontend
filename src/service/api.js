@@ -76,12 +76,12 @@ export let getServiceUrl = (baseURL) => {
 
   
 
-  switch ('') {
+  switch ('production') {
     case "production":
-      finalURL = "https://vihanga.talentspotifyapp.com/api/";
+      finalURL = "https://test.talentspotifyapp.com/api/";
       break;
     case "ollaa-company":
-      finalURL = "https://vihanga.talentspotifyapp.com/api/";
+      finalURL = "https://test.talentspotifyapp.com/api/";
       break;
     case "local":
       finalURL = "http://localhost:4000/api/";

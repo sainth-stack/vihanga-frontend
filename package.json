@@ -2,7 +2,7 @@
   "name": "talent-spotify-frontend",
   "version": "0.1.0",
   "private": true,
-  "buildDate": 1773638507488,
+  "buildDate": 1784636995269,
   "dependencies": {
     "@azure/msal-browser": "^3.28.1",
     "@ckeditor/ckeditor5-build-classic": "^34.0.0",
