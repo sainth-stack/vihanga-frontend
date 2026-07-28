@@ -148,14 +148,6 @@ const routers = [
         exact: true,
       },
       {
-        component: "PsychometricLogin",
-        componentPath: "pages/vihanga/pages/Psychometric/Login",
-        path: "/login",
-        name: "PsychometricLogin",
-        auth: false,
-        exact: true,
-      },
-      {
         component: "PsychometricQuiz",
         componentPath: "pages/vihanga/pages/Psychometric/Quiz",
         path: "/quiz",

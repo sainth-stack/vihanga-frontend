@@ -1,17 +1,13 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import { useHistory } from "react-router-dom";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import CustomSubmitButton from "./components/CustomSubmitButton";
-import { PSYCHOMETRIC_BASE } from "./constants";
+import { clearPsychometricSession } from "./constants";
 
 const Result = () => {
-  const history = useHistory();
-
   const handleFinish = () => {
-    localStorage.removeItem("userEmail");
+    clearPsychometricSession();
     window.close();
-    history.push(`${PSYCHOMETRIC_BASE}/login`);
   };
 
   return (

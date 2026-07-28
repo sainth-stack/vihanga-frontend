@@ -1,16 +1,32 @@
 import React, { useEffect, useState } from "react";
-import { Box, Typography, Checkbox, Button, Paper } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Checkbox,
+  Button,
+  Paper,
+  CircularProgress,
+} from "@mui/material";
 import { useHistory } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { conditions } from "./data/ConditionsData";
 import { questions } from "./data/QuestionsData";
 import logo from "./assets/Logo.png";
-import { PSYCHOMETRIC_BASE, psychometricApi } from "./constants";
+import {
+  PSYCHOMETRIC_BASE,
+  psychometricApi,
+  setPsychometricSession,
+  getPsychometricSession,
+  clearPsychometricSession,
+} from "./constants";
 
 const Conditions = () => {
   const history = useHistory();
   const [checked, setChecked] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState("");
+  const [ready, setReady] = useState(false);
 
   const handleStart = () => {
     if (checked) {
@@ -20,43 +36,118 @@ const Conditions = () => {
     }
   };
 
-  const fetchCandidateData = async (candidateId) => {
-    const id = candidateId || localStorage.getItem("candidateId");
-    try {
-      const response = await axios.get(psychometricApi("/user-results"), {
-        params: { candidateId: id },
-      });
-
-      if (response.data && response.data.results) {
-        history.push(`${PSYCHOMETRIC_BASE}/test-completed`);
-      } else {
-        const email = localStorage.getItem("userEmail");
-        if (!email) {
-          history.push(`${PSYCHOMETRIC_BASE}/login`);
-        }
-      }
-    } catch (error) {
-      console.error("Error fetching candidate data:", error);
-      const email = localStorage.getItem("userEmail");
-      if (!email) {
-        history.push(`${PSYCHOMETRIC_BASE}/login`);
-      }
+  const clearInviteQueryParams = () => {
+    if (window.location.search) {
+      window.history.replaceState({}, document.title, PSYCHOMETRIC_BASE);
     }
   };
 
   useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const candidateId = urlParams.get("candidateId");
-    const token = urlParams.get("token");
-    const hr = urlParams.get("hr");
-    if (candidateId && token) {
-      localStorage.setItem("candidateId", candidateId);
-      localStorage.setItem("testToken", token);
-      localStorage.setItem("hr", hr);
-    }
-    fetchCandidateData(candidateId);
+    const bootstrapInvite = async () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const session = getPsychometricSession();
+
+      const candidateId =
+        urlParams.get("candidateId") || session.candidateId;
+      const token = urlParams.get("token") || session.token;
+      const hr =
+        urlParams.get("hr") !== null ? urlParams.get("hr") : session.hr;
+      const email = urlParams.get("email") || session.email;
+
+      if (!candidateId || !token || !email) {
+        clearPsychometricSession();
+        setErrorMessage(
+          "This test link is incomplete or invalid. Please use the link from your invitation email."
+        );
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const response = await axios.post(psychometricApi("/invite-login"), {
+          token,
+          email,
+          candidateId,
+        });
+
+        setPsychometricSession({
+          email: response?.data?.user?.email || email,
+          candidateId: response?.data?.user?.candidateId || candidateId,
+          token,
+          hr,
+        });
+        clearInviteQueryParams();
+
+        if (response?.data?.completed) {
+          history.replace(`${PSYCHOMETRIC_BASE}/test-completed`);
+          return;
+        }
+
+        setReady(true);
+      } catch (error) {
+        clearPsychometricSession();
+        const message =
+          error?.response?.data?.error ||
+          "Unable to open this test link. Please ask HR to resend the invitation.";
+        setErrorMessage(message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    bootstrapInvite();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  if (loading) {
+    return (
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          minHeight: "100vh",
+        }}
+      >
+        <CircularProgress />
+      </Box>
+    );
+  }
+
+  if (errorMessage) {
+    return (
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          minHeight: "100vh",
+          padding: 2,
+        }}
+      >
+        <Paper
+          sx={{
+            maxWidth: 560,
+            width: "100%",
+            padding: 4,
+            textAlign: "center",
+            borderRadius: 2,
+          }}
+        >
+          <Typography variant="h5" sx={{ fontWeight: 700, mb: 2 }}>
+            Unable to start assessment
+          </Typography>
+          <Typography variant="body1" color="text.secondary">
+            {errorMessage}
+          </Typography>
+        </Paper>
+      </Box>
+    );
+  }
+
+  if (!ready) {
+    return null;
+  }
 
   return (
     <Box

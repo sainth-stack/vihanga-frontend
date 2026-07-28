@@ -2,6 +2,7 @@ import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Button, Box, Typography, CircularProgress } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
+import toast from "react-hot-toast";
 import axios from "axios";
 import { questions } from "./data/QuestionsData";
 import Question from "./components/Question";
@@ -10,13 +11,24 @@ import {
   decrementCategory,
   incrementCategory,
 } from "reducer/quizSlice";
-import { PSYCHOMETRIC_BASE, psychometricApi } from "./constants";
+import {
+  PSYCHOMETRIC_BASE,
+  psychometricApi,
+  getPsychometricSession,
+} from "./constants";
 
 const Quiz = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const [currentQuestions, setCurrentQuestions] = useState([]);
   const responses = useSelector((state) => state?.quizCategories?.responses);
+
+  useEffect(() => {
+    const { email, candidateId, token } = getPsychometricSession();
+    if (!email || !candidateId || !token) {
+      history.replace(PSYCHOMETRIC_BASE);
+    }
+  }, [history]);
 
   useLayoutEffect(() => {
     const shuffleArray = (array) => {
@@ -106,15 +118,20 @@ const Quiz = () => {
   };
 
   const handleSubmitResults = async () => {
-    const userEmail = localStorage.getItem("userEmail");
-    const candidateId = localStorage.getItem("candidateId");
-    const hr = localStorage.getItem("hr");
+    const { email, candidateId, hr, token } = getPsychometricSession();
+
+    if (!email || !candidateId || !token) {
+      toast.error("Session expired. Please open the link from your email again.");
+      history.replace(PSYCHOMETRIC_BASE);
+      return;
+    }
 
     const resultData = {
-      email: userEmail,
-      candidateId: candidateId,
+      email,
+      candidateId,
       results: responses,
       hr,
+      token,
     };
 
     setIsSubmitting(true);
@@ -124,6 +141,13 @@ const Quiz = () => {
       history.push(`${PSYCHOMETRIC_BASE}/result`);
     } catch (error) {
       console.error("Error submitting results:", error);
+      const message =
+        error?.response?.data?.error || "Failed to submit results. Please try again.";
+      if (error?.response?.data?.completed) {
+        history.replace(`${PSYCHOMETRIC_BASE}/test-completed`);
+        return;
+      }
+      toast.error(message);
     } finally {
       setIsSubmitting(false);
     }
