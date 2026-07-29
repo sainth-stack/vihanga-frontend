@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Box, Paper, Typography, useMediaQuery, useTheme } from "@mui/material";
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyBMX6skTdH9I1c7cLGSMKczxcjruYoRz8E";
+const GOOGLE_MAPS_API_KEY = "AIzaSyCUWEU9tiJIZIcbjs-T9gSkD38-7ykh_x0";
 
 const CustomMap = ({ latitude, longitude, offlineMode = false, accuracy, todayTimeEntries = [], bundledTilesBaseUrl = null, city, region, country }) => {
   const theme = useTheme();
