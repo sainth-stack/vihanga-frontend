@@ -198,14 +198,24 @@ function Navbar() {
   const getNotificationsAll = () => {
     try {
       setLoading(true);
-      let response = dispatch(getAllNotificationsByUser(AuthUserId));
-      response.then(({ data, message, count }) => {
+      const user =
+        localStorage.getItem("user") !== null
+          ? JSON.parse(localStorage.getItem("user"))
+          : null;
+      const currentUserId = user?._id || AuthUserId;
+      let response = dispatch(getAllNotificationsByUser(currentUserId));
+      response.then(({ data, message }) => {
         if (data !== undefined && data.length > 0) {
-          setData(data);
-          setDataCount(count);
+          const filtered = data.filter(
+            (n) =>
+              n?.row?.employeeReferenceId &&
+              String(n.row.employeeReferenceId) === String(currentUserId)
+          );
+          setData(filtered);
+          setDataCount(filtered.length);
           setLoading(false);
           setError("");
-        } else if (data.length === 0) {
+        } else if (data && data.length === 0) {
           setLoading(false);
           setError("No Data Found!");
           setDataCount(0);
@@ -213,11 +223,15 @@ function Navbar() {
         } else {
           setLoading(false);
           setError(message);
+          setDataCount(0);
+          setData([]);
         }
       });
     } catch (error) {
       setLoading(false);
       setError(error.toString());
+      setDataCount(0);
+      setData([]);
     }
   }
   const getAllPrivileges = () => {
@@ -629,10 +643,6 @@ function Navbar() {
                           data.length > 0 &&
                           data
                             .slice(0, 5)
-                            .filter(
-                              (user) =>
-                                user.row.employeeReferenceId === AuthUserId
-                            )
                             .map((notification, index) => {
                               let state =
                                 notification.path !== "/admin/objectives"

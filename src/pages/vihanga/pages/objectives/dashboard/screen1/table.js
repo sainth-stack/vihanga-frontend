@@ -305,8 +305,9 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
         task: item.objective || "N/A",
         description: item.dimension || "",
         progress: parseFloat(item.progressStatus) || 0,
-        dueDate: item.dueDate ? new Date(item.dueDate).getTime() : 0, // Use timestamp for sorting
-        dueDateDisplay: item.dueDate
+        dueDate: item.dueDate && new Date(item.dueDate).getTime() ? new Date(item.dueDate).getTime() : 0, // Use timestamp for sorting
+        dueDateRaw: item.dueDate && new Date(item.dueDate).getTime() ? item.dueDate : null, // Original date for API payloads (never send sort timestamp)
+        dueDateDisplay: item.dueDate && new Date(item.dueDate).getTime()
           ? new Date(item.dueDate).toLocaleDateString('en-US', {
             month: 'short',
             day: 'numeric',
@@ -349,8 +350,8 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
             task: kr.keyResultName || "N/A",
             description: kr.dimension || "",
             progress: parseFloat(kr.percent) || 0, // Ensure it's a number
-            dueDate: kr.targetDate ? new Date(kr.targetDate).getTime() : 0, // Use timestamp for sorting
-            dueDateDisplay: kr.targetDate
+            dueDate: kr.targetDate && new Date(kr.targetDate).getTime() ? new Date(kr.targetDate).getTime() : 0, // Use timestamp for sorting
+            dueDateDisplay: kr.targetDate && new Date(kr.targetDate).getTime()
               ? new Date(kr.targetDate).toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric',
@@ -402,8 +403,9 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
                 task: task.title || "N/A",
                 description: task.description || "",
                 progress: parseFloat(task.progressStatus) || 0, // Ensure it's a number
-                dueDate: task.dueDate ? new Date(task.dueDate).getTime() : 0, // Use timestamp for sorting
-                dueDateDisplay: task.dueDate
+                dueDate: task.dueDate && new Date(task.dueDate).getTime() ? new Date(task.dueDate).getTime() : 0, // Use timestamp for sorting
+                dueDateRaw: task.dueDate && new Date(task.dueDate).getTime() ? task.dueDate : null, // Original date for API payloads
+                dueDateDisplay: task.dueDate && new Date(task.dueDate).getTime()
                   ? new Date(task.dueDate).toLocaleDateString('en-US', {
                     month: 'short',
                     day: 'numeric',
@@ -600,7 +602,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           objective: row.objective || row.task,
           weight: String(row.weight),
           owner: row.owner,
-          dueDate: row.dueDate,
+          dueDate: row.dueDateRaw ?? null,
           dimension: row.dimension,
           progressStatus: row.progress,
           feedAttachment: row.feedAttachment || "",
@@ -655,7 +657,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           objective: obj.objective || obj.task,
           weight: String(obj.weight),
           owner: obj.owner,
-          dueDate: obj.dueDate,
+          dueDate: obj.dueDateRaw ?? null,
           dimension: obj.dimension,
           progressStatus: obj.progress,
           feedAttachment: obj.feedAttachment || "",
@@ -723,7 +725,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           title: row.task,
           description: row.description,
           startDate: row.startDate,
-          dueDate: row.dueDate,
+          dueDate: row.dueDateRaw ?? null,
           actualCompletionDate: row.actualCompletionDate || null,
           linkToKr: row.linkToKR || row.krReferenceId || null,
           assignTo: row.assignTo || [],
@@ -804,7 +806,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           objective: row.objective || row.task,
           weight: String(row.weight),
           owner: row.owner,
-          dueDate: row.dueDate,
+          dueDate: row.dueDateRaw ?? null,
           dimension: row.dimension,
           progressStatus: row.progress,
           feedAttachment: row.feedAttachment || "",
@@ -843,7 +845,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           title: row.task,
           description: row.description,
           startDate: row.startDate,
-          dueDate: row.dueDate,
+          dueDate: row.dueDateRaw ?? null,
           actualCompletionDate: row.actualCompletionDate || null,
           linkToKr: row.linkToKR || row.krReferenceId || null,
           assignTo: row.assignTo || [],
@@ -908,7 +910,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           objective: row.objective || row.task,
           weight: String(row.weight),
           owner: row.owner,
-          dueDate: row.dueDate,
+          dueDate: row.dueDateRaw ?? null,
           dimension: row.dimension,
           progressStatus: row.progress,
           feedAttachment: row.feedAttachment || "",
@@ -951,7 +953,7 @@ const TaskTable3 = ({ data, isLoading, refetchObjectives, selectedTab, createOKR
           objective: row.objective || row.task,
           weight: String(row.weight),
           owner: row.owner,
-          dueDate: row.dueDate,
+          dueDate: row.dueDateRaw ?? null,
           dimension: row.dimension,
           progressStatus: row.progress,
           feedAttachment: row.feedAttachment || "",

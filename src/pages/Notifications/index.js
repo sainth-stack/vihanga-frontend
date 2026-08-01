@@ -34,13 +34,6 @@ export const tableGenerator = (data, length) => {
 
 export default function Notifications() {
   const dispatch = useDispatch();
-  let legalEntityObj = {
-    legalEntityName: "",
-    status: "",
-    country: "",
-    _id: null,
-  };
-  const [legalEntitySearch,] = useState(legalEntityObj);
   const [searchKey] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -155,18 +148,7 @@ export default function Notifications() {
           </div>
         ) : (
           <TableNormal
-            data={data.filter((item) => {
-              return (
-                item?.legalEntityName
-                  ?.toLowerCase()
-                  .indexOf(legalEntitySearch.legalEntityName.toLowerCase()) !==
-                -1 &&
-                item?.status?.indexOf(legalEntitySearch.status) !== -1 &&
-                item?.country
-                  ?.toLowerCase()
-                  .indexOf(legalEntitySearch.country.toLowerCase()) !== -1
-              );
-            })}
+            data={data}
             columns={columns}
             paginationFactory={paginationFactory}
             searchKey={searchKey}
