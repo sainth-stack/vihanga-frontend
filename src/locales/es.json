@@ -32,8 +32,8 @@
     "Hindi": "Hindi",
     "Spanish": "Español",
     "place": "Escriba palabras clave aquí...",
-    "TALENT": "TALENTO",
-    "SPOTIFY": "SPOTIFY"
+    "TALENT": "VIHANGA",
+    "SPOTIFY": ""
   },
   "Sidebar": {
     "Dashboard": "Tablero",
@@ -171,7 +171,7 @@
   "ReviewsReport": {
     "ReviewsReport": "Reporte de Revisión",
     "PrintReport": "Imprimir Reporte",
-    "TalentSpotify Employee Assessment": "Evaluación de Empleados de TalentSpotify",
+    "TalentSpotify Employee Assessment": "Evaluación de Empleados de Vihanga",
     "Feedback Report for": "Reporte de Retroalimentación para",
     "Review for the period of": "Revisión para el período de",
     "months": "meses",

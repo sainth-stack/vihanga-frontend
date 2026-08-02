@@ -1,11 +1,16 @@
 {
-  "name": "Talent Spotify Admin Panel",
-  "short_name": "Talent Spotify Admin Panel",
+  "name": "Vihanga Admin Panel",
+  "short_name": "Vihanga",
   "icons": [
     {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
       "src": "logo.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "sizes": "any",
+      "type": "image/png"
     },
     {
       "src": "logo192.png",
@@ -20,6 +25,6 @@
   ],
   "start_url": ".",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
+  "background_color": "#000000",
   "display": "standalone"
 }

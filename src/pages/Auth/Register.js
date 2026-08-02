@@ -206,7 +206,7 @@ export default function Register() {
           </div>
         </div>
         <div className="col-md-6 p-0 m-0 bg-biscuit text-center pt-4 pb-4 d-none d-lg-block">
-          <h5 className="text-green  font-weight-bold mt-2">WELCOME TO TALENT SPOTIFY</h5>
+          <h5 className="text-green  font-weight-bold mt-2">WELCOME TO VIHANGA</h5>
           <h3 className="mt-3">Find The Most Exciting OKR Experience<br />
             For Your Business</h3>
           <div className="d-flex justify-content-center">

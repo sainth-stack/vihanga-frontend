@@ -32,8 +32,8 @@
     "Hindi": "الهندية",
     "Spanish": "الإسبانية",
     "place": "اكتب الكلمات المفتاحية هنا...",
-    "TALENT": "الموهبة",
-    "SPOTIFY": "SPOTIFY"
+    "TALENT": "Vihanga",
+    "SPOTIFY": ""
   },
   "Sidebar": {
     "Dashboard": "لوحة التحكم",
@@ -171,7 +171,7 @@
   "ReviewsReport": {
     "ReviewsReport": "تقرير التقييم",
     "PrintReport": "طباعة التقرير",
-    "TalentSpotify Employee Assessment": "تقييم موظفي TalentSpotify",
+    "TalentSpotify Employee Assessment": "تقييم موظفي Vihanga",
     "Feedback Report for": "تقرير التغذية الراجعة لـ",
     "Review for the period of": "التقييم للفترة من",
     "months": "أشهر",

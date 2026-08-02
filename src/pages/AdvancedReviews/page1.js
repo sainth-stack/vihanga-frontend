@@ -22,7 +22,7 @@ export default function EmployeeAssessment({ report, pageNumber }) {
               <div className="boldline mt-3" style={{ width: '15%' }}>.</div>
             </div>
             <div className="d-flex justify-content-center mt-5">
-              <p className="main-content">TalentSpotify Employee Assessment</p>
+              <p className="main-content">Vihanga Employee Assessment</p>
             </div>
             <div className="d-flex justify-content-center mt-2">
               <p className="review-content">Feedback Report for {report.fullname}</p>

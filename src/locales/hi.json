@@ -7,7 +7,7 @@
     "LoggingIn": "लॉगिन हो रहा है...",
     "Loading": "लोड हो रहा है...",
     "ErrorMessage": "अमान्य उपयोगकर्ता नाम या पासवर्ड",
-    "WelcomeMessage": "टैलेंट स्पॉटिफ़ाई में आपका स्वागत है",
+    "WelcomeMessage": "विहंगा में आपका स्वागत है",
     "Tagline": "अपने व्यवसाय के लिए सबसे रोमांचक OKR अनुभव खोजें"
   },
   "Navbar": {
@@ -29,8 +29,8 @@
     "Hindi": "हिंदी",
     "Spanish": "स्पैनिश",
     "place": "यहां कीवर्ड टाइप करें...",
-    "TALENT": "टैलेंट",
-    "SPOTIFY": "स्पॉटिफाई"
+    "TALENT": "विहंगा",
+    "SPOTIFY": ""
   },
   "Sidebar": {
     "Dashboard": "डैशबोर्ड",
@@ -153,7 +153,7 @@
   "ReviewsReport": {
     "ReviewsReport": "समीक्षा रिपोर्ट",
     "PrintReport": "रिपोर्ट प्रिंट करें",
-    "TalentSpotify Employee Assessment": "टैलेंटस्पॉटी कर्मचारी मूल्यांकन",
+    "TalentSpotify Employee Assessment": "विहंगा कर्मचारी मूल्यांकन",
     "Feedback Report for": "प्रतिक्रिया रिपोर्ट",
     "Review for the period of": "अवधि की समीक्षा",
     "months": "महीने",

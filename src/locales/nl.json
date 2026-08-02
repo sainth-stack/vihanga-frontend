@@ -7,7 +7,7 @@
     "LoggingIn": "Bezig met inloggen...",
     "Loading": "Laden...",
     "ErrorMessage": "Ongeldige gebruikersnaam of wachtwoord",
-    "WelcomeMessage": "WELKOM BIJ TALENT SPOTIFY",
+    "WelcomeMessage": "WELKOM BIJ VIHANGA",
     "Tagline": "Ontdek de meest opwindende OKR-ervaring voor uw bedrijf",
     "MLogin": "Inloggen met Microsoft",
     "or": "OF",
@@ -32,8 +32,8 @@
     "Hindi": "Hindi",
     "Spanish": "Spaans",
     "place": "Typ hier trefwoorden...",
-    "TALENT": "TALENT",
-    "SPOTIFY": "SPOTIFY"
+    "TALENT": "VIHANGA",
+    "SPOTIFY": ""
   },
   "Sidebar": {
     "Dashboard": "Dashboard",
@@ -185,7 +185,7 @@
   "ReviewsReport": {
     "ReviewsReport": "Beoordelingenrapport",
     "PrintReport": "Rapport Afdrukken",
-    "TalentSpotify Employee Assessment": "TalentSpotify Medewerkerbeoordeling",
+    "TalentSpotify Employee Assessment": "Vihanga Medewerkerbeoordeling",
     "Feedback Report for": "Feedbackrapport voor",
     "Review for the period of": "Beoordeling voor de periode van",
     "months": "maanden",

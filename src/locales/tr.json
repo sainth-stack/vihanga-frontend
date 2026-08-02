@@ -7,7 +7,7 @@
     "LoggingIn": "Giriş yapılıyor...",
     "Loading": "Yükleniyor...",
     "ErrorMessage": "Geçersiz kullanıcı adı veya şifre",
-    "WelcomeMessage": "TALENT SPOTIFY'A HOŞ GELDİNİZ",
+    "WelcomeMessage": "VIHANGA'YA HOŞ GELDİNİZ",
     "Tagline": "İşiniz için en heyecan verici OKR deneyimini keşfedin",
     "MLogin": "Microsoft ile Giriş Yap",
     "or": "VEYA",
@@ -32,8 +32,8 @@
     "Hindi": "Hintçe",
     "Spanish": "İspanyolca",
     "place": "Anahtar kelimeleri buraya yazın...",
-    "TALENT": "YETENEK",
-    "SPOTIFY": "SPOTIFY"
+    "TALENT": "VIHANGA",
+    "SPOTIFY": ""
   },
   "Sidebar": {
     "Dashboard": "Kontrol Paneli",
@@ -185,7 +185,7 @@
   "ReviewsReport": {
     "ReviewsReport": "İncelemeler Raporu",
     "PrintReport": "Raporu Yazdır",
-    "TalentSpotify Employee Assessment": "TalentSpotify Çalışan Değerlendirmesi",
+    "TalentSpotify Employee Assessment": "Vihanga Çalışan Değerlendirmesi",
     "Feedback Report for": "için Geri Bildirim Raporu",
     "Review for the period of": "dönemine ait İnceleme",
     "months": "aylar",

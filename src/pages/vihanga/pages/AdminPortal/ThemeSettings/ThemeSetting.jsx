@@ -423,7 +423,7 @@ const ThemeSettings = () => {
         </Typography>
         <InputTextComponent
           id="themeName"
-          placeholder="Talentspotify Classic"
+          placeholder="Vihanga Classic"
           value={themeName}
           onChange={(event) => setThemeName(event.target.value)}
           sx={{

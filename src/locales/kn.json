@@ -7,7 +7,7 @@
     "LoggingIn": "ಲಾಗಿನ್ ಆಗುತ್ತಿದೆ...",
     "Loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
     "ErrorMessage": "ಅಮಾನ್ಯ ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್",
-    "WelcomeMessage": "TALENT SPOTIFY ಗೆ ಸ್ವಾಗತ",
+    "WelcomeMessage": "VIHANGA ಗೆ ಸ್ವಾಗತ",
     "Tagline": "ನಿಮ್ಮ ವ್ಯಾಪಾರಕ್ಕಾಗಿ ಅತ್ಯಂತ ರೋಮಾಂಚಕಾರಿ OKR ಅನುಭವವನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ",
     "MLogin": "Microsoft ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "or": "ಅಥವಾ",
@@ -32,8 +32,8 @@
     "Hindi": "ಹಿಂದಿ",
     "Spanish": "ಸ್ಪ್ಯಾನಿಷ್",
     "place": "ಇಲ್ಲಿ ಕೀವರ್ಡ್‌ಗಳನ್ನು ಟೈಪ್ ಮಾಡಿ...",
-    "TALENT": "ಪ್ರತಿಭೆ",
-    "SPOTIFY": "ಸ್ಪಾಟಿಫೈ"
+    "TALENT": "ವಿಹಂಗಾ",
+    "SPOTIFY": ""
   },
   "Sidebar": {
     "Dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
@@ -185,7 +185,7 @@
   "ReviewsReport": {
     "ReviewsReport": "ವಿಮರ್ಶೆಗಳ ವರದಿ",
     "PrintReport": "ವರದಿ ಮುದ್ರಿಸಿ",
-    "TalentSpotify Employee Assessment": "TalentSpotify ಉದ್ಯೋಗಿ ಮೌಲ್ಯಮಾಪನ",
+    "TalentSpotify Employee Assessment": "Vihanga ಉದ್ಯೋಗಿ ಮೌಲ್ಯಮಾಪನ",
     "Feedback Report for": "ಗಾಗಿ ಪ್ರತಿಕ್ರಿಯೆ ವರದಿ",
     "Review for the period of": "ಅವಧಿಯ ವಿಮರ್ಶೆ",
     "months": "ತಿಂಗಳುಗಳು",

@@ -24,7 +24,6 @@ import { loginWithMicrosoft } from "authConfig";
 import { jwtDecode } from "jwt-decode";
 import { getItemFromLocalStorage } from "utilities/getLocalStorageItem";
 import logo2 from "../../assets/images/AppNewLogo.png";
-import logo3 from "../../assets/images/appLogo3.png";
 import TalentSpotify from "pages/vihanga/pages/AdminPage";
 
 export default function Login() {
@@ -200,15 +199,9 @@ export default function Login() {
       });
   };
 
-  // ✅ includes() logic (FIXED)
-  const url = window.location.origin;
-
-  const dynamicLogo = url.includes("vihanga") ? logo2 : logo3;
-
-  const text1 = "Welcome To Vihanga";
-  const text2 = "Welcome To TalentSpotify";
-
-  const dynamicText = url.includes("vihanga") ? text1 : text2;
+  // Always brand as Vihanga for this deployment
+  const dynamicLogo = logo2;
+  const dynamicText = "Welcome To Vihanga";
 
   return (
     <Suspense fallback={t("Login.Loading")}>

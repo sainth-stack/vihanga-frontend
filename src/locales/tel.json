@@ -7,7 +7,7 @@
       "LoggingIn": "లాగిన్ అవుతోంది...",
       "Loading": "లోడ్ అవుతోంది...",
       "ErrorMessage": "చెల్లని వినియోగదారు పేరు లేదా పాస్వర్డ్",
-      "WelcomeMessage": "టాలెంట్ స్పాటిఫైకి స్వాగతం",
+      "WelcomeMessage": "విహంగాకు స్వాగతం",
       "Tagline": "మీ వ్యాపారానికి అత్యంత ఆసక్తికరమైన OKR అనుభవాన్ని కనుగొనండి",
       "MLogin": "మైక్రోసాఫ్ట్‌తో సైన్ ఇన్ చేయండి",
       "or": "లేదా",
@@ -32,8 +32,8 @@
       "Hindi": "హిందీ",
       "Spanish": "స్పానిష్",
       "place": "కీవర్డ్స్ ఇక్కడ టైప్ చేయండి...",
-      "TALENT": "టాలెంట్",
-      "SPOTIFY": "స్పాటిఫై"
+      "TALENT": "విహంగా",
+      "SPOTIFY": ""
     },
     "Sidebar": {
       "Dashboard": "డాష్‌బోర్డ్",
@@ -171,7 +171,7 @@
     "ReviewsReport": {
       "ReviewsReport": "సమీక్ష నివేదిక",
       "PrintReport": "నివేదికను ముద్రించండి",
-      "TalentSpotify Employee Assessment": "టాలెంట్ స్పాటిఫై ఉద్యోగి మూల్యాంకనం",
+      "TalentSpotify Employee Assessment": "విహంగా ఉద్యోగి మూల్యాంకనం",
       "Feedback Report for": "ఫీడ్‌బ్యాక్ నివేదిక",
       "Review for the period of": "కాలవ్యవధి సమీక్ష",
       "months": "నెలలు",

@@ -7,7 +7,7 @@ function ChatBotV1() {
   const empName = JSON.parse(localStorage.getItem('user')).name
   const initialMessages = [
     {
-      question: `Hi ${empName}, my name is TARA (TalentSpotify Artificial-Intelligence Response Assistant)`,
+      question: `Hi ${empName}, my name is TARA (Vihanga Artificial-Intelligence Response Assistant)`,
       type: 'bot'
     },
     {

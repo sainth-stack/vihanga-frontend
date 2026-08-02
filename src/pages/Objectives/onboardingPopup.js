@@ -30,7 +30,7 @@ const OnBoarding = (props) => {
                     id="contained-modal-title-vcenter"
                     style={{ paddingTop: "10px", paddingLeft: "20px" }}
                 >
-                    Talent Spotify OnBoarding
+                    Vihanga OnBoarding
                 </Modal.Title>
                 <img
                     src={wrong}
@@ -44,7 +44,7 @@ const OnBoarding = (props) => {
                     <div className="">
                         <div className="_3-4yw">
                             <div><p><b>Hi there</b> <span role="img" aria-label="hello">👋</span></p>
-                                <p>Welcome to Talent Spotify Onboarding.</p></div>
+                                <p>Welcome to Vihanga Onboarding.</p></div>
                             <div className="pt-3 pb-3 mb-3">
                                 <SelectInput
                                     label="Questions"

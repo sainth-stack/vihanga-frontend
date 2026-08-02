@@ -49,7 +49,7 @@ const OnBoarding = (props) => {
           id="contained-modal-title-vcenter"
           style={{ paddingTop: "10px", paddingLeft: "20px" }}
         >
-          TalentSpotify ShowTour
+          Vihanga ShowTour
         </Modal.Title>
         <img
           src={wrong}
@@ -63,7 +63,7 @@ const OnBoarding = (props) => {
           <div className="">
             <div className="_3-4yw">
               <div className="m-2"><h6><b>Hi there</b> <span role="img" aria-label="hello">👋</span></h6>
-                <h6><b>Welcome to TalentSpotify Onboarding.</b></h6></div>
+                <h6><b>Welcome to Vihanga Onboarding.</b></h6></div>
               <div className="mt-3 ml-2">
                 {
                   questioinSelect.map((item, index) => {

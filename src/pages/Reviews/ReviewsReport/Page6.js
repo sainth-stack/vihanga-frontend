@@ -16,8 +16,8 @@ export default function Conscientiousness({ report }) {
           </div>
           <TableView1 />
           <div className="pt-4 pb-4">
-            Based on the overall average of your results of the <span style={{ fontWeight: 'bold' }}>Conscientiousness</span> competency breakdown, your capability to <span style={{ fontWeight: 'bold' }}>Allocate time and resources for individual and team objectives and achieve effective levels of productivity targets</span>  has been <span className="font-weight-bold">Highly Satisfactory</span> for the effectiveness of your team and for TalentSpotify. <br /><br />
-            Your capability to <span className="font-weight-bold"> Proactively take initiatives on responsibilities as well as tasks and involve ideas and feedback from other in planning the execution of those responsibilities</span> has <span className="font-weight-bold">been more than Satisfactory</span> for the effectiveness of your team and for TalentSpotify.
+            Based on the overall average of your results of the <span style={{ fontWeight: 'bold' }}>Conscientiousness</span> competency breakdown, your capability to <span style={{ fontWeight: 'bold' }}>Allocate time and resources for individual and team objectives and achieve effective levels of productivity targets</span>  has been <span className="font-weight-bold">Highly Satisfactory</span> for the effectiveness of your team and for Vihanga. <br /><br />
+            Your capability to <span className="font-weight-bold"> Proactively take initiatives on responsibilities as well as tasks and involve ideas and feedback from other in planning the execution of those responsibilities</span> has <span className="font-weight-bold">been more than Satisfactory</span> for the effectiveness of your team and for Vihanga.
           </div>
         </div>
       </div>

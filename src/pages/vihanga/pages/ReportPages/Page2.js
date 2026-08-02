@@ -88,7 +88,7 @@ const PAge2 = ({ data, candidateDetails }) => {
             mb: 3,
           }}
         >
-          TalentSpotify's SJT is designed to assess employees across three distinct work personality
+          Vihanga's SJT is designed to assess employees across three distinct work personality
         </Typography>
       </Box>
 
