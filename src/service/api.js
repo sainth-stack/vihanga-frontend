@@ -78,10 +78,10 @@ export let getServiceUrl = (baseURL) => {
 
   switch ('production') {
     case "production":
-      finalURL = "https://preprodhr.vihanga.io/api/";
+      finalURL = "https://hr.vihanga.io/api/";
       break;
     case "ollaa-company":
-      finalURL = "https://preprodhr.vihanga.io/api/";
+      finalURL = "https://hr.vihanga.io/api/";
       break;
     case "local":
       finalURL = "http://localhost:4000/api/";
